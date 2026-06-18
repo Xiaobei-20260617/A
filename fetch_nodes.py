@@ -171,7 +171,7 @@ def osbooting_fetch():
 
         # 匹配: /nodefiles/20260618MDTF.yaml  /nodefiles/20260618PQRJ.txt
         files = re.findall(
-            rf'/nodefiles/{date_str}([A-Z]+)\.(yaml|txt)', article_html
+            rf'/nodefiles/{date_str}([A-Za-z]+)\.(yaml|txt)', article_html
         )
         if not files:
             continue
