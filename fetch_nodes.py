@@ -5,7 +5,9 @@
 
 来源:
   1. FProxies (Telegram @FProxies)
-  2. datiya   (free.datiya.com / OpenRunner/clash-freenode)
+  2. datiya    (free.datiya.com / OpenRunner/clash-freenode)
+  3. osbooting (freenode.osbooting.com)
+  4. mlfenx    (www.mlfenx.com/freenode)
 
 输出: output/<source>/ 目录下独立文件
 """
@@ -140,6 +142,134 @@ def datiya_fetch():
 # ──────────────────────────────────────────────
 # 配置模板
 # ──────────────────────────────────────────────
+
+# ──────────────────────────────────────────────
+# 来源 3: osbooting (freenode.osbooting.com)
+# ──────────────────────────────────────────────
+
+OSBOOTING_BASE = "https://freenode.osbooting.com"
+
+
+def osbooting_fetch():
+    """解析 freenode.osbooting.com 文章页，获取最新订阅"""
+    html_text = fetch_page(OSBOOTING_BASE)
+
+    # 提取文章链接 /freenodes/20260618
+    article_dates = re.findall(r'/freenodes/(\d{8})', html_text)
+    if not article_dates:
+        return []
+    article_dates = sorted(set(article_dates))
+
+    subs = []
+    for date_str in article_dates:
+        # 进入文章页找订阅文件
+        try:
+            article_html = fetch_page(f"{OSBOOTING_BASE}/freenodes/{date_str}")
+        except Exception:
+            continue
+
+        # 匹配: /nodefiles/20260618MDTF.yaml  /nodefiles/20260618PQRJ.txt
+        files = re.findall(
+            rf'/nodefiles/{date_str}([A-Z]+)\.(yaml|txt)', article_html
+        )
+        if not files:
+            continue
+
+        clash_url = ""
+        v2ray_url = ""
+        for suffix, ext in files:
+            url = f"{OSBOOTING_BASE}/nodefiles/{date_str}{suffix}.{ext}"
+            if ext == "yaml":
+                clash_url = url
+            elif ext == "txt":
+                v2ray_url = url
+
+        if not clash_url and not v2ray_url:
+            continue
+
+        mmdd = date_str[4:]
+        urls = {}
+        if clash_url:
+            urls["clash"] = clash_url
+        if v2ray_url:
+            urls["v2ray"] = v2ray_url
+
+        subs.append({
+            "date": mmdd,
+            "sort_key": date_str,
+            "date_full": date_str,
+            "clash_url": clash_url,
+            "v2ray_url": v2ray_url,
+            "urls": urls,
+            "extra": "",
+        })
+
+    return subs
+
+
+# ──────────────────────────────────────────────
+# 来源 4: mlfenx (www.mlfenx.com/freenode)
+# ──────────────────────────────────────────────
+
+MLFENX_BASE = "https://www.mlfenx.com"
+
+
+def mlfenx_fetch():
+    """解析 mlfenx 文章页，获取最新订阅"""
+    html_text = fetch_page(f"{MLFENX_BASE}/freenode")
+
+    # 提取文章链接 /archives/960
+    article_ids = re.findall(r'/archives/(\d+)', html_text)
+    if not article_ids:
+        return []
+    article_ids = sorted(set(article_ids), key=int)
+
+    subs = []
+    for aid in article_ids:
+        try:
+            article_html = fetch_page(f"{MLFENX_BASE}/archives/{aid}")
+        except Exception:
+            continue
+
+        # 匹配订阅链接: mlfenx.cczzuu.top/node/20260618.yaml
+        dates_found = re.findall(
+            r'(https?://mlfenx\.[^/]+/node/(\d{8})\.(yaml|txt))', article_html
+        )
+        if not dates_found:
+            continue
+
+        clash_url = ""
+        v2ray_url = ""
+        date_str = ""
+        for full_url, d, ext in dates_found:
+            date_str = d
+            if ext == "yaml":
+                clash_url = full_url
+            elif ext == "txt":
+                v2ray_url = full_url
+
+        if not clash_url and not v2ray_url:
+            continue
+
+        mmdd = date_str[4:]
+        urls = {}
+        if clash_url:
+            urls["clash"] = clash_url
+        if v2ray_url:
+            urls["v2ray"] = v2ray_url
+
+        subs.append({
+            "date": mmdd,
+            "sort_key": date_str,
+            "date_full": date_str,
+            "clash_url": clash_url,
+            "v2ray_url": v2ray_url,
+            "urls": urls,
+            "extra": "",
+        })
+
+    return subs
+
 
 def generate_config(clash_url: str, source_name: str) -> str:
     """生成 Clash Meta 主配置"""
@@ -397,6 +527,46 @@ def main():
             print("⚠️ [datiya] 未找到订阅")
     except Exception as e:
         print(f"❌ [datiya] {e}", file=sys.stderr)
+
+    print()
+
+    # ── osbooting ──
+    print("📡 [osbooting] 获取 freenode.osbooting.com...", file=sys.stderr)
+    try:
+        ob_subs = osbooting_fetch()
+        if ob_subs:
+            ob_latest = ob_subs[-1]
+            ob_dir = write_source_output("osbooting", ob_latest, ob_subs, "osbooting (freenode.osbooting.com)")
+            print(f"✅ [osbooting] {len(ob_subs)} 次订阅, 最新: {ob_latest['date']}")
+            if ob_latest.get("clash_url"):
+                print(f"   clash: {ob_latest['clash_url']}")
+            if ob_latest.get("v2ray_url"):
+                print(f"   v2ray: {ob_latest['v2ray_url']}")
+            print(f"   → {ob_dir}/")
+        else:
+            print("⚠️ [osbooting] 未找到订阅")
+    except Exception as e:
+        print(f"❌ [osbooting] {e}", file=sys.stderr)
+
+    print()
+
+    # ── mlfenx ──
+    print("📡 [mlfenx] 获取 www.mlfenx.com...", file=sys.stderr)
+    try:
+        ml_subs = mlfenx_fetch()
+        if ml_subs:
+            ml_latest = ml_subs[-1]
+            ml_dir = write_source_output("mlfenx", ml_latest, ml_subs, "mlfenx (www.mlfenx.com)")
+            print(f"✅ [mlfenx] {len(ml_subs)} 次订阅, 最新: {ml_latest['date']}")
+            if ml_latest.get("clash_url"):
+                print(f"   clash: {ml_latest['clash_url']}")
+            if ml_latest.get("v2ray_url"):
+                print(f"   v2ray: {ml_latest['v2ray_url']}")
+            print(f"   → {ml_dir}/")
+        else:
+            print("⚠️ [mlfenx] 未找到订阅")
+    except Exception as e:
+        print(f"❌ [mlfenx] {e}", file=sys.stderr)
 
     print()
     print(f"💾 全部结果已写入 {OUTPUT_DIR}/")
