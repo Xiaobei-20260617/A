@@ -8,6 +8,7 @@
   2. datiya    (free.datiya.com / OpenRunner/clash-freenode)
   3. osbooting (freenode.osbooting.com)
   4. mlfenx    (www.mlfenx.com/freenode)
+  5. clashfree (github.com/free-nodes/clashfree)
 
 输出: output/<source>/ 目录下独立文件
 """
@@ -158,7 +159,7 @@ def osbooting_fetch():
     article_dates = re.findall(r'/freenodes/(\d{8})', html_text)
     if not article_dates:
         return []
-    article_dates = sorted(set(article_dates))
+    article_dates = sorted(set(article_dates))[-3:]
 
     subs = []
     for date_str in article_dates:
@@ -222,7 +223,7 @@ def mlfenx_fetch():
     article_ids = re.findall(r'/archives/(\d+)', html_text)
     if not article_ids:
         return []
-    article_ids = sorted(set(article_ids), key=int)
+    article_ids = sorted(set(article_ids), key=int)[-3:]
 
     subs = []
     for aid in article_ids:
@@ -265,6 +266,46 @@ def mlfenx_fetch():
             "clash_url": clash_url,
             "v2ray_url": v2ray_url,
             "urls": urls,
+            "extra": "",
+        })
+
+    return subs
+
+
+# ──────────────────────────────────────────────
+# 来源 5: clashfree (github.com/free-nodes/clashfree)
+# ──────────────────────────────────────────────
+
+CLASHFREE_API = "https://api.github.com/repos/free-nodes/clashfree/git/trees/main"
+CLASHFREE_RAW = "https://raw.githubusercontent.com/free-nodes/clashfree/main/"
+
+
+def clashfree_fetch():
+    """从 GitHub 仓库获取最新 clash 文件"""
+    data = fetch_page(CLASHFREE_API)
+    tree = json.loads(data).get("tree", [])
+
+    # 找出所有 clash*.yml 文件
+    files = []
+    for item in tree:
+        m = re.match(r"clash(\d{8})\.yml", item.get("path", ""))
+        if m:
+            files.append(m.group(1))
+
+    if not files:
+        return []
+
+    files.sort()
+    subs = []
+    for date_str in files:
+        mmdd = date_str[4:]
+        url = f"{CLASHFREE_RAW}clash{date_str}.yml"
+        subs.append({
+            "date": mmdd,
+            "sort_key": date_str,
+            "date_full": date_str,
+            "clash_url": url,
+            "urls": {"clash": url},
             "extra": "",
         })
 
@@ -567,6 +608,23 @@ def main():
             print("⚠️ [mlfenx] 未找到订阅")
     except Exception as e:
         print(f"❌ [mlfenx] {e}", file=sys.stderr)
+
+    print()
+
+    # ── clashfree ──
+    print("📡 [clashfree] 获取 GitHub 仓库...", file=sys.stderr)
+    try:
+        cf_subs = clashfree_fetch()
+        if cf_subs:
+            cf_latest = cf_subs[-1]
+            cf_dir = write_source_output("clashfree", cf_latest, cf_subs, "clashfree (free-nodes/clashfree)")
+            print(f"✅ [clashfree] {len(cf_subs)} 次订阅, 最新: {cf_latest['date']}")
+            print(f"   clash: {cf_latest['clash_url']}")
+            print(f"   → {cf_dir}/")
+        else:
+            print("⚠️ [clashfree] 未找到订阅")
+    except Exception as e:
+        print(f"❌ [clashfree] {e}", file=sys.stderr)
 
     print()
     print(f"💾 全部结果已写入 {OUTPUT_DIR}/")

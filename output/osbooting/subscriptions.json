@@ -1,59 +1,5 @@
 [
   {
-    "date": "0610",
-    "sort_key": "20260610",
-    "extra": "",
-    "urls": {
-      "clash": "https://freenode.osbooting.com/nodefiles/20260610HRXL.yaml",
-      "v2ray": "https://freenode.osbooting.com/nodefiles/20260610AKWO.txt"
-    }
-  },
-  {
-    "date": "0611",
-    "sort_key": "20260611",
-    "extra": "",
-    "urls": {
-      "clash": "https://freenode.osbooting.com/nodefiles/20260611UWCZ.yaml",
-      "v2ray": "https://freenode.osbooting.com/nodefiles/20260611EICK.txt"
-    }
-  },
-  {
-    "date": "0612",
-    "sort_key": "20260612",
-    "extra": "",
-    "urls": {
-      "clash": "https://freenode.osbooting.com/nodefiles/20260612SFIC.yaml",
-      "v2ray": "https://freenode.osbooting.com/nodefiles/20260612RZDB.txt"
-    }
-  },
-  {
-    "date": "0613",
-    "sort_key": "20260613",
-    "extra": "",
-    "urls": {
-      "clash": "https://freenode.osbooting.com/nodefiles/20260613BYAH.yaml",
-      "v2ray": "https://freenode.osbooting.com/nodefiles/20260613NKAV.txt"
-    }
-  },
-  {
-    "date": "0614",
-    "sort_key": "20260614",
-    "extra": "",
-    "urls": {
-      "clash": "https://freenode.osbooting.com/nodefiles/20260614SBMR.yaml",
-      "v2ray": "https://freenode.osbooting.com/nodefiles/20260614VNGF.txt"
-    }
-  },
-  {
-    "date": "0615",
-    "sort_key": "20260615",
-    "extra": "",
-    "urls": {
-      "clash": "https://freenode.osbooting.com/nodefiles/20260615NWAO.yaml",
-      "v2ray": "https://freenode.osbooting.com/nodefiles/20260615OUBL.txt"
-    }
-  },
-  {
     "date": "0616",
     "sort_key": "20260616",
     "extra": "",

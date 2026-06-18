@@ -1,45 +1,36 @@
-# FProxies 节点订阅
+# 多源节点订阅抓取
 
 自动从多个来源获取免费节点订阅链接，每日两更。
 
 ## 订阅来源
 
-| 来源 | 说明 | 输出目录 |
-|------|------|----------|
-| [FProxies](https://t.me/FProxies) | Telegram 频道 @FProxies | `output/fproxies/` |
-| [datiya](https://free.datiya.com/) | OpenRunner/clash-freenode | `output/datiya/` |
+| 来源 | URL | 输出目录 |
+|------|-----|----------|
+| FProxies | [t.me/FProxies](https://t.me/FProxies) | `output/fproxies/` |
+| datiya | [free.datiya.com](https://free.datiya.com/) | `output/datiya/` |
+| osbooting | [freenode.osbooting.com](https://freenode.osbooting.com/) | `output/osbooting/` |
+| mlfenx | [www.mlfenx.com](https://www.mlfenx.com/freenode) | `output/mlfenx/` |
+| clashfree | [free-nodes/clashfree](https://github.com/free-nodes/clashfree) | `output/clashfree/` |
 
 ## 快速使用
 
-### Clash Meta 直接导入
+每个来源独立的 `config.yaml`，直接导入 Clash Meta 即可：
 
-每个来源都有独立的 `config.yaml`，直接导入即可：
-
-- `output/fproxies/config.yaml` — FProxies 源
-- `output/datiya/config.yaml` — datiya 源
-
-### 手动添加订阅
-
-复制 `latest_clash.txt` 或 `latest_base64.txt` 中的链接到代理软件。
+- `output/fproxies/config.yaml`
+- `output/datiya/config.yaml`
+- `output/osbooting/config.yaml`
+- `output/mlfenx/config.yaml`
+- `output/clashfree/config.yaml`
 
 ## 输出结构
 
 ```
 output/
-├── fproxies/                 ← FProxies (Telegram)
-│   ├── config.yaml           ← Clash Meta 配置
-│   ├── latest.txt            ← 全部格式链接
-│   ├── latest_clash.txt      ← Clash 订阅
-│   ├── latest_base64.txt     ← Base64 订阅
-│   ├── latest_quanx.txt      ← Quantumult X
-│   ├── latest_urls.txt       ← URLs
-│   └── subscriptions.json    ← 历史记录
-└── datiya/                   ← datiya (OpenRunner)
-    ├── config.yaml           ← Clash Meta 配置
-    ├── latest.txt            ← 全部格式链接
-    ├── latest_clash.txt      ← Clash 订阅
-    ├── latest_v2ray.txt      ← V2Ray 订阅
-    └── subscriptions.json    ← 历史记录
+├── fproxies/      ← Telegram @FProxies (clash/base64/quanx/urls)
+├── datiya/        ← OpenRunner/clash-freenode (clash/v2ray)
+├── osbooting/     ← freenode.osbooting.com (clash/v2ray)
+├── mlfenx/        ← mlfenx.cczzuu.top (clash/v2ray)
+└── clashfree/     ← GitHub free-nodes (clash)
 ```
 
 ## 自动更新
