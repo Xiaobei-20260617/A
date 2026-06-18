@@ -1,0 +1,159 @@
+# ============================================================
+# Clash Meta 配置 — fproxies
+# 自动生成，请勿手动编辑
+# ============================================================
+
+mixed-port: 7890
+allow-lan: true
+bind-address: "*"
+mode: rule
+log-level: info
+ipv6: false
+external-controller: 127.0.0.1:9090
+global-client-fingerprint: chrome
+
+sniffer:
+  enable: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  skip-domain:
+    - "Mijia Cloud"
+    - "+.push.apple.com"
+
+dns:
+  enable: true
+  listen: "0.0.0.0:1053"
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - "*.lan"
+    - "*.local"
+    - "+.msftconnecttest.com"
+    - "+.msftncsi.com"
+    - "localhost.ptlogin2.qq.com"
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  nameserver:
+    - "https://dns.alidns.com/dns-query"
+    - "https://doh.pub/dns-query"
+  fallback:
+    - "https://dns.cloudflare.com/dns-query"
+    - "https://dns.google/dns-query"
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+
+proxy-providers:
+  provider:
+    type: http
+    url: "https://sub.danhu.dpdns.org/paste/26HappyIWD-TG@FProxies/clash"
+    interval: 3600
+    path: ./proxy_providers/fproxies.yaml
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+      lazy: true
+
+proxy-groups:
+  - name: "🚀 节点选择"
+    type: select
+    proxies:
+      - "♻️ 自动选择"
+      - "🇭🇰 香港节点"
+      - "🇯🇵 日本节点"
+      - "🇸🇬 新加坡节点"
+      - "🇺🇸 美国节点"
+      - "🧿 其它地区"
+      - "DIRECT"
+    use:
+      - provider
+
+  - name: "♻️ 自动选择"
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    use:
+      - provider
+
+  - name: "🇭🇰 香港节点"
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    use:
+      - provider
+    filter: "(?i)🇭🇰|HK|Hong.?Kong"
+
+  - name: "🇯🇵 日本节点"
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    use:
+      - provider
+    filter: "(?i)🇯🇵|JP|Japan"
+
+  - name: "🇸🇬 新加坡节点"
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    use:
+      - provider
+    filter: "(?i)🇸🇬|SG|Singapore"
+
+  - name: "🇺🇸 美国节点"
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    use:
+      - provider
+    filter: "(?i)🇺🇸|US|United.?States"
+
+  - name: "🧿 其它地区"
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    use:
+      - provider
+    filter: "(?i)CA|AU|FR|DE|GB|KR|TW|IN|BR"
+
+  - name: "🐟 漏网之鱼"
+    type: select
+    proxies:
+      - "🚀 节点选择"
+      - "DIRECT"
+
+rules:
+  - GEOIP,LAN,DIRECT
+  - DOMAIN-SUFFIX,local,DIRECT
+  - GEOSITE,cn,DIRECT
+  - GEOIP,cn,DIRECT
+  - GEOSITE,google,🚀 节点选择
+  - GEOSITE,github,🚀 节点选择
+  - GEOSITE,telegram,🚀 节点选择
+  - GEOSITE,twitter,🚀 节点选择
+  - GEOSITE,youtube,🚀 节点选择
+  - GEOSITE,netflix,🚀 节点选择
+  - GEOSITE,openai,🚀 节点选择
+  - MATCH,🐟 漏网之鱼
