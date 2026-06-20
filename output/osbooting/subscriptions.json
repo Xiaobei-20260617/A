@@ -34,5 +34,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260619VAEF.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260619OMEA.txt"
     }
+  },
+  {
+    "date": "0620",
+    "sort_key": "20260620",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260620BLOR.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260620NVHD.txt"
+    }
   }
 ]
