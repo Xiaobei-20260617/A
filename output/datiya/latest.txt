@@ -1,3 +1,3 @@
-# datiya (OpenRunner/clash-freenode) 最新订阅 (0622)
-https://free.datiya.com/uploads/20260622-clash.yaml
-https://free.datiya.com/uploads/20260622-v2ray.txt
+# datiya (OpenRunner/clash-freenode) 最新订阅 (0623)
+https://free.datiya.com/uploads/20260623-clash.yaml
+https://free.datiya.com/uploads/20260623-v2ray.txt

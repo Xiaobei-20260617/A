@@ -61,5 +61,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260622SGDC.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260622ECFO.txt"
     }
+  },
+  {
+    "date": "0623",
+    "sort_key": "20260623",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260623KBAY.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260623DLPM.txt"
+    }
   }
 ]
