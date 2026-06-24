@@ -70,5 +70,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260623KBAY.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260623DLPM.txt"
     }
+  },
+  {
+    "date": "0624",
+    "sort_key": "20260624",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260624MUXK.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260624GBWN.txt"
+    }
   }
 ]

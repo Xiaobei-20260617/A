@@ -56,7 +56,7 @@ dns:
 proxy-providers:
   provider:
     type: http
-    url: "http://mlfenx.cczzuu.top/node/20260623.yaml"
+    url: "http://mlfenx.cczzuu.top/node/20260624.yaml"
     interval: 3600
     path: ./proxy_providers/mlfenx.yaml
     health-check:
