@@ -56,7 +56,7 @@ dns:
 proxy-providers:
   provider:
     type: http
-    url: "https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20260625.yml"
+    url: "https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20260626.yml"
     interval: 3600
     path: ./proxy_providers/clashfree.yaml
     health-check:
