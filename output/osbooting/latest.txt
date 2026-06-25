@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (0624)
-https://freenode.osbooting.com/nodefiles/20260624MUXK.yaml
-https://freenode.osbooting.com/nodefiles/20260624GBWN.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (0625)
+https://freenode.osbooting.com/nodefiles/20260625RETU.yaml
+https://freenode.osbooting.com/nodefiles/20260625NEZB.txt
