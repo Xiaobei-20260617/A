@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (0625)
-https://freenode.osbooting.com/nodefiles/20260625RETU.yaml
-https://freenode.osbooting.com/nodefiles/20260625NEZB.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (0626)
+https://freenode.osbooting.com/nodefiles/20260626QORP.yaml
+https://freenode.osbooting.com/nodefiles/20260626FONM.txt
