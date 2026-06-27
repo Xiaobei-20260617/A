@@ -56,7 +56,7 @@ dns:
 proxy-providers:
   provider:
     type: http
-    url: "https://sub.danhu.dpdns.org/paste/26HappyIWD-TG@FProxies/clash"
+    url: "https://sub.danhu.dpdns.org/paste/TG@FProxies260627oX3VJoI/clash"
     interval: 3600
     path: ./proxy_providers/fproxies.yaml
     health-check:

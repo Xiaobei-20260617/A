@@ -56,7 +56,7 @@ dns:
 proxy-providers:
   provider:
     type: http
-    url: "https://free.datiya.com/uploads/20260626-clash.yaml"
+    url: "https://free.datiya.com/uploads/20260627-clash.yaml"
     interval: 3600
     path: ./proxy_providers/datiya.yaml
     health-check:

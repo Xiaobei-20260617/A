@@ -53,5 +53,16 @@
       "quanx": "https://sub.danhu.dpdns.org/paste/26HappyIWD-TG@FProxies/quanx",
       "urls": "https://sub.danhu.dpdns.org/paste/26HappyIWD-TG@FProxies/urls"
     }
+  },
+  {
+    "date": "0627",
+    "sort_key": "260627",
+    "extra": "",
+    "urls": {
+      "clash": "https://sub.danhu.dpdns.org/paste/TG@FProxies260627oX3VJoI/clash",
+      "base64": "https://sub.danhu.dpdns.org/paste/TG@FProxies260627oX3VJoI/base64",
+      "quanx": "https://sub.danhu.dpdns.org/paste/TG@FProxies260627oX3VJoI/quanx",
+      "urls": "https://sub.danhu.dpdns.org/paste/TG@FProxies260627oX3VJoI/urls"
+    }
   }
 ]
