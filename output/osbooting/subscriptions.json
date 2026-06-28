@@ -106,5 +106,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260627QXHJ.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260627JAQI.txt"
     }
+  },
+  {
+    "date": "0628",
+    "sort_key": "20260628",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260628JPBZ.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260628SZQY.txt"
+    }
   }
 ]

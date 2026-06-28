@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (0627)
-https://freenode.osbooting.com/nodefiles/20260627QXHJ.yaml
-https://freenode.osbooting.com/nodefiles/20260627JAQI.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (0628)
+https://freenode.osbooting.com/nodefiles/20260628JPBZ.yaml
+https://freenode.osbooting.com/nodefiles/20260628SZQY.txt
