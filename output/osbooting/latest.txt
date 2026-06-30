@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (0629)
-https://freenode.osbooting.com/nodefiles/20260629ISUA.yaml
-https://freenode.osbooting.com/nodefiles/20260629EUWB.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (0630)
+https://freenode.osbooting.com/nodefiles/20260630ESOF.yaml
+https://freenode.osbooting.com/nodefiles/20260630SFNB.txt
