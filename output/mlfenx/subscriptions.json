@@ -160,5 +160,14 @@
       "clash": "http://mlfenx.cczzuu.top/node/20260703.yaml",
       "v2ray": "http://mlfenx.cczzuu.top/node/20260703.txt"
     }
+  },
+  {
+    "date": "0704",
+    "sort_key": "20260704",
+    "extra": "",
+    "urls": {
+      "clash": "http://mlfenx.cczzuu.top/node/20260704.yaml",
+      "v2ray": "http://mlfenx.cczzuu.top/node/20260704.txt"
+    }
   }
 ]

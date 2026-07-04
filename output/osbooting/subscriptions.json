@@ -160,5 +160,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260703AZYO.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260703HARE.txt"
     }
+  },
+  {
+    "date": "0704",
+    "sort_key": "20260704",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260704BTVP.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260704GYZU.txt"
+    }
   }
 ]

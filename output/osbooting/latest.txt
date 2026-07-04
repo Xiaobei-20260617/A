@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (0703)
-https://freenode.osbooting.com/nodefiles/20260703AZYO.yaml
-https://freenode.osbooting.com/nodefiles/20260703HARE.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (0704)
+https://freenode.osbooting.com/nodefiles/20260704BTVP.yaml
+https://freenode.osbooting.com/nodefiles/20260704GYZU.txt
