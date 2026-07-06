@@ -178,5 +178,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260705YWCJ.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260705UABN.txt"
     }
+  },
+  {
+    "date": "0706",
+    "sort_key": "20260706",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260706FPWI.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260706LGEB.txt"
+    }
   }
 ]
