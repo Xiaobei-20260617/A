@@ -196,5 +196,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260707DFIV.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260707QSUY.txt"
     }
+  },
+  {
+    "date": "0708",
+    "sort_key": "20260708",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260708JUDF.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260708GYHV.txt"
+    }
   }
 ]
