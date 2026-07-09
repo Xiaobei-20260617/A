@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (0708)
-https://freenode.osbooting.com/nodefiles/20260708JUDF.yaml
-https://freenode.osbooting.com/nodefiles/20260708GYHV.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (0709)
+https://freenode.osbooting.com/nodefiles/20260709NAYS.yaml
+https://freenode.osbooting.com/nodefiles/20260709YBSO.txt
