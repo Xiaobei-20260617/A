@@ -214,5 +214,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260709NAYS.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260709YBSO.txt"
     }
+  },
+  {
+    "date": "0710",
+    "sort_key": "20260710",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260710BKOF.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260710YZVK.txt"
+    }
   }
 ]
