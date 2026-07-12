@@ -232,5 +232,14 @@
       "clash": "http://mlfenx.cczzuu.top/node/20260711.yaml",
       "v2ray": "http://mlfenx.cczzuu.top/node/20260711.txt"
     }
+  },
+  {
+    "date": "0712",
+    "sort_key": "20260712",
+    "extra": "",
+    "urls": {
+      "clash": "http://mlfenx.cczzuu.top/node/20260712.yaml",
+      "v2ray": "http://mlfenx.cczzuu.top/node/20260712.txt"
+    }
   }
 ]
