@@ -27,40 +27,37 @@ jobs:
         timeout-minutes: 3
         run: |
           python3 fetch_nodes.py
-          # 确认链接文件存在
-          if [ ! -f output/fproxies/latest_base64.txt ]; then
-            echo "❌ output/fproxies/latest_base64.txt 未生成，请检查脚本"
+          if [ ! -f output/fproxies/latest_clash.txt ]; then
+            echo "❌ output/fproxies/latest_clash.txt 未生成"
             exit 1
           fi
-          echo "从脚本获取到的链接："
-          cat output/fproxies/latest_base64.txt
+          echo "获取到的订阅链接："
+          cat output/fproxies/latest_clash.txt
 
-      - name: Fetch and decode subscription using URL from file
+      - name: Download subscription content (no decoding)
         timeout-minutes: 3
         run: |
-          # 读取文件第一行作为 URL（去除首尾空白）
-          URL=$(head -n 1 output/fproxies/latest_base64.txt | xargs)
+          # 读取链接，去除首尾空白
+          URL=$(head -n 1 output/fproxies/latest_clash.txt | xargs)
           if [ -z "$URL" ]; then
             echo "❌ 链接为空"
             exit 1
           fi
-          echo "使用 curl_cffi 拉取：$URL"
+          echo "使用 curl_cffi 下载：$URL"
           python3 -c "
           from curl_cffi import requests
           resp = requests.get('$URL', impersonate='chrome')
-          with open('sub.b64', 'wb') as f:
+          with open('proxies.txt', 'wb') as f:
               f.write(resp.content)
           print(f'下载完成，大小 {len(resp.content)} 字节')
           "
-          # 检查是否仍为 Cloudflare 页面
-          if grep -qi '<html' sub.b64; then
-            echo "❌ 遇到验证页面，内容如下："
-            cat sub.b64
+          # 检查是否被 Cloudflare 拦截
+          if grep -qi '<html' proxies.txt; then
+            echo "❌ 遇到验证页面"
+            cat proxies.txt
             exit 1
           fi
-          echo "Base64 解码..."
-          base64 -d sub.b64 > proxies.txt 2>/dev/null || cp sub.b64 proxies.txt
-          echo "代理行数：$(wc -l < proxies.txt)"
+          echo "下载成功，行数：$(wc -l < proxies.txt)"
 
       - name: Commit and push
         run: |
