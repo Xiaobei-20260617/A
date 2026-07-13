@@ -2,12 +2,11 @@ name: 定时拉取订阅
 
 on:
   schedule:
-    # 每天 UTC 0 点运行，可自行修改 cron 表达式
     - cron: '0 0 * * *'
-  workflow_dispatch:   # 允许手动触发
+  workflow_dispatch:
 
 permissions:
-  contents: write      # 允许推送提交
+  contents: write
 
 jobs:
   fetch-and-update:
@@ -16,24 +15,36 @@ jobs:
       - name: 检出代码
         uses: actions/checkout@v4
 
+      - name: 下载 curl-impersonate (chrome 指纹)
+        run: |
+          # 下载预编译的静态二进制文件
+          curl -sL https://github.com/lwthiker/curl-impersonate/releases/download/v0.9.1/curl-impersonate-v0.9.1.x86_64-linux-gnu.tar.gz | tar xz
+          chmod +x curl-impersonate-chrome
+
       - name: 下载并解码订阅
         run: |
           URL="https://sub.danhu.dpdns.org/paste/TG@FProxies260627oX3VJoI/base64"
-          echo "正在拉取..."
-          curl -sL "$URL" -o sub.b64
-          # 尝试 base64 解码，解码失败则保留原始文件
+          echo "正在使用 curl-impersonate 拉取..."
+          ./curl-impersonate-chrome -sL "$URL" -o sub.b64
+
+          # 检查是否仍返回 HTML (比如验证码)
+          if grep -qi '<html' sub.b64; then
+            echo "❌ 下载失败，可能遇到更严格的验证"
+            cat sub.b64
+            exit 1
+          fi
+
+          # 尝试 base64 解码
           base64 -d sub.b64 > proxies.txt 2>/dev/null || cp sub.b64 proxies.txt
-          echo "获取到代理行数："
-          wc -l proxies.txt
+          echo "获取到代理行数：$(wc -l < proxies.txt)"
 
       - name: 提交并推送变更
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add proxies.txt sub.b64
-          # 仅当文件有变化时才提交
           if git diff --staged --quiet; then
-            echo "没有变化，跳过提交"
+            echo "没有变化"
           else
             git commit -m "更新订阅 $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
