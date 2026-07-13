@@ -15,28 +15,23 @@ jobs:
       - name: 检出代码
         uses: actions/checkout@v4
 
-      - name: 下载 curl-impersonate (chrome 指纹)
-        run: |
-          # 下载预编译的静态二进制文件
-          curl -sL https://github.com/lwthiker/curl-impersonate/releases/download/v0.9.1/curl-impersonate-v0.9.1.x86_64-linux-gnu.tar.gz | tar xz
-          chmod +x curl-impersonate-chrome
+      - name: 下载并解码订阅 (使用 curl-impersonate Docker 镜像)
+  run: |
+    URL="https://sub.danhu.dpdns.org/paste/TG@FProxies260627oX3VJoI/base64"
+    echo "正在使用 curl-impersonate (chrome 指纹) 拉取..."
+    docker run --rm lwthiker/curl-impersonate:chrome \
+      curl -sL "$URL" -o sub.b64
 
-      - name: 下载并解码订阅
-        run: |
-          URL="https://sub.danhu.dpdns.org/paste/TG@FProxies260627oX3VJoI/base64"
-          echo "正在使用 curl-impersonate 拉取..."
-          ./curl-impersonate-chrome -sL "$URL" -o sub.b64
+    # 检查是否返回 Cloudflare 页面
+    if grep -qi '<html' sub.b64; then
+      echo "❌ 仍遇到验证页面"
+      cat sub.b64
+      exit 1
+    fi
 
-          # 检查是否仍返回 HTML (比如验证码)
-          if grep -qi '<html' sub.b64; then
-            echo "❌ 下载失败，可能遇到更严格的验证"
-            cat sub.b64
-            exit 1
-          fi
+    base64 -d sub.b64 > proxies.txt 2>/dev/null || cp sub.b64 proxies.txt
+    echo "获取行数：$(wc -l < proxies.txt)"
 
-          # 尝试 base64 解码
-          base64 -d sub.b64 > proxies.txt 2>/dev/null || cp sub.b64 proxies.txt
-          echo "获取到代理行数：$(wc -l < proxies.txt)"
 
       - name: 提交并推送变更
         run: |
