@@ -2,12 +2,11 @@ name: 定时拉取订阅
 
 on:
   schedule:
-    # 每天 UTC 0 点运行，可根据需要修改
     - cron: '0 0 * * *'
-  workflow_dispatch:   # 允许手动触发
+  workflow_dispatch:
 
 permissions:
-  contents: write      # 允许推送提交
+  contents: write
 
 jobs:
   fetch-and-update:
@@ -16,14 +15,16 @@ jobs:
       - name: 检出代码
         uses: actions/checkout@v4
 
-      - name: 拉取并解码订阅 (curl-impersonate chrome)
+      - name: 拉取并解码订阅 (curl-impersonate)
         run: |
           URL="https://sub.danhu.dpdns.org/paste/TG@FProxies260627oX3VJoI/base64"
-          echo "正在使用 curl-impersonate (chrome 指纹) 拉取..."
-          docker run --rm lwthiker/curl-impersonate:chrome \
+          echo "正在使用 curl-impersonate 拉取..."
+
+          # 使用 latest 标签 (默认模拟 Chrome)
+          docker run --rm lwthiker/curl-impersonate:latest \
             curl -sL "$URL" -o sub.b64
 
-          # 检查是否返回了 Cloudflare 验证页面（或其他 HTML）
+          # 检查是否遇到 Cloudflare 验证页面
           if grep -qi '<html' sub.b64; then
             echo "❌ 下载失败，仍遇到验证页面，内容如下："
             cat sub.b64
@@ -31,9 +32,20 @@ jobs:
           fi
 
           echo "下载成功，正在 base64 解码..."
-          # 解码为纯文本，若解码失败则保留原始文件
           base64 -d sub.b64 > proxies.txt 2>/dev/null || cp sub.b64 proxies.txt
           echo "获取到代理行数：$(wc -l < proxies.txt)"
+
+      # ---------- 备用方案：直接下载二进制（若 Docker 仍失败可启用）----------
+      # - name: 备用：下载 curl-impersonate 二进制
+      #   if: failure()
+      #   run: |
+      #     # 获取最新 release 下载地址（以 v0.5.4 为例，可自行调整）
+      #     curl -sL https://github.com/lwthiker/curl-impersonate/releases/download/v0.5.4/curl-impersonate-v0.5.4.x86_64-linux-gnu.tar.gz -o curl.tar.gz
+      #     tar xzf curl.tar.gz
+      #     chmod +x curl-impersonate-chrome
+      #     URL="https://sub.danhu.dpdns.org/paste/TG@FProxies260627oX3VJoI/base64"
+      #     ./curl-impersonate-chrome -sL "$URL" -o sub.b64
+      #     base64 -d sub.b64 > proxies.txt 2>/dev/null || cp sub.b64 proxies.txt
 
       - name: 提交并推送变更
         run: |
