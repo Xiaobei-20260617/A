@@ -241,5 +241,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260712FMDA.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260712WRAO.txt"
     }
+  },
+  {
+    "date": "0713",
+    "sort_key": "20260713",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260713CRLT.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260713YWXF.txt"
+    }
   }
 ]
