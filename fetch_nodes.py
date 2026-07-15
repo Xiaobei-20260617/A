@@ -4,14 +4,19 @@
 从多个来源获取最新订阅链接，为每个来源生成独立的 Clash Meta 配置。
 
 来源:
-  1. FProxies (Telegram @FProxies)
-  2. datiya    (free.datiya.com / OpenRunner/clash-freenode)
-  3. osbooting (freenode.osbooting.com)
-  4. mlfenx    (www.mlfenx.com/freenode)
-  5. clashfree (github.com/free-nodes/clashfree)
-  6. bestclash (github.com/PuddinCat/BestClash, 完整 Clash 配置)
-  7. au1rxx    (github.com/Au1rxx/free-vpn-subscriptions, 完整 Clash 配置)
-  8. v2rayfree (github.com/free-nodes/v2rayfree, v2ray/ss 链接)
+  1. FProxies   (Telegram @FProxies)
+  2. datiya     (free.datiya.com)
+  3. osbooting  (freenode.osbooting.com)
+  4. mlfenx     (www.mlfenx.com/freenode)
+  5. clashfree  (github.com/free-nodes/clashfree)
+  6. bestclash  (github.com/PuddinCat/BestClash)
+  7. au1rxx     (github.com/Au1rxx/free-vpn-subscriptions)
+  8. v2rayfree  (github.com/free-nodes/v2rayfree)
+  9. ruk1ng     (github.com/Ruk1ng001/freeSub, clash)
+ 10. ruk1ng_v2ray (github.com/Ruk1ng001/freeSub, v2ray/ss)
+ 11. ovmvo      (github.com/ovmvo/FreeSub)
+ 12. v2raynnodes_clash (github.com/v2raynnodes/v2rayfree, clashmeta)
+ 13. v2raynnodes_v2ray (github.com/v2raynnodes/v2rayfree, mihomo)
 
 输出: output/<source>/ 目录下独立文件
 """
@@ -660,7 +665,7 @@ def v2raynnodes_clash_fetch():
 
 
 def v2raynnodes_v2ray_fetch():
-    """来源 13: v2raynnodes/v2rayfree 的 nodes/nodev2ray.yaml — 完整 Clash 配置 (yam 格式, 非 base64)。"""
+    """来源 13: v2raynnodes/v2rayfree 的 nodes/nodev2ray.yaml — 完整 Clash 配置 (yaml 格式, 非 base64)。"""
     return [{
         "date": "latest",
         "sort_key": "99999993",

@@ -1,42 +1,46 @@
-# 多源节点订阅抓取
+# fetch-nodes
 
-自动从多个来源获取免费节点订阅链接，每日两更。
+Automatically fetch and aggregate free VPN/Proxy subscriptions from 13 public sources daily.
 
-## 订阅来源
+## 📦 Output Files
 
-| 来源 | URL | 输出目录 |
-|------|-----|----------|
-| FProxies | [t.me/FProxies](https://t.me/FProxies) | `output/fproxies/` |
-| datiya | [free.datiya.com](https://free.datiya.com/) | `output/datiya/` |
-| osbooting | [freenode.osbooting.com](https://freenode.osbooting.com/) | `output/osbooting/` |
-| mlfenx | [www.mlfenx.com](https://www.mlfenx.com/freenode) | `output/mlfenx/` |
-| clashfree | [free-nodes/clashfree](https://github.com/free-nodes/clashfree) | `output/clashfree/` |
+All outputs are generated in the `output/` directory:
 
-## 快速使用
+- `latest.txt` — All subscription URLs
+- `latest_{clash,base64,quanx,urls}.txt` — Formatted per source
+- `config.yaml` — Clash Meta config with proxy-provider + rules (for non-raw sources)
+- `latest_nodes.txt` — Raw node content snapshot (proxies block or decoded links)
+- `subscriptions.json` — Deduplicated, sorted list of all subscriptions (persisted)
 
-每个来源独立的 `config.yaml`，直接导入 Clash Meta 即可：
+## 🌐 Sources (13 Total)
 
-- `output/fproxies/config.yaml`
-- `output/datiya/config.yaml`
-- `output/osbooting/config.yaml`
-- `output/mlfenx/config.yaml`
-- `output/clashfree/config.yaml`
+| ID | Source | Type | Notes |
+|----|--------|------|-------|
+| 1 | `fproxies` | Telegram @FProxies | Only source writing `proxies.txt` to root |
+| 2 | `datiya` | free.datiya.com | Parses latest /post/YYYYMMDD/ pages |
+| 3 | `osbooting` | freenode.osbooting.com | Scrapes last 3 /freenode/YYYYMMDD/ |
+| 4 | `mlfenx` | mlfenx.cczzuu.top | Scrapes last 3 /archives/N |
+| 5 | `clashfree` | GitHub free-nodes/clashfree | Fetches clashYYYYMMDD.yml |
+| 6 | `bestclash` | PuddinCat/BestClash | Raw Clash config (no parsing) |
+| 7 | `au1rxx` | Au1rxx/free-vpn-subscriptions | Raw Clash config |
+| 8 | `v2rayfree` | GitHub free-nodes/v2rayfree | Base64 v2ray links only |
+| 9 | `ruk1ng` | Ruk1ng001/freeSub | Raw Clash config |
+| 10 | `ruk1ng_v2ray` | Ruk1ng001/freeSub | Base64 v2ray links |
+| 11 | `ovmvo` | ovmvo/FreeSub | Raw Clash config |
+| 12 | `v2raynnodes_clash` | v2raynnodes/v2rayfree | Raw Clash config |
+| 13 | `v2raynnodes_v2ray` | v2raynnodes/v2rayfree | Raw Clash config |
 
-## 输出结构
+## ⚙️ CI Automation
 
-```
-output/
-├── fproxies/      ← Telegram @FProxies (clash/base64/quanx/urls)
-├── datiya/        ← OpenRunner/clash-freenode (clash/v2ray)
-├── osbooting/     ← freenode.osbooting.com (clash/v2ray)
-├── mlfenx/        ← mlfenx.cczzuu.top (clash/v2ray)
-└── clashfree/     ← GitHub free-nodes (clash)
-```
+- Runs daily at **UTC 01:00 and 13:00** (Beijing: 09:00 & 21:00)
+- Uses GitHub Actions: `.github/workflows/update.yml`
+- Automatically: `pip install curl_cffi` → `python3 fetch_nodes.py` → `git add -A` → commit `output/`
 
-## 自动更新
+## 📌 Notes
 
-GitHub Actions 每天 UTC 01:00 / 13:00（北京时间 09:00 / 21:00）自动抓取。
+- `output/` is tracked in Git — do not ignore locally.
+- `proxies.txt` is written only by `fproxies` and is a full concatenation of all URLs.
+- `config.yaml` is generated only for sources that are **not** raw_clash.
+- Use `subscriptions.json` to build your own persistent node list.
 
-## 免责声明
-
-本项目仅抓取公开来源的订阅链接，不提供任何代理服务。请遵守当地法律法规。
+> 💡 Tip: Import `config.yaml` directly into Clash Meta for immediate use.
