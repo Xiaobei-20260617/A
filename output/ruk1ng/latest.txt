@@ -1,0 +1,2 @@
+# ruk1ng-clash (Ruk1ng001/freeSub) 最新订阅 (latest)
+https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml

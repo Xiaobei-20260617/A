@@ -1,0 +1,2 @@
+# ovmvo (ovmvo/FreeSub) 最新订阅 (latest)
+https://raw.githubusercontent.com/ovmvo/FreeSub/main/sub/permanent/mihomo.yaml

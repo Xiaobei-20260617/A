@@ -1,0 +1,10 @@
+[
+  {
+    "date": "latest",
+    "sort_key": "99999998",
+    "extra": "Au1rxx 完整 Clash 配置 (Au1rxx/free-vpn-subscriptions)",
+    "urls": {
+      "clash": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml"
+    }
+  }
+]

@@ -1,0 +1,2 @@
+# au1rxx (free-vpn-subscriptions) 最新订阅 (latest)
+https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml

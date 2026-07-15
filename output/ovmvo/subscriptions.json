@@ -1,0 +1,10 @@
+[
+  {
+    "date": "latest",
+    "sort_key": "99999995",
+    "extra": "ovmvo/FreeSub 完整 Clash 配置",
+    "urls": {
+      "clash": "https://raw.githubusercontent.com/ovmvo/FreeSub/main/sub/permanent/mihomo.yaml"
+    }
+  }
+]

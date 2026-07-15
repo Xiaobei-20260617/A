@@ -1,0 +1,10 @@
+[
+  {
+    "date": "latest",
+    "sort_key": "99999999",
+    "extra": "BestClash 完整 Clash 配置 (PuddinCat/BestClash)",
+    "urls": {
+      "clash": "https://raw.githubusercontent.com/PuddinCat/BestClash/main/proxies.yaml"
+    }
+  }
+]
