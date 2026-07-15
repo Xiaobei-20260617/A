@@ -331,6 +331,12 @@ CLASHFREE_RAW = "https://raw.githubusercontent.com/free-nodes/clashfree/main/"
 BESTCLASH_RAW = "https://raw.githubusercontent.com/PuddinCat/BestClash/main/"
 AU1RXX_RAW   = "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/"
 
+# ── 来源 9/10: Ruk1ng001/freeSub (clash.yaml 完整配置 + v2ray 链接) ──
+RUK1NG_CLASH_RAW = "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml"
+RUK1NG_V2RAY_RAW = "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray"
+# ── 来源 11: ovmvo/FreeSub (sub/permanent/mihomo.yaml 完整配置) ──
+OVMVO_RAW = "https://raw.githubusercontent.com/ovmvo/FreeSub/main/sub/permanent/mihomo.yaml"
+
 # ── 来源 8: v2rayfree (github.com/free-nodes/v2rayfree) ──
 V2RAYFREE_API = "https://api.github.com/repos/free-nodes/v2rayfree/git/trees/main"
 V2RAYFREE_RAW = "https://raw.githubusercontent.com/free-nodes/v2rayfree/main/"
@@ -602,6 +608,41 @@ rules:
 # 输出
 # ──────────────────────────────────────────────
 
+def ruk1ng_clash_fetch():
+    """来源 9: Ruk1ng001/freeSub 的 clash.yaml — 完整 Clash 配置 (即取即用)。"""
+    return [{
+        "date": "latest",
+        "sort_key": "99999997",
+        "raw_clash": True,
+        "clash_url": RUK1NG_CLASH_RAW,
+        "urls": {"clash": RUK1NG_CLASH_RAW},
+        "extra": "Ruk1ng001/freeSub 完整 Clash 配置",
+    }]
+
+
+def ruk1ng_v2ray_fetch():
+    """来源 10: Ruk1ng001/freeSub 的 v2ray 文件 — base64 编码的 ss/vmess/vless/trojan 链接。"""
+    return [{
+        "date": "latest",
+        "sort_key": "99999996",
+        "clash_url": None,
+        "urls": {"v2ray": RUK1NG_V2RAY_RAW},
+        "extra": "Ruk1ng001/freeSub v2ray 链接",
+    }]
+
+
+def ovmvo_fetch():
+    """来源 11: ovmvo/FreeSub 的 sub/permanent/mihomo.yaml — 完整 Clash 配置 (即取即用)。"""
+    return [{
+        "date": "latest",
+        "sort_key": "99999995",
+        "raw_clash": True,
+        "clash_url": OVMVO_RAW,
+        "urls": {"clash": OVMVO_RAW},
+        "extra": "ovmvo/FreeSub 完整 Clash 配置",
+    }]
+
+
 def extract_clash_proxies(content: str) -> str:
     """从完整 Clash 配置文本中提取 proxies: 节点块 (解码后的节点清单)。"""
     lines = content.splitlines()
@@ -872,6 +913,59 @@ def main():
             print("⚠️ [v2rayfree] 未找到链接")
     except Exception as e:
         print(f"❌ [v2rayfree] {e}", file=sys.stderr)
+
+    print()
+
+    print()
+
+    # ── ruk1ng (clash 完整配置) ──
+    print("📡 [ruk1ng] 获取 Ruk1ng001/freeSub (clash)...", file=sys.stderr)
+    try:
+        rk_subs = ruk1ng_clash_fetch()
+        if rk_subs:
+            rk_latest = rk_subs[-1]
+            rk_dir = write_source_output("ruk1ng", rk_latest, rk_subs, "ruk1ng-clash (Ruk1ng001/freeSub)")
+            print(f"✅ [ruk1ng] 完整 Clash 配置已保存")
+            print(f"   clash: {rk_latest['urls']['clash']}")
+            print(f"   → {rk_dir}/")
+        else:
+            print("⚠️ [ruk1ng] 未获取到配置")
+    except Exception as e:
+        print(f"❌ [ruk1ng] {e}", file=sys.stderr)
+
+    print()
+
+    # ── ruk1ng_v2ray (base64 链接) ──
+    print("📡 [ruk1ng_v2ray] 获取 Ruk1ng001/freeSub (v2ray)...", file=sys.stderr)
+    try:
+        rkv_subs = ruk1ng_v2ray_fetch()
+        if rkv_subs:
+            rkv_latest = rkv_subs[-1]
+            rkv_dir = write_source_output("ruk1ng_v2ray", rkv_latest, rkv_subs, "ruk1ng-v2ray (Ruk1ng001/freeSub)")
+            print(f"✅ [ruk1ng_v2ray] v2ray 链接已保存")
+            print(f"   v2ray: {rkv_latest['urls']['v2ray']}")
+            print(f"   → {rkv_dir}/")
+        else:
+            print("⚠️ [ruk1ng_v2ray] 未获取到链接")
+    except Exception as e:
+        print(f"❌ [ruk1ng_v2ray] {e}", file=sys.stderr)
+
+    print()
+
+    # ── ovmvo (clash 完整配置) ──
+    print("📡 [ovmvo] 获取 ovmvo/FreeSub...", file=sys.stderr)
+    try:
+        ov_subs = ovmvo_fetch()
+        if ov_subs:
+            ov_latest = ov_subs[-1]
+            ov_dir = write_source_output("ovmvo", ov_latest, ov_subs, "ovmvo (ovmvo/FreeSub)")
+            print(f"✅ [ovmvo] 完整 Clash 配置已保存")
+            print(f"   clash: {ov_latest['urls']['clash']}")
+            print(f"   → {ov_dir}/")
+        else:
+            print("⚠️ [ovmvo] 未获取到配置")
+    except Exception as e:
+        print(f"❌ [ovmvo] {e}", file=sys.stderr)
 
     print()
 
