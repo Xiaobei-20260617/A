@@ -30,6 +30,51 @@ USER_AGENT = (
 TIMEOUT = 20
 OUTPUT_DIR = "output"
 
+# curl_cffi 可选依赖：CI 中用于伪 Chrome 指纹绕过 Cloudflare。
+# 本地无 curl_cffi 时自动回退到标准库 urllib。
+try:
+    from curl_cffi import requests as cffi_requests
+    _HAS_CFFI = True
+except ImportError:
+    _HAS_CFFI = False
+
+
+def download_subscription_content(url: str) -> bytes:
+    """下载订阅原始字节内容（不做任何解码/解压）。
+
+    优先使用 curl_cffi impersonate='chrome' 绕过 Cloudflare 指纹校验；
+    未安装 curl_cffi 时回退到标准库 urllib。
+    """
+    if _HAS_CFFI:
+        resp = cffi_requests.get(url, impersonate="chrome", timeout=TIMEOUT)
+        return resp.content
+    req = Request(url, headers={"User-Agent": USER_AGENT})
+    return urlopen(req, timeout=TIMEOUT).read()
+
+
+def is_cloudflare_block(data: bytes) -> bool:
+    """粗略判断下载内容是否为 Cloudflare 验证页（HTML）"""
+    head = data[:2048].lower()
+    return b"<html" in head or b"<title>just a moment" in head
+
+
+def write_proxies_txt(clash_url: str) -> str:
+    """下载 fproxies 最新 clash 订阅的完整内容并写入根目录 proxies.txt。
+
+    返回写入路径；遇到 Cloudflare 拦截或下载失败时抛 RuntimeError。
+    """
+    print("📥 [proxies.txt] 下载 clash 订阅内容...", file=sys.stderr)
+    content = download_subscription_content(clash_url)
+    if is_cloudflare_block(content):
+        raise RuntimeError("疑似 Cloudflare 验证页，未写入 proxies.txt")
+    path = "proxies.txt"
+    with open(path, "wb") as f:
+        f.write(content)
+    lines = content.count(b"\n") + (0 if content.endswith(b"\n") else 1)
+    print(f"✅ [proxies.txt] 已写入 {len(content)} 字节 / {lines} 行")
+    return path
+
+
 
 def fetch_page(url: str) -> str:
     req = Request(url, headers={"User-Agent": USER_AGENT})
@@ -546,6 +591,13 @@ def main():
             print(f"✅ [FProxies] {len(fp_subs)} 次订阅, 最新: {fp_latest['date']}")
             print(f"   clash: {fp_latest['urls']['clash']}")
             print(f"   → {fp_dir}/")
+
+            # 下载完整订阅内容到根目录 proxies.txt
+            try:
+                write_proxies_txt(fp_latest["urls"]["clash"])
+            except Exception as e:
+                print(f"❌ [proxies.txt] {e}", file=sys.stderr)
+
         else:
             print("⚠️ [FProxies] 未找到订阅")
     except Exception as e:

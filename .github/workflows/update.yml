@@ -20,44 +20,17 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install curl_cffi
+      - name: Install dependencies
         run: pip install curl_cffi
 
-      - name: Run original script to get subscription URL
-        timeout-minutes: 3
+      - name: Run fetch_nodes.py (抓取订阅并生成 proxies.txt)
+        timeout-minutes: 4
         run: |
           python3 fetch_nodes.py
           if [ ! -f output/fproxies/latest_clash.txt ]; then
             echo "❌ output/fproxies/latest_clash.txt 未生成"
             exit 1
           fi
-          echo "获取到的订阅链接："
-          cat output/fproxies/latest_clash.txt
-
-      - name: Download subscription content (no decoding)
-        timeout-minutes: 3
-        run: |
-          # 读取链接，去除首尾空白
-          URL=$(head -n 1 output/fproxies/latest_clash.txt | xargs)
-          if [ -z "$URL" ]; then
-            echo "❌ 链接为空"
-            exit 1
-          fi
-          echo "使用 curl_cffi 下载：$URL"
-          python3 -c "
-          from curl_cffi import requests
-          resp = requests.get('$URL', impersonate='chrome')
-          with open('proxies.txt', 'wb') as f:
-              f.write(resp.content)
-          print(f'下载完成，大小 {len(resp.content)} 字节')
-          "
-          # 检查是否被 Cloudflare 拦截
-          if grep -qi '<html' proxies.txt; then
-            echo "❌ 遇到验证页面"
-            cat proxies.txt
-            exit 1
-          fi
-          echo "下载成功，行数：$(wc -l < proxies.txt)"
 
       - name: Commit and push
         run: |
