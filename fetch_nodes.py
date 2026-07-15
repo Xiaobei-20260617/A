@@ -602,6 +602,48 @@ rules:
 # 输出
 # ──────────────────────────────────────────────
 
+def extract_clash_proxies(content: str) -> str:
+    """从完整 Clash 配置文本中提取 proxies: 节点块 (解码后的节点清单)。"""
+    lines = content.splitlines()
+    out = []
+    capture = False
+    for line in lines:
+        if not capture:
+            if re.match(r"^proxies:\s*$", line):
+                capture = True
+                out.append(line)
+            continue
+        if line.strip() == "":
+            out.append(line)
+            continue
+        # 遇到下一个顶级 key (行首非缩进且非列表项) 即结束
+        if not line[0].isspace() and not line.startswith("- "):
+            break
+        out.append(line)
+    return "\n".join(out).strip() + "\n"
+
+
+def decode_v2ray_links(content: bytes) -> str:
+    """将 v2ray 源 (base64 编码的 ss:///vmess:// 链接) 解码为可读链接行。"""
+    import base64
+    text = content.decode("utf-8", "replace").strip()
+    rows = []
+    for raw in text.splitlines():
+        raw = raw.strip()
+        if not raw:
+            continue
+        try:
+            padded = raw + "=" * (-len(raw) % 4)
+            decoded = base64.b64decode(padded).decode("utf-8", "replace")
+            if "://" in decoded:
+                rows.append(decoded.strip())
+                continue
+        except Exception:
+            pass
+        rows.append(raw)
+    return "\n".join(rows) + "\n"
+
+
 def write_source_output(source: str, latest: dict, all_subs: list, label: str):
     """为单个来源写入全部输出文件"""
     outdir = f"{OUTPUT_DIR}/{source}"
@@ -655,6 +697,24 @@ def write_source_output(source: str, latest: dict, all_subs: list, label: str):
         with open(f"{outdir}/config.yaml", "w") as f:
             f.write(config)
     # 否则 (clash_url 为 None, 仅 v2ray/ss 等): 跳过 config.yaml
+
+    # latest_nodes.txt — 节点内容快照 (clash 源提取 proxies 块, v2ray 源解码链接)
+    try:
+        nodes_url = latest.get("clash_url")
+        if nodes_url:
+            raw = download_subscription_content(nodes_url)
+            nodes_text = extract_clash_proxies(raw.decode("utf-8", "replace"))
+        elif latest.get("urls", {}).get("v2ray"):
+            raw = download_subscription_content(latest["urls"]["v2ray"])
+            nodes_text = decode_v2ray_links(raw)
+        else:
+            nodes_text = ""
+        if nodes_text.strip():
+            with open(f"{outdir}/latest_nodes.txt", "w") as f:
+                f.write(nodes_text)
+    except Exception as e:
+        print(f"❌ [{source}] latest_nodes.txt: {e}", file=sys.stderr)
+
     return outdir
 
 
