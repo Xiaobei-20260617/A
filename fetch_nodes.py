@@ -17,6 +17,14 @@
  11. ovmvo      (github.com/ovmvo/FreeSub)
  12. v2raynnodes_clash (github.com/v2raynnodes/v2rayfree, clashmeta)
  13. v2raynnodes_v2ray (github.com/v2raynnodes/v2rayfree, mihomo)
+ 14. ts_sf_fly  (github.com/ts-sf/fly, Clash)
+ 15. free18     (github.com/free18/v2ray, Clash)
+ 16. automerge  (github.com/chengaopan/AutoMergePublicNodes, Clash)
+ 17. nomorewalls (github.com/peasoft/NoMoreWalls, v2ray/ss)
+ 18. pawdroid   (github.com/Pawdroid/Free-servers, v2ray)
+ 19. barabama_* (github.com/Barabama/FreeNodes, v2ray, 7子站)
+ 20. flikify    (github.com/Flikify/Free-Node, Clash)
+ 21. shaoyouvip (github.com/shaoyouvip/free, Clash)
 
 输出: output/<source>/ 目录下独立文件
 """
@@ -1042,5 +1050,268 @@ def main():
     print(f"💾 全部结果已写入 {OUTPUT_DIR}/")
 
 
+
+    # ── ts-sf/fly (clash 完整配置) ──
+    print("📡 [ts_sf_fly] 获取 ts-sf/fly...", file=sys.stderr)
+    try:
+        ts_subs = ts_sf_fly_fetch()
+        if ts_subs:
+            ts_latest = ts_subs[-1]
+            ts_dir = write_source_output("ts_sf_fly", ts_latest, ts_subs, "ts-sf/fly")
+            print(f"✅ [ts_sf_fly] 完整 Clash 配置已保存")
+            print(f"   clash: {ts_latest['urls']['clash']}")
+            print(f"   → {ts_dir}/")
+        else:
+            print("⚠️ [ts_sf_fly] 未获取到配置")
+    except Exception as e:
+        print(f"❌ [ts_sf_fly] {e}", file=sys.stderr)
+
+    print()
+
+    # ── free18/v2ray (clash 完整配置) ──
+    print("📡 [free18] 获取 free18/v2ray...", file=sys.stderr)
+    try:
+        f18_subs = free18_fetch()
+        if f18_subs:
+            f18_latest = f18_subs[-1]
+            f18_dir = write_source_output("free18", f18_latest, f18_subs, "free18/v2ray")
+            print(f"✅ [free18] 完整 Clash 配置已保存")
+            print(f"   clash: {f18_latest['urls']['clash']}")
+            print(f"   → {f18_dir}/")
+        else:
+            print("⚠️ [free18] 未获取到配置")
+    except Exception as e:
+        print(f"❌ [free18] {e}", file=sys.stderr)
+
+    print()
+
+    # ── chengaopan/AutoMergePublicNodes (clash 完整配置) ──
+    print("📡 [automerge] 获取 chengaopan/AutoMergePublicNodes...", file=sys.stderr)
+    try:
+        am_subs = automerge_fetch()
+        if am_subs:
+            am_latest = am_subs[-1]
+            am_dir = write_source_output("automerge", am_latest, am_subs, "AutoMergePublicNodes")
+            print(f"✅ [automerge] 完整 Clash 配置已保存")
+            print(f"   clash: {am_latest['urls']['clash']}")
+            print(f"   → {am_dir}/")
+        else:
+            print("⚠️ [automerge] 未获取到配置")
+    except Exception as e:
+        print(f"❌ [automerge] {e}", file=sys.stderr)
+
+    print()
+
+    # ── peasoft/NoMoreWalls (v2ray 链接) ──
+    print("📡 [nomorewalls] 获取 peasoft/NoMoreWalls...", file=sys.stderr)
+    try:
+        nmw_subs = nomorewalls_fetch()
+        if nmw_subs:
+            nmw_latest = nmw_subs[-1]
+            nmw_dir = write_source_output("nomorewalls", nmw_latest, nmw_subs, "NoMoreWalls")
+            print(f"✅ [nomorewalls] v2ray 链接已保存")
+            print(f"   v2ray: {nmw_latest['urls']['v2ray']}")
+            print(f"   → {nmw_dir}/")
+        else:
+            print("⚠️ [nomorewalls] 未获取到链接")
+    except Exception as e:
+        print(f"❌ [nomorewalls] {e}", file=sys.stderr)
+
+    print()
+
+    # ── Pawdroid/Free-servers (v2ray 链接) ──
+    print("📡 [pawdroid] 获取 Pawdroid/Free-servers...", file=sys.stderr)
+    try:
+        pd_subs = pawdroid_fetch()
+        if pd_subs:
+            pd_latest = pd_subs[-1]
+            pd_dir = write_source_output("pawdroid", pd_latest, pd_subs, "Pawdroid/Free-servers")
+            print(f"✅ [pawdroid] v2ray 链接已保存")
+            print(f"   v2ray: {pd_latest['urls']['v2ray']}")
+            print(f"   → {pd_dir}/")
+        else:
+            print("⚠️ [pawdroid] 未获取到链接")
+    except Exception as e:
+        print(f"❌ [pawdroid] {e}", file=sys.stderr)
+
+    print()
+
+    # ── Barabama/FreeNodes (多个子站, v2ray 链接) ──
+    print("📡 [barabama] 获取 Barabama/FreeNodes (子站集合)...", file=sys.stderr)
+    try:
+        for b_sub in barabama_fetch():
+            b_name = b_sub['extra'].split('→')[-1].strip()
+            b_dir = write_source_output(f"barabama_{b_name}", b_sub, [b_sub], f"Barabama/{b_name}")
+            print(f"✅ [barabama_{b_name}] v2ray 链接已保存 → {b_dir}/")
+    except Exception as e:
+        print(f"❌ [barabama] {e}", file=sys.stderr)
+
+    print()
+
+    # ── Flikify/Free-Node (clash 完整配置) ──
+    print("📡 [flikify] 获取 Flikify/Free-Node...", file=sys.stderr)
+    try:
+        fl_subs = flikify_fetch()
+        if fl_subs:
+            fl_latest = fl_subs[-1]
+            fl_dir = write_source_output("flikify", fl_latest, fl_subs, "Flikify/Free-Node")
+            print(f"✅ [flikify] 完整 Clash 配置已保存")
+            print(f"   clash: {fl_latest['urls']['clash']}")
+            print(f"   → {fl_dir}/")
+        else:
+            print("⚠️ [flikify] 未获取到配置")
+    except Exception as e:
+        print(f"❌ [flikify] {e}", file=sys.stderr)
+
+    print()
+
+    # ── shaoyouvip/free (clash 完整配置) ──
+    print("📡 [shaoyouvip] 获取 shaoyouvip/free...", file=sys.stderr)
+    try:
+        sy_subs = shaoyouvip_fetch()
+        if sy_subs:
+            sy_latest = sy_subs[-1]
+            sy_dir = write_source_output("shaoyouvip", sy_latest, sy_subs, "shaoyouvip/free")
+            print(f"✅ [shaoyouvip] 完整 Clash 配置已保存")
+            print(f"   clash: {sy_latest['urls']['clash']}")
+            print(f"   → {sy_dir}/")
+        else:
+            print("⚠️ [shaoyouvip] 未获取到配置")
+    except Exception as e:
+        print(f"❌ [shaoyouvip] {e}", file=sys.stderr)
+
+    print()
+
 if __name__ == "__main__":
     main()
+
+
+# ── 来源 14: ts-sf/fly (Clash 格式, 每小时更新) ──
+TS_SF_FLY_RAW = "https://raw.githubusercontent.com/ts-sf/fly/main/clash"
+
+def ts_sf_fly_fetch():
+    """来源 14: ts-sf/fly 的 clash — 完整 Clash 配置 (即取即用)。"""
+    return [{
+        "date": "latest",
+        "sort_key": "99999992",
+        "raw_clash": True,
+        "clash_url": TS_SF_FLY_RAW,
+        "urls": {"clash": TS_SF_FLY_RAW},
+        "extra": "ts-sf/fly 完整 Clash 配置 (每小时更新)",
+    }]
+
+
+# ── 来源 15: free18/v2ray (Clash yaml 格式, 每日更新) ──
+FREE18_RAW = "https://raw.githubusercontent.com/free18/v2ray/main/c.yaml"
+
+def free18_fetch():
+    """来源 15: free18/v2ray 的 c.yaml — 完整 Clash 配置 (即取即用)。"""
+    return [{
+        "date": "latest",
+        "sort_key": "99999991",
+        "raw_clash": True,
+        "clash_url": FREE18_RAW,
+        "urls": {"clash": FREE18_RAW},
+        "extra": "free18/v2ray 完整 Clash 配置 (含 VLESS Reality)",
+    }]
+
+
+# ── 来源 16: chengaopan/AutoMergePublicNodes (Clash yaml, 协议多样) ──
+AUTOMERGE_RAW = "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.meta.yml"
+
+def automerge_fetch():
+    """来源 16: chengaopan/AutoMergePublicNodes 的 list.meta.yml — 完整 Clash 配置。"""
+    return [{
+        "date": "latest",
+        "sort_key": "99999990",
+        "raw_clash": True,
+        "clash_url": AUTOMERGE_RAW,
+        "urls": {"clash": AUTOMERGE_RAW},
+        "extra": "AutoMergePublicNodes 完整 Clash 配置 (含 Hysteria2/VMess/Trojan)",
+    }]
+
+
+# ── 来源 17: peasoft/NoMoreWalls (base64 编码链接集合) ──
+NOMOREWALLS_RAW = "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt"
+
+def nomorewalls_fetch():
+    """来源 17: peasoft/NoMoreWalls 的 list.txt — base64 编码的 ss/vmess/vless/trojan/hysteria2 链接。"""
+    return [{
+        "date": "latest",
+        "sort_key": "99999989",
+        "clash_url": None,
+        "urls": {"v2ray": NOMOREWALLS_RAW},
+        "extra": "NoMoreWalls 超大规模节点集合",
+    }]
+
+
+# ── 来源 18: Pawdroid/Free-servers (base64 编码链接) ──
+PAWDROID_RAW = "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
+
+def pawdroid_fetch():
+    """来源 18: Pawdroid/Free-servers 的 sub — base64 编码的 vless/trojan 链接。"""
+    return [{
+        "date": "latest",
+        "sort_key": "99999988",
+        "clash_url": None,
+        "urls": {"v2ray": PAWDROID_RAW},
+        "extra": "Pawdroid/Free-servers 精炼节点",
+    }]
+
+
+# ── 来源 19: Barabama/FreeNodes (聚合多站点的 base64 链接, 按子站拆分) ──
+BARABAMA_BASE = "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes"
+
+BARABAMA_SUBS = [
+    ("yudou66", "yudou66", "玉豆免费节点"),
+    ("blues", "blues", "Blues 免费节点"),
+    ("nodev2ray", "nodev2ray", "nodev2ray.com"),
+    ("ndnode", "ndnode", "naidounode.com"),
+    ("wenode", "wenode", "wenode.cc"),
+    ("v2rayshare", "v2rayshare", "v2rayshare.com"),
+    ("nodefree", "nodefree", "nodefree.org"),
+]
+
+def barabama_fetch():
+    """来源 19: Barabama/FreeNodes 聚合的多个子站 — 每个子站 base64 链接。"""
+    subs = []
+    for idx, (name, sort_key_suffix, desc) in enumerate(BARABAMA_SUBS):
+        url = f"{BARABAMA_BASE}/{name}.txt"
+        subs.append({
+            "date": "latest",
+            "sort_key": f"9999998{idx}",
+            "clash_url": None,
+            "urls": {"v2ray": url},
+            "extra": f"Barabama/FreeNodes → {desc}",
+        })
+    return subs
+
+
+# ── 来源 20: Flikify/Free-Node (Clash yaml, 每小时更新, 质量波动) ──
+FLIKIFY_GETNODE_RAW = "https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml"
+
+def flikify_fetch():
+    """来源 20: Flikify/Free-Node 的 getNode/main/clash.yaml — 完整 Clash 配置。"""
+    return [{
+        "date": "latest",
+        "sort_key": "99999979",
+        "raw_clash": True,
+        "clash_url": FLIKIFY_GETNODE_RAW,
+        "urls": {"clash": FLIKIFY_GETNODE_RAW},
+        "extra": "Flikify/Free-Node (a2470982985/getNode) 完整 Clash 配置",
+    }]
+
+
+# ── 来源 21: shaoyouvip/free (Clash yaml, 需验证) ──
+SHAOYOUVIP_RAW = "https://raw.githubusercontent.com/shaoyouvip/free/refs/heads/main/all.yaml"
+
+def shaoyouvip_fetch():
+    """来源 21: shaoyouvip/free 的 all.yaml — 完整 Clash 配置 (即取即用)。"""
+    return [{
+        "date": "latest",
+        "sort_key": "99999978",
+        "raw_clash": True,
+        "clash_url": SHAOYOUVIP_RAW,
+        "urls": {"clash": SHAOYOUVIP_RAW},
+        "extra": "shaoyouvip/free 完整 Clash 配置",
+    }]
