@@ -9,6 +9,9 @@
   3. osbooting (freenode.osbooting.com)
   4. mlfenx    (www.mlfenx.com/freenode)
   5. clashfree (github.com/free-nodes/clashfree)
+  6. bestclash (github.com/PuddinCat/BestClash, 完整 Clash 配置)
+  7. au1rxx    (github.com/Au1rxx/free-vpn-subscriptions, 完整 Clash 配置)
+  8. v2rayfree (github.com/free-nodes/v2rayfree, v2ray/ss 链接)
 
 输出: output/<source>/ 目录下独立文件
 """
@@ -324,6 +327,14 @@ def mlfenx_fetch():
 CLASHFREE_API = "https://api.github.com/repos/free-nodes/clashfree/git/trees/main"
 CLASHFREE_RAW = "https://raw.githubusercontent.com/free-nodes/clashfree/main/"
 
+# ── 来源 6/7: 完整 Clash 配置型 (即取即用, 无需 proxy-provider 包裹) ──
+BESTCLASH_RAW = "https://raw.githubusercontent.com/PuddinCat/BestClash/main/"
+AU1RXX_RAW   = "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/"
+
+# ── 来源 8: v2rayfree (github.com/free-nodes/v2rayfree) ──
+V2RAYFREE_API = "https://api.github.com/repos/free-nodes/v2rayfree/git/trees/main"
+V2RAYFREE_RAW = "https://raw.githubusercontent.com/free-nodes/v2rayfree/main/"
+
 
 def clashfree_fetch():
     """从 GitHub 仓库获取最新 clash 文件"""
@@ -354,6 +365,72 @@ def clashfree_fetch():
             "extra": "",
         })
 
+    return subs
+
+
+def bestclash_fetch():
+    """来源 6: PuddinCat/BestClash — 每30分钟更新的完整 Clash 配置。
+
+    仓库根目录 proxies.yaml 即为即用型 Clash Meta 配置 (proxies+groups+rules)。
+    标记 raw_clash=True, write_source_output 直接保存原始内容而不包 proxy-provider。
+    """
+    url = BESTCLASH_RAW + "proxies.yaml"
+    return [{
+        "date": "latest",
+        "sort_key": "99999999",          # 永为最新
+        "raw_clash": True,
+        "clash_url": url,
+        "urls": {"clash": url},
+        "extra": "BestClash 完整 Clash 配置 (PuddinCat/BestClash)",
+    }]
+
+
+def au1rxx_fetch():
+    """来源 7: Au1rxx/free-vpn-subscriptions — 每小时刷新的完整 Clash 配置。
+
+    output/clash.yaml 为即用型 Clash Meta 配置 (proxies+groups+rules)。
+    标记 raw_clash=True, 直接保存原始内容。
+    """
+    url = AU1RXX_RAW + "output/clash.yaml"
+    return [{
+        "date": "latest",
+        "sort_key": "99999998",
+        "raw_clash": True,
+        "clash_url": url,
+        "urls": {"clash": url},
+        "extra": "Au1rxx 完整 Clash 配置 (Au1rxx/free-vpn-subscriptions)",
+    }]
+
+
+def v2rayfree_fetch():
+    """来源 8: free-nodes/v2rayfree — 每日多更的 v2ray/ss 链接 (base64 行)。
+
+    仓库文件形如 vYYYYMMDD[1-2], 内容为 base64 编码的 ss:///vmess:// 等链接。
+    无原生 clash 文件, 故 clash_url 留空, 仅输出 latest_v2ray.txt (原始内容)。
+    """
+    data = fetch_page(V2RAYFREE_API)
+    tree = json.loads(data).get("tree", [])
+    files = []
+    for item in tree:
+        m = re.match(r"v(\d{8})(\d?)\.?", item.get("path", ""))
+        if m:
+            date_full = m.group(1)
+            suffix = m.group(2) or "1"
+            files.append((date_full + suffix, date_full, suffix))
+    if not files:
+        return []
+    files.sort()
+    subs = []
+    for sort_key, date_full, suffix in files:
+        url = f"{V2RAYFREE_RAW}v{date_full}{suffix}"
+        mmdd = date_full[4:]
+        subs.append({
+            "date": mmdd,
+            "sort_key": sort_key,
+            "clash_url": None,           # 无 clash 格式, 跳过 config.yaml
+            "urls": {"v2ray": url},
+            "extra": f"v2rayfree 链接 ({date_full}{suffix})",
+        })
     return subs
 
 
@@ -567,10 +644,17 @@ def write_source_output(source: str, latest: dict, all_subs: list, label: str):
         json.dump(merged, f, ensure_ascii=False, indent=2)
 
     # config.yaml
-    config = generate_config(latest["clash_url"], source)
-    with open(f"{outdir}/config.yaml", "w") as f:
-        f.write(config)
-
+    clash_url = latest.get("clash_url")
+    if latest.get("raw_clash") and clash_url:
+        # 完整 Clash 配置型源: 直接保存原始内容 (即取即用)
+        raw = download_subscription_content(clash_url).decode("utf-8", "replace")
+        with open(f"{outdir}/config.yaml", "w") as f:
+            f.write(raw)
+    elif clash_url:
+        config = generate_config(clash_url, source)
+        with open(f"{outdir}/config.yaml", "w") as f:
+            f.write(config)
+    # 否则 (clash_url 为 None, 仅 v2ray/ss 等): 跳过 config.yaml
     return outdir
 
 
@@ -677,6 +761,59 @@ def main():
             print("⚠️ [clashfree] 未找到订阅")
     except Exception as e:
         print(f"❌ [clashfree] {e}", file=sys.stderr)
+
+    print()
+
+    # ── bestclash (完整 Clash 配置) ──
+    print("📡 [bestclash] 获取 PuddinCat/BestClash...", file=sys.stderr)
+    try:
+        bc_subs = bestclash_fetch()
+        if bc_subs:
+            bc_latest = bc_subs[-1]
+            bc_dir = write_source_output("bestclash", bc_latest, bc_subs, "bestclash (PuddinCat/BestClash)")
+            print(f"✅ [bestclash] 完整 Clash 配置已保存")
+            print(f"   clash: {bc_latest['urls']['clash']}")
+            print(f"   → {bc_dir}/")
+        else:
+            print("⚠️ [bestclash] 未获取到配置")
+    except Exception as e:
+        print(f"❌ [bestclash] {e}", file=sys.stderr)
+
+    print()
+
+    # ── au1rxx (完整 Clash 配置) ──
+    print("📡 [au1rxx] 获取 Au1rxx/free-vpn-subscriptions...", file=sys.stderr)
+    try:
+        ax_subs = au1rxx_fetch()
+        if ax_subs:
+            ax_latest = ax_subs[-1]
+            ax_dir = write_source_output("au1rxx", ax_latest, ax_subs, "au1rxx (free-vpn-subscriptions)")
+            print(f"✅ [au1rxx] 完整 Clash 配置已保存")
+            print(f"   clash: {ax_latest['urls']['clash']}")
+            print(f"   → {ax_dir}/")
+        else:
+            print("⚠️ [au1rxx] 未获取到配置")
+    except Exception as e:
+        print(f"❌ [au1rxx] {e}", file=sys.stderr)
+
+    print()
+
+    # ── v2rayfree (v2ray/ss 链接) ──
+    print("📡 [v2rayfree] 获取 free-nodes/v2rayfree...", file=sys.stderr)
+    try:
+        vf_subs = v2rayfree_fetch()
+        if vf_subs:
+            vf_latest = vf_subs[-1]
+            vf_dir = write_source_output("v2rayfree", vf_latest, vf_subs, "v2rayfree (free-nodes/v2rayfree)")
+            print(f"✅ [v2rayfree] {len(vf_subs)} 份链接, 最新: {vf_latest['date']}")
+            print(f"   v2ray: {vf_latest['urls']['v2ray']}")
+            print(f"   → {vf_dir}/")
+        else:
+            print("⚠️ [v2rayfree] 未找到链接")
+    except Exception as e:
+        print(f"❌ [v2rayfree] {e}", file=sys.stderr)
+
+    print()
 
     print()
     print(f"💾 全部结果已写入 {OUTPUT_DIR}/")
