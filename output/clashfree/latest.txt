@@ -1,2 +1,2 @@
-# clashfree (free-nodes/clashfree) 最新订阅 (0714)
-https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20260714.yml
+# clashfree (free-nodes/clashfree) 最新订阅 (0715)
+https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20260715.yml

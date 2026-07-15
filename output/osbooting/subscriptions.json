@@ -259,5 +259,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260714ERSH.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260714RLPS.txt"
     }
+  },
+  {
+    "date": "0715",
+    "sort_key": "20260715",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260715KNOR.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260715EJXK.txt"
+    }
   }
 ]

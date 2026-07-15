@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (0714)
-https://freenode.osbooting.com/nodefiles/20260714ERSH.yaml
-https://freenode.osbooting.com/nodefiles/20260714RLPS.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (0715)
+https://freenode.osbooting.com/nodefiles/20260715KNOR.yaml
+https://freenode.osbooting.com/nodefiles/20260715EJXK.txt
