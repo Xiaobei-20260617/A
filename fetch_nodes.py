@@ -337,6 +337,10 @@ RUK1NG_V2RAY_RAW = "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2r
 # ── 来源 11: ovmvo/FreeSub (sub/permanent/mihomo.yaml 完整配置) ──
 OVMVO_RAW = "https://raw.githubusercontent.com/ovmvo/FreeSub/main/sub/permanent/mihomo.yaml"
 
+# ── 来源 12/13: v2raynnodes/v2rayfree (聚合多站点的完整配置) ──
+V2RAYN_CLASH_RAW  = "https://raw.githubusercontent.com/v2raynnodes/v2rayfree/main/nodes/clashmeta.yaml"
+V2RAYN_V2RAY_RAW = "https://raw.githubusercontent.com/v2raynnodes/v2rayfree/main/nodes/nodev2ray.yaml"
+
 # ── 来源 8: v2rayfree (github.com/free-nodes/v2rayfree) ──
 V2RAYFREE_API = "https://api.github.com/repos/free-nodes/v2rayfree/git/trees/main"
 V2RAYFREE_RAW = "https://raw.githubusercontent.com/free-nodes/v2rayfree/main/"
@@ -640,6 +644,30 @@ def ovmvo_fetch():
         "clash_url": OVMVO_RAW,
         "urls": {"clash": OVMVO_RAW},
         "extra": "ovmvo/FreeSub 完整 Clash 配置",
+    }]
+
+
+def v2raynnodes_clash_fetch():
+    """来源 12: v2raynnodes/v2rayfree 的 nodes/clashmeta.yaml — 完整 Clash 配置。"""
+    return [{
+        "date": "latest",
+        "sort_key": "99999994",
+        "raw_clash": True,
+        "clash_url": V2RAYN_CLASH_RAW,
+        "urls": {"clash": V2RAYN_CLASH_RAW},
+        "extra": "v2raynnodes/v2rayfree 完整 Clash 配置",
+    }]
+
+
+def v2raynnodes_v2ray_fetch():
+    """来源 13: v2raynnodes/v2rayfree 的 nodes/nodev2ray.yaml — 完整 Clash 配置 (yam 格式, 非 base64)。"""
+    return [{
+        "date": "latest",
+        "sort_key": "99999993",
+        "raw_clash": True,
+        "clash_url": V2RAYN_V2RAY_RAW,
+        "urls": {"clash": V2RAYN_V2RAY_RAW},
+        "extra": "v2raynnodes/v2rayfree 完整 Clash 配置",
     }]
 
 
@@ -966,6 +994,42 @@ def main():
             print("⚠️ [ovmvo] 未获取到配置")
     except Exception as e:
         print(f"❌ [ovmvo] {e}", file=sys.stderr)
+
+    print()
+
+    print()
+
+    # ── v2raynnodes_clash (完整 Clash 配置) ──
+    print("📡 [v2raynnodes] 获取 v2raynnodes/v2rayfree (clash)...", file=sys.stderr)
+    try:
+        vn_subs = v2raynnodes_clash_fetch()
+        if vn_subs:
+            vn_latest = vn_subs[-1]
+            vn_dir = write_source_output("v2raynnodes_clash", vn_latest, vn_subs, "v2raynnodes-clash (v2raynnodes/v2rayfree)")
+            print(f"✅ [v2raynnodes] 完整 Clash 配置已保存")
+            print(f"   clash: {vn_latest['urls']['clash']}")
+            print(f"   → {vn_dir}/")
+        else:
+            print("⚠️ [v2raynnodes] 未获取到配置")
+    except Exception as e:
+        print(f"❌ [v2raynnodes] {e}", file=sys.stderr)
+
+    print()
+
+    # ── v2raynnodes_v2ray (完整 Clash 配置) ──
+    print("📡 [v2raynnodes_v2ray] 获取 v2raynnodes/v2rayfree (clash)...", file=sys.stderr)
+    try:
+        vv_subs = v2raynnodes_v2ray_fetch()
+        if vv_subs:
+            vv_latest = vv_subs[-1]
+            vv_dir = write_source_output("v2raynnodes_v2ray", vv_latest, vv_subs, "v2raynnodes-clash (v2raynnodes/v2rayfree)")
+            print(f"✅ [v2raynnodes_v2ray] 完整 Clash 配置已保存")
+            print(f"   clash: {vv_latest['urls']['clash']}")
+            print(f"   → {vv_dir}/")
+        else:
+            print("⚠️ [v2raynnodes_v2ray] 未获取到节点")
+    except Exception as e:
+        print(f"❌ [v2raynnodes_v2ray] {e}", file=sys.stderr)
 
     print()
 
