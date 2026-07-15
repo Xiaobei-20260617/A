@@ -37,6 +37,7 @@ import html as htmlmod
 from datetime import datetime, timezone, timedelta
 from urllib.request import Request, urlopen
 from urllib.error import URLError, HTTPError
+from urllib.parse import quote, unquote
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -726,12 +727,262 @@ def decode_v2ray_links(content: bytes) -> str:
     return "\n".join(rows) + "\n"
 
 
+
+# ──────────────────────────────────────────────
+# Clash YAML ↔ V2Ray/SS/Trojan URI 相互转化
+# ──────────────────────────────────────────────
+
+def _parse_clash_node_to_dict(line: str) -> dict:
+    """解析单行 Clash 节点 (- {name: ...} 或正常缩进形式) 为 dict。"""
+    line = line.strip()
+    if not line.startswith("-"):
+        return {}
+    inner = line[1:].strip()
+    if inner.startswith("{"):
+        try:
+            import yaml
+            return yaml.safe_load(inner) or {}
+        except Exception:
+            return {}
+    # 多行形式 - name: xxx (后续行在调用处拼装)
+    return {}
+
+def clash_node_to_uri(node: dict) -> str:
+    """将单个 Clash 节点 dict 转化为 V2Ray/SS/Trojan URI。"""
+    import base64
+    ntype = (node.get("type") or "").lower()
+    name = node.get("name", "node")
+    server = node.get("server", "")
+    port = node.get("port", 0)
+    if ntype == "ss" or ntype == "shadowsocks":
+        method = node.get("cipher", "aes-256-gcm")
+        password = node.get("password", "")
+        userinfo = f"{method}:{password}"
+        raw = base64.b64encode(userinfo.encode()).decode()
+        uri = f"ss://{raw}@{server}:{port}#"
+    elif ntype == "trojan":
+        password = node.get("password", "")
+        query = _build_query(node, ["sni", "alpn", "allowInsecure", "skip-cert-verify"])
+        uri = f"trojan://{password}@{server}:{port}?{query}#"
+    elif ntype == "vmess":
+        cfg = {
+            "v": "2",
+            "ps": name,
+            "add": server,
+            "port": port,
+            "id": node.get("uuid", ""),
+            "aid": node.get("alterId", 0),
+            "net": node.get("network", "tcp"),
+            "type": "none",
+            "host": "",
+            "path": "",
+            "tls": "tls" if node.get("tls") else "",
+            "sni": node.get("servername", ""),
+        }
+        if node.get("network") == "ws":
+            ws = node.get("ws-opts", {})
+            cfg["host"] = ws.get("headers", {}).get("Host", "")
+            cfg["path"] = ws.get("path", "")
+        raw = base64.b64encode(json.dumps(cfg, ensure_ascii=False).encode()).decode()
+        uri = f"vmess://{raw}#"
+    elif ntype == "vless":
+        uuid = node.get("uuid", "")
+        flow = node.get("flow", "")
+        query = f"encryption=none&security={'tls' if node.get('tls') else 'none'}"
+        if flow:
+            query += f"&flow={flow}"
+        net = node.get("network", "tcp")
+        if net:
+            query += f"&type={net}"
+        if net == "ws":
+            ws = node.get("ws-opts", {})
+            query += f"&path={ws.get('path', '')}"
+            query += f"&host={ws.get('headers', {}).get('Host', '')}"
+        if node.get("servername"):
+            query += f"&sni={node.get('servername')}"
+        if node.get("skip-cert-verify"):
+            query += "&allowInsecure=1"
+        uri = f"vless://{uuid}@{server}:{port}?{query}#"
+    else:
+        return ""  # 不支持的类型 (hysteria2 anytls 等暂不转)
+    return uri + quote(name, safe="")
+
+def _build_query(node: dict, keys: list) -> str:
+    params = []
+    for k in keys:
+        v = node.get(k)
+        if v is None:
+            continue
+        if isinstance(v, bool):
+            v = "1" if v else "0"
+        params.append(f"{k}={v}")
+    return "&".join(params)
+
+def clash_block_to_uris(block: str) -> list:
+    """将 Clash proxies 块转化为 URI 列表 (仅支持 ss/trojan/vmess/vless)。"""
+    import yaml
+    try:
+        data = yaml.safe_load(block)
+        proxies = data.get("proxies", []) if isinstance(data, dict) else []
+    except Exception:
+        return []
+    uris = []
+    for node in proxies:
+        if not isinstance(node, dict):
+            continue
+        uri = clash_node_to_uri(node)
+        if uri:
+            uris.append(uri)
+    return uris
+
+def uri_to_clash_node(uri: str) -> dict:
+    """将 V2Ray/SS/Trojan URI 转化为 Clash 节点 dict。"""
+    import base64
+    uri = uri.strip()
+    if "://" not in uri:
+        return {}
+    scheme, rest = uri.split("://", 1)
+    scheme = scheme.lower()
+    # 去掉 fragment (#name)
+    if "#" in rest:
+        body, frag = rest.rsplit("#", 1)
+        name = unquote(frag)
+    else:
+        body, name = rest, ""
+    if "@" in body:
+        userinfo, serverpart = body.rsplit("@", 1)
+    else:
+        userinfo, serverpart = "", body
+    # 去掉 query string (?key=val...) 后再析出 server:port
+    clean = serverpart.split("?")[0]
+    if ":" in clean:
+        server, port_str = clean.rsplit(":", 1)
+        try:
+            port = int(port_str)
+        except ValueError:
+            port = 0
+        server = server.strip("[]")
+    else:
+        server, port = clean, 0
+    if "?" in userinfo:
+        userinfo, _ = userinfo.split("?", 1)
+    if scheme == "ss":
+        # userinfo 可能是 base64(method:pass)
+        try:
+            decoded = base64.b64decode(userinfo + "=" * (-len(userinfo) % 4)).decode()
+            method, password = decoded.split(":", 1)
+        except Exception:
+            method, password = "aes-256-gcm", userinfo
+        return {"name": name or server, "type": "ss", "server": server,
+                "port": port, "cipher": method, "password": password, "udp": True}
+    if scheme == "trojan":
+        q = _parse_query(body)
+        node = {"name": name or server, "type": "trojan", "server": server,
+                "port": port, "password": userinfo, "udp": True}
+        _apply_query(node, q)
+        return node
+    if scheme == "vmess":
+        try:
+            cfg = json.loads(base64.b64decode(userinfo + "=" * (-len(userinfo) % 4)).decode())
+        except Exception:
+            return {}
+        node = {"name": cfg.get("ps", name or server), "type": "vmess",
+                "server": cfg.get("add", server), "port": int(cfg.get("port", port)),
+                "uuid": cfg.get("id", ""), "alterId": cfg.get("aid", 0),
+                "cipher": "auto", "udp": True}
+        net = cfg.get("net", "tcp")
+        if net == "ws":
+            node["network"] = "ws"
+            node["ws-opts"] = {"path": cfg.get("path", ""),
+                               "headers": {"Host": cfg.get("host", "")}}
+        if cfg.get("tls"):
+            node["tls"] = True
+        if cfg.get("sni"):
+            node["servername"] = cfg.get("sni")
+        return node
+    if scheme == "vless":
+        q = _parse_query(body)
+        node = {"name": name or server, "type": "vless", "server": server,
+                "port": port, "uuid": userinfo, "udp": True}
+        if q.get("flow"):
+            node["flow"] = q["flow"]
+        if q.get("type") and q["type"] != "tcp":
+            node["network"] = q["type"]
+        if q.get("type") == "ws":
+            node["ws-opts"] = {"path": q.get("path", ""),
+                               "headers": {"Host": q.get("host", "")}}
+        if q.get("security") == "tls" or q.get("sni"):
+            node["tls"] = True
+        if q.get("sni"):
+            node["servername"] = q["sni"]
+        if q.get("allowInsecure") == "1":
+            node["skip-cert-verify"] = True
+        return node
+    return {}
+
+def _parse_query(body: str) -> dict:
+    if "?" not in body:
+        return {}
+    q = body.rsplit("?", 1)[1]
+    out = {}
+    for pair in q.split("&"):
+        if "=" in pair:
+            k, v = pair.split("=", 1)
+            out[k] = unquote(v)
+    return out
+
+def _apply_query(node: dict, q: dict):
+    if q.get("sni"):
+        node["servername"] = q["sni"]
+    if q.get("alpn"):
+        node["alpn"] = q["alpn"].split(",")
+    if q.get("allowInsecure") == "1" or q.get("allowInsecure") == "true":
+        node["skip-cert-verify"] = True
+    if q.get("peer"):
+        node["servername"] = q["peer"]
+
+def uri_block_to_clash(uris: list) -> str:
+    """将 URI 列表转化为 Clash proxies 块 (YAML)。"""
+    nodes = []
+    for uri in uris:
+        node = uri_to_clash_node(uri)
+        if node:
+            nodes.append(node)
+    if not nodes:
+        return ""
+    return yaml.safe_dump({"proxies": nodes}, allow_unicode=True, sort_keys=False)
+
+# ──────────────────────────────────────────────
+# 跨源合并 & 健康度监控
+# ──────────────────────────────────────────────
+
+# 所有来源的配置 (name → {clash_url, decode_v2ray_url})
+# 由各 fetch 函数的返回值自动填充
+ALL_SOURCES = {}  # name → {"clash_url": str|None, "decode_v2ray_url": str|None, "label": str}
+
+def _register_source(name: str, clash_url=None, decode_v2ray_url=None, label=""):
+    """注册一个来源，供后续合并和健康监控使用"""
+    ALL_SOURCES[name] = {
+        "clash_url": clash_url,
+        "decode_v2ray_url": decode_v2ray_url,
+        "label": label,
+    }
+
 def write_source_output(source: str, latest: dict, all_subs: list, label: str):
+
     """为单个来源写入全部输出文件"""
     outdir = f"{OUTPUT_DIR}/{source}"
     os.makedirs(outdir, exist_ok=True)
 
     urls = latest["urls"]
+
+    # 注册来源到全局表 (供合并和健康监控)
+    _register_source(
+        source,
+        clash_url=latest.get("clash_url"),
+        decode_v2ray_url=latest.get("urls", {}).get("v2ray"),
+        label=label,
+    )
 
     # latest.txt
     with open(f"{outdir}/latest.txt", "w") as f:
@@ -798,6 +1049,293 @@ def write_source_output(source: str, latest: dict, all_subs: list, label: str):
         print(f"❌ [{source}] latest_nodes.txt: {e}", file=sys.stderr)
 
     return outdir
+
+
+
+# ──────────────────────────────────────────────
+# 功能 1: 跨源合并去重输出
+# ──────────────────────────────────────────────
+
+def _merge_clash_proxies(proxy_blocks: list) -> str:
+    """合并所有来源的 proxies 块，按节点名称去重，返回 YAML proxies: 段文本。"""
+    seen = {}
+    order = []
+    for block in proxy_blocks:
+        for line in block.splitlines():
+            line = line.rstrip()
+            # 匹配 "- name: xxx" 或 "- {name: xxx" 形式
+            m = re.match(r'^\s*-\s+(?:\{\s*)?name:\s*"?([^"\n]+?)"?(?:\s|,|$)', line)
+
+            if m:
+                name = m.group(1).strip()
+                if name not in seen:
+                    seen[name] = True
+                    order.append(name)
+    # 重新解析每个 block 找到对应节点完整定义
+    merged = {}
+    for block in proxy_blocks:
+        lines = block.splitlines()
+        i = 0
+        while i < len(lines):
+            line = lines[i]
+            m = re.match(r'^\s*-\s+(?:\{\s*)?name:\s*"?([^"\n]+?)"?(?:\s|,|$)', line)
+
+            if m:
+                name = m.group(1).strip()
+                if name in seen and name not in merged:
+                    # 收集从本行到下一个同级 "-" 或顶级 key 的所有行
+                    node_lines = []
+                    indent = len(line) - len(line.lstrip())
+                    j = i
+                    while j < len(lines):
+                        cur = lines[j]
+                        if j > i:
+                            cur_indent = len(cur) - len(cur.lstrip()) if cur.strip() else 999
+                            # 遇到下一个列表项 (同级 "- ") 或更深缩进的顶级键则停止
+                            if cur.strip().startswith("- ") and cur_indent <= indent:
+                                break
+                            if not cur.strip().startswith("- ") and cur_indent <= indent and cur.strip():
+                                break
+                        node_lines.append(cur)
+                        j += 1
+                    merged[name] = "\n".join(node_lines)
+                    i = j
+                    continue
+            i += 1
+    if not merged:
+        return ""
+    out = ["proxies:"]
+    for name in order:
+        if name in merged:
+            out.append(merged[name])
+    return "\n".join(out) + "\n"
+
+
+def _merge_v2ray_links(link_blocks: list) -> str:
+    """合并所有 v2ray 解码后的链接，按链接去重。"""
+    seen = set()
+    merged = []
+    for block in link_blocks:
+        for raw in block.splitlines():
+            raw = raw.strip()
+            if not raw:
+                continue
+            if raw not in seen:
+                seen.add(raw)
+                merged.append(raw)
+    return "\n".join(merged) + "\n"
+
+
+
+def build_merged_output():
+    """生成 output/all_nodes/ — 跨源去重，Clash YAML ↔ URI 双向融合。
+
+    统一中间格式: URI (ss:// / vmess:// / trojan:// / vless://)
+    所有来源的 clash/v2ray 全部转为 URI → 去重 → 双向输出
+      - merged.yaml       Clash YAML 格式 (即取即用)
+      - merged_uris.txt   URI 链接格式 (ss:// / vmess:// / ...)
+      - latest_nodes.txt  两者兼有 (分区块展示)
+      - latest.txt        订阅 URL 汇总
+    """
+    outdir = f"{OUTPUT_DIR}/all_nodes"
+    os.makedirs(outdir, exist_ok=True)
+
+    all_uris = {}      # uri_normalized → uri_original  (去重)
+    all_urls = set()   # 订阅 URL 列表
+    failed = []
+
+    for name, cfg in ALL_SOURCES.items():
+        clash_url = cfg.get("clash_url")
+        v2ray_url = cfg.get("decode_v2ray_url")
+
+        # ── Clash 源: YAML → URI ──
+        if clash_url:
+            all_urls.add(clash_url)
+            try:
+                raw = download_subscription_content(clash_url)
+                text = raw.decode("utf-8", "replace")
+                # 先尝试提取 proxies 块 → 转 URI
+                block = extract_clash_proxies(text)
+                if block.strip():
+                    for uri in clash_block_to_uris(block):
+                        if uri:
+                            key = _normalize_uri_key(uri)
+                            all_uris[key] = uri
+                # 如果 block 为空 (纯 v2ray 链接文件)，直接解码 base64 行
+                else:
+                    for uri in decode_v2ray_links(raw).splitlines():
+                        uri = uri.strip()
+                        if uri and "://" in uri:
+                            key = _normalize_uri_key(uri)
+                            all_uris[key] = uri
+            except Exception as e:
+                failed.append((name, "clash", str(e)))
+
+        # ── V2Ray 源: 链接 → URI ──
+        if v2ray_url:
+            all_urls.add(v2ray_url)
+            try:
+                raw = download_subscription_content(v2ray_url)
+                for uri in decode_v2ray_links(raw).splitlines():
+                    uri = uri.strip()
+                    if uri and "://" in uri:
+                        key = _normalize_uri_key(uri)
+                        all_uris[key] = uri
+            except Exception as e:
+                failed.append((name, "v2ray", str(e)))
+
+    unique_uris = list(all_uris.values())
+    clash_count = sum(1 for u in unique_uris if not u.startswith("ss://"))
+    ss_count     = sum(1 for u in unique_uris if u.startswith("ss://"))
+
+    # ── 输出 1: merged_uris.txt (纯 URI 列表) ──
+    with open(f"{outdir}/merged_uris.txt", "w") as f:
+        f.write(f"# 跨源合并去重 URI ({len(unique_uris)} 个节点)\n")
+        for uri in unique_uris:
+            f.write(uri + "\n")
+
+    # ── 输出 2: merged.yaml (Clash YAML) ──
+    proxies_out = []
+    for uri in unique_uris:
+        node = uri_to_clash_node(uri)
+        if node:
+            proxies_out.append(node)
+
+    # 生成 YAML (支持内联 {name: ..., ...} 格式)
+    import yaml
+    with open(f"{outdir}/merged.yaml", "w") as f:
+        f.write("proxies:\n")
+        for node in proxies_out:
+            # 用 inline dict 格式: - {name: xxx, server: ..., port: ..., type: ...}
+            compact = {"name": node.get("name", ""),
+                       "type": node.get("type", ""),
+                       "server": node.get("server", ""),
+                       "port": node.get("port", 0)}
+            # 添加类型特有字段
+            if node.get("type") == "ss":
+                compact["cipher"] = node.get("cipher", "aes-256-gcm")
+                compact["password"] = node.get("password", "")
+            elif node.get("type") == "trojan":
+                compact["password"] = node.get("password", "")
+            elif node.get("type") == "vmess":
+                compact["uuid"] = node.get("uuid", "")
+                compact["alterId"] = node.get("alterId", 0)
+                compact["cipher"] = "auto"
+            elif node.get("type") == "vless":
+                compact["uuid"] = node.get("uuid", "")
+            if node.get("network") in ("ws", "grpc"):
+                compact["network"] = node["network"]
+            if node.get("network") == "ws":
+                compact["ws-opts"] = {
+                    "path": node.get("ws-opts", {}).get("path", ""),
+                    "headers": {"Host": node.get("ws-opts", {}).get("headers", {}).get("Host", "")}
+                }
+            if node.get("tls"):
+                compact["tls"] = True
+            if node.get("servername"):
+                compact["servername"] = node["servername"]
+            compact["udp"] = True
+            f.write(f"  - {compact}\n")
+
+    # ── 输出 3: latest.txt (订阅 URL 汇总) ──
+    with open(f"{outdir}/latest.txt", "w") as f:
+        f.write(f"# 跨源合并 ({len(all_urls)} 个订阅链接)\n")
+        for url in sorted(all_urls):
+            f.write(url + "\n")
+
+    # ── 输出 4: latest_nodes.txt (URI + YAML 双重展示) ──
+    with open(f"{outdir}/latest_nodes.txt", "w") as f:
+        f.write(f"# ═══ URI 格式 ({len(unique_uris)} 个，去重后) ═══\n")
+        for uri in unique_uris:
+            f.write(uri + "\n")
+        f.write("\n")
+        f.write(f"# ═══ Clash YAML 格式 (merged.yaml 等效) ═══\n")
+        with open(f"{outdir}/merged.yaml") as mf:
+            f.write(mf.read())
+
+    if failed:
+        for name, src, err in failed:
+            print(f"   ⚠️ [{name}] 合并失败 ({src}): {err}", file=sys.stderr)
+
+    print(f"   📦 融合节点: {len(unique_uris)} | 订阅: {len(all_urls)}", file=sys.stderr)
+
+
+def _normalize_uri_key(uri: str) -> str:
+    """生成 URI 标准化 key 用于去重 (去掉 fragment 中的 name 部分)。"""
+    if "://" not in uri:
+        return uri
+    scheme, rest = uri.split("://", 1)
+    # 去掉 #name fragment
+    if "#" in rest:
+        rest = rest.rsplit("#", 1)[0]
+    # ss:// 的 userinfo 里可能含 base64，截取前64字符足够区分
+    if "@" in rest:
+        body, serverpart = rest.rsplit("@", 1)
+        body_short = body[:64]
+        return f"{scheme}://{body_short}@{serverpart}"
+    return f"{scheme}://{rest[:120]}"
+
+
+def build_health_report():
+    """生成 output/health.json: 各来源的状态、节点数、大小。"""
+    from datetime import datetime, timezone
+
+    report = {
+        "timestamp": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "sources": {},
+        "summary": {"total": len(ALL_SOURCES), "ok": 0, "failed": 0},
+    }
+
+    for name, cfg in ALL_SOURCES.items():
+        entry = {"status": "unknown", "nodes": 0, "size_kb": 0, "error": ""}
+        urls = [u for u in [cfg.get("clash_url"), cfg.get("decode_v2ray_url")] if u]
+        if not urls:
+            entry["status"] = "no_url"
+            entry["error"] = "无可用 URL"
+            report["sources"][name] = entry
+            report["summary"]["failed"] += 1
+            continue
+
+        # 尝试获取第一个可用 URL
+        content = None
+        for url in urls:
+            try:
+                raw = download_subscription_content(url)
+                if not is_cloudflare_block(raw):
+                    content = raw
+                    break
+            except Exception as e:
+                entry["error"] = str(e)[:200]
+                continue
+
+        if content is None:
+            entry["status"] = "failed"
+            report["summary"]["failed"] += 1
+            report["sources"][name] = entry
+            continue
+
+        # 统计节点数和大小
+        text = content.decode("utf-8", "replace")
+        entry["size_kb"] = round(len(content) / 1024, 1)
+        if cfg.get("clash_url"):
+            block = extract_clash_proxies(text)
+            entry["nodes"] = len([l for l in block.splitlines()
+                                  if l.strip().startswith("- name:") or l.strip().startswith("- {name:")])
+        else:
+            # v2ray 源: 统计解码后的链接数
+            decoded = decode_v2ray_links(content)
+            entry["nodes"] = len([l for l in decoded.splitlines() if "://" in l])
+
+        entry["status"] = "ok"
+        report["summary"]["ok"] += 1
+        report["sources"][name] = entry
+
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    with open(f"{OUTPUT_DIR}/health.json", "w") as f:
+        json.dump(report, f, ensure_ascii=False, indent=2)
+
+    print(f"   📈 健康: {report['summary']['ok']} OK / {report['summary']['failed']} 失败 "
+          f"/ {report['summary']['total']} 总计", file=sys.stderr)
 
 
 # ──────────────────────────────────────────────
@@ -1182,15 +1720,36 @@ def main():
 
     print()
 
-if __name__ == "__main__":
-    main()
+    # ══════════════════════════════════════════════
+    # 功能 1: 跨源合并 (all_nodes/) — 去重 + 统一配置
+    # ══════════════════════════════════════════════
+    print("🔀 [合并] 生成跨源去重合并输出...", file=sys.stderr)
+    try:
+        build_merged_output()
+        print("✅ [合并] output/all_nodes/ 已生成")
+    except Exception as e:
+        print(f"❌ [合并] {e}", file=sys.stderr)
 
+    print()
+
+    # ══════════════════════════════════════════════
+    # 功能 2: 健康度监控 (health.json)
+    # ══════════════════════════════════════════════
+    print("📊 [健康] 生成来源健康度报告...", file=sys.stderr)
+    try:
+        build_health_report()
+        print("✅ [健康] output/health.json 已生成")
+    except Exception as e:
+        print(f"❌ [健康] {e}", file=sys.stderr)
+
+    print()
 
 # ── 来源 14: ts-sf/fly (Clash 格式, 每小时更新) ──
 TS_SF_FLY_RAW = "https://raw.githubusercontent.com/ts-sf/fly/main/clash"
 
 def ts_sf_fly_fetch():
     """来源 14: ts-sf/fly 的 clash — 完整 Clash 配置 (即取即用)。"""
+    _register_source("ts_sf_fly", clash_url='https://raw.githubusercontent.com/ts-sf/fly/main/clash', label="来源 14 ts-sf/fly clash完整Clash配置")
     return [{
         "date": "latest",
         "sort_key": "99999992",
@@ -1206,6 +1765,7 @@ FREE18_RAW = "https://raw.githubusercontent.com/free18/v2ray/main/c.yaml"
 
 def free18_fetch():
     """来源 15: free18/v2ray 的 c.yaml — 完整 Clash 配置 (即取即用)。"""
+    _register_source("free18", clash_url='https://raw.githubusercontent.com/free18/v2ray/main/c.yaml', label="来源 15 free18/v2ray 每小时更新含VLESS Reality")
     return [{
         "date": "latest",
         "sort_key": "99999991",
@@ -1221,6 +1781,7 @@ AUTOMERGE_RAW = "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNod
 
 def automerge_fetch():
     """来源 16: chengaopan/AutoMergePublicNodes 的 list.meta.yml — 完整 Clash 配置。"""
+    _register_source("automerge", clash_url='https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.meta.yml', label="来源 16 chengaopan/AutoMergePublicNodes Hysteria2最全")
     return [{
         "date": "latest",
         "sort_key": "99999990",
@@ -1236,6 +1797,7 @@ NOMOREWALLS_RAW = "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/
 
 def nomorewalls_fetch():
     """来源 17: peasoft/NoMoreWalls 的 list.txt — base64 编码的 ss/vmess/vless/trojan/hysteria2 链接。"""
+    _register_source("nomorewalls", clash_url='https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt', label="来源 17 peasoft/NoMoreWalls 超大规模节点集合")
     return [{
         "date": "latest",
         "sort_key": "99999989",
@@ -1250,6 +1812,7 @@ PAWDROID_RAW = "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
 
 def pawdroid_fetch():
     """来源 18: Pawdroid/Free-servers 的 sub — base64 编码的 vless/trojan 链接。"""
+    _register_source("pawdroid", clash_url='https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub', label="来源 18 Pawdroid/Free-servers 精炼高质节点")
     return [{
         "date": "latest",
         "sort_key": "99999988",
@@ -1274,6 +1837,7 @@ BARABAMA_SUBS = [
 
 def barabama_fetch():
     """来源 19: Barabama/FreeNodes 聚合的多个子站 — 每个子站 base64 链接。"""
+    _register_source("barabama", clash_url=None, label="来源 19 Barabama/FreeNodes 7个子站集合")
     subs = []
     for idx, (name, sort_key_suffix, desc) in enumerate(BARABAMA_SUBS):
         url = f"{BARABAMA_BASE}/{name}.txt"
@@ -1292,6 +1856,7 @@ FLIKIFY_GETNODE_RAW = "https://raw.githubusercontent.com/a2470982985/getNode/mai
 
 def flikify_fetch():
     """来源 20: Flikify/Free-Node 的 getNode/main/clash.yaml — 完整 Clash 配置。"""
+    _register_source("flikify", clash_url=None, label="来源 20 Flikify/Free-Node 每小时更新")
     return [{
         "date": "latest",
         "sort_key": "99999979",
@@ -1307,6 +1872,7 @@ SHAOYOUVIP_RAW = "https://raw.githubusercontent.com/shaoyouvip/free/refs/heads/m
 
 def shaoyouvip_fetch():
     """来源 21: shaoyouvip/free 的 all.yaml — 完整 Clash 配置 (即取即用)。"""
+    _register_source("shaoyouvip", clash_url='https://raw.githubusercontent.com/shaoyouvip/free/refs/heads/main/all.yaml', label="来源 21 shaoyouvip/free 完整Clash配置")
     return [{
         "date": "latest",
         "sort_key": "99999978",
@@ -1315,3 +1881,7 @@ def shaoyouvip_fetch():
         "urls": {"clash": SHAOYOUVIP_RAW},
         "extra": "shaoyouvip/free 完整 Clash 配置",
     }]
+
+
+if __name__ == "__main__":
+    main()
