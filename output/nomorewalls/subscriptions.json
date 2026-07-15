@@ -1,0 +1,10 @@
+[
+  {
+    "date": "latest",
+    "sort_key": "99999989",
+    "extra": "NoMoreWalls 超大规模节点集合",
+    "urls": {
+      "v2ray": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt"
+    }
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "date": "latest",
+    "sort_key": "99999979",
+    "extra": "Flikify/Free-Node (a2470982985/getNode) 完整 Clash 配置",
+    "urls": {
+      "clash": "https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml"
+    }
+  }
+]

@@ -1,0 +1,2 @@
+# Barabama/wenode.cc 最新订阅 (latest)
+https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/wenode.txt

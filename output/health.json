@@ -1,0 +1,178 @@
+{
+  "timestamp": "2026-07-15T15:35:41Z",
+  "sources": {
+    "fproxies": {
+      "status": "failed",
+      "nodes": 0,
+      "size_kb": 0,
+      "error": ""
+    },
+    "datiya": {
+      "status": "ok",
+      "nodes": 14,
+      "size_kb": 183.1,
+      "error": ""
+    },
+    "osbooting": {
+      "status": "ok",
+      "nodes": 301,
+      "size_kb": 158.2,
+      "error": ""
+    },
+    "mlfenx": {
+      "status": "ok",
+      "nodes": 12,
+      "size_kb": 183.5,
+      "error": ""
+    },
+    "clashfree": {
+      "status": "ok",
+      "nodes": 920,
+      "size_kb": 930.7,
+      "error": ""
+    },
+    "bestclash": {
+      "status": "ok",
+      "nodes": 7,
+      "size_kb": 675.8,
+      "error": ""
+    },
+    "au1rxx": {
+      "status": "ok",
+      "nodes": 59,
+      "size_kb": 49.5,
+      "error": ""
+    },
+    "v2rayfree": {
+      "status": "ok",
+      "nodes": 938,
+      "size_kb": 367.7,
+      "error": ""
+    },
+    "ruk1ng": {
+      "status": "ok",
+      "nodes": 86,
+      "size_kb": 102.8,
+      "error": ""
+    },
+    "ruk1ng_v2ray": {
+      "status": "ok",
+      "nodes": 98,
+      "size_kb": 21.6,
+      "error": ""
+    },
+    "ovmvo": {
+      "status": "ok",
+      "nodes": 0,
+      "size_kb": 116.3,
+      "error": ""
+    },
+    "v2raynnodes_clash": {
+      "status": "ok",
+      "nodes": 40,
+      "size_kb": 196.0,
+      "error": ""
+    },
+    "v2raynnodes_v2ray": {
+      "status": "ok",
+      "nodes": 20,
+      "size_kb": 535.5,
+      "error": ""
+    },
+    "ts_sf_fly": {
+      "status": "ok",
+      "nodes": 0,
+      "size_kb": 216.8,
+      "error": ""
+    },
+    "free18": {
+      "status": "ok",
+      "nodes": 456,
+      "size_kb": 239.4,
+      "error": ""
+    },
+    "automerge": {
+      "status": "ok",
+      "nodes": 84,
+      "size_kb": 421.3,
+      "error": ""
+    },
+    "nomorewalls": {
+      "status": "ok",
+      "nodes": 180,
+      "size_kb": 32.7,
+      "error": ""
+    },
+    "pawdroid": {
+      "status": "ok",
+      "nodes": 12,
+      "size_kb": 2.9,
+      "error": ""
+    },
+    "barabama": {
+      "status": "no_url",
+      "nodes": 0,
+      "size_kb": 0,
+      "error": "无可用 URL"
+    },
+    "barabama_玉豆免费节点": {
+      "status": "ok",
+      "nodes": 166,
+      "size_kb": 68.8,
+      "error": ""
+    },
+    "barabama_Blues 免费节点": {
+      "status": "ok",
+      "nodes": 135,
+      "size_kb": 38.4,
+      "error": ""
+    },
+    "barabama_nodev2ray.com": {
+      "status": "ok",
+      "nodes": 13,
+      "size_kb": 3.2,
+      "error": ""
+    },
+    "barabama_naidounode.com": {
+      "status": "ok",
+      "nodes": 14,
+      "size_kb": 2.2,
+      "error": ""
+    },
+    "barabama_wenode.cc": {
+      "status": "ok",
+      "nodes": 23,
+      "size_kb": 4.4,
+      "error": ""
+    },
+    "barabama_v2rayshare.com": {
+      "status": "ok",
+      "nodes": 23,
+      "size_kb": 4.4,
+      "error": ""
+    },
+    "barabama_nodefree.org": {
+      "status": "ok",
+      "nodes": 23,
+      "size_kb": 4.4,
+      "error": ""
+    },
+    "flikify": {
+      "status": "ok",
+      "nodes": 0,
+      "size_kb": 0.0,
+      "error": ""
+    },
+    "shaoyouvip": {
+      "status": "ok",
+      "nodes": 13,
+      "size_kb": 22.4,
+      "error": ""
+    }
+  },
+  "summary": {
+    "total": 28,
+    "ok": 26,
+    "failed": 2
+  }
+}

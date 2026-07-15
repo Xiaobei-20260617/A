@@ -1,0 +1,2 @@
+# v2raynnodes-clash (v2raynnodes/v2rayfree) 最新订阅 (latest)
+https://raw.githubusercontent.com/v2raynnodes/v2rayfree/main/nodes/nodev2ray.yaml

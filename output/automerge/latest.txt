@@ -1,0 +1,2 @@
+# AutoMergePublicNodes 最新订阅 (latest)
+https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.meta.yml

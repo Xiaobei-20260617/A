@@ -1,0 +1,10 @@
+[
+  {
+    "date": "latest",
+    "sort_key": "99999983",
+    "extra": "Barabama/FreeNodes → naidounode.com",
+    "urls": {
+      "v2ray": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/ndnode.txt"
+    }
+  }
+]

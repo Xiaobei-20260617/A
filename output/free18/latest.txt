@@ -1,0 +1,2 @@
+# free18/v2ray 最新订阅 (latest)
+https://raw.githubusercontent.com/free18/v2ray/main/c.yaml

@@ -1,0 +1,10 @@
+[
+  {
+    "date": "latest",
+    "sort_key": "99999984",
+    "extra": "Barabama/FreeNodes → wenode.cc",
+    "urls": {
+      "v2ray": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/wenode.txt"
+    }
+  }
+]

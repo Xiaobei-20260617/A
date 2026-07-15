@@ -1,0 +1,10 @@
+[
+  {
+    "date": "latest",
+    "sort_key": "99999986",
+    "extra": "Barabama/FreeNodes → nodefree.org",
+    "urls": {
+      "v2ray": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodefree.txt"
+    }
+  }
+]

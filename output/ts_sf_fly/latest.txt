@@ -1,0 +1,2 @@
+# ts-sf/fly 最新订阅 (latest)
+https://raw.githubusercontent.com/ts-sf/fly/main/clash

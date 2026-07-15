@@ -1,0 +1,10 @@
+[
+  {
+    "date": "latest",
+    "sort_key": "99999980",
+    "extra": "Barabama/FreeNodes → 玉豆免费节点",
+    "urls": {
+      "v2ray": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.txt"
+    }
+  }
+]

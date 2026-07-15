@@ -1,0 +1,10 @@
+[
+  {
+    "date": "latest",
+    "sort_key": "99999990",
+    "extra": "AutoMergePublicNodes 完整 Clash 配置 (含 Hysteria2/VMess/Trojan)",
+    "urls": {
+      "clash": "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.meta.yml"
+    }
+  }
+]

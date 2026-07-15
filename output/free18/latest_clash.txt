@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/free18/v2ray/main/c.yaml

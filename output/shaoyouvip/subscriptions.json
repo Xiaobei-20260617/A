@@ -1,0 +1,10 @@
+[
+  {
+    "date": "latest",
+    "sort_key": "99999978",
+    "extra": "shaoyouvip/free 完整 Clash 配置",
+    "urls": {
+      "clash": "https://raw.githubusercontent.com/shaoyouvip/free/refs/heads/main/all.yaml"
+    }
+  }
+]

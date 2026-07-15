@@ -1,0 +1,10 @@
+[
+  {
+    "date": "latest",
+    "sort_key": "99999992",
+    "extra": "ts-sf/fly 完整 Clash 配置 (每小时更新)",
+    "urls": {
+      "clash": "https://raw.githubusercontent.com/ts-sf/fly/main/clash"
+    }
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "date": "latest",
+    "sort_key": "99999981",
+    "extra": "Barabama/FreeNodes → Blues 免费节点",
+    "urls": {
+      "v2ray": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/blues.txt"
+    }
+  }
+]

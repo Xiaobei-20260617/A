@@ -1,0 +1,2 @@
+# Barabama/nodefree.org 最新订阅 (latest)
+https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodefree.txt

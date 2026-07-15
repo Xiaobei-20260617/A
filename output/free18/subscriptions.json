@@ -1,0 +1,10 @@
+[
+  {
+    "date": "latest",
+    "sort_key": "99999991",
+    "extra": "free18/v2ray 完整 Clash 配置 (含 VLESS Reality)",
+    "urls": {
+      "clash": "https://raw.githubusercontent.com/free18/v2ray/main/c.yaml"
+    }
+  }
+]

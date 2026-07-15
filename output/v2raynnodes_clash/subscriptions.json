@@ -1,0 +1,10 @@
+[
+  {
+    "date": "latest",
+    "sort_key": "99999994",
+    "extra": "v2raynnodes/v2rayfree 完整 Clash 配置",
+    "urls": {
+      "clash": "https://raw.githubusercontent.com/v2raynnodes/v2rayfree/main/nodes/clashmeta.yaml"
+    }
+  }
+]
