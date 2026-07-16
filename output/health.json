@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-16T09:31:53Z",
+  "timestamp": "2026-07-16T16:57:23Z",
   "sources": {
     "fproxies": {
       "status": "failed",
@@ -21,44 +21,44 @@
     },
     "mlfenx": {
       "status": "ok",
-      "nodes": 16,
-      "size_kb": 186.4,
+      "nodes": 15,
+      "size_kb": 186.0,
       "error": ""
     },
     "clashfree": {
       "status": "ok",
-      "nodes": 940,
-      "size_kb": 946.8,
+      "nodes": 942,
+      "size_kb": 944.8,
       "error": ""
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 5,
-      "size_kb": 675.9,
+      "nodes": 4,
+      "size_kb": 675.8,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 90,
-      "size_kb": 55.4,
+      "nodes": 91,
+      "size_kb": 52.9,
       "error": ""
     },
     "v2rayfree": {
       "status": "ok",
-      "nodes": 959,
-      "size_kb": 382.2,
+      "nodes": 965,
+      "size_kb": 380.2,
       "error": ""
     },
     "ruk1ng": {
       "status": "ok",
-      "nodes": 87,
-      "size_kb": 84.6,
+      "nodes": 86,
+      "size_kb": 79.0,
       "error": ""
     },
     "ruk1ng_v2ray": {
       "status": "ok",
-      "nodes": 112,
-      "size_kb": 27.3,
+      "nodes": 105,
+      "size_kb": 25.2,
       "error": ""
     },
     "ovmvo": {
@@ -82,7 +82,7 @@
     "ts_sf_fly": {
       "status": "ok",
       "nodes": 0,
-      "size_kb": 218.5,
+      "size_kb": 216.6,
       "error": ""
     },
     "free18": {
@@ -93,20 +93,20 @@
     },
     "automerge": {
       "status": "ok",
-      "nodes": 90,
-      "size_kb": 422.6,
+      "nodes": 96,
+      "size_kb": 424.6,
       "error": ""
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 129,
-      "size_kb": 21.9,
+      "nodes": 156,
+      "size_kb": 27.7,
       "error": ""
     },
     "pawdroid": {
       "status": "ok",
       "nodes": 14,
-      "size_kb": 4.2,
+      "size_kb": 5.0,
       "error": ""
     },
     "barabama": {
@@ -165,8 +165,8 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 3,
-      "size_kb": 5.4,
+      "nodes": 1,
+      "size_kb": 8.8,
       "error": ""
     }
   },
