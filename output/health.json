@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-18T18:55:38Z",
+  "timestamp": "2026-07-18T20:02:25Z",
   "sources": {
     "fproxies": {
       "status": "ok",
@@ -33,14 +33,14 @@
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 11,
-      "size_kb": 675.9,
+      "nodes": 10,
+      "size_kb": 676.0,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 107,
-      "size_kb": 53.1,
+      "nodes": 106,
+      "size_kb": 53.2,
       "error": ""
     },
     "v2rayfree": {
@@ -93,8 +93,8 @@
     },
     "automerge": {
       "status": "ok",
-      "nodes": 94,
-      "size_kb": 406.3,
+      "nodes": 93,
+      "size_kb": 406.2,
       "error": ""
     },
     "nomorewalls": {
@@ -105,8 +105,8 @@
     },
     "pawdroid": {
       "status": "ok",
-      "nodes": 20,
-      "size_kb": 5.4,
+      "nodes": 14,
+      "size_kb": 3.5,
       "error": ""
     },
     "barabama": {
@@ -116,10 +116,10 @@
       "error": "无可用 URL"
     },
     "barabama_玉豆免费节点": {
-      "status": "ok",
-      "nodes": 166,
-      "size_kb": 68.8,
-      "error": ""
+      "status": "failed",
+      "nodes": 0,
+      "size_kb": 0,
+      "error": "Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     "barabama_Blues 免费节点": {
       "status": "ok",
@@ -165,14 +165,14 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 57,
-      "size_kb": 22.8,
+      "nodes": 71,
+      "size_kb": 25.1,
       "error": ""
     }
   },
   "summary": {
     "total": 28,
-    "ok": 27,
-    "failed": 1
+    "ok": 26,
+    "failed": 2
   }
 }
