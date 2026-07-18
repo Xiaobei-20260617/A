@@ -1,19 +1,11 @@
 proxies:
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: xx|e2b9|puddincat07@Telegram
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  port: 443
-  server: tinkered-pennies-puppies.freesocks.work
-  skip-cert-verify: true
-  tls: true
+- cipher: chacha20-ietf-poly1305
+  name: gb|597e|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: '8080'
+  server: 82.38.31.46
   type: ss
-- cipher: aes-256-cfb
-  name: gb|2d10|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 18.133.180.164
-  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: de|80b0|puddincat07@Telegram
   password: amazonskr05
@@ -28,37 +20,11 @@ proxies:
   server: 63.183.207.82
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: gb|597e|puddincat07@Telegram
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: '8080'
-  server: 82.38.31.46
-  type: ss
-  udp: true
-- name: xx|f463|puddincat07@Telegram
-  network: ws
-  password: dfdse334053vuohm
-  port: 443
-  server: auto.mhjstudio.ir
-  skip-cert-verify: false
-  sni: alternative.mhjstudio.ir
-  type: trojan
-  ws-opts:
-    headers:
-      Host: alternative.mhjstudio.ir
-    path: /
 - cipher: aes-256-cfb
   name: us|97a6|puddincat07@Telegram
   password: amazonskr05
   port: '443'
   server: 3.145.162.175
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: us|5c3a|puddincat07@Telegram
-  password: amazonskr05
-  port: '443'
-  server: 18.190.176.112
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -68,60 +34,89 @@ proxies:
   server: 156.146.40.84
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: us|44e0|puddincat07@Telegram
-  password: amazonskr05
+- name: xx|398e|puddincat07@Telegram
+  password: OD90375861
   port: 443
-  server: 13.59.31.133
-  type: ss
-- name: xx|5e13|puddincat07@Telegram
+  server: nearby-muskrat.rooster465.autos
+  skip-cert-verify: false
+  sni: nearby-muskrat.rooster465.autos
+  type: trojan
+- name: xx|98be|puddincat07@Telegram
   password: XG59623478
   port: 443
-  server: enabling-asp.rooster465.autos
+  server: stirring-dane.rooster465.autos
   skip-cert-verify: false
-  sni: enabling-asp.rooster465.autos
+  sni: stirring-dane.rooster465.autos
   type: trojan
-- cipher: aes-256-cfb
-  name: xx|f25a|puddincat07@Telegram
-  password: qwerREWQ@@
-  port: 51472
-  server: p232.panda004.net
+- name: us|ac48|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: 443
+  server: 208.103.161.101
+  skip-cert-verify: false
+  sni: www.creationlong.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.creationlong.org
+    path: /assignment
+- alterId: 2
+  cipher: auto
+  name: xx|8151|puddincat07@Telegram
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: us|0e74|puddincat07@Telegram
+  password: T8vhlS29hZ
+  port: 38483
+  server: 45.81.18.85
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: xx|8113|puddincat07@Telegram
+  password: ba89b12a-b50b-45a1-ba6b-0181f24fd68b
+  port: 57617
+  server: gzcm183.pkyun.xyz
   type: ss
   udp: true
-- name: ca|7d80|puddincat07@Telegram
-  password: BZjkHMao
-  port: 443
-  server: 38.180.127.194
+- name: xx|7196|puddincat07@Telegram
+  password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
+  port: 53279
+  server: gcdddd0001.likeone.lol
   skip-cert-verify: true
+  sni: de01.ckcloud.info
   type: trojan
   udp: true
-- name: xx|73d5|puddincat07@Telegram
-  password: ebd1c3e8-a136-49a5-a76c-88c4bf0a23aa
-  port: 30502
-  server: fr01.freeflyingcloud.xyz
+- name: us|aa7c|puddincat07@Telegram
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 104.17.147.1
   skip-cert-verify: true
-  sni: fr01.freeflyingcloud.xyz
+  sni: jobscareerforstudent.com
   type: trojan
   udp: true
-- name: xx|5172|puddincat07@Telegram
-  password: 71ab3866-4c8b-4a0b-a4bd-a64f110afe0b
-  port: 443
-  server: ca-full.privateip.net
-  skip-cert-verify: true
-  type: trojan
+- cipher: aes-256-gcm
+  name: xx|ae0d|puddincat07@Telegram
+  password: 20ff026e-e9c7-4147-bf3c-d6e21063f92c
+  port: 23571
+  server: zsg2.capoonetwork.com
+  type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: us|7e54|puddincat07@Telegram
-  password: SwPfc22G83_s
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: v3.fjdd.shop
-    mode: websocket
-    mux: false
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 104.16.96.41
+- cipher: chacha20-ietf-poly1305
+  name: xx|f78b|puddincat07@Telegram
+  password: 835d21b0-5322-4a77-8aff-4aff633642b0
+  port: 60004
+  server: 5.forlive.live
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: us|8100|puddincat07@Telegram
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 23.157.40.39
   type: ss
   udp: true
