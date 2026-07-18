@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-07-18T20:02:25Z",
+  "timestamp": "2026-07-18T21:12:51Z",
   "sources": {
     "fproxies": {
-      "status": "ok",
-      "nodes": 160,
-      "size_kb": 234.8,
+      "status": "failed",
+      "nodes": 0,
+      "size_kb": 0,
       "error": ""
     },
     "datiya": {
@@ -33,20 +33,20 @@
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 10,
-      "size_kb": 676.0,
+      "nodes": 9,
+      "size_kb": 675.9,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 106,
-      "size_kb": 53.2,
+      "nodes": 108,
+      "size_kb": 53.9,
       "error": ""
     },
     "v2rayfree": {
       "status": "ok",
-      "nodes": 993,
-      "size_kb": 387.3,
+      "nodes": 999,
+      "size_kb": 383.5,
       "error": ""
     },
     "ruk1ng": {
@@ -94,7 +94,7 @@
     "automerge": {
       "status": "ok",
       "nodes": 93,
-      "size_kb": 406.2,
+      "size_kb": 406.1,
       "error": ""
     },
     "nomorewalls": {
@@ -105,8 +105,8 @@
     },
     "pawdroid": {
       "status": "ok",
-      "nodes": 14,
-      "size_kb": 3.5,
+      "nodes": 10,
+      "size_kb": 2.7,
       "error": ""
     },
     "barabama": {
@@ -116,10 +116,10 @@
       "error": "无可用 URL"
     },
     "barabama_玉豆免费节点": {
-      "status": "failed",
-      "nodes": 0,
-      "size_kb": 0,
-      "error": "Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "status": "ok",
+      "nodes": 166,
+      "size_kb": 68.8,
+      "error": ""
     },
     "barabama_Blues 免费节点": {
       "status": "ok",
