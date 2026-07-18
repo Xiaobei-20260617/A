@@ -286,5 +286,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260718GOIC.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260718TGCA.txt"
     }
+  },
+  {
+    "date": "0719",
+    "sort_key": "20260719",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260719CGKR.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260719XPTK.txt"
+    }
   }
 ]
