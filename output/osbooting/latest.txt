@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (0719)
-https://freenode.osbooting.com/nodefiles/20260719CGKR.yaml
-https://freenode.osbooting.com/nodefiles/20260719XPTK.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (0720)
+https://freenode.osbooting.com/nodefiles/20260720TLCW.yaml
+https://freenode.osbooting.com/nodefiles/20260720VFQH.txt

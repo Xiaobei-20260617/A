@@ -295,5 +295,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260719CGKR.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260719XPTK.txt"
     }
+  },
+  {
+    "date": "0720",
+    "sort_key": "20260720",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260720TLCW.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260720VFQH.txt"
+    }
   }
 ]
