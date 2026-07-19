@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-19T00:58:47Z",
+  "timestamp": "2026-07-19T04:23:27Z",
   "sources": {
     "fproxies": {
       "status": "ok",
@@ -21,44 +21,44 @@
     },
     "mlfenx": {
       "status": "ok",
-      "nodes": 20,
-      "size_kb": 188.3,
+      "nodes": 12,
+      "size_kb": 184.0,
       "error": ""
     },
     "clashfree": {
       "status": "ok",
-      "nodes": 987,
-      "size_kb": 963.0,
+      "nodes": 994,
+      "size_kb": 966.0,
       "error": ""
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 8,
+      "nodes": 7,
       "size_kb": 675.9,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 111,
-      "size_kb": 53.7,
+      "nodes": 100,
+      "size_kb": 52.6,
       "error": ""
     },
     "v2rayfree": {
       "status": "ok",
-      "nodes": 999,
-      "size_kb": 383.5,
+      "nodes": 1007,
+      "size_kb": 386.4,
       "error": ""
     },
     "ruk1ng": {
       "status": "ok",
       "nodes": 87,
-      "size_kb": 76.2,
+      "size_kb": 74.0,
       "error": ""
     },
     "ruk1ng_v2ray": {
       "status": "ok",
       "nodes": 106,
-      "size_kb": 24.7,
+      "size_kb": 25.0,
       "error": ""
     },
     "ovmvo": {
@@ -82,7 +82,7 @@
     "ts_sf_fly": {
       "status": "ok",
       "nodes": 0,
-      "size_kb": 226.3,
+      "size_kb": 219.3,
       "error": ""
     },
     "free18": {
@@ -94,19 +94,19 @@
     "automerge": {
       "status": "ok",
       "nodes": 90,
-      "size_kb": 405.6,
+      "size_kb": 405.8,
       "error": ""
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 191,
-      "size_kb": 29.7,
+      "nodes": 196,
+      "size_kb": 30.6,
       "error": ""
     },
     "pawdroid": {
       "status": "ok",
-      "nodes": 10,
-      "size_kb": 2.4,
+      "nodes": 11,
+      "size_kb": 2.9,
       "error": ""
     },
     "barabama": {
