@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-19T04:23:27Z",
+  "timestamp": "2026-07-19T07:03:50Z",
   "sources": {
     "fproxies": {
       "status": "ok",
@@ -21,32 +21,32 @@
     },
     "mlfenx": {
       "status": "ok",
-      "nodes": 12,
-      "size_kb": 184.0,
+      "nodes": 13,
+      "size_kb": 184.7,
       "error": ""
     },
     "clashfree": {
-      "status": "ok",
-      "nodes": 994,
-      "size_kb": 966.0,
-      "error": ""
+      "status": "failed",
+      "nodes": 0,
+      "size_kb": 0,
+      "error": "Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 7,
-      "size_kb": 675.9,
+      "nodes": 6,
+      "size_kb": 675.8,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 100,
-      "size_kb": 52.6,
+      "nodes": 92,
+      "size_kb": 51.8,
       "error": ""
     },
     "v2rayfree": {
       "status": "ok",
-      "nodes": 1007,
-      "size_kb": 386.4,
+      "nodes": 1002,
+      "size_kb": 388.0,
       "error": ""
     },
     "ruk1ng": {
@@ -86,27 +86,27 @@
       "error": ""
     },
     "free18": {
-      "status": "ok",
-      "nodes": 200,
-      "size_kb": 104.5,
-      "error": ""
+      "status": "failed",
+      "nodes": 0,
+      "size_kb": 0,
+      "error": "Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     "automerge": {
       "status": "ok",
       "nodes": 90,
-      "size_kb": 405.8,
+      "size_kb": 405.9,
       "error": ""
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 196,
-      "size_kb": 30.6,
+      "nodes": 175,
+      "size_kb": 31.1,
       "error": ""
     },
     "pawdroid": {
       "status": "ok",
-      "nodes": 11,
-      "size_kb": 2.9,
+      "nodes": 13,
+      "size_kb": 4.4,
       "error": ""
     },
     "barabama": {
@@ -140,10 +140,10 @@
       "error": ""
     },
     "barabama_wenode.cc": {
-      "status": "ok",
-      "nodes": 23,
-      "size_kb": 4.4,
-      "error": ""
+      "status": "failed",
+      "nodes": 0,
+      "size_kb": 0,
+      "error": "Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     "barabama_v2rayshare.com": {
       "status": "ok",
@@ -165,14 +165,14 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 54,
-      "size_kb": 30.6,
+      "nodes": 30,
+      "size_kb": 22.1,
       "error": ""
     }
   },
   "summary": {
     "total": 28,
-    "ok": 27,
-    "failed": 1
+    "ok": 24,
+    "failed": 4
   }
 }
