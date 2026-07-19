@@ -73,21 +73,7 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- name: 8|114892 | Telegram = t.me/SOSke...
-  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
-  port: 8443
-  server: fl02.auragg.org
-  sni: fl02.auragg.org
-  tls: false
-  type: hysteria2
-- name: 8|🇫🇮114892 | ⚡️Telegram = t.me/S...
-  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
-  port: 8443
-  server: soskeynets.auragg.org
-  sni: fl02.auragg.org
-  tls: false
-  type: hysteria2
-- name: 8|🇩🇪114918 | ⚡️Telegram = t.me/S...
+- name: 8| ا  @V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: 91ZKgmi8pu
@@ -217,7 +203,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 8|@prrofile_purple  ️ تلگرام
+- name: 8|@prrofile_purple   تلگرام
   obfs: salamander
   obfs-password: mtg2vchyir6la3et
   password: elknam6l7izf3z71
