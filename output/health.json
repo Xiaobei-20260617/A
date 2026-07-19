@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-19T07:03:50Z",
+  "timestamp": "2026-07-19T09:25:36Z",
   "sources": {
     "fproxies": {
       "status": "ok",
@@ -21,26 +21,26 @@
     },
     "mlfenx": {
       "status": "ok",
-      "nodes": 13,
-      "size_kb": 184.7,
+      "nodes": 14,
+      "size_kb": 184.9,
       "error": ""
     },
     "clashfree": {
-      "status": "failed",
-      "nodes": 0,
-      "size_kb": 0,
-      "error": "Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "status": "ok",
+      "nodes": 970,
+      "size_kb": 953.0,
+      "error": ""
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 6,
-      "size_kb": 675.8,
+      "nodes": 5,
+      "size_kb": 675.9,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 92,
-      "size_kb": 51.8,
+      "nodes": 960,
+      "size_kb": 333.4,
       "error": ""
     },
     "v2rayfree": {
@@ -86,15 +86,15 @@
       "error": ""
     },
     "free18": {
-      "status": "failed",
-      "nodes": 0,
-      "size_kb": 0,
-      "error": "Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "status": "ok",
+      "nodes": 355,
+      "size_kb": 180.5,
+      "error": ""
     },
     "automerge": {
       "status": "ok",
-      "nodes": 90,
-      "size_kb": 405.9,
+      "nodes": 94,
+      "size_kb": 406.9,
       "error": ""
     },
     "nomorewalls": {
@@ -105,8 +105,8 @@
     },
     "pawdroid": {
       "status": "ok",
-      "nodes": 13,
-      "size_kb": 4.4,
+      "nodes": 11,
+      "size_kb": 3.6,
       "error": ""
     },
     "barabama": {
@@ -140,10 +140,10 @@
       "error": ""
     },
     "barabama_wenode.cc": {
-      "status": "failed",
-      "nodes": 0,
-      "size_kb": 0,
-      "error": "Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "status": "ok",
+      "nodes": 23,
+      "size_kb": 4.4,
+      "error": ""
     },
     "barabama_v2rayshare.com": {
       "status": "ok",
@@ -172,7 +172,7 @@
   },
   "summary": {
     "total": 28,
-    "ok": 24,
-    "failed": 4
+    "ok": 27,
+    "failed": 1
   }
 }
