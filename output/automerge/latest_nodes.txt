@@ -190,16 +190,6 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|未命名
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: R9BN2XHrGV
-  port: 31999
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: ''
-  tls: false
-  type: hysteria2
 - name: 8|🇩🇪@V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
