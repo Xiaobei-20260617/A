@@ -83,13 +83,6 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|8@oneclickvpnkeys
-  password: 7_Bz834J98n238cNbx7cjLAw_Nux28c_kIO1Hq86Vr
-  port: 8443
-  server: 151.247.219.191
-  sni: hopp-queen.roxa.org
-  tls: false
-  type: hysteria2
 - name: '8|@AzarAndoozVPNbot #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -100,19 +93,11 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|⚽75@oneclickvpnkeys
+- name: 8|75@oneclickvpnkeys
   password: Apt1923_N9x234gn_Nal5Nx3j_s
   port: 8443
   server: 81.27.102.215
   sni: grape-power-pl.ddnsguru.com
-  tls: false
-  type: hysteria2
-- name: 8|⚽27@oneclickvpnkeys
-  password: FR+3uZ+qu5lMaeIEV2OeBK3sQJmmMiABg57L4KFWK78=
-  port: 8443
-  server: vpn.the2oser.lol
-  skip-cert-verify: true
-  sni: vpn.the2oser.lol
   tls: false
   type: hysteria2
 - name: 8|@one_shop_official
@@ -123,7 +108,7 @@ proxies:
   sni: https://t.me/oneclickvpnkeys
   tls: false
   type: hysteria2
-- name: 8|T.Me=V2RayyNGvpn🇩🇪
+- name: 8|@icv2ray
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: IoFmkhjUlE
@@ -213,16 +198,6 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 8|未命名
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: ZkWtnfGK6h
-  port: 31999
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: ''
-  tls: false
-  type: hysteria2
 - name: 8|🇩🇪117063 | Telegram = t.me/SOS...
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -251,16 +226,6 @@ proxies:
   server: 5.175.249.174
   skip-cert-verify: true
   sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: '8|@filembad #1'
-  obfs: salamander
-  obfs-password: ielzukpwth087afx
-  password: elknam6l7izf3z71
-  port: 52002
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
 - name: 8|@prrofile_purple  ️ ا
@@ -293,21 +258,12 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|87@oneclickvpnkeys
+- name: 8|📊87@oneclickvpnkeys
   obfs: salamander
   obfs-password: lhfl2z9mjngb7csh
   password: o3774es6cfv74kaf
   port: 1935
   server: nrealistic.nn-foto.ru
-  sni: nrealistic.nn-foto.ru
-  tls: false
-  type: hysteria2
-- name: '8|🇳🇱116884 | ⚡️Telegram = t.me/S... #1'
-  obfs: salamander
-  obfs-password: lhfl2z9mjngb7csh
-  password: o3774es6cfv74kaf
-  port: 1935
-  server: soskeynets.nn-foto.ru
   sni: nrealistic.nn-foto.ru
   tls: false
   type: hysteria2
