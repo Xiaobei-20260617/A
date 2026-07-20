@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (0720)
-https://freenode.osbooting.com/nodefiles/20260720TLCW.yaml
-https://freenode.osbooting.com/nodefiles/20260720VFQH.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (0721)
+https://freenode.osbooting.com/nodefiles/20260721AJGW.yaml
+https://freenode.osbooting.com/nodefiles/20260721JDBO.txt

@@ -304,5 +304,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260720TLCW.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260720VFQH.txt"
     }
+  },
+  {
+    "date": "0721",
+    "sort_key": "20260721",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260721AJGW.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260721JDBO.txt"
+    }
   }
 ]
