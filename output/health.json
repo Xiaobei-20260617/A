@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-07-23T19:07:04Z",
+  "timestamp": "2026-07-23T20:35:24Z",
   "sources": {
     "fproxies": {
-      "status": "failed",
-      "nodes": 0,
-      "size_kb": 0,
+      "status": "ok",
+      "nodes": 160,
+      "size_kb": 234.8,
       "error": ""
     },
     "datiya": {
@@ -106,7 +106,7 @@
     "pawdroid": {
       "status": "ok",
       "nodes": 6,
-      "size_kb": 1.6,
+      "size_kb": 2.2,
       "error": ""
     },
     "barabama": {
@@ -165,14 +165,14 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 25,
-      "size_kb": 20.4,
+      "nodes": 69,
+      "size_kb": 25.7,
       "error": ""
     }
   },
   "summary": {
     "total": 28,
-    "ok": 26,
-    "failed": 2
+    "ok": 27,
+    "failed": 1
   }
 }
