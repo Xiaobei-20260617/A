@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-23T12:09:40Z",
+  "timestamp": "2026-07-23T14:40:11Z",
   "sources": {
     "fproxies": {
       "status": "ok",
@@ -21,8 +21,8 @@
     },
     "mlfenx": {
       "status": "ok",
-      "nodes": 10,
-      "size_kb": 182.9,
+      "nodes": 11,
+      "size_kb": 183.8,
       "error": ""
     },
     "clashfree": {
@@ -45,20 +45,20 @@
     },
     "v2rayfree": {
       "status": "ok",
-      "nodes": 1039,
-      "size_kb": 402.3,
+      "nodes": 1041,
+      "size_kb": 404.4,
       "error": ""
     },
     "ruk1ng": {
       "status": "ok",
-      "nodes": 86,
-      "size_kb": 90.4,
+      "nodes": 85,
+      "size_kb": 83.5,
       "error": ""
     },
     "ruk1ng_v2ray": {
       "status": "ok",
-      "nodes": 109,
-      "size_kb": 25.5,
+      "nodes": 103,
+      "size_kb": 23.9,
       "error": ""
     },
     "ovmvo": {
@@ -93,20 +93,20 @@
     },
     "automerge": {
       "status": "ok",
-      "nodes": 100,
-      "size_kb": 410.0,
+      "nodes": 101,
+      "size_kb": 410.2,
       "error": ""
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 136,
-      "size_kb": 23.5,
+      "nodes": 255,
+      "size_kb": 55.8,
       "error": ""
     },
     "pawdroid": {
       "status": "ok",
-      "nodes": 9,
-      "size_kb": 2.7,
+      "nodes": 10,
+      "size_kb": 3.6,
       "error": ""
     },
     "barabama": {
@@ -166,7 +166,7 @@
     "shaoyouvip": {
       "status": "ok",
       "nodes": 1,
-      "size_kb": 6.4,
+      "size_kb": 4.4,
       "error": ""
     }
   },
