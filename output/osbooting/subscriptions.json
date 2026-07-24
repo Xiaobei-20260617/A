@@ -340,5 +340,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260724HWOA.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260724DFZT.txt"
     }
+  },
+  {
+    "date": "0725",
+    "sort_key": "20260725",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260725MHGI.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260725GUMR.txt"
+    }
   }
 ]
