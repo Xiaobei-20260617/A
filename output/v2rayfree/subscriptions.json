@@ -222,5 +222,21 @@
     "urls": {
       "v2ray": "https://raw.githubusercontent.com/free-nodes/v2rayfree/main/v202607242"
     }
+  },
+  {
+    "date": "0725",
+    "sort_key": "202607251",
+    "extra": "v2rayfree 链接 (202607251)",
+    "urls": {
+      "v2ray": "https://raw.githubusercontent.com/free-nodes/v2rayfree/main/v202607251"
+    }
+  },
+  {
+    "date": "0725",
+    "sort_key": "202607252",
+    "extra": "v2rayfree 链接 (202607252)",
+    "urls": {
+      "v2ray": "https://raw.githubusercontent.com/free-nodes/v2rayfree/main/v202607252"
+    }
   }
 ]
