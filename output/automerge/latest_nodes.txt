@@ -217,7 +217,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 8|🇺🇸120253 | Telegram = t.me/SOS...
+- name: 8|120253 | Telegram = t.me/SOSke...
   password: bce6c821-200d-421f-bf3d-7159e5246ea0
   port: 33333
   server: 155.248.209.237
