@@ -358,5 +358,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260726DECF.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260726TKWF.txt"
     }
+  },
+  {
+    "date": "0727",
+    "sort_key": "20260727",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260727ZOQW.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260727LEJP.txt"
+    }
   }
 ]
