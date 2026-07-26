@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-07-26T02:25:16Z",
+  "timestamp": "2026-07-26T05:44:51Z",
   "sources": {
     "fproxies": {
-      "status": "ok",
-      "nodes": 160,
-      "size_kb": 234.8,
+      "status": "failed",
+      "nodes": 0,
+      "size_kb": 0,
       "error": ""
     },
     "datiya": {
@@ -21,32 +21,32 @@
     },
     "mlfenx": {
       "status": "ok",
-      "nodes": 12,
-      "size_kb": 183.8,
+      "nodes": 11,
+      "size_kb": 183.6,
       "error": ""
     },
     "clashfree": {
       "status": "ok",
       "nodes": 1034,
-      "size_kb": 1053.2,
+      "size_kb": 1057.3,
       "error": ""
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 6,
+      "nodes": 4,
       "size_kb": 676.1,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 1134,
-      "size_kb": 398.5,
+      "nodes": 1171,
+      "size_kb": 361.5,
       "error": ""
     },
     "v2rayfree": {
       "status": "ok",
-      "nodes": 1050,
-      "size_kb": 403.5,
+      "nodes": 1051,
+      "size_kb": 406.6,
       "error": ""
     },
     "ruk1ng": {
@@ -82,31 +82,31 @@
     "ts_sf_fly": {
       "status": "ok",
       "nodes": 0,
-      "size_kb": 224.9,
+      "size_kb": 220.7,
       "error": ""
     },
     "free18": {
       "status": "ok",
-      "nodes": 188,
-      "size_kb": 101.0,
+      "nodes": 544,
+      "size_kb": 277.9,
       "error": ""
     },
     "automerge": {
       "status": "ok",
-      "nodes": 157,
-      "size_kb": 429.7,
+      "nodes": 136,
+      "size_kb": 423.2,
       "error": ""
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 239,
-      "size_kb": 36.8,
+      "nodes": 264,
+      "size_kb": 42.7,
       "error": ""
     },
     "pawdroid": {
       "status": "ok",
-      "nodes": 8,
-      "size_kb": 2.4,
+      "nodes": 12,
+      "size_kb": 3.4,
       "error": ""
     },
     "barabama": {
@@ -165,14 +165,14 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 49,
-      "size_kb": 30.8,
+      "nodes": 10,
+      "size_kb": 15.7,
       "error": ""
     }
   },
   "summary": {
     "total": 28,
-    "ok": 27,
-    "failed": 1
+    "ok": 26,
+    "failed": 2
   }
 }
