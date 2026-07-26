@@ -382,5 +382,13 @@
     "urls": {
       "clash": "https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20260726.yml"
     }
+  },
+  {
+    "date": "0727",
+    "sort_key": "20260727",
+    "extra": "",
+    "urls": {
+      "clash": "https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20260727.yml"
+    }
   }
 ]
