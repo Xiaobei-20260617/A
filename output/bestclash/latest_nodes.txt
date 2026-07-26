@@ -21,6 +21,14 @@ proxies:
   udp: true
   udp-relay-mode: native
   uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
+- name: xx|e3fb|puddincat07@Telegram
+  password: AQ71834695
+  port: 443
+  server: tops-marlin.rooster465.autos
+  skip-cert-verify: true
+  sni: tops-marlin.rooster465.autos
+  type: trojan
+  udp: true
 - name: xx|f405|puddincat07@Telegram
   password: AQ71834695
   port: 443
@@ -33,6 +41,13 @@ proxies:
   password: AQ71834695
   port: 443
   server: alert-monster.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: xx|b10e|puddincat07@Telegram
+  password: AQ71834695
+  port: 443
+  server: integral-elf.rooster465.autos
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -52,75 +67,69 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: ss
-- cipher: aes-256-cfb
-  name: us|0fc9|puddincat07@Telegram
-  password: amazonskr05
+- name: us|db5e|puddincat07@Telegram
+  network: ws
+  password: humanity
   port: 443
-  server: 54.197.30.38
-  type: ss
-- cipher: aes-256-cfb
-  name: us|a621|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 54.167.54.100
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: us|6022|puddincat07@Telegram
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
-  type: ss
-- name: xx|625b|puddincat07@Telegram
-  password: CF68213490
-  port: 443
-  server: emerging-weevil.rooster465.autos
+  server: 198.62.62.23
   skip-cert-verify: false
+  sni: www.calmlunch.com
   type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
 - alterId: 0
-  name: xx|5934|puddincat07@Telegram
-  network: tcp
-  password: IQ68037294
+  name: xx|98be|puddincat07@Telegram
+  password: XG59623478
   port: 443
-  server: pl.levikogjgfdd.ir
+  server: stirring-dane.rooster465.autos
   skip-cert-verify: true
-  sni: optimal-urchin.rooster465.autos
+  sni: stirring-dane.rooster465.autos
   tls: true
   type: trojan
   udp: true
-- name: ie|9fdd|puddincat07@Telegram
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 34.255.145.254
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: us|95f1|puddincat07@Telegram
-  password: 2dbd2a10-9512-4b60-84e6-5d9926a9fe5b
-  port: 2083
-  server: 104.18.203.232
-  skip-cert-verify: true
-  sni: laenatbar.seyedalikhameneibinamous.site
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: fr|5da7|puddincat07@Telegram
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 149.202.82.172
+- cipher: chacha20-ietf-poly1305
+  name: nl|447b|puddincat07@Telegram
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.58.239
   type: ss
-  udp: true
-- name: sg|3c25|puddincat07@Telegram
-  password: 557340ab-4ae8-4593-989f-a8053bec73b6
+- name: xx|b4bd|puddincat07@Telegram
+  password: PD07395842
   port: 443
-  server: 139.162.39.206
-  skip-cert-verify: true
+  server: true-pony.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: au|73d3|puddincat07@Telegram
+  password: XG59623478
+  port: 443
+  server: 82.117.225.56
+  skip-cert-verify: false
+  sni: stirring-dane.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: nl|75ba|puddincat07@Telegram
+  network: tcp
+  password: KV63147582
+  port: 443
+  server: 89.39.70.233
+  skip-cert-verify: false
+  sni: game-firefly.rooster465.autos
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: gb|7920|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 77.72.5.113
+- cipher: chacha20-ietf-poly1305
+  name: gb|76ce|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.49
   type: ss
-  udp: true
+- alterId: 2
+  cipher: auto
+  name: xx|8151|puddincat07@Telegram
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
