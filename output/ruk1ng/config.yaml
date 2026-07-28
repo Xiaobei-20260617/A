@@ -47,171 +47,23 @@ profile:
     store-fake-ip: true
     store-selected: true
 proxies:
-    - name: "\U0001F7E2\U0001F1F2\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_6a735115"
-      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20068
-      server: oplosgru-c.catcat321.com
-      skip-cert-verify: true
-      sni: hk.catxstar.com
-      type: trojan
-      udp: true
-    - name: "\U0001F534\U0001F1F2\U0001F1FE[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0b432ca8"
-      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20031
-      server: oplosgru-c.catcat321.com
-      skip-cert-verify: true
-      sni: hk.catxstar.com
-      type: trojan
-      udp: true
-    - name: "\U0001F534\U0001F1F9\U0001F1ED[\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_c14d20ab"
-      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20006
-      server: oplosgru-c.catcat321.com
-      skip-cert-verify: true
-      sni: hk.catxstar.com
-      type: trojan
-      udp: true
-    - name: "\U0001F534\U0001F1F0\U0001F1F7[\U0001F916\U0001F4FA\U0001F3AD✨]_github.com/Ruk1ng001_5b8e1a9b"
-      port: 1090
-      server: 121.169.46.116
-      tls: false
-      type: socks5
-      username: Og%3D%3D
-    - name: "\U0001F534\U0001F1F9\U0001F1ED[\U0001F4FA✨]_github.com/Ruk1ng001_572aa3f1"
-      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20023
-      server: oplosgru-c.catcat321.com
-      skip-cert-verify: true
-      sni: hk.catxstar.com
-      type: trojan
-      udp: true
-    - encryption: none
-      name: "\U0001F7E0\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_041306d4"
-      network: tcp
-      port: 62145
-      server: 92.5.234.219
-      type: vless
-      udp: true
-      uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-      xudp: true
-    - client-fingerprint: qq
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F7E2\U0001F1E9\U0001F1EA[\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_cf527228"
-      network: tcp
-      port: 49000
-      reality-opts:
-        public-key: lKxU4TCjenarM3nQqOVPaVhaTo5QaDHmRlS40XdwzUk
-        short-id: ""
-      server: defast.mifbot.pro
-      servername: git.sly.team
-      tls: true
-      type: vless
-      udp: true
-      uuid: 11113f77-b439-4911-a8dd-414d2ee36b59
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F7E0\U0001F1EB\U0001F1F7[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_5e8d0f8c"
-      network: tcp
-      password: JT80563429
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9a2d14fa"
+      obfs: ""
+      obfs-password: ""
+      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
       port: 443
-      server: desired-pony.rooster465.autos
-      skip-cert-verify: false
-      sni: desired-pony.rooster465.autos
-      type: trojan
-      udp: true
-    - name: "\U0001F7E0\U0001F1E9\U0001F1EA_github.com/Ruk1ng001_df773121"
-      network: ws
-      port: 80
-      server: 151.101.56.7
-      type: vless
-      udp: true
-      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-      ws-opts:
-        headers:
-            Host: BankMelat.glObal.ssl.faStly.nEt.
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-        path: ""
-      xudp: true
-    - alterId: 0
-      cipher: auto
-      client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_de1c5734"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: 7_vH7zeCpAuc82hRhpewmCB0TGnF6EPfn7HZb4lDNmQ
-        short-id: a38fa7e8c1844957
-      server: free.us1.laodavip.com
-      servername: free.us1.laodavip.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 89281585-8bde-4ef2-8807-96c603281ef8
-    - cipher: aes-256-gcm
-      name: "\U0001F7E2\U0001F1E8\U0001F1E6[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_e4a1b3b5"
-      password: 2803361d6c196af8
-      port: 10210
-      server: 50.114.177.134
-      type: ss
-      udp: true
-    - encryption: none
-      name: "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4b3828ae"
-      network: ws
-      port: 8880
-      server: cf1.466688.xyz
-      type: vless
-      udp: true
-      uuid: f989cbf4-40d2-41d2-8a00-1fe4e29b2192
-      ws-opts:
-        headers:
-            Host: ancient-rice-c180.455-8ad.workers.dev
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-        path: /pyip=ProxyIP.SG.CMLiussss.net@https://t.me/QiangLieTuiJian
-      xudp: true
-    - name: "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a88e970f"
-      password: gs4BXwT6SW
-      port: 10988
-      server: 154.26.192.123
-      tls: false
-      type: http
-      username: fQ67Dpe5dU
-    - encryption: none
-      name: "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_b4d2a75f"
-      network: ws
-      port: 8880
-      server: cf6.466688.xyz
-      type: vless
-      udp: true
-      uuid: f989cbf4-40d2-41d2-8a00-1fe4e29b2192
-      ws-opts:
-        headers:
-            Host: ancient-rice-c180.455-8ad.workers.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
-        path: /pyip=ProxyIP.SG.CMLiussss.net@https://t.me/QiangLieTuiJian
-      xudp: true
-    - encryption: none
-      name: "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_43e9e527"
-      network: ws
-      port: 8880
-      server: cf9.466688.xyz
-      type: vless
-      udp: true
-      uuid: f989cbf4-40d2-41d2-8a00-1fe4e29b2192
-      ws-opts:
-        headers:
-            Host: ancient-rice-c180.455-8ad.workers.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /pyip=ProxyIP.SG.CMLiussss.net@https://t.me/QiangLieTuiJian
-      xudp: true
+      server: vpn-sg-001.fastervpn.world
+      skip-cert-verify: true
+      sni: vpn-sg-001.fastervpn.world
+      type: hysteria2
+      up: ""
     - client-fingerprint: chrome
       encryption: none
       grpc-opts:
         grpc-service-name: grpc
-      name: "\U0001F534\U0001F1E9\U0001F1EA[\U0001F916\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_f3b69294"
+      name: "\U0001F534\U0001F1E9\U0001F1EA[\U0001F916\U0001F4E6]_github.com/Ruk1ng001_f3b69294"
       network: grpc
       port: 443
       reality-opts:
@@ -224,53 +76,53 @@ proxies:
       udp: true
       uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
       xudp: true
-    - name: "\U0001F7E0\U0001F1EE\U0001F1E9[\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_87373ad9"
+    - name: "\U0001F7E1\U0001F1EF\U0001F1F5[\U0001F3AC\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_23034125"
       password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20056
+      port: 20004
+      server: oplosgru-c.catcat321.com
+      skip-cert-verify: true
+      sni: hk.catxstar.com
+      type: trojan
+      udp: true
+    - name: "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a88e970f"
+      password: gs4BXwT6SW
+      port: 10988
+      server: 154.26.192.123
+      tls: false
+      type: http
+      username: fQ67Dpe5dU
+    - client-fingerprint: qq
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F7E2\U0001F1E9\U0001F1EA[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_cf527228"
+      network: tcp
+      port: 49000
+      reality-opts:
+        public-key: lKxU4TCjenarM3nQqOVPaVhaTo5QaDHmRlS40XdwzUk
+        short-id: ""
+      server: defast.mifbot.pro
+      servername: git.sly.team
+      tls: true
+      type: vless
+      udp: true
+      uuid: 11113f77-b439-4911-a8dd-414d2ee36b59
+      xudp: true
+    - name: "\U0001F534\U0001F1F0\U0001F1F7[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_5b8e1a9b"
+      port: 1090
+      server: 121.169.46.116
+      tls: false
+      type: socks5
+      username: Og%3D%3D
+    - name: "⚪\U0001F3F3️_github.com/Ruk1ng001_501ac91e"
+      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+      port: 20120
       server: oplosgru-c.catcat321.com
       skip-cert-verify: true
       sni: hk.catxstar.com
       type: trojan
       udp: true
     - cipher: 2022-blake3-aes-128-gcm
-      name: "\U0001F7E0\U0001F1FA\U0001F1F8_github.com/Ruk1ng001_ff7a73df"
-      password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
-      plugin: gost-plugin
-      plugin-opts:
-        host: one.local
-        mode: websocket
-        mux: true
-        path: /ws
-        tls: false
-      port: 80
-      server: 104.128.72.119
-      type: ss
-      udp: true
-    - multiplexing: MULTIPLEXING_LOW
-      name: "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_148a190d"
-      password: dongtaiwang.com
-      port: 34567
-      server: 157.254.223.44
-      transport: TCP
-      type: mieru
-      username: dongtaiwang.com
-    - name: "\U0001F7E2\U0001F1F9\U0001F1FC[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_75a9209f"
-      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20025
-      server: Hkdcrtc-e.catcat321.com
-      skip-cert-verify: true
-      sni: tw.catxstar.com
-      type: trojan
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F7E2\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_31d250d9"
-      password: jVPjyNGgOAfv4b4e8dUK693et27aKkLJp1TxTRUIgHs=
-      port: 16156
-      server: e4.cover20.ir
-      type: ss
-      udp: true
-    - cipher: 2022-blake3-aes-128-gcm
-      name: "\U0001F534\U0001F1FA\U0001F1F8[\U0001F4FA]_github.com/Ruk1ng001_76440e56"
+      name: "\U0001F534\U0001F1FA\U0001F1F8_github.com/Ruk1ng001_76440e56"
       password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
       plugin: gost-plugin
       plugin-opts:
@@ -285,21 +137,26 @@ proxies:
       udp: true
     - client-fingerprint: qq
       encryption: none
-      grpc-opts:
-        grpc-service-name: grpc-tunnel
-      name: "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F916\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_a17b19ef"
-      network: grpc
-      port: 9878
+      flow: xtls-rprx-vision
+      name: "\U0001F534\U0001F1F5\U0001F1F1[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_79cfb947"
+      network: tcp
+      port: 443
       reality-opts:
-        public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-        short-id: aabbccdd
-      server: 5.42.106.202
-      servername: dl.google.com
+        public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+        short-id: "5678"
+      server: 151.245.192.193
+      servername: auto.malina24.xyz
       tls: true
       type: vless
       udp: true
-      uuid: 884d811f-577b-421e-aabb-608660b0ecfa
+      uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
       xudp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6778395a"
+      port: 9002
+      server: 193.176.84.39
+      skip-cert-verify: true
+      tls: true
+      type: http
     - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4385d4f1"
       port: 9002
       server: 193.176.84.31
@@ -307,19 +164,31 @@ proxies:
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_0d158867"
-      network: ws
-      port: 8880
-      server: www.zsu.gov.ua
-      type: vless
-      udp: true
-      uuid: f22856f8-66f0-4655-ba86-5385971e1302
-      ws-opts:
-        headers:
-            Host: throbbing-mountain-45e9.314-df3.workers.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
-        path: /pyip=ProxyIP.US.CMLiussss.net
-      xudp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_26763f04"
+      port: 9002
+      server: 193.176.84.36
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_b7a25db2"
+      port: 9002
+      server: 84.239.49.175
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - alterId: 0
+      cipher: auto
+      client-fingerprint: safari
+      name: "⚪\U0001F3F3️_github.com/Ruk1ng001_54d00832"
+      network: tcp
+      port: 443
+      server: guanwang.awsno.com
+      servername: gw.alicdn.com
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
     - down: ""
       fingerprint: ""
       name: "\U0001F7E0\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_59f39e13"
@@ -332,61 +201,84 @@ proxies:
       sni: vpn-us-004.fastervpn.world
       type: hysteria2
       up: ""
-    - client-fingerprint: firefox
-      name: "\U0001F7E2\U0001F1FA\U0001F1F8_github.com/Ruk1ng001_65be669b"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-        short-id: 0b
-      server: 45.155.52.231
-      servername: ru2.skydrgn-online.online
-      tls: true
-      type: vless
+    - client-fingerprint: chrome
+      name: "⚪\U0001F3F3️_github.com/Ruk1ng001_79f3708c"
+      network: ws
+      password: HutaoCloud
+      port: 11543
+      server: 185.220.238.77
+      skip-cert-verify: true
+      sni: 185.220.238.77
+      type: trojan
       udp: true
-      uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
-      xudp: true
-    - client-fingerprint: qq
-      encryption: none
-      grpc-opts:
-        grpc-service-name: grpc-tunnel
-      name: "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F4FA\U0001F3AD\U0001F3AA✈️]_github.com/Ruk1ng001_2f63d08b"
-      network: grpc
-      port: 9892
-      reality-opts:
-        public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-        short-id: ""
-      server: 72.56.38.194
-      servername: dl.google.com
-      tls: true
-      type: vless
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+        path: /api
+    - name: "\U0001F534\U0001F1EE\U0001F1F3[\U0001F916\U0001F4FA\U0001F3AA✨]_github.com/Ruk1ng001_35177213"
+      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+      port: 20035
+      server: oplosgru-c.catcat321.com
+      skip-cert-verify: true
+      sni: hk.catxstar.com
+      type: trojan
       udp: true
-      uuid: 884d811f-577b-421e-aabb-608660b0ecfa
-      xudp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_46e9bf7d"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_37c76867"
       port: 9002
-      server: 84.239.49.185
+      server: 193.176.84.34
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_86d476ed"
+    - name: "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_14853730"
+      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+      port: 44766
+      server: dd1.catcat321.com
+      skip-cert-verify: true
+      sni: d.usj1.cat.bilibili.com
+      type: trojan
+      udp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_9f5445c9"
       port: 9002
-      server: 84.239.49.207
+      server: 84.239.49.176
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F7E2\U0001F1F0\U0001F1F7[\U0001F4FA\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_c9e38808"
-      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 9450
-      server: rr1.tube-cat.com
-      skip-cert-verify: true
-      sni: r.KR1.cat.bilibili.com
-      type: trojan
-      udp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_d6864b0e"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d7d8d337"
       port: 9002
-      server: 84.239.49.242
+      server: 84.239.49.234
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F7E2\U0001F1F8\U0001F1EC_github.com/Ruk1ng001_9c50b115"
+      network: tcp
+      port: 40118
+      reality-opts:
+        public-key: x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20
+        short-id: 5895914d
+      server: apinbxs.eovay.com
+      servername: www.lamer.com.sg
+      tls: true
+      type: vless
+      udp: true
+      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+      xudp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_7f908228"
+      port: 9002
+      server: 84.239.49.199
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1a1bd9fd"
+      port: 9002
+      server: 84.239.49.249
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
@@ -403,299 +295,69 @@ proxies:
       sni: www.microsoft.com
       type: hysteria2
       up: ""
-    - name: "\U0001F534\U0001F1EE\U0001F1F3[\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_35177213"
-      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20035
-      server: oplosgru-c.catcat321.com
-      skip-cert-verify: true
-      sni: hk.catxstar.com
-      type: trojan
-      udp: true
-    - client-fingerprint: qq
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F534\U0001F1F5\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_184019c6"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-        short-id: "5678"
-      server: 151.245.192.225
-      servername: auto.malina24.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
-      xudp: true
-    - name: "\U0001F7E0\U0001F1F7\U0001F1FA[\U0001F4FA\U0001F3AA✨\U0001F4E6]_github.com/Ruk1ng001_765c5076"
-      obfs: salamander
-      obfs-password: 80947da2f2beb132a3e9a46493f246e3
-      password: Gda238Qr5GeEgGAM
-      port: 443
-      server: ru1-c4f5a02s.skynode.me
-      skip-cert-verify: true
-      sni: ru1-c4f5a02s.skynode.me
-      type: hysteria2
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F534\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_3d76bbf8"
-      network: ws
-      port: 443
-      server: 80.74.29.157
-      servername: vp58.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-      ws-opts:
-        headers:
-            Host: vp58.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
-        path: "/Telegram\U0001F1E8\U0001F1F3 @VPNine1"
-      xudp: true
-    - client-fingerprint: chrome
-      name: "⚪\U0001F3F3️_github.com/Ruk1ng001_79f3708c"
-      network: ws
-      password: HutaoCloud
-      port: 11543
-      server: 185.220.238.77
-      skip-cert-verify: true
-      sni: 185.220.238.77
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-        path: /api
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F3AA✨]_github.com/Ruk1ng001_f701a179"
-      obfs: ""
-      obfs-password: ""
-      password: 042a1881-44e4-4781-bd40-bf75164faf4f
-      port: 443
-      server: usp.noesissite.ru
-      skip-cert-verify: false
-      sni: usp.noesissite.ru
-      type: hysteria2
-      up: ""
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_d7d8d337"
-      port: 9002
-      server: 84.239.49.234
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA]_github.com/Ruk1ng001_1af479e3"
-      port: 9002
-      server: 193.176.84.24
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1FA\U0001F1E6[\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_32bcc1a5"
-      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20066
-      server: oplosgru-c.catcat321.com
-      skip-cert-verify: true
-      sni: hk.catxstar.com
-      type: trojan
-      udp: true
-    - name: "\U0001F7E0\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9bd4011b"
-      obfs: salamander
-      obfs-password: ce9d53f1e6d16f0e1fa980f9f67d45d6
-      password: Gda238Qr5GeEgGAM
-      port: 443
-      server: us3-34vuslks.skynode.me
-      skip-cert-verify: true
-      sni: us3-34vuslks.skynode.me
-      type: hysteria2
-      udp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F50D]_github.com/Ruk1ng001_3adb38ee"
-      port: 9002
-      server: 84.239.49.40
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_9d7dc39f"
-      network: ws
-      port: 8880
-      server: www.zsu.gov.ua
-      type: vless
-      udp: true
-      uuid: bfa3aaaf-41d3-4ec4-8453-e9827d7e7b30
-      ws-opts:
-        headers:
-            Host: crimson-mode-f8de.432-9e1.workers.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /pyip=ProxyIP.US.CMLiussss.net
-      xudp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_7063f71e"
-      port: 9002
-      server: 84.239.49.187
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - client-fingerprint: firefox
-      encryption: none
-      grpc-opts:
-        grpc-service-name: neurex
-      name: "\U0001F7E0\U0001F1E6\U0001F1F9[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_60ec35b2"
-      network: grpc
-      port: 16923
-      reality-opts:
-        public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-        short-id: 10ffb85da1c2d986
-      server: 152.53.47.153
-      servername: api-maps.yandex.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3df0d1ae-a205-4602-a9a1-f0d518dcc826
-      xudp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_1a1bd9fd"
-      port: 9002
-      server: 84.239.49.249
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_fc196041"
-      port: 9002
-      server: 84.239.49.247
-      skip-cert-verify: true
-      tls: true
-      type: http
     - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_a0921b46"
       port: 9002
       server: 84.239.49.253
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_3b6bf33f"
-      port: 9002
-      server: 193.176.84.32
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_45dd8b4b"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_45dd8b4b"
       port: 9002
       server: 84.239.49.231
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F7E1\U0001F1EF\U0001F1F5[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_23034125"
+    - client-fingerprint: firefox
+      name: "\U0001F7E2\U0001F1FA\U0001F1F8_github.com/Ruk1ng001_65be669b"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
+        short-id: 0b
+      server: 45.155.52.231
+      servername: ru2.skydrgn-online.online
+      tls: true
+      type: vless
+      udp: true
+      uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+      xudp: true
+    - name: "\U0001F534\U0001F1F3\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_7b99a503"
       password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20004
+      port: 20085
       server: oplosgru-c.catcat321.com
       skip-cert-verify: true
       sni: hk.catxstar.com
       type: trojan
       udp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_d8e88830"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_750809c5"
       port: 9002
-      server: 84.239.49.182
+      server: 84.239.49.154
       skip-cert-verify: true
-      sni: www.bing.com
       tls: true
       type: http
-    - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: TunService
-      name: "\U0001F534\U0001F1F9\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0d0d0eb2"
-      network: grpc
-      port: 8443
-      reality-opts:
-        public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
-        short-id: ""
-      server: 170.168.97.3
-      servername: download.nvidia.com
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_fc196041"
+      port: 9002
+      server: 84.239.49.247
+      skip-cert-verify: true
       tls: true
-      type: vless
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_7b5efeb3"
+      port: 9002
+      server: 84.239.14.158
+      skip-cert-verify: true
+      tls: true
+      type: http
       udp: true
-      uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
-      xudp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9f5445c9"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1026877a"
       port: 9002
-      server: 84.239.49.176
+      server: 84.239.49.159
       skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_223af90e"
-      port: 9002
-      server: 84.239.14.149
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_26763f04"
-      port: 9002
-      server: 193.176.84.36
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_85cf2f97"
-      port: 9002
-      server: 84.239.49.240
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_5c5afcdb"
-      port: 9002
-      server: 84.239.14.147
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_390d92de"
-      port: 9002
-      server: 84.239.49.245
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_6e39a6cb"
-      port: 9002
-      server: 84.239.14.148
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_7bdb2d5d"
-      port: 9002
-      server: 84.239.49.223
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F50D]_github.com/Ruk1ng001_4c4d893a"
-      port: 9002
-      server: 193.176.84.37
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a89a852e"
-      port: 9002
-      server: 84.239.49.164
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0ae131d7"
-      port: 9002
-      server: 193.176.84.27
-      skip-cert-verify: true
-      sni: www.bing.com
       tls: true
       type: http
     - client-fingerprint: edge
       flow: xtls-rprx-vision
-      name: "\U0001F534\U0001F1EB\U0001F1EE_github.com/Ruk1ng001_3c33b34b"
+      name: "\U0001F534\U0001F1EB\U0001F1EE[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_3c33b34b"
       network: raw
       port: 443
       reality-opts:
@@ -708,35 +370,56 @@ proxies:
       udp: true
       uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
       xudp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_50511bed"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6f0b4d5b"
       port: 9002
-      server: 193.176.84.19
+      server: 84.239.49.209
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_af52e797"
-      port: 9002
-      server: 84.239.14.146
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_588489b3"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_588489b3"
       port: 9002
       server: 84.239.49.254
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_e76e07f3"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6d4a7817"
       port: 9002
-      server: 84.239.49.37
+      server: 84.239.49.178
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_85cf2f97"
+      port: 9002
+      server: 84.239.49.240
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1af479e3"
+      port: 9002
+      server: 193.176.84.24
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_9e2a5f02"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_450af56b"
       port: 9002
-      server: 84.239.14.152
+      server: 84.239.14.159
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_5a03f828"
+      port: 9002
+      server: 84.239.49.171
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d10eacd8"
+      port: 9002
+      server: 84.239.49.162
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
@@ -748,29 +431,214 @@ proxies:
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4_github.com/Ruk1ng001_6d4a7817"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F4E6]_github.com/Ruk1ng001_e76e07f3"
       port: 9002
-      server: 84.239.49.178
+      server: 84.239.49.37
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_48370336"
+      port: 9002
+      server: 84.239.49.211
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_aac57d45"
+      port: 9002
+      server: 84.239.49.214
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_85c29221"
+      port: 9002
+      server: 84.239.49.155
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_cc8f9182"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_5c5afcdb"
       port: 9002
-      server: 84.239.49.42
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_786985ca"
-      port: 9002
-      server: 84.239.49.157
+      server: 84.239.14.147
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_d10eacd8"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_e6c033a3"
       port: 9002
-      server: 84.239.49.162
+      server: 84.239.49.227
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - multiplexing: MULTIPLEXING_LOW
+      name: "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F916\U0001F3AD\U0001F39E️\U0001F4E6]_github.com/Ruk1ng001_148a190d"
+      password: dongtaiwang.com
+      port: 34567
+      server: 157.254.223.44
+      transport: TCP
+      type: mieru
+      username: dongtaiwang.com
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_ed7b38b8"
+      port: 9002
+      server: 84.239.49.180
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6fd1af3e"
+      port: 9002
+      server: 84.239.49.235
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_013e8016"
+      port: 9002
+      server: 84.239.14.157
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_af52e797"
+      port: 9002
+      server: 84.239.14.146
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_ca427c46"
+      port: 9002
+      server: 84.239.49.183
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD✨]_github.com/Ruk1ng001_a43c097b"
+      port: 9002
+      server: 84.239.49.160
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_3adb38ee"
+      port: 9002
+      server: 84.239.49.40
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_ef690cc6"
+      port: 9002
+      server: 84.239.49.201
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6e39a6cb"
+      port: 9002
+      server: 84.239.14.148
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_97352dbf"
+      port: 9002
+      server: 84.239.49.38
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_01ff4389"
+      port: 9002
+      server: 84.239.49.55
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_226fa120"
+      port: 9002
+      server: 84.239.49.184
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_f8d02395"
+      port: 9002
+      server: 84.239.49.39
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_9d1e9ccb"
+      port: 9002
+      server: 193.176.84.25
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_46e9bf7d"
+      port: 9002
+      server: 84.239.49.185
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_cb3d27ed"
+      port: 9002
+      server: 84.239.49.191
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_bc561dde"
+      port: 9002
+      server: 84.239.49.198
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_011d3b15"
+      port: 9002
+      server: 84.239.49.224
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_86d476ed"
+      port: 9002
+      server: 84.239.49.207
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_9f24578b"
+      port: 9002
+      server: 84.239.49.215
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_8ef844c9"
+      port: 9002
+      server: 84.239.49.173
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_01eb1362"
+      port: 9002
+      server: 84.239.14.154
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F7E0\U0001F1FA\U0001F1F8[\U0001F916\U0001F4FA\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_9b6fe04a"
+      port: 30824
+      server: v24.hdacd.com
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      xudp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_c91883ca"
+      port: 9002
+      server: 193.176.84.26
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
@@ -795,554 +663,33 @@ proxies:
       udp: true
       uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
       xudp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_013e8016"
-      port: 9002
-      server: 84.239.14.157
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_26dd3d10"
-      port: 9002
-      server: 84.239.49.238
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✈️]_github.com/Ruk1ng001_300e8e1c"
-      port: 9002
-      server: 84.239.49.219
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_6b7dbcaf"
-      port: 9002
-      server: 84.239.49.196
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_edf4fc20"
-      port: 9002
-      server: 84.239.49.57
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_97352dbf"
-      port: 9002
-      server: 84.239.49.38
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4a2952a3"
-      port: 9002
-      server: 84.239.49.170
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_48370336"
-      port: 9002
-      server: 84.239.49.211
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_e6c033a3"
-      port: 9002
-      server: 84.239.49.227
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_1026877a"
-      port: 9002
-      server: 84.239.49.159
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_c91883ca"
-      port: 9002
-      server: 193.176.84.26
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_75104ee8"
-      obfs: salamander
-      obfs-password: 9e652c9546d37602c505ebac5cd9f4ec
-      password: Gda238Qr5GeEgGAM
-      port: 443
-      server: kr3-mmyoy0p6.skynode.me
-      skip-cert-verify: true
-      sni: kr3-mmyoy0p6.skynode.me
-      type: hysteria2
-      udp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_c5b61986"
-      port: 9002
-      server: 84.239.49.163
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_9f24578b"
-      port: 9002
-      server: 84.239.49.215
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_aac57d45"
-      port: 9002
-      server: 84.239.49.214
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - client-fingerprint: qq
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F534\U0001F1F5\U0001F1F1[\U0001F4FA\U0001F3AD\U0001F4E6]_github.com/Ruk1ng001_79cfb947"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-        short-id: "5678"
-      server: 151.245.192.193
-      servername: auto.malina24.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
-      xudp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_58a3d31b"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_58a3d31b"
       port: 9002
       server: 84.239.49.233
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F50D]_github.com/Ruk1ng001_ca427c46"
-      port: 9002
-      server: 84.239.49.183
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - client-fingerprint: chrome
-      name: "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d3cd2e88"
-      network: ws
-      port: 80
-      server: 151.101.193.54
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
-      ws-opts:
-        headers:
-            Host: BankMelat.glObal.ssl.faStly.nEt.
-        path: /
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_7b5efeb3"
-      port: 9002
-      server: 84.239.14.158
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_961db747"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_961db747"
       port: 9002
       server: 84.239.49.204
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_226fa120"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_223af90e"
       port: 9002
-      server: 84.239.49.184
+      server: 84.239.14.149
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
-    - name: "⚪\U0001F3F3️_github.com/Ruk1ng001_501ac91e"
-      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20120
-      server: oplosgru-c.catcat321.com
-      skip-cert-verify: true
-      sni: hk.catxstar.com
-      type: trojan
-      udp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_73809fb0"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_4a2952a3"
       port: 9002
-      server: 84.239.49.225
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - cipher: 2022-blake3-aes-128-gcm
-      name: "\U0001F7E2\U0001F1FA\U0001F1F8_github.com/Ruk1ng001_216af303"
-      password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
-      plugin: gost-plugin
-      plugin-opts:
-        host: ous1.337777777.xyz
-        mode: websocket
-        mux: true
-        path: /api/v1/stream/us1
-        tls: false
-      port: 80
-      server: www.syfe.com
-      type: ss
-      udp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_a0cc4c8a"
-      port: 9002
-      server: 84.239.14.160
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F7E2\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_048a8a9a"
-      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20041
-      server: Hkdcrtc-e.catcat321.com
-      skip-cert-verify: true
-      sni: de.catxstar.com
-      type: trojan
-      udp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_aa105999"
-      port: 9002
-      server: 84.239.49.166
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_6fd1af3e"
-      port: 9002
-      server: 84.239.49.235
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_011d3b15"
-      port: 9002
-      server: 84.239.49.224
+      server: 84.239.49.170
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_a9607e73"
-      network: ws
-      port: 2096
-      server: cd18.almas-cloud.ir
-      type: vless
-      udp: true
-      uuid: 94d1b793-0670-405a-af31-d1270b582427
-      ws-opts:
-        headers:
-            Host: ""
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-        path: ""
-      xudp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_450af56b"
-      port: 9002
-      server: 84.239.14.159
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1E6\U0001F1FA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_75a616e0"
-      port: 443
-      server: 103.62.50.130
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_4de2b545"
-      port: 9002
-      server: 84.239.49.212
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AD\U0001F3AA\U0001F4E6\U0001F50D]_github.com/Ruk1ng001_bc561dde"
-      port: 9002
-      server: 84.239.49.198
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_7f908228"
-      port: 9002
-      server: 84.239.49.199
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA]_github.com/Ruk1ng001_ef690cc6"
-      port: 9002
-      server: 84.239.49.201
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_9d1e9ccb"
-      port: 9002
-      server: 193.176.84.25
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_ed7b38b8"
-      port: 9002
-      server: 84.239.49.180
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_b81b5bbe"
-      obfs: salamander
-      obfs-password: 0cb88c27d2d72a4fcb3fbe429cbdbdba
-      password: Gda238Qr5GeEgGAM
-      port: 443
-      server: sg4-tnv2d7lw.skynode.me
-      skip-cert-verify: true
-      sni: sg4-tnv2d7lw.skynode.me
-      type: hysteria2
-      udp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6778395a"
-      port: 9002
-      server: 193.176.84.39
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_cb3d27ed"
-      port: 9002
-      server: 84.239.49.191
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a43c097b"
-      port: 9002
-      server: 84.239.49.160
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F7E0\U0001F1EB\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_29752d74"
-      network: ws
-      port: 443
-      server: 77.105.163.46
-      servername: ov186.ochmaybrooooo.online
-      tls: true
-      type: vless
-      udp: true
-      uuid: 218b4b35-e826-49d4-b5dc-558fc7eb9923
-      ws-opts:
-        headers:
-            Host: ov186.ochmaybrooooo.online
-            User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
-        path: /
-      xudp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✈️]_github.com/Ruk1ng001_b7a25db2"
-      port: 9002
-      server: 84.239.49.175
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - encryption: none
-      name: "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_8b2d8f6d"
-      network: ws
-      port: 80
-      server: 167.82.0.1
-      type: vless
-      udp: true
-      uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
-      ws-opts:
-        headers:
-            Host: BankMelat.glObal.ssl.faStly.nEt.
-            User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
-        path: /
-      xudp: true
-    - encryption: none
-      name: "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2d115cfa"
-      network: ws
-      port: 80
-      server: 167.82.0.4
-      type: vless
-      udp: true
-      uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
-      ws-opts:
-        headers:
-            Host: BankMelat.glObal.ssl.faStly.nEt.
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
-        path: /
-      xudp: true
-    - name: "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_27f3a19a"
-      network: ws
-      port: 80
-      server: 167.82.0.1
-      type: vless
-      udp: true
-      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-      ws-opts:
-        headers:
-            Host: BankMelat.glObal.ssl.faStly.nEt.
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
-        path: ""
-      xudp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_f8d02395"
-      port: 9002
-      server: 84.239.49.39
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F3\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F4E6]_github.com/Ruk1ng001_28f2071e"
-      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20085
-      server: Hkdcrtc-e.catcat321.com
-      skip-cert-verify: true
-      sni: hk.catxstar.com
-      type: trojan
-      udp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_8ef844c9"
-      port: 9002
-      server: 84.239.49.173
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_01eb1362"
-      port: 9002
-      server: 84.239.14.154
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F7E2\U0001F1E6\U0001F1FF[\U0001F916\U0001F4FA\U0001F3AA✨]_github.com/Ruk1ng001_1392a6d8"
-      obfs: ""
-      obfs-password: ""
-      password: ew9_M93_6a31Qd45_hUX3984F_jNZ83x_Nz1l_f
-      port: 8443
-      server: 94.20.88.13
-      skip-cert-verify: false
-      sni: azer-tea-grape.bumbleshrimp.com
-      type: hysteria2
-      up: ""
-    - name: "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_b5c7b3f6"
-      obfs: salamander
-      obfs-password: 831d6df1611a44499a4ccff258069247
-      password: Gda238Qr5GeEgGAM
-      port: 443
-      server: sg3-lnajebis.skynode.me
-      skip-cert-verify: true
-      sni: sg3-lnajebis.skynode.me
-      type: hysteria2
-      udp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AD]_github.com/Ruk1ng001_59f086ef"
-      port: 9002
-      server: 84.239.49.239
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_750809c5"
-      port: 9002
-      server: 84.239.49.154
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6c32a5eb"
-      obfs: salamander
-      obfs-password: cdf451dd95873d018ea8a706b2c0af0b
-      password: Gda238Qr5GeEgGAM
-      port: 443
-      server: sg5-mjh9wql6.skynode.me
-      skip-cert-verify: true
-      sni: sg5-mjh9wql6.skynode.me
-      type: hysteria2
-      udp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_85c29221"
-      port: 9002
-      server: 84.239.49.155
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - encryption: none
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d99dc948"
-      network: tcp
-      port: 10000
-      server: 180.178.60.252
-      type: vless
-      udp: true
-      uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-      xudp: true
-    - alpn:
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F7E0\U0001F1EB\U0001F1F7[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_824a2580"
-      network: ws
-      port: 2053
-      server: music1000.melobitmusic1.ir
-      servername: music1000.melobitmusic1.ir
-      tls: true
-      type: vless
-      udp: true
-      uuid: da4747a6-be0d-4c1b-90f4-d82ec3012be2
-      ws-opts:
-        headers:
-            Host: music1000.melobitmusic1.ir
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
-        path: /
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_01ff4389"
-      port: 9002
-      server: 84.239.49.55
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_fd7b192d"
-      port: 9002
-      server: 84.239.49.161
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_07b2ee2b"
-      port: 9002
-      server: 84.239.49.156
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - alterId: 0
-      cipher: auto
-      client-fingerprint: safari
-      name: "⚪\U0001F3F3️_github.com/Ruk1ng001_54d00832"
-      network: tcp
-      port: 443
-      server: guanwang.awsno.com
-      servername: gw.alicdn.com
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-    - name: "\U0001F534\U0001F1F3\U0001F1F1_github.com/Ruk1ng001_e3051f22"
-      port: 1080
-      server: 5.255.99.75
-      type: socks5
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      down: "1000"
-      name: "\U0001F534\U0001F1E9\U0001F1EA[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_b650b93a"
-      port: 20088
-      protocol: udp
-      server: 5.83.129.153
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "500"
-    - name: "\U0001F534\U0001F1EB\U0001F1EE[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_5c79b4dc"
+    - name: "\U0001F534\U0001F1EB\U0001F1EE_github.com/Ruk1ng001_5c79b4dc"
       network: ws
       port: 2053
       server: 103.54.16.230
@@ -1357,18 +704,506 @@ proxies:
         headers:
             Host: forfreeuse.sub-flow.online
         path: /
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_6f0b4d5b"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_7063f71e"
       port: 9002
-      server: 84.239.49.209
+      server: 84.239.49.187
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - encryption: none
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F534\U0001F1FA\U0001F1F8_github.com/Ruk1ng001_d99dc948"
+      network: tcp
+      port: 10000
+      server: 180.178.60.252
+      type: vless
+      udp: true
+      uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_d3cd2e88"
+      network: ws
+      port: 80
+      server: 151.101.193.54
+      skip-cert-verify: true
+      tls: false
+      type: vless
+      udp: true
+      uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt.
+        path: /
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d6864b0e"
+      port: 9002
+      server: 84.239.49.242
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_390d92de"
+      port: 9002
+      server: 84.239.49.245
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_4de2b545"
+      port: 9002
+      server: 84.239.49.212
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F7E0\U0001F1EE\U0001F1E9[\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_87373ad9"
+      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+      port: 20056
+      server: oplosgru-c.catcat321.com
+      skip-cert-verify: true
+      sni: hk.catxstar.com
+      type: trojan
+      udp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_59f086ef"
+      port: 9002
+      server: 84.239.49.239
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_73809fb0"
+      port: 9002
+      server: 84.239.49.225
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d8e88830"
+      port: 9002
+      server: 84.239.49.182
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_fd7b192d"
+      port: 9002
+      server: 84.239.49.161
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a89a852e"
+      port: 9002
+      server: 84.239.49.164
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_edf4fc20"
+      port: 9002
+      server: 84.239.49.57
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_9e2a5f02"
+      port: 9002
+      server: 84.239.14.152
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_aa105999"
+      port: 9002
+      server: 84.239.49.166
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_cc8f9182"
+      port: 9002
+      server: 84.239.49.42
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_786985ca"
+      port: 9002
+      server: 84.239.49.157
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_300e8e1c"
+      port: 9002
+      server: 84.239.49.219
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - client-fingerprint: chrome
+      name: "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_373c43e9"
+      network: tcp
+      password: FC60532879
+      port: 443
+      server: apt-midge.rooster465.autos
+      skip-cert-verify: false
+      sni: apt-midge.rooster465.autos
+      type: trojan
+      udp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_c5b61986"
+      port: 9002
+      server: 84.239.49.163
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - client-fingerprint: chrome
+      name: "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0743039a"
+      network: tcp
+      password: JT80563429
+      port: 443
+      server: prepared-turkey.rooster465.autos
+      skip-cert-verify: false
+      sni: prepared-turkey.rooster465.autos
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_363d7a2a"
+      network: tcp
+      password: IQ68037294
+      port: 443
+      server: endless-kiwi.rooster465.autos
+      skip-cert-verify: false
+      sni: endless-kiwi.rooster465.autos
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_49d95d0b"
+      network: tcp
+      password: IQ68037294
+      port: 443
+      server: fun-salmon.rooster465.autos
+      skip-cert-verify: false
+      sni: fun-salmon.rooster465.autos
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_c9ae5093"
+      network: tcp
+      password: FC60532879
+      port: 443
+      server: helpful-possum.rooster465.autos
+      skip-cert-verify: false
+      sni: helpful-possum.rooster465.autos
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2212bb53"
+      network: tcp
+      password: IQ68037294
+      port: 443
+      server: curious-oryx.rooster465.autos
+      skip-cert-verify: false
+      sni: curious-oryx.rooster465.autos
+      type: trojan
+      udp: true
+    - name: "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_a9607e73"
+      network: ws
+      port: 2096
+      server: cd18.almas-cloud.ir
+      type: vless
+      udp: true
+      uuid: 94d1b793-0670-405a-af31-d1270b582427
+      ws-opts:
+        headers:
+            Host: ""
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+        path: ""
+      xudp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_07b2ee2b"
+      port: 9002
+      server: 84.239.49.156
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - client-fingerprint: chrome
+      name: "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_8981df56"
+      network: tcp
+      password: IQ68037294
+      port: 443
+      server: pet-albacore.rooster465.autos
+      skip-cert-verify: false
+      sni: pet-albacore.rooster465.autos
+      type: trojan
+      udp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_26dd3d10"
+      port: 9002
+      server: 84.239.49.238
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_7bdb2d5d"
+      port: 9002
+      server: 84.239.49.223
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - client-fingerprint: chrome
+      name: "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0efdf9f0"
+      network: tcp
+      password: JT80563429
+      port: 443
+      server: meet-doe.rooster465.autos
+      skip-cert-verify: false
+      sni: meet-doe.rooster465.autos
+      type: trojan
+      udp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6b7dbcaf"
+      port: 9002
+      server: 84.239.49.196
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4c4d893a"
+      port: 9002
+      server: 193.176.84.37
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_3b6bf33f"
+      port: 9002
+      server: 193.176.84.32
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - client-fingerprint: chrome
+      name: "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_88f354d4"
+      network: tcp
+      password: JT80563429
+      port: 443
+      server: still-mastodon.rooster465.autos
+      skip-cert-verify: false
+      sni: still-mastodon.rooster465.autos
+      type: trojan
+      udp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_0ae131d7"
+      port: 9002
+      server: 193.176.84.27
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - client-fingerprint: chrome
+      name: "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6226f1a7"
+      network: tcp
+      password: FC60532879
+      port: 443
+      server: proud-escargot.rooster465.autos
+      skip-cert-verify: false
+      sni: proud-escargot.rooster465.autos
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_8d8146f7"
+      network: tcp
+      password: FC60532879
+      port: 443
+      server: 81.28.13.159
+      skip-cert-verify: false
+      sni: giving-bird.rooster465.autos
+      type: trojan
+      udp: true
+    - name: "\U0001F7E2\U0001F1F9\U0001F1FC[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_75a9209f"
+      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+      port: 20025
+      server: Hkdcrtc-e.catcat321.com
+      skip-cert-verify: true
+      sni: tw.catxstar.com
+      type: trojan
+      udp: true
+    - encryption: none
+      name: "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_2d115cfa"
+      network: ws
+      port: 80
+      server: 167.82.0.4
+      type: vless
+      udp: true
+      uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt.
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
+        path: /
+      xudp: true
+    - name: "\U0001F534\U0001F1FA\U0001F1E6[\U0001F916\U0001F4FA\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_7b832310"
+      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+      port: 20066
+      server: Hkdcrtc-e.catcat321.com
+      skip-cert-verify: true
+      sni: hk.catxstar.com
+      type: trojan
+      udp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_a0cc4c8a"
+      port: 9002
+      server: 84.239.14.160
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F7E2\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_048a8a9a"
+      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+      port: 20041
+      server: Hkdcrtc-e.catcat321.com
+      skip-cert-verify: true
+      sni: de.catxstar.com
+      type: trojan
+      udp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F7E2\U0001F1E6\U0001F1FF[\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_1392a6d8"
+      obfs: ""
+      obfs-password: ""
+      password: ew9_M93_6a31Qd45_hUX3984F_jNZ83x_Nz1l_f
+      port: 8443
+      server: 94.20.88.13
+      skip-cert-verify: false
+      sni: azer-tea-grape.bumbleshrimp.com
+      type: hysteria2
+      up: ""
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_50511bed"
+      port: 9002
+      server: 193.176.84.19
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F7E2\U0001F1F2\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_6a735115"
+      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+      port: 20068
+      server: oplosgru-c.catcat321.com
+      skip-cert-verify: true
+      sni: hk.catxstar.com
+      type: trojan
+      udp: true
+    - name: "\U0001F7E1\U0001F1EF\U0001F1F5[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_e0c55e7b"
+      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+      port: 20129
+      server: Hkdcrtc-e.catcat321.com
+      skip-cert-verify: true
+      sni: hk.catxstar.com
+      type: trojan
+      udp: true
+    - alterId: 2
+      cipher: auto
+      name: "⚪\U0001F3F3️_github.com/Ruk1ng001_3305bc16"
+      port: 30829
+      server: v29.hdacd.com
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      xudp: true
+    - client-fingerprint: chrome
+      name: "⚪\U0001F3F3️[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_f0d1ff67"
+      network: ws
+      password: "521314"
+      port: 443
+      server: 103.193.172.164
+      skip-cert-verify: true
+      sni: tjplay.lxdxo.kdns.fr
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+        path: /
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F7E0\U0001F1EB\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_158e7101"
+      port: 30835
+      server: v35.hdacd.com
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2fe9a553"
+      network: tcp
+      password: IQ68037294
+      port: 443
+      server: brave-cattle.rooster465.autos
+      skip-cert-verify: false
+      sni: brave-cattle.rooster465.autos
+      type: trojan
+      udp: true
+    - name: "\U0001F534\U0001F1F9\U0001F1ED[\U0001F916\U0001F4E6]_github.com/Ruk1ng001_572aa3f1"
+      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+      port: 20023
+      server: oplosgru-c.catcat321.com
+      skip-cert-verify: true
+      sni: hk.catxstar.com
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F7E2\U0001F1E8\U0001F1FE[\U0001F4FA\U0001F4E6]_github.com/Ruk1ng001_f5e8811b"
+      network: tcp
+      port: 40443
+      reality-opts:
+        public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
+        short-id: 88b6
+      server: 45.89.105.74
+      servername: deepl.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
+      xudp: true
+    - client-fingerprint: qq
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F534\U0001F1F5\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_184019c6"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+        short-id: "5678"
+      server: 151.245.192.225
+      servername: auto.malina24.xyz
+      tls: true
+      type: vless
+      udp: true
+      uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
+      xudp: true
+    - name: "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6b9441dd"
+      network: ws
+      port: 18443
+      server: 23.95.18.12
+      servername: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 90235096-9296-3d36-c77c-715577598fd5
+      ws-opts:
+        headers:
+            Host: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
+        path: /glasspanel/0038ba35_0_1bdabe931208/
     - alpn:
         - h3
       auth_str: dongtaiwang.com
       down: "1000"
-      name: "\U0001F534\U0001F1E9\U0001F1EA[\U0001F916\U0001F4FA]_github.com/Ruk1ng001_f8850907"
+      name: "\U0001F534\U0001F1E9\U0001F1EA[\U0001F4FA\U0001F3AD\U0001F4E6\U0001F50D]_github.com/Ruk1ng001_f8850907"
       obfs: ""
       port: 54177
       protocol: udp
@@ -1377,49 +1212,65 @@ proxies:
       sni: apple.com
       type: hysteria
       up: "500"
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_5a03f828"
-      port: 9002
-      server: 84.239.49.171
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4a9bdddc"
-      obfs: salamander
-      obfs-password: 0954b008016c08107a85fd90d20a8713
-      password: Gda238Qr5GeEgGAM
-      port: 443
-      server: hk1-eeg2ddi5.skynode.me
-      skip-cert-verify: true
-      sni: hk1-eeg2ddi5.skynode.me
-      type: hysteria2
-      udp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_37c76867"
-      port: 9002
-      server: 193.176.84.34
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F534\U0001F1ED\U0001F1F0[\U0001F4FA]_github.com/Ruk1ng001_3296426b"
+    - encryption: none
+      name: "\U0001F534\U0001F1F9\U0001F1ED[\U0001F916\U0001F4FA\U0001F3AA\U0001F50D]_github.com/Ruk1ng001_7eeb3713"
       network: ws
-      port: 443
-      server: 91.110.209.61
-      servername: vp10.pages.dev
-      tls: true
+      port: 80
+      server: 18.239.134.69
       type: vless
       udp: true
-      uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+      uuid: f55ce6cc-3f6b-40fc-9e3b-abe26db17009
       ws-opts:
         headers:
-            Host: vp10.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
+            Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
+            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36
         path: /
       xudp: true
     - down: ""
       fingerprint: ""
-      name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_14f6670a"
+      name: "\U0001F7E0\U0001F1ED\U0001F1F0[\U0001F4FA]_github.com/Ruk1ng001_a6ff1ae6"
+      obfs: salamander
+      obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+      password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+      port: 5010
+      server: nas.aizhzo.com
+      skip-cert-verify: true
+      sni: 127.0.0.1
+      type: hysteria2
+      up: ""
+    - name: "\U0001F534\U0001F1F9\U0001F1ED[\U0001F4FA]_github.com/Ruk1ng001_419c840d"
+      network: ws
+      port: 80
+      server: 18.244.214.36
+      skip-cert-verify: true
+      tls: false
+      type: vless
+      udp: true
+      uuid: f27894bf-349c-44e6-a0ce-4c787e18476f
+      ws-opts:
+        headers:
+            Host: duatoup3wk8q2.cloudfront.net
+        path: /GDkX4xpB/
+    - client-fingerprint: qq
+      encryption: none
+      grpc-opts:
+        grpc-service-name: grpc-tunnel
+      name: "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_2f63d08b"
+      network: grpc
+      port: 9892
+      reality-opts:
+        public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+        short-id: ""
+      server: 72.56.38.194
+      servername: dl.google.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 884d811f-577b-421e-aabb-608660b0ecfa
+      xudp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F50D]_github.com/Ruk1ng001_14f6670a"
       obfs: ""
       obfs-password: ""
       password: 35415e5e-3666-4454-8c45-903af0fcddf4
@@ -1429,31 +1280,102 @@ proxies:
       sni: www.bing.com
       type: hysteria2
       up: ""
-    - name: "\U0001F7E2\U0001F1F2\U0001F1FE[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_b38fb7f4"
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "\U0001F7E0\U0001F1FA\U0001F1F8_github.com/Ruk1ng001_c96451d4"
+      password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
+      plugin: gost-plugin
+      plugin-opts:
+        host: one.local
+        mode: websocket
+        mux: true
+        path: /ws
+        tls: false
+      port: 80
+      server: 104.128.72.119
+      type: ss
+      udp: true
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      down: "1000"
+      name: "\U0001F534\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_b650b93a"
+      port: 20088
+      protocol: udp
+      server: 5.83.129.153
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "500"
+    - client-fingerprint: qq
+      encryption: none
+      grpc-opts:
+        grpc-service-name: grpc-tunnel
+      name: "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F916✨\U0001F50D]_github.com/Ruk1ng001_a17b19ef"
+      network: grpc
+      port: 9878
+      reality-opts:
+        public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+        short-id: aabbccdd
+      server: 5.42.106.202
+      servername: dl.google.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 884d811f-577b-421e-aabb-608660b0ecfa
+      xudp: true
+    - name: "\U0001F7E2\U0001F1F0\U0001F1F7[\U0001F4FA\U0001F3AD\U0001F39E️]_github.com/Ruk1ng001_bae4f46b"
       password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20047
-      server: Hkdcrtc-e.catcat321.com
+      port: 9450
+      server: rr2.tube-cat.com
       skip-cert-verify: true
       sni: hk.catxstar.com
       type: trojan
       udp: true
-    - name: "\U0001F534\U0001F1F9\U0001F1ED[\U0001F916\U0001F4FA\U0001F3AA\U0001F39E️]_github.com/Ruk1ng001_0101e63a"
+    - encryption: none
+      name: "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AA]_github.com/Ruk1ng001_8c574a4d"
       network: ws
-      port: 80
-      server: 18.244.214.28
+      port: 4100
+      server: 194.87.161.60
+      servername: live.ok.ru
       type: vless
       udp: true
-      uuid: f27894bf-349c-44e6-a0ce-4c787e18476f
+      uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
       ws-opts:
         headers:
-            Host: duatoup3wk8q2.cloudfront.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /GDkX4xpB/
+            Host: ""
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: /v1
       xudp: true
-    - name: "\U0001F7E1\U0001F1EF\U0001F1F5[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_e0c55e7b"
+    - alpn:
+        - ""
+      alterId: "2"
+      cipher: auto
+      name: "⚪\U0001F3F3️_github.com/Ruk1ng001_Fs7VNNuZ"
+      network: tcp
+      port: 30807
+      server: v10.hdacd.com
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      xudp: true
+    - alterId: "2"
+      cipher: auto
+      name: "\U0001F7E2\U0001F1ED\U0001F1F0_github.com/Ruk1ng001_9160c58b"
+      network: tcp
+      port: 30807
+      server: v10.zgtfqs.click
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      xudp: true
+    - name: "\U0001F534\U0001F1F9\U0001F1ED[\U0001F4FA]_github.com/Ruk1ng001_c14d20ab"
       password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20129
-      server: Hkdcrtc-e.catcat321.com
+      port: 20006
+      server: oplosgru-c.catcat321.com
       skip-cert-verify: true
       sni: hk.catxstar.com
       type: trojan
@@ -1463,155 +1385,143 @@ proxy-groups:
       lazy: true
       name: ♻️
       proxies:
-        - "\U0001F7E1\U0001F1EF\U0001F1F5[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_23034125"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_b4d2a75f"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_43e9e527"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4b3828ae"
-        - "\U0001F534\U0001F1F2\U0001F1FE[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0b432ca8"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_373c43e9"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0efdf9f0"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_49d95d0b"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9a2d14fa"
         - "⚪\U0001F3F3️_github.com/Ruk1ng001_79f3708c"
-        - "\U0001F7E2\U0001F1E8\U0001F1E6[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_e4a1b3b5"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_c9ae5093"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2212bb53"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_88f354d4"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6226f1a7"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_363d7a2a"
         - "\U0001F7E2\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_048a8a9a"
-        - "\U0001F7E0\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_041306d4"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F4FA\U0001F3AD\U0001F3AA✈️]_github.com/Ruk1ng001_2f63d08b"
-        - "⚪\U0001F3F3️_github.com/Ruk1ng001_54d00832"
-        - "\U0001F7E0\U0001F1EB\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_29752d74"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a88e970f"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0743039a"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2fe9a553"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_8d8146f7"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_8981df56"
+        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6b9441dd"
+        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_14853730"
         - "\U0001F7E0\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_59f39e13"
-        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2d115cfa"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F4FA]_github.com/Ruk1ng001_76440e56"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_de1c5734"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_0d158867"
-        - "\U0001F7E2\U0001F1F9\U0001F1FC[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_75a9209f"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_148a190d"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_1a1bd9fd"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1d0e8cb2"
-        - "\U0001F534\U0001F1F5\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_184019c6"
-        - "\U0001F534\U0001F1F3\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F4E6]_github.com/Ruk1ng001_28f2071e"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_1026877a"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_46e9bf7d"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_6f0b4d5b"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_6fd1af3e"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_7063f71e"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_750809c5"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_45dd8b4b"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_5a03f828"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d99dc948"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_73809fb0"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_48370336"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F50D]_github.com/Ruk1ng001_3adb38ee"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_786985ca"
-        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_27f3a19a"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AD]_github.com/Ruk1ng001_59f086ef"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_c5b61986"
-        - "\U0001F7E2\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_31d250d9"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4a2952a3"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_4de2b545"
-        - "\U0001F7E0\U0001F1EB\U0001F1F7[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_5e8d0f8c"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_588489b3"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_58a3d31b"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F50D]_github.com/Ruk1ng001_4c4d893a"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_3b6bf33f"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_390d92de"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4385d4f1"
-        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d3cd2e88"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_6b7dbcaf"
-        - "\U0001F534\U0001F1F9\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0d0d0eb2"
-        - "\U0001F534\U0001F1F7\U0001F1F4_github.com/Ruk1ng001_6d4a7817"
-        - "\U0001F7E2\U0001F1F2\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_6a735115"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_26dd3d10"
-        - "\U0001F7E2\U0001F1F0\U0001F1F7[\U0001F4FA\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_c9e38808"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_50511bed"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F916\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_a17b19ef"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6778395a"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_aac57d45"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✈️]_github.com/Ruk1ng001_300e8e1c"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_6e39a6cb"
-        - "\U0001F7E0\U0001F1EE\U0001F1E9[\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_87373ad9"
-        - "\U0001F7E0\U0001F1EB\U0001F1F7[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_824a2580"
-        - "\U0001F7E2\U0001F1E9\U0001F1EA[\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_cf527228"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_450af56b"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_450d9f17"
-        - "\U0001F7E0\U0001F1FA\U0001F1F8_github.com/Ruk1ng001_ff7a73df"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F3AA✨]_github.com/Ruk1ng001_f701a179"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_226fa120"
-        - "\U0001F7E0\U0001F1E9\U0001F1EA_github.com/Ruk1ng001_df773121"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_aa105999"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9f5445c9"
-        - "\U0001F534\U0001F1F9\U0001F1ED[\U0001F4FA✨]_github.com/Ruk1ng001_572aa3f1"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_c91883ca"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8_github.com/Ruk1ng001_65be669b"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_26763f04"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_d6864b0e"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_fc196041"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a89a852e"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_97352dbf"
+        - "\U0001F7E0\U0001F1EB\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_158e7101"
+        - "\U0001F534\U0001F1F9\U0001F1ED[\U0001F916\U0001F4FA\U0001F3AA\U0001F50D]_github.com/Ruk1ng001_7eeb3713"
+        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a88e970f"
+        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_2d115cfa"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1026877a"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC_github.com/Ruk1ng001_9c50b115"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_3adb38ee"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_c5b61986"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1a1bd9fd"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6fd1af3e"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6f0b4d5b"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6e39a6cb"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_45dd8b4b"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_7063f71e"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_46e9bf7d"
         - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_5c5afcdb"
-        - "\U0001F7E2\U0001F1E6\U0001F1FF[\U0001F916\U0001F4FA\U0001F3AA✨]_github.com/Ruk1ng001_1392a6d8"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_7bdb2d5d"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_223af90e"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8_github.com/Ruk1ng001_216af303"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_07b2ee2b"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA]_github.com/Ruk1ng001_1af479e3"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_86d476ed"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_961db747"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AD\U0001F3AA\U0001F4E6\U0001F50D]_github.com/Ruk1ng001_bc561dde"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F916\U0001F4FA\U0001F3AD✨]_github.com/Ruk1ng001_5b8e1a9b"
-        - "\U0001F534\U0001F1F9\U0001F1ED[\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_c14d20ab"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_8ef844c9"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_9e2a5f02"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_e76e07f3"
-        - "\U0001F534\U0001F1E9\U0001F1EA[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_b650b93a"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_d7d8d337"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_a0cc4c8a"
-        - "\U0001F7E0\U0001F1E6\U0001F1F9[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_60ec35b2"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_01ff4389"
-        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_8b2d8f6d"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_f8d02395"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_9f24578b"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA]_github.com/Ruk1ng001_ef690cc6"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_85c29221"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_85cf2f97"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_af52e797"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_7f908228"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0ae131d7"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_9d7dc39f"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_01eb1362"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_e6c033a3"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_d8e88830"
-        - "\U0001F534\U0001F1F5\U0001F1F1[\U0001F4FA\U0001F3AD\U0001F4E6]_github.com/Ruk1ng001_79cfb947"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6b7dbcaf"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_48370336"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_4a2952a3"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_cc8f9182"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6d4a7817"
+        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1d0e8cb2"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_450af56b"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_73809fb0"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_390d92de"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_fc196041"
         - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_fd7b192d"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_d10eacd8"
-        - "\U0001F534\U0001F1EE\U0001F1F3[\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_35177213"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_7b5efeb3"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✈️]_github.com/Ruk1ng001_b7a25db2"
-        - "\U0001F534\U0001F1EB\U0001F1EE[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_5c79b4dc"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a43c097b"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_013e8016"
-        - "⚪\U0001F3F3️_github.com/Ruk1ng001_501ac91e"
-        - "\U0001F534\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9c767c82"
-        - "\U0001F534\U0001F1FA\U0001F1E6[\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_32bcc1a5"
-        - "\U0001F534\U0001F1E9\U0001F1EA[\U0001F916\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_f3b69294"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6778395a"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d10eacd8"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_3b6bf33f"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_bc561dde"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_f8d02395"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_37c76867"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_450d9f17"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_300e8e1c"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_7bdb2d5d"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_786985ca"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_750809c5"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4385d4f1"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_7b5efeb3"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_588489b3"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_58a3d31b"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_7f908228"
+        - "\U0001F7E2\U0001F1E8\U0001F1FE[\U0001F4FA\U0001F4E6]_github.com/Ruk1ng001_f5e8811b"
+        - "\U0001F7E2\U0001F1E9\U0001F1EA[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_cf527228"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_a0cc4c8a"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_8ef844c9"
         - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_011d3b15"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_26dd3d10"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_26763f04"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_50511bed"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_c91883ca"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_07b2ee2b"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_01ff4389"
+        - "\U0001F534\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9c767c82"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_9d1e9ccb"
+        - "⚪\U0001F3F3️_github.com/Ruk1ng001_54d00832"
+        - "\U0001F7E2\U0001F1F9\U0001F1FC[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_75a9209f"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_9f24578b"
+        - "\U0001F7E2\U0001F1F2\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_6a735115"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_013e8016"
+        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F916\U0001F3AD\U0001F39E️\U0001F4E6]_github.com/Ruk1ng001_148a190d"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_0ae131d7"
         - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_a0921b46"
-        - "\U0001F534\U0001F1F3\U0001F1F1_github.com/Ruk1ng001_e3051f22"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_cb3d27ed"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_9d1e9ccb"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_ed7b38b8"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_edf4fc20"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_cc8f9182"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F50D]_github.com/Ruk1ng001_ca427c46"
-        - "\U0001F534\U0001F1E9\U0001F1EA[\U0001F916\U0001F4FA]_github.com/Ruk1ng001_f8850907"
-        - "\U0001F534\U0001F1EB\U0001F1EE_github.com/Ruk1ng001_3c33b34b"
-        - "\U0001F534\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_3d76bbf8"
-        - "\U0001F7E0\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9bd4011b"
-        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_b5c7b3f6"
-        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_b81b5bbe"
-        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4a9bdddc"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_b7a25db2"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_01eb1362"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD✨]_github.com/Ruk1ng001_a43c097b"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_85cf2f97"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4c4d893a"
+        - "\U0001F7E1\U0001F1EF\U0001F1F5[\U0001F3AC\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_23034125"
+        - "⚪\U0001F3F3️[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_f0d1ff67"
+        - "\U0001F7E2\U0001F1E6\U0001F1FF[\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_1392a6d8"
+        - "\U0001F7E2\U0001F1FA\U0001F1F8_github.com/Ruk1ng001_65be669b"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a89a852e"
+        - "\U0001F534\U0001F1FA\U0001F1E6[\U0001F916\U0001F4FA\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_7b832310"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_85c29221"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d8e88830"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_9f5445c9"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_9e2a5f02"
+        - "\U0001F7E1\U0001F1EF\U0001F1F5[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_e0c55e7b"
+        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_d3cd2e88"
+        - "\U0001F534\U0001F1EB\U0001F1EE[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_3c33b34b"
+        - "\U0001F534\U0001F1F3\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_7b99a503"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_223af90e"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F4E6]_github.com/Ruk1ng001_e76e07f3"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_59f086ef"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_226fa120"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_aa105999"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_af52e797"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d7d8d337"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_cb3d27ed"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1af479e3"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d6864b0e"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_ef690cc6"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_5a03f828"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_4de2b545"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_86d476ed"
+        - "\U0001F534\U0001F1F9\U0001F1ED[\U0001F916\U0001F4E6]_github.com/Ruk1ng001_572aa3f1"
+        - "\U0001F7E0\U0001F1EE\U0001F1E9[\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_87373ad9"
+        - "\U0001F534\U0001F1E9\U0001F1EA[\U0001F916\U0001F4E6]_github.com/Ruk1ng001_f3b69294"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_ca427c46"
+        - "\U0001F534\U0001F1F5\U0001F1F1[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_79cfb947"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_e6c033a3"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_961db747"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_ed7b38b8"
+        - "\U0001F7E0\U0001F1FA\U0001F1F8[\U0001F916\U0001F4FA\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_9b6fe04a"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_97352dbf"
+        - "\U0001F534\U0001F1F5\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_184019c6"
+        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_5b8e1a9b"
+        - "\U0001F534\U0001F1EE\U0001F1F3[\U0001F916\U0001F4FA\U0001F3AA✨]_github.com/Ruk1ng001_35177213"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_aac57d45"
+        - "\U0001F534\U0001F1E9\U0001F1EA[\U0001F4FA\U0001F3AD\U0001F4E6\U0001F50D]_github.com/Ruk1ng001_f8850907"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_edf4fc20"
+        - "⚪\U0001F3F3️_github.com/Ruk1ng001_501ac91e"
+        - "\U0001F534\U0001F1EB\U0001F1EE_github.com/Ruk1ng001_5c79b4dc"
+        - "\U0001F534\U0001F1FA\U0001F1F8_github.com/Ruk1ng001_d99dc948"
+        - "\U0001F534\U0001F1FA\U0001F1F8_github.com/Ruk1ng001_76440e56"
+        - "⚪\U0001F3F3️_github.com/Ruk1ng001_3305bc16"
         - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_a9607e73"
-        - "\U0001F534\U0001F1E6\U0001F1FA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_75a616e0"
-        - "\U0001F7E0\U0001F1F7\U0001F1FA[\U0001F4FA\U0001F3AA✨\U0001F4E6]_github.com/Ruk1ng001_765c5076"
-        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6c32a5eb"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_75104ee8"
       tolerance: 50
       type: url-test
       url: https://www.gstatic.com/generate_204
@@ -1626,11 +1536,18 @@ proxy-groups:
       type: select
     - interval: 300
       lazy: true
-      name: "\U0001F1F9\U0001F1FC"
+      name: "\U0001F1EF\U0001F1F5"
       proxies:
-        - "\U0001F534\U0001F1F2\U0001F1FE[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0b432ca8"
-        - "\U0001F7E2\U0001F1F9\U0001F1FC[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_75a9209f"
-        - "\U0001F7E2\U0001F1F2\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_6a735115"
+        - "\U0001F7E1\U0001F1EF\U0001F1F5[\U0001F3AC\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_23034125"
+        - ♻️
+      tolerance: 80
+      type: fallback
+      url: https://www.gstatic.com/generate_204
+    - interval: 300
+      lazy: true
+      name: "\U0001F1F8\U0001F1EC"
+      proxies:
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9a2d14fa"
         - ♻️
       tolerance: 80
       type: fallback
@@ -1639,14 +1556,12 @@ proxy-groups:
       lazy: true
       name: "\U0001F1FA\U0001F1F8"
       proxies:
-        - "\U0001F7E1\U0001F1EF\U0001F1F5[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_23034125"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_0d158867"
-        - "\U0001F7E2\U0001F1F9\U0001F1FC[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_75a9209f"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_148a190d"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F916\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_a17b19ef"
+        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_14853730"
+        - "\U0001F7E2\U0001F1F9\U0001F1FC[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_75a9209f"
+        - "\U0001F7E1\U0001F1EF\U0001F1F5[\U0001F3AC\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_23034125"
         - "\U0001F7E2\U0001F1FA\U0001F1F8_github.com/Ruk1ng001_65be669b"
-        - "\U0001F7E0\U0001F1E6\U0001F1F9[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_60ec35b2"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_9d7dc39f"
+        - "\U0001F7E0\U0001F1FA\U0001F1F8[\U0001F916\U0001F4FA\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_9b6fe04a"
+        - "\U0001F534\U0001F1EB\U0001F1EE_github.com/Ruk1ng001_5c79b4dc"
         - ♻️
       tolerance: 150
       type: fallback
@@ -1655,13 +1570,7 @@ proxy-groups:
       lazy: true
       name: "\U0001F1F0\U0001F1F7"
       proxies:
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_b4d2a75f"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_43e9e527"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4b3828ae"
-        - "\U0001F7E2\U0001F1F0\U0001F1F7[\U0001F4FA\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_c9e38808"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F916\U0001F4FA\U0001F3AD✨]_github.com/Ruk1ng001_5b8e1a9b"
-        - "\U0001F534\U0001F1F9\U0001F1ED[\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_c14d20ab"
-        - "\U0001F534\U0001F1FA\U0001F1E6[\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_32bcc1a5"
+        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_5b8e1a9b"
         - ♻️
       tolerance: 100
       type: fallback
@@ -1670,14 +1579,8 @@ proxy-groups:
       lazy: true
       name: "\U0001F4FA"
       proxies:
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_b4d2a75f"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_43e9e527"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4b3828ae"
-        - "\U0001F534\U0001F1F2\U0001F1FE[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0b432ca8"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_0d158867"
-        - "\U0001F534\U0001F1F9\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0d0d0eb2"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_9d7dc39f"
-        - "\U0001F534\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_3d76bbf8"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9a2d14fa"
+        - "\U0001F7E0\U0001F1FA\U0001F1F8[\U0001F916\U0001F4FA\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_9b6fe04a"
         - ♻️
       tolerance: 100
       type: fallback
@@ -1686,26 +1589,26 @@ proxy-groups:
       lazy: true
       name: "\U0001F3B5"
       proxies:
-        - "\U0001F7E1\U0001F1EF\U0001F1F5[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_23034125"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_b4d2a75f"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_43e9e527"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4b3828ae"
-        - "\U0001F534\U0001F1F2\U0001F1FE[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0b432ca8"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_373c43e9"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0efdf9f0"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_49d95d0b"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9a2d14fa"
         - "⚪\U0001F3F3️_github.com/Ruk1ng001_79f3708c"
-        - "\U0001F7E2\U0001F1E8\U0001F1E6[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_e4a1b3b5"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_c9ae5093"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2212bb53"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_88f354d4"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6226f1a7"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_363d7a2a"
         - "\U0001F7E2\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_048a8a9a"
-        - "\U0001F7E0\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_041306d4"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F4FA\U0001F3AD\U0001F3AA✈️]_github.com/Ruk1ng001_2f63d08b"
-        - "\U0001F7E0\U0001F1EB\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_29752d74"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a88e970f"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0743039a"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_8d8146f7"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_8981df56"
+        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_14853730"
         - "\U0001F7E0\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_59f39e13"
-        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2d115cfa"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F4FA]_github.com/Ruk1ng001_76440e56"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_de1c5734"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_0d158867"
-        - "\U0001F7E2\U0001F1F9\U0001F1FC[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_75a9209f"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_148a190d"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_1a1bd9fd"
+        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a88e970f"
+        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_2d115cfa"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1026877a"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC_github.com/Ruk1ng001_9c50b115"
         - ♻️
       tolerance: 80
       type: fallback
@@ -1714,36 +1617,36 @@ proxy-groups:
       lazy: true
       name: "\U0001F427"
       proxies:
-        - "\U0001F7E1\U0001F1EF\U0001F1F5[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_23034125"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_b4d2a75f"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_43e9e527"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4b3828ae"
-        - "\U0001F534\U0001F1F2\U0001F1FE[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0b432ca8"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_373c43e9"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0efdf9f0"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_49d95d0b"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9a2d14fa"
         - "⚪\U0001F3F3️_github.com/Ruk1ng001_79f3708c"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2212bb53"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_363d7a2a"
         - "\U0001F7E2\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_048a8a9a"
-        - "\U0001F7E0\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_041306d4"
-        - "\U0001F7E0\U0001F1EB\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_29752d74"
-        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2d115cfa"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_0d158867"
-        - "\U0001F7E2\U0001F1F9\U0001F1FC[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_75a9209f"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_148a190d"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_1a1bd9fd"
-        - "\U0001F534\U0001F1F5\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_184019c6"
-        - "\U0001F534\U0001F1F3\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F4E6]_github.com/Ruk1ng001_28f2071e"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_1026877a"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F50D]_github.com/Ruk1ng001_3adb38ee"
-        - "\U0001F7E2\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_31d250d9"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_3b6bf33f"
-        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d3cd2e88"
-        - "\U0001F534\U0001F1F9\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0d0d0eb2"
-        - "\U0001F7E2\U0001F1F2\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_6a735115"
-        - "\U0001F7E2\U0001F1F0\U0001F1F7[\U0001F4FA\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_c9e38808"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F916\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_a17b19ef"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_aac57d45"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✈️]_github.com/Ruk1ng001_300e8e1c"
-        - "\U0001F7E0\U0001F1EE\U0001F1E9[\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_87373ad9"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_aa105999"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9f5445c9"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0743039a"
+        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_14853730"
+        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_2d115cfa"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1026877a"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_3adb38ee"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_c5b61986"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1a1bd9fd"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6fd1af3e"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6f0b4d5b"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6e39a6cb"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_7063f71e"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_46e9bf7d"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_5c5afcdb"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6b7dbcaf"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_48370336"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_cc8f9182"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6d4a7817"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_390d92de"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_fc196041"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_fd7b192d"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6778395a"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d10eacd8"
         - ♻️
       tolerance: 100
       type: fallback
@@ -1752,37 +1655,23 @@ proxy-groups:
       lazy: true
       name: "\U0001F4AC"
       proxies:
-        - "\U0001F7E1\U0001F1EF\U0001F1F5[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_23034125"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_b4d2a75f"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_43e9e527"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4b3828ae"
-        - "\U0001F534\U0001F1F2\U0001F1FE[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0b432ca8"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_373c43e9"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_49d95d0b"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9a2d14fa"
         - "⚪\U0001F3F3️_github.com/Ruk1ng001_79f3708c"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_363d7a2a"
         - "\U0001F7E2\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_048a8a9a"
-        - "\U0001F7E0\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_041306d4"
-        - "\U0001F7E0\U0001F1EB\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_29752d74"
-        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2d115cfa"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_0d158867"
-        - "\U0001F534\U0001F1F3\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F4E6]_github.com/Ruk1ng001_28f2071e"
-        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d3cd2e88"
-        - "\U0001F534\U0001F1F9\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0d0d0eb2"
-        - "\U0001F7E2\U0001F1F2\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_6a735115"
-        - "\U0001F7E2\U0001F1F0\U0001F1F7[\U0001F4FA\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_c9e38808"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_aac57d45"
-        - "\U0001F7E0\U0001F1EE\U0001F1E9[\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_87373ad9"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_aa105999"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9f5445c9"
-        - "\U0001F534\U0001F1F9\U0001F1ED[\U0001F4FA✨]_github.com/Ruk1ng001_572aa3f1"
+        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_14853730"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1026877a"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_c5b61986"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1a1bd9fd"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_8ef844c9"
+        - "\U0001F7E1\U0001F1EF\U0001F1F5[\U0001F3AC\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_23034125"
         - "\U0001F7E2\U0001F1FA\U0001F1F8_github.com/Ruk1ng001_65be669b"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a89a852e"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F916\U0001F4FA\U0001F3AD✨]_github.com/Ruk1ng001_5b8e1a9b"
-        - "\U0001F534\U0001F1F9\U0001F1ED[\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_c14d20ab"
-        - "\U0001F7E0\U0001F1E6\U0001F1F9[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_60ec35b2"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_9d7dc39f"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a43c097b"
-        - "⚪\U0001F3F3️_github.com/Ruk1ng001_501ac91e"
-        - "\U0001F534\U0001F1FA\U0001F1E6[\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_32bcc1a5"
-        - "\U0001F534\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_3d76bbf8"
+        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_d3cd2e88"
+        - "\U0001F7E0\U0001F1FA\U0001F1F8[\U0001F916\U0001F4FA\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_9b6fe04a"
+        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_5b8e1a9b"
+        - "\U0001F534\U0001F1EB\U0001F1EE_github.com/Ruk1ng001_5c79b4dc"
         - ♻️
       tolerance: 50
       type: fallback
@@ -1791,16 +1680,13 @@ proxy-groups:
       lazy: true
       name: "\U0001F4E5"
       proxies:
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_b4d2a75f"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_43e9e527"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4b3828ae"
-        - "\U0001F534\U0001F1F2\U0001F1FE[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0b432ca8"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_0d158867"
-        - "\U0001F534\U0001F1F9\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0d0d0eb2"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_49d95d0b"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9a2d14fa"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_363d7a2a"
+        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6b9441dd"
+        - "\U0001F7E0\U0001F1EB\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_158e7101"
         - "\U0001F7E2\U0001F1FA\U0001F1F8_github.com/Ruk1ng001_65be669b"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_9d7dc39f"
-        - "\U0001F534\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_3d76bbf8"
-        - "\U0001F534\U0001F1ED\U0001F1F0[\U0001F4FA]_github.com/Ruk1ng001_3296426b"
+        - "\U0001F7E0\U0001F1FA\U0001F1F8[\U0001F916\U0001F4FA\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_9b6fe04a"
         - ♻️
       strategy: consistent-hashing
       type: load-balance
@@ -1809,56 +1695,56 @@ proxy-groups:
       lazy: true
       name: "\U0001F9D1‍\U0001F4BB"
       proxies:
-        - "\U0001F7E1\U0001F1EF\U0001F1F5[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_23034125"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_b4d2a75f"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_43e9e527"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4b3828ae"
-        - "\U0001F534\U0001F1F2\U0001F1FE[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0b432ca8"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_373c43e9"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0efdf9f0"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_49d95d0b"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9a2d14fa"
         - "⚪\U0001F3F3️_github.com/Ruk1ng001_79f3708c"
-        - "\U0001F7E2\U0001F1E8\U0001F1E6[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_e4a1b3b5"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_c9ae5093"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2212bb53"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_88f354d4"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6226f1a7"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_363d7a2a"
         - "\U0001F7E2\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_048a8a9a"
-        - "\U0001F7E0\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_041306d4"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F4FA\U0001F3AD\U0001F3AA✈️]_github.com/Ruk1ng001_2f63d08b"
-        - "⚪\U0001F3F3️_github.com/Ruk1ng001_54d00832"
-        - "\U0001F7E0\U0001F1EB\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_29752d74"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a88e970f"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0743039a"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_8d8146f7"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_8981df56"
+        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_14853730"
         - "\U0001F7E0\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_59f39e13"
-        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2d115cfa"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F4FA]_github.com/Ruk1ng001_76440e56"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_de1c5734"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_0d158867"
-        - "\U0001F7E2\U0001F1F9\U0001F1FC[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_75a9209f"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_148a190d"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_1a1bd9fd"
+        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a88e970f"
+        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_2d115cfa"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1026877a"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC_github.com/Ruk1ng001_9c50b115"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_3adb38ee"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_c5b61986"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1a1bd9fd"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6fd1af3e"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6f0b4d5b"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6e39a6cb"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_45dd8b4b"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_7063f71e"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_46e9bf7d"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_5c5afcdb"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6b7dbcaf"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_48370336"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_4a2952a3"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_cc8f9182"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6d4a7817"
         - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1d0e8cb2"
-        - "\U0001F534\U0001F1F5\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_184019c6"
-        - "\U0001F534\U0001F1F3\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F4E6]_github.com/Ruk1ng001_28f2071e"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_1026877a"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_46e9bf7d"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_6fd1af3e"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_7063f71e"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_750809c5"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_45dd8b4b"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d99dc948"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_73809fb0"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_48370336"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F50D]_github.com/Ruk1ng001_3adb38ee"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_786985ca"
-        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_27f3a19a"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AD]_github.com/Ruk1ng001_59f086ef"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_c5b61986"
-        - "\U0001F7E2\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_31d250d9"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4a2952a3"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_4de2b545"
-        - "\U0001F7E0\U0001F1EB\U0001F1F7[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_5e8d0f8c"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_588489b3"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_58a3d31b"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F50D]_github.com/Ruk1ng001_4c4d893a"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_3b6bf33f"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_390d92de"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4385d4f1"
-        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d3cd2e88"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_6b7dbcaf"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_450af56b"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_73809fb0"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_390d92de"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_fc196041"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_fd7b192d"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6778395a"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d10eacd8"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_3b6bf33f"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_bc561dde"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_f8d02395"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_37c76867"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_450d9f17"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_300e8e1c"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_7bdb2d5d"
         - ♻️
       tolerance: 100
       type: fallback
@@ -1867,15 +1753,11 @@ proxy-groups:
       lazy: true
       name: "\U0001F3AC"
       proxies:
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_b4d2a75f"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_43e9e527"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4b3828ae"
-        - "\U0001F534\U0001F1F2\U0001F1FE[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0b432ca8"
-        - "\U0001F7E0\U0001F1EB\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_29752d74"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_0d158867"
-        - "\U0001F534\U0001F1F9\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0d0d0eb2"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_9d7dc39f"
-        - "\U0001F534\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_3d76bbf8"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_49d95d0b"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9a2d14fa"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_363d7a2a"
+        - "\U0001F1F8\U0001F1EC"
+        - "\U0001F1EF\U0001F1F5"
         - ♻️
       tolerance: 150
       type: fallback
@@ -1884,26 +1766,27 @@ proxy-groups:
       lazy: true
       name: "\U0001F3AD"
       proxies:
-        - "\U0001F7E1\U0001F1EF\U0001F1F5[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_23034125"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_b4d2a75f"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_43e9e527"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4b3828ae"
-        - "\U0001F534\U0001F1F2\U0001F1FE[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0b432ca8"
-        - "\U0001F7E2\U0001F1E8\U0001F1E6[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_e4a1b3b5"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_373c43e9"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0efdf9f0"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_49d95d0b"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9a2d14fa"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_c9ae5093"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2212bb53"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_88f354d4"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6226f1a7"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_363d7a2a"
         - "\U0001F7E2\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_048a8a9a"
-        - "\U0001F7E0\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_041306d4"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F4FA\U0001F3AD\U0001F3AA✈️]_github.com/Ruk1ng001_2f63d08b"
-        - "\U0001F7E0\U0001F1EB\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_29752d74"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a88e970f"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0743039a"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_8d8146f7"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_8981df56"
+        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_14853730"
         - "\U0001F7E0\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_59f39e13"
-        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2d115cfa"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_de1c5734"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_0d158867"
-        - "\U0001F7E2\U0001F1F9\U0001F1FC[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_75a9209f"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_148a190d"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_1a1bd9fd"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1d0e8cb2"
-        - "\U0001F534\U0001F1F5\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_184019c6"
+        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a88e970f"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1026877a"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_3adb38ee"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_c5b61986"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1a1bd9fd"
+        - "\U0001F1F8\U0001F1EC"
         - ♻️
       tolerance: 150
       type: fallback
@@ -1912,27 +1795,28 @@ proxy-groups:
       lazy: true
       name: "\U0001F3AA"
       proxies:
-        - "\U0001F7E1\U0001F1EF\U0001F1F5[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_23034125"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_b4d2a75f"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_43e9e527"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4b3828ae"
-        - "\U0001F534\U0001F1F2\U0001F1FE[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0b432ca8"
-        - "\U0001F7E2\U0001F1E8\U0001F1E6[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_e4a1b3b5"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_373c43e9"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0efdf9f0"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_49d95d0b"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9a2d14fa"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_c9ae5093"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2212bb53"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_88f354d4"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6226f1a7"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_363d7a2a"
         - "\U0001F7E2\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_048a8a9a"
-        - "\U0001F7E0\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_041306d4"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F4FA\U0001F3AD\U0001F3AA✈️]_github.com/Ruk1ng001_2f63d08b"
-        - "\U0001F7E0\U0001F1EB\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_29752d74"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a88e970f"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0743039a"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_8d8146f7"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_8981df56"
+        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_14853730"
         - "\U0001F7E0\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_59f39e13"
-        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2d115cfa"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_de1c5734"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_0d158867"
-        - "\U0001F7E2\U0001F1F9\U0001F1FC[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_75a9209f"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_148a190d"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_1a1bd9fd"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1d0e8cb2"
-        - "\U0001F534\U0001F1F5\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_184019c6"
+        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a88e970f"
+        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_2d115cfa"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1026877a"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_3adb38ee"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_c5b61986"
         - "\U0001F1FA\U0001F1F8"
+        - "\U0001F1EF\U0001F1F5"
         - ♻️
       tolerance: 100
       type: fallback
@@ -1941,23 +1825,21 @@ proxy-groups:
       lazy: true
       name: "\U0001F916"
       proxies:
-        - "\U0001F534\U0001F1F2\U0001F1FE[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0b432ca8"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_373c43e9"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_49d95d0b"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9a2d14fa"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_363d7a2a"
         - "\U0001F7E2\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_048a8a9a"
-        - "\U0001F7E0\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_041306d4"
-        - "\U0001F7E0\U0001F1EB\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_29752d74"
-        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2d115cfa"
-        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d3cd2e88"
-        - "\U0001F534\U0001F1F9\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0d0d0eb2"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_aac57d45"
-        - "\U0001F7E0\U0001F1EE\U0001F1E9[\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_87373ad9"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_aa105999"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9f5445c9"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a89a852e"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F916\U0001F4FA\U0001F3AD✨]_github.com/Ruk1ng001_5b8e1a9b"
-        - "\U0001F7E0\U0001F1E6\U0001F1F9[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_60ec35b2"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a43c097b"
-        - "\U0001F534\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_3d76bbf8"
+        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_14853730"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1026877a"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_c5b61986"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1a1bd9fd"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_8ef844c9"
+        - "\U0001F7E0\U0001F1FA\U0001F1F8[\U0001F916\U0001F4FA\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_9b6fe04a"
+        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_5b8e1a9b"
         - "\U0001F1FA\U0001F1F8"
+        - "\U0001F1EF\U0001F1F5"
+        - "\U0001F1F8\U0001F1EC"
         - ♻️
       tolerance: 100
       type: fallback
@@ -1966,37 +1848,38 @@ proxy-groups:
       lazy: true
       name: ✨
       proxies:
-        - "\U0001F7E1\U0001F1EF\U0001F1F5[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_23034125"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_b4d2a75f"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_43e9e527"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4b3828ae"
-        - "\U0001F534\U0001F1F2\U0001F1FE[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0b432ca8"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_373c43e9"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0efdf9f0"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_49d95d0b"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9a2d14fa"
         - "⚪\U0001F3F3️_github.com/Ruk1ng001_79f3708c"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2212bb53"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_363d7a2a"
         - "\U0001F7E2\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_048a8a9a"
-        - "\U0001F7E0\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_041306d4"
-        - "\U0001F7E0\U0001F1EB\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_29752d74"
-        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2d115cfa"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_0d158867"
-        - "\U0001F7E2\U0001F1F9\U0001F1FC[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_75a9209f"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_148a190d"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_1a1bd9fd"
-        - "\U0001F534\U0001F1F5\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_184019c6"
-        - "\U0001F534\U0001F1F3\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F4E6]_github.com/Ruk1ng001_28f2071e"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_1026877a"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F50D]_github.com/Ruk1ng001_3adb38ee"
-        - "\U0001F7E2\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_31d250d9"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_3b6bf33f"
-        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d3cd2e88"
-        - "\U0001F534\U0001F1F9\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0d0d0eb2"
-        - "\U0001F7E2\U0001F1F2\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_6a735115"
-        - "\U0001F7E2\U0001F1F0\U0001F1F7[\U0001F4FA\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_c9e38808"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F916\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_a17b19ef"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_aac57d45"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✈️]_github.com/Ruk1ng001_300e8e1c"
-        - "\U0001F7E0\U0001F1EE\U0001F1E9[\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_87373ad9"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_aa105999"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9f5445c9"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0743039a"
+        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_14853730"
+        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_2d115cfa"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1026877a"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_3adb38ee"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_c5b61986"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1a1bd9fd"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6fd1af3e"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6f0b4d5b"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6e39a6cb"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_7063f71e"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_46e9bf7d"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_5c5afcdb"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6b7dbcaf"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_48370336"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_cc8f9182"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6d4a7817"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_390d92de"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_fc196041"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_fd7b192d"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6778395a"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d10eacd8"
         - "\U0001F1FA\U0001F1F8"
+        - "\U0001F1EF\U0001F1F5"
         - ♻️
       tolerance: 150
       type: fallback
@@ -2005,37 +1888,38 @@ proxy-groups:
       lazy: true
       name: "\U0001F500"
       proxies:
-        - "\U0001F7E1\U0001F1EF\U0001F1F5[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_23034125"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_b4d2a75f"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_43e9e527"
-        - "\U0001F534\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4b3828ae"
-        - "\U0001F534\U0001F1F2\U0001F1FE[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0b432ca8"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_373c43e9"
+        - "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0efdf9f0"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_49d95d0b"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9a2d14fa"
         - "⚪\U0001F3F3️_github.com/Ruk1ng001_79f3708c"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2212bb53"
+        - "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_363d7a2a"
         - "\U0001F7E2\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_048a8a9a"
-        - "\U0001F7E0\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_041306d4"
-        - "\U0001F7E0\U0001F1EB\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_29752d74"
-        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2d115cfa"
-        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_0d158867"
-        - "\U0001F7E2\U0001F1F9\U0001F1FC[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_75a9209f"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_148a190d"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_1a1bd9fd"
-        - "\U0001F534\U0001F1F5\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_184019c6"
-        - "\U0001F534\U0001F1F3\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F4E6]_github.com/Ruk1ng001_28f2071e"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_1026877a"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F50D]_github.com/Ruk1ng001_3adb38ee"
-        - "\U0001F7E2\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_31d250d9"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_3b6bf33f"
-        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d3cd2e88"
-        - "\U0001F534\U0001F1F9\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0d0d0eb2"
-        - "\U0001F7E2\U0001F1F2\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_6a735115"
-        - "\U0001F7E2\U0001F1F0\U0001F1F7[\U0001F4FA\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_c9e38808"
-        - "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F916\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_a17b19ef"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_aac57d45"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✈️]_github.com/Ruk1ng001_300e8e1c"
-        - "\U0001F7E0\U0001F1EE\U0001F1E9[\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_87373ad9"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_aa105999"
-        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9f5445c9"
+        - "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0743039a"
+        - "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_14853730"
+        - "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_2d115cfa"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1026877a"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_3adb38ee"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_c5b61986"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1a1bd9fd"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6fd1af3e"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6f0b4d5b"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6e39a6cb"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_7063f71e"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_46e9bf7d"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_5c5afcdb"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6b7dbcaf"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_48370336"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_cc8f9182"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6d4a7817"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_390d92de"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_fc196041"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_fd7b192d"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6778395a"
+        - "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d10eacd8"
         - "\U0001F1FA\U0001F1F8"
+        - "\U0001F1EF\U0001F1F5"
         - ♻️
       tolerance: 150
       type: fallback
@@ -2043,6 +1927,8 @@ proxy-groups:
     - name: "\U0001F30D"
       proxies:
         - ♻️
+        - "\U0001F1EF\U0001F1F5"
+        - "\U0001F1F8\U0001F1EC"
         - "\U0001F1FA\U0001F1F8"
         - DIRECT
       type: select
@@ -2064,7 +1950,8 @@ proxy-groups:
         - "\U0001F500"
         - "\U0001F427"
         - "\U0001F9D1‍\U0001F4BB"
-        - "\U0001F1F9\U0001F1FC"
+        - "\U0001F1EF\U0001F1F5"
+        - "\U0001F1F8\U0001F1EC"
         - "\U0001F1FA\U0001F1F8"
         - "\U0001F1F0\U0001F1F7"
         - DIRECT
