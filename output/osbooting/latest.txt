@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (0727)
-https://freenode.osbooting.com/nodefiles/20260727ZOQW.yaml
-https://freenode.osbooting.com/nodefiles/20260727LEJP.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (0728)
+https://freenode.osbooting.com/nodefiles/20260728IAXZ.yaml
+https://freenode.osbooting.com/nodefiles/20260728LNJV.txt
