@@ -13,20 +13,6 @@ proxies:
   udp: true
   udp-relay-mode: native
   uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
-- name: xx|12e6|puddincat07@Telegram
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 9450
-  server: rr2.tube-cat.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: us|c3bc|puddincat07@Telegram
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 193.42.38.209
-  type: ss
-  udp: true
 - alpn:
   - http/1.1
   name: xx|7fd8|puddincat07@Telegram
@@ -43,11 +29,18 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /bkdicj
-- cipher: aes-256-cfb
-  name: kr|9179|puddincat07@Telegram
-  password: qwerREWQ@@
-  port: 2078
-  server: 27.255.82.134
+- name: xx|12e6|puddincat07@Telegram
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr2.tube-cat.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: us|c3bc|puddincat07@Telegram
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 193.42.38.209
   type: ss
   udp: true
 - name: us|3055|puddincat07@Telegram
@@ -71,6 +64,13 @@ proxies:
   sni: de.catxstar.com
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: se|599b|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 13.53.198.63
+  type: ss
+  udp: true
 - name: xx|00d9|puddincat07@Telegram
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
@@ -80,71 +80,57 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: se|599b|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 13.53.198.63
+  name: kr|9179|puddincat07@Telegram
+  password: qwerREWQ@@
+  port: 2078
+  server: 27.255.82.134
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: xx|8151|puddincat07@Telegram
-  port: 30807
-  server: v10.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
-  name: us|0a2c|puddincat07@Telegram
-  password: G5p6ww4o67HB
-  port: 8388
-  server: 108.181.0.177
+  name: gb|d00d|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.208
   type: ss
-- name: us|a98a|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.32.47
-  skip-cert-verify: false
-  sni: www.gossipglove.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.gossipglove.com
-    path: /assignment
-- client-fingerprint: chrome
-  name: xx|b038|puddincat07@Telegram
-  network: tcp
-  password: JT80563429
-  port: 443
-  server: meet-doe.rooster465.autos
-  skip-cert-verify: false
-  sni: meet-doe.rooster465.autos
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: cn|8ff9|puddincat07@Telegram
+  password: d3c7f55f-e2af-4114-b0a3-058d219e2992
+  port: 27259
+  server: 120.199.94.30
+  type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: ua|b344|puddincat07@Telegram
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 194.54.80.37
+- cipher: aes-256-gcm
+  name: ca|aab3|puddincat07@Telegram
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 23.162.200.149
   type: ss
-- cipher: chacha20-ietf
-  name: sg|a935|puddincat07@Telegram
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
+  udp: true
+- cipher: aes-256-cfb
+  name: gb|ba6d|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 77.72.5.150
   type: ss
-- name: us|9397|puddincat07@Telegram
-  network: ws
-  password: MiTiVPN
-  port: 2083
-  server: 104.18.7.178
+  udp: true
+- name: de|4ffc|puddincat07@Telegram
+  password: a6f2dfa2-dfde-46db-9b0d-29f8c9032ed5
+  port: 443
+  server: 164.90.167.242
   skip-cert-verify: true
-  sni: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
-    path: /---
+- cipher: aes-256-gcm
+  name: ec|11a8|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 179.49.5.114
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: cn|0b51|puddincat07@Telegram
+  password: dbEcUJ
+  port: 24603
+  server: 211.99.97.8
+  type: ss
+  udp: true
