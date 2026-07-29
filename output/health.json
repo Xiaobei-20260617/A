@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-28T23:04:10Z",
+  "timestamp": "2026-07-29T00:55:51Z",
   "sources": {
     "fproxies": {
       "status": "failed",
@@ -39,8 +39,8 @@
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 922,
-      "size_kb": 301.6,
+      "nodes": 896,
+      "size_kb": 301.1,
       "error": ""
     },
     "v2rayfree": {
@@ -106,7 +106,7 @@
     "pawdroid": {
       "status": "ok",
       "nodes": 11,
-      "size_kb": 3.2,
+      "size_kb": 3.0,
       "error": ""
     },
     "barabama": {
@@ -165,8 +165,8 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 47,
-      "size_kb": 29.9,
+      "nodes": 57,
+      "size_kb": 29.8,
       "error": ""
     }
   },
