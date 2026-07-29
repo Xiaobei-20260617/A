@@ -1,34 +1,45 @@
 proxies:
     - down: ""
       fingerprint: ""
-      name: "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9a2d14fa"
-      obfs: ""
-      obfs-password: ""
-      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-      port: 443
-      server: vpn-sg-001.fastervpn.world
+      name: "\U0001F7E0\U0001F1ED\U0001F1F0_github.com/Ruk1ng001_a6ff1ae6"
+      obfs: salamander
+      obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+      password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+      port: 5010
+      server: nas.aizhzo.com
       skip-cert-verify: true
-      sni: vpn-sg-001.fastervpn.world
+      sni: 127.0.0.1
       type: hysteria2
       up: ""
-    - client-fingerprint: chrome
-      encryption: none
+    - alterId: 0
+      cipher: auto
       grpc-opts:
-        grpc-service-name: grpc
-      name: "\U0001F534\U0001F1E9\U0001F1EA[\U0001F916\U0001F4E6]_github.com/Ruk1ng001_f3b69294"
+        grpc-service-name: "12306"
+      name: "\U0001F7E2\U0001F1ED\U0001F1F0[\U0001F3AC\U0001F9E0\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_8e6e8d09"
       network: grpc
       port: 443
+      server: hk01.653ebeeb-5f60-4be5-958d-7bf4839cdccd.ef6616fd-5b06-482f-9d64-183745659cbf.byteprivatelink.com
+      servername: www.12306.cn
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      udp: true
+      uuid: f018361c-3d66-4635-80c9-22be36b70ac4
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F7E2\U0001F1F9\U0001F1FC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_e6f8385e"
+      port: 443
       reality-opts:
-        public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-        short-id: 3303c7a5
-      server: 194.93.0.28
-      servername: media2.tcpdoor.net
+        public-key: aTPjxfJ5QPGxYRyQ8SRnYwyXUhuasda7i5Dc5VoKxVY
+        short-id: 4c9fbcb1
+      server: sg02.18adae16-f183-4aaf-9227-67dc4b27fec6.984b277d-718f-4ba8-9e06-0036b675c900.byteprivatelink.com
+      servername: www.samsung.com
+      skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-      xudp: true
-    - name: "\U0001F7E1\U0001F1EF\U0001F1F5[\U0001F3AC\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_23034125"
+      uuid: f018361c-3d66-4635-80c9-22be36b70ac4
+    - name: "\U0001F7E1\U0001F1EF\U0001F1F5[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_23034125"
       password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
       port: 20004
       server: oplosgru-c.catcat321.com
@@ -36,45 +47,21 @@ proxies:
       sni: hk.catxstar.com
       type: trojan
       udp: true
-    - name: "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a88e970f"
-      password: gs4BXwT6SW
-      port: 10988
-      server: 154.26.192.123
-      tls: false
-      type: http
-      username: fQ67Dpe5dU
-    - client-fingerprint: qq
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F7E2\U0001F1E9\U0001F1EA[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_cf527228"
-      network: tcp
-      port: 49000
-      reality-opts:
-        public-key: lKxU4TCjenarM3nQqOVPaVhaTo5QaDHmRlS40XdwzUk
-        short-id: ""
-      server: defast.mifbot.pro
-      servername: git.sly.team
+    - name: "\U0001F534\U0001F1EF\U0001F1F5[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_7fd20bd4"
+      network: ws
+      port: 587
+      server: 138.3.217.167
+      servername: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
+      skip-cert-verify: false
       tls: true
       type: vless
-      udp: true
-      uuid: 11113f77-b439-4911-a8dd-414d2ee36b59
-      xudp: true
-    - name: "\U0001F534\U0001F1F0\U0001F1F7[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_5b8e1a9b"
-      port: 1090
-      server: 121.169.46.116
-      tls: false
-      type: socks5
-      username: Og%3D%3D
-    - name: "⚪\U0001F3F3️_github.com/Ruk1ng001_501ac91e"
-      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20120
-      server: oplosgru-c.catcat321.com
-      skip-cert-verify: true
-      sni: hk.catxstar.com
-      type: trojan
-      udp: true
+      uuid: 931a2c0b-688f-23b4-4a7d-96c69c9dd67b
+      ws-opts:
+        headers:
+            Host: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
+        path: /glasspanel/0038ba35_0_1bdabe931208/
     - cipher: 2022-blake3-aes-128-gcm
-      name: "\U0001F534\U0001F1FA\U0001F1F8_github.com/Ruk1ng001_76440e56"
+      name: "\U0001F7E0\U0001F1FA\U0001F1F8_github.com/Ruk1ng001_ff7a73df"
       password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
       plugin: gost-plugin
       plugin-opts:
@@ -83,52 +70,56 @@ proxies:
         mux: true
         path: /ws
         tls: false
-      port: 20090
-      server: 172.96.161.152
+      port: 80
+      server: 104.128.72.119
       type: ss
       udp: true
     - client-fingerprint: qq
       encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F534\U0001F1F5\U0001F1F1[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_79cfb947"
-      network: tcp
-      port: 443
+      grpc-opts:
+        grpc-service-name: grpc-tunnel
+      name: "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F4FA\U0001F3AD✨\U0001F39E️]_github.com/Ruk1ng001_a17b19ef"
+      network: grpc
+      port: 9878
       reality-opts:
-        public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-        short-id: "5678"
-      server: 151.245.192.193
-      servername: auto.malina24.xyz
+        public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+        short-id: aabbccdd
+      server: 5.42.106.202
+      servername: dl.google.com
       tls: true
       type: vless
       udp: true
-      uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
+      uuid: 884d811f-577b-421e-aabb-608660b0ecfa
       xudp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6778395a"
-      port: 9002
-      server: 193.176.84.39
-      skip-cert-verify: true
-      tls: true
+    - name: "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a88e970f"
+      password: gs4BXwT6SW
+      port: 10988
+      server: 154.26.192.123
+      tls: false
       type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4385d4f1"
-      port: 9002
-      server: 193.176.84.31
+      username: fQ67Dpe5dU
+    - name: "\U0001F7E0\U0001F1EE\U0001F1E9[\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_87373ad9"
+      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+      port: 20056
+      server: oplosgru-c.catcat321.com
       skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_26763f04"
-      port: 9002
-      server: 193.176.84.36
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_b7a25db2"
-      port: 9002
-      server: 84.239.49.175
-      skip-cert-verify: true
-      tls: true
-      type: http
+      sni: hk.catxstar.com
+      type: trojan
+      udp: true
+    - http-opts:
+        headers:
+            Host:
+                - /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
+        path:
+            - /
+      name: "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_e3b6d7a6"
+      network: http
+      port: 8882
+      server: 31.56.227.48
+      type: vless
+      udp: true
+      uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+      xudp: true
     - alterId: 0
       cipher: auto
       client-fingerprint: safari
@@ -141,18 +132,196 @@ proxies:
       tls: true
       type: vmess
       uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F7E0\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_59f39e13"
-      obfs: ""
-      obfs-password: ""
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-      port: 443
-      server: vpn-us-004.fastervpn.world
+    - client-fingerprint: qq
+      encryption: none
+      grpc-opts:
+        grpc-service-name: grpc-tunnel
+      name: "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_2f63d08b"
+      network: grpc
+      port: 9892
+      reality-opts:
+        public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+        short-id: ""
+      server: 72.56.38.194
+      servername: dl.google.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 884d811f-577b-421e-aabb-608660b0ecfa
+      xudp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F7E0\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_a05c3dc4"
+      network: ws
+      port: 32735
+      server: cgroup.node5.v.nodelist-airport.com
       skip-cert-verify: true
-      sni: vpn-us-004.fastervpn.world
-      type: hysteria2
-      up: ""
+      type: vmess
+      uuid: 65bc6206-ee8e-458b-823c-91de8a8dff10
+      ws-opts:
+        headers:
+            Host: cgroup.node5.v.nodelist-airport.com
+        path: /
+    - encryption: none
+      name: "\U0001F7E0\U0001F1EB\U0001F1EE[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_8c95222a"
+      network: tcp
+      port: 2090
+      server: fn.fifapes.monster
+      type: vless
+      udp: true
+      uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+      xudp: true
+    - name: "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_36ae2991"
+      network: ws
+      port: 16443
+      server: 104.168.87.41
+      servername: l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 931a2c0b-688f-23b4-4a7d-96c69c9dd67b
+      ws-opts:
+        headers:
+            Host: l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr
+        path: /glasspanel/0038ba35_0_1bdabe931208/
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F7E0\U0001F1FA\U0001F1F8[\U0001F4FA]_github.com/Ruk1ng001_25479b63"
+      network: ws
+      port: 36822
+      server: sylva51.ceoiii.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 4f198ea9-311e-3dcf-910c-896de6cb160b
+      ws-opts:
+        headers:
+            Host: ajax.microsoft.com
+        path: /hls/cctv5phd.m3u8
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F534\U0001F1F3\U0001F1F1[\U0001F916\U0001F4FA\U0001F3AD✨]_github.com/Ruk1ng001_8ffaba1a"
+      network: raw
+      port: 443
+      reality-opts:
+        public-key: 7ReQIe2kMtP4rCrptgH5glkOM-JGcSAPzHNxOED-Z0s
+        short-id: 247fd6dab1a34a48
+      server: 194.127.179.220
+      servername: web.max.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 146eb6cf-a99c-4022-85ca-022cf81502dc
+      xudp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_3b6bf33f"
+      port: 9002
+      server: 193.176.84.32
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_4c4d893a"
+      port: 9002
+      server: 193.176.84.37
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0ae131d7"
+      port: 9002
+      server: 193.176.84.27
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_37c76867"
+      port: 9002
+      server: 193.176.84.34
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_26763f04"
+      port: 9002
+      server: 193.176.84.36
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - multiplexing: MULTIPLEXING_LOW
+      name: "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_148a190d"
+      password: dongtaiwang.com
+      port: 34567
+      server: 157.254.223.44
+      transport: TCP
+      type: mieru
+      username: dongtaiwang.com
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_50511bed"
+      port: 9002
+      server: 193.176.84.19
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4385d4f1"
+      port: 9002
+      server: 193.176.84.31
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_6778395a"
+      port: 9002
+      server: 193.176.84.39
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - client-fingerprint: firefox
+      encryption: none
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F534\U0001F1EC\U0001F1E7_github.com/Ruk1ng001_f7a23eea"
+      network: tcp
+      port: 22012
+      reality-opts:
+        public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
+        short-id: c6e19c434dc87df7
+      server: gb.sv.temas-bor.ir
+      servername: login.yahoo.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: efeefecf-72f9-4118-9e25-634ca2b2ca11
+      xudp: true
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F3AC\U0001F4FA\U0001F3AD✈️]_github.com/Ruk1ng001_d9aa93a4"
+      network: ws
+      port: 80
+      server: 199.232.170.125
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - encryption: none
+      name: "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F39E️]_github.com/Ruk1ng001_2f9c776b"
+      network: ws
+      port: 80
+      server: 199.232.170.142
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
     - client-fingerprint: chrome
       name: "⚪\U0001F3F3️_github.com/Ruk1ng001_79f3708c"
       network: ws
@@ -167,59 +336,181 @@ proxies:
         headers:
             User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
         path: /api
-    - name: "\U0001F534\U0001F1EE\U0001F1F3[\U0001F916\U0001F4FA\U0001F3AA✨]_github.com/Ruk1ng001_35177213"
-      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20035
-      server: oplosgru-c.catcat321.com
-      skip-cert-verify: true
-      sni: hk.catxstar.com
-      type: trojan
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F3AC\U0001F916\U0001F3AA✈️]_github.com/Ruk1ng001_b5902672"
+      network: ws
+      port: 80
+      server: 199.232.170.175
+      type: vless
       udp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_37c76867"
-      port: 9002
-      server: 193.176.84.34
-      skip-cert-verify: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0a033e31"
+      network: ws
+      port: 80
+      server: 199.232.170.77
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F3AC\U0001F916\U0001F4FA\U0001F50D]_github.com/Ruk1ng001_01ce8f32"
+      network: ws
+      port: 80
+      server: 199.232.170.45
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      grpc-opts:
+        grpc-service-name: TunService
+      name: "\U0001F534\U0001F1F9\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0d0d0eb2"
+      network: grpc
+      port: 8443
+      reality-opts:
+        public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
+        short-id: ""
+      server: 170.168.97.3
+      servername: download.nvidia.com
       tls: true
-      type: http
-    - name: "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_14853730"
-      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 44766
-      server: dd1.catcat321.com
-      skip-cert-verify: true
-      sni: d.usj1.cat.bilibili.com
-      type: trojan
+      type: vless
       udp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_9f5445c9"
+      uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
+      xudp: true
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F3AD\U0001F3AA✈️]_github.com/Ruk1ng001_c558e353"
+      network: ws
+      port: 80
+      server: 199.232.170.183
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - encryption: none
+      name: "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F4FA\U0001F3AD\U0001F4E6✈️]_github.com/Ruk1ng001_1eb7f8db"
+      network: ws
+      port: 80
+      server: 199.232.170.121
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_6fd1af3e"
       port: 9002
-      server: 84.239.49.176
+      server: 84.239.49.235
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d7d8d337"
-      port: 9002
-      server: 84.239.49.234
-      skip-cert-verify: true
-      tls: true
-      type: http
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F7E2\U0001F1F8\U0001F1EC_github.com/Ruk1ng001_9c50b115"
-      network: tcp
-      port: 40118
+      name: "\U0001F7E2\U0001F1F9\U0001F1FC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2cd94029"
+      port: 443
       reality-opts:
-        public-key: x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20
-        short-id: 5895914d
-      server: apinbxs.eovay.com
-      servername: www.lamer.com.sg
+        public-key: jjQK2vJWrfdrYy-scpuuxePDpEXeZNOryQuhT18Wm3U
+        short-id: 0f7f507e
+      server: jp02.18adae16-f183-4aaf-9227-67dc4b27fec6.984b277d-718f-4ba8-9e06-0036b675c900.byteprivatelink.com
+      servername: data.bilibili.com
+      skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+      uuid: f018361c-3d66-4635-80c9-22be36b70ac4
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_af52e797"
+      port: 9002
+      server: 84.239.14.146
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F3AC\U0001F3AA]_github.com/Ruk1ng001_9b2b6db2"
+      network: ws
+      port: 80
+      server: 199.232.170.224
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F3AC\U0001F916\U0001F3AA✨]_github.com/Ruk1ng001_1fbd1df4"
+      network: ws
+      port: 80
+      server: 199.232.170.169
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_aac57d45"
+      port: 9002
+      server: 84.239.49.214
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_7b5efeb3"
+      port: 9002
+      server: 84.239.14.158
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_ed7b38b8"
+      port: 9002
+      server: 84.239.49.180
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9a118b2a"
+      network: ws
+      port: 80
+      server: 199.232.170.110
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
       xudp: true
     - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_7f908228"
       port: 9002
@@ -228,34 +519,29 @@ proxies:
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1a1bd9fd"
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0d9a6a11"
+      network: ws
+      port: 80
+      server: 199.232.170.56
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_cc8f9182"
       port: 9002
-      server: 84.239.49.249
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F534\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9c767c82"
-      obfs: ""
-      obfs-password: ""
-      password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
-      port: 443
-      server: 5.255.102.165
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      up: ""
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_a0921b46"
-      port: 9002
-      server: 84.239.49.253
+      server: 84.239.49.42
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_45dd8b4b"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_85c29221"
       port: 9002
-      server: 84.239.49.231
+      server: 84.239.49.155
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
@@ -274,172 +560,23 @@ proxies:
       udp: true
       uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
       xudp: true
-    - name: "\U0001F534\U0001F1F3\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_7b99a503"
-      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20085
-      server: oplosgru-c.catcat321.com
-      skip-cert-verify: true
-      sni: hk.catxstar.com
-      type: trojan
-      udp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_750809c5"
-      port: 9002
-      server: 84.239.49.154
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_fc196041"
-      port: 9002
-      server: 84.239.49.247
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_7b5efeb3"
-      port: 9002
-      server: 84.239.14.158
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1026877a"
-      port: 9002
-      server: 84.239.49.159
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - client-fingerprint: edge
-      flow: xtls-rprx-vision
-      name: "\U0001F534\U0001F1EB\U0001F1EE[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_3c33b34b"
-      network: raw
-      port: 443
-      reality-opts:
-        public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-        short-id: abcd
-      server: 140.233.160.24
-      servername: ya.ru
-      tls: true
+    - encryption: none
+      name: "\U0001F534\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_ee772d87"
+      network: ws
+      port: 80
+      server: 199.232.170.76
       type: vless
       udp: true
-      uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
       xudp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6f0b4d5b"
-      port: 9002
-      server: 84.239.49.209
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_588489b3"
-      port: 9002
-      server: 84.239.49.254
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6d4a7817"
-      port: 9002
-      server: 84.239.49.178
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_85cf2f97"
-      port: 9002
-      server: 84.239.49.240
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1af479e3"
-      port: 9002
-      server: 193.176.84.24
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_450af56b"
-      port: 9002
-      server: 84.239.14.159
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_5a03f828"
-      port: 9002
-      server: 84.239.49.171
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d10eacd8"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_d10eacd8"
       port: 9002
       server: 84.239.49.162
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_450d9f17"
-      port: 9002
-      server: 84.239.49.202
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F4E6]_github.com/Ruk1ng001_e76e07f3"
-      port: 9002
-      server: 84.239.49.37
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_48370336"
-      port: 9002
-      server: 84.239.49.211
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_aac57d45"
-      port: 9002
-      server: 84.239.49.214
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_85c29221"
-      port: 9002
-      server: 84.239.49.155
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_5c5afcdb"
-      port: 9002
-      server: 84.239.14.147
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_e6c033a3"
-      port: 9002
-      server: 84.239.49.227
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - multiplexing: MULTIPLEXING_LOW
-      name: "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F916\U0001F3AD\U0001F39E️\U0001F4E6]_github.com/Ruk1ng001_148a190d"
-      password: dongtaiwang.com
-      port: 34567
-      server: 157.254.223.44
-      transport: TCP
-      type: mieru
-      username: dongtaiwang.com
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_ed7b38b8"
-      port: 9002
-      server: 84.239.49.180
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6fd1af3e"
-      port: 9002
-      server: 84.239.49.235
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
@@ -451,23 +588,10 @@ proxies:
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_af52e797"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_ef690cc6"
       port: 9002
-      server: 84.239.14.146
+      server: 84.239.49.201
       skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_ca427c46"
-      port: 9002
-      server: 84.239.49.183
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD✨]_github.com/Ruk1ng001_a43c097b"
-      port: 9002
-      server: 84.239.49.160
-      skip-cert-verify: true
-      sni: www.bing.com
       tls: true
       type: http
     - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_3adb38ee"
@@ -477,120 +601,108 @@ proxies:
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_ef690cc6"
-      port: 9002
-      server: 84.239.49.201
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F7E0\U0001F1E8\U0001F1E6[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_66251aa8"
+      obfs: ""
+      obfs-password: ""
+      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+      port: 443
+      server: vpn-ca-002.fastervpn.world
       skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6e39a6cb"
+      sni: vpn-ca-002.fastervpn.world
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F7E0\U0001F1EF\U0001F1F5[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_22838431"
+      obfs: ""
+      obfs-password: ""
+      password: 6c077487-06af-4fb1-9e46-d485d98f0a31
+      port: 52454
+      server: 45.88.43.116
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: ""
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_6e39a6cb"
       port: 9002
       server: 84.239.14.148
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_97352dbf"
+    - encryption: none
+      name: "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F3AA✈️\U0001F50D]_github.com/Ruk1ng001_9799f58c"
+      network: ws
+      port: 80
+      server: 199.232.170.3
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_fc196041"
       port: 9002
-      server: 84.239.49.38
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_01ff4389"
-      port: 9002
-      server: 84.239.49.55
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_226fa120"
-      port: 9002
-      server: 84.239.49.184
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_f8d02395"
-      port: 9002
-      server: 84.239.49.39
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_9d1e9ccb"
-      port: 9002
-      server: 193.176.84.25
+      server: 84.239.49.247
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_46e9bf7d"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_48370336"
       port: 9002
-      server: 84.239.49.185
+      server: 84.239.49.211
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_cb3d27ed"
-      port: 9002
-      server: 84.239.49.191
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_bc561dde"
-      port: 9002
-      server: 84.239.49.198
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_011d3b15"
-      port: 9002
-      server: 84.239.49.224
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_86d476ed"
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F3AC\U0001F4FA]_github.com/Ruk1ng001_fc30cc9b"
+      network: ws
+      port: 80
+      server: 199.232.170.55
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_86d476ed"
       port: 9002
       server: 84.239.49.207
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_9f24578b"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_73809fb0"
       port: 9002
-      server: 84.239.49.215
+      server: 84.239.49.225
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_8ef844c9"
-      port: 9002
-      server: 84.239.49.173
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_01eb1362"
-      port: 9002
-      server: 84.239.14.154
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - alterId: 2
-      cipher: auto
-      name: "\U0001F7E0\U0001F1FA\U0001F1F8[\U0001F916\U0001F4FA\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_9b6fe04a"
-      port: 30824
-      server: v24.hdacd.com
-      skip-cert-verify: false
-      tls: false
-      type: vmess
+    - encryption: none
+      name: "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_4f0be585"
+      network: ws
+      port: 80
+      server: 199.232.170.207
+      type: vless
       udp: true
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
       xudp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_c91883ca"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_5a03f828"
       port: 9002
-      server: 193.176.84.26
+      server: 84.239.49.171
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
@@ -615,19 +727,140 @@ proxies:
       udp: true
       uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
       xudp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_58a3d31b"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_750809c5"
       port: 9002
-      server: 84.239.49.233
+      server: 84.239.49.154
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_961db747"
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F4FA✨]_github.com/Ruk1ng001_957663f1"
+      network: ws
+      port: 80
+      server: 199.232.170.210
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F7E0\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_59f39e13"
+      obfs: ""
+      obfs-password: ""
+      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+      port: 443
+      server: vpn-us-004.fastervpn.world
+      skip-cert-verify: true
+      sni: vpn-us-004.fastervpn.world
+      type: hysteria2
+      up: ""
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F3AA\U0001F39E️\U0001F4E6✈️]_github.com/Ruk1ng001_937e36c7"
+      network: ws
+      port: 80
+      server: 199.232.170.143
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - encryption: none
+      name: "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2dc35ef5"
+      network: ws
+      port: 80
+      server: 151.101.56.7
+      type: vless
+      udp: true
+      uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt.
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+        path: /
+      xudp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_1af479e3"
       port: 9002
-      server: 84.239.49.204
+      server: 193.176.84.24
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F3AC\U0001F4FA✈️\U0001F50D]_github.com/Ruk1ng001_0eb055bd"
+      network: ws
+      port: 80
+      server: 199.232.170.127
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - encryption: none
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d99dc948"
+      network: tcp
+      port: 10000
+      server: 180.178.60.252
+      type: vless
+      udp: true
+      uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
+      xudp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_07b2ee2b"
+      port: 9002
+      server: 84.239.49.156
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_5c5afcdb"
+      port: 9002
+      server: 84.239.14.147
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_26dd3d10"
+      port: 9002
+      server: 84.239.49.238
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_588489b3"
+      port: 9002
+      server: 84.239.49.254
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F3AC\U0001F4FA\U0001F39E️\U0001F4E6]_github.com/Ruk1ng001_918fc73a"
+      network: ws
+      port: 80
+      server: 199.232.170.161
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
     - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_223af90e"
       port: 9002
       server: 84.239.14.149
@@ -635,13 +868,678 @@ proxies:
       sni: www.bing.com
       tls: true
       type: http
+    - client-fingerprint: chrome
+      name: "\U0001F534\U0001F1EC\U0001F1E7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_8e11c7e7"
+      network: ws
+      port: 443
+      server: 57.128.183.79
+      servername: vp58.cc.cd
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+      ws-opts:
+        headers:
+            Host: vp58.cc.cd
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+        path: "/Telegram\U0001F1E8\U0001F1F3 @VPNine1"
+      xudp: true
+    - encryption: none
+      name: "\U0001F7E0\U0001F1EB\U0001F1EE[\U0001F4FA\U0001F3AA\U0001F4E6✈️]_github.com/Ruk1ng001_9edcf91e"
+      network: ws
+      port: 80
+      server: 199.232.170.203
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_58a3d31b"
+      port: 9002
+      server: 84.239.49.233
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_01eb1362"
+      port: 9002
+      server: 84.239.14.154
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d7d8d337"
+      port: 9002
+      server: 84.239.49.234
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_f8d02395"
+      port: 9002
+      server: 84.239.49.39
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9e2a5f02"
+      port: 9002
+      server: 84.239.14.152
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F3AC\U0001F4FA\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_502ba001"
+      network: ws
+      port: 80
+      server: 199.232.170.73
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F534\U0001F1F8\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a57176fe"
+      obfs: ""
+      obfs-password: ""
+      password: 71cada65-d23e-418c-88e4-a06188d14689
+      port: 443
+      server: swe-one.quiet-rogue.site
+      skip-cert-verify: false
+      sni: swe-one.quiet-rogue.site
+      type: hysteria2
+      up: ""
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_450af56b"
+      port: 9002
+      server: 84.239.14.159
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_6f0b4d5b"
+      port: 9002
+      server: 84.239.49.209
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d8e88830"
+      port: 9002
+      server: 84.239.49.182
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a43c097b"
+      port: 9002
+      server: 84.239.49.160
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_46e9bf7d"
+      port: 9002
+      server: 84.239.49.185
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD✨]_github.com/Ruk1ng001_c91883ca"
+      port: 9002
+      server: 193.176.84.26
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a89a852e"
+      port: 9002
+      server: 84.239.49.164
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9f24578b"
+      port: 9002
+      server: 84.239.49.215
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_1026877a"
+      port: 9002
+      server: 84.239.49.159
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_85cf2f97"
+      port: 9002
+      server: 84.239.49.240
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F50D]_github.com/Ruk1ng001_961db747"
+      port: 9002
+      server: 84.239.49.204
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_45dd8b4b"
+      port: 9002
+      server: 84.239.49.231
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_bc561dde"
+      port: 9002
+      server: 84.239.49.198
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_011d3b15"
+      port: 9002
+      server: 84.239.49.224
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F3AC\U0001F916\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_f8ab0a6b"
+      network: ws
+      port: 80
+      server: 199.232.170.106
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_786985ca"
+      port: 9002
+      server: 84.239.49.157
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_450d9f17"
+      port: 9002
+      server: 84.239.49.202
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F7E2\U0001F1F0\U0001F1F7[\U0001F4FA\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_bae4f46b"
+      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+      port: 9450
+      server: rr2.tube-cat.com
+      skip-cert-verify: true
+      sni: hk.catxstar.com
+      type: trojan
+      udp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_300e8e1c"
+      port: 9002
+      server: 84.239.49.219
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_01ff4389"
+      port: 9002
+      server: 84.239.49.55
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_cb3d27ed"
+      port: 9002
+      server: 84.239.49.191
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_4de2b545"
+      port: 9002
+      server: 84.239.49.212
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_8ef844c9"
+      port: 9002
+      server: 84.239.49.173
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F4E6]_github.com/Ruk1ng001_c5b61986"
+      port: 9002
+      server: 84.239.49.163
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F3AC\U0001F4FA\U0001F39E️\U0001F4E6]_github.com/Ruk1ng001_9d1dec3e"
+      network: ws
+      port: 80
+      server: 199.232.170.18
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_b7a25db2"
+      port: 9002
+      server: 84.239.49.175
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - client-fingerprint: chrome
+      name: "\U0001F7E0\U0001F1EB\U0001F1EE[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d3cd2e88"
+      network: ws
+      port: 80
+      server: 151.101.193.54
+      skip-cert-verify: true
+      tls: false
+      type: vless
+      udp: true
+      uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt.
+        path: /
+    - name: "\U0001F534\U0001F1EE\U0001F1F3[\U0001F4FA]_github.com/Ruk1ng001_35177213"
+      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+      port: 20035
+      server: oplosgru-c.catcat321.com
+      skip-cert-verify: true
+      sni: hk.catxstar.com
+      type: trojan
+      udp: true
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F4FA\U0001F3AA✈️\U0001F50D]_github.com/Ruk1ng001_9b643696"
+      network: ws
+      port: 80
+      server: 199.232.170.192
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F4E6✈️]_github.com/Ruk1ng001_7ea89900"
+      network: ws
+      port: 80
+      server: 199.232.170.228
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_f5c7ec50"
+      network: ws
+      port: 80
+      server: 199.232.170.107
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_97352dbf"
+      port: 9002
+      server: 84.239.49.38
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9f5445c9"
+      port: 9002
+      server: 84.239.49.176
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F916\U0001F3AA✨\U0001F4E6]_github.com/Ruk1ng001_18b21db3"
+      network: ws
+      port: 80
+      server: 199.232.170.214
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_fd7b192d"
+      port: 9002
+      server: 84.239.49.161
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_390d92de"
+      port: 9002
+      server: 84.239.49.245
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - client-fingerprint: chrome
+      name: "⚪\U0001F3F3️[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9e518305"
+      network: ws
+      password: "521314"
+      port: 443
+      server: 89.116.180.27
+      skip-cert-verify: false
+      sni: hhtj.hhllfly.kdns.fr
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: "/pyip=Telegram-WangCai2\U0001F1E8\U0001F1F3"
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_edf4fc20"
+      port: 9002
+      server: 84.239.49.57
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "⚪\U0001F3F3️[\U0001F3AD]_github.com/Ruk1ng001_e3051f22"
+      port: 1080
+      server: 5.255.99.75
+      type: socks5
+    - name: "\U0001F7E2\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_048a8a9a"
+      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+      port: 20041
+      server: Hkdcrtc-e.catcat321.com
+      skip-cert-verify: true
+      sni: de.catxstar.com
+      type: trojan
+      udp: true
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F3AC\U0001F4FA✨\U0001F4E6]_github.com/Ruk1ng001_8efa92b6"
+      network: ws
+      port: 80
+      server: 199.232.170.147
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_6d4a7817"
+      port: 9002
+      server: 84.239.49.178
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_a0cc4c8a"
+      port: 9002
+      server: 84.239.14.160
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_1a1bd9fd"
+      port: 9002
+      server: 84.239.49.249
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F916\U0001F3AD\U0001F3AA\U0001F39E️]_github.com/Ruk1ng001_3d6c757f"
+      network: ws
+      port: 80
+      server: 199.232.170.63
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
     - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_4a2952a3"
       port: 9002
       server: 84.239.49.170
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F534\U0001F1EB\U0001F1EE_github.com/Ruk1ng001_5c79b4dc"
+    - alterId: 0
+      cipher: auto
+      grpc-opts:
+        grpc-service-name: "12306"
+      name: "\U0001F7E2\U0001F1ED\U0001F1F0[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_a5a453c6"
+      network: grpc
+      port: 443
+      server: hk04.653ebeeb-5f60-4be5-958d-7bf4839cdccd.ef6616fd-5b06-482f-9d64-183745659cbf.byteprivatelink.com
+      servername: www.12306.cn
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      udp: true
+      uuid: f018361c-3d66-4635-80c9-22be36b70ac4
+    - client-fingerprint: chrome
+      name: "\U0001F534\U0001F1F3\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_37652c20"
+      network: ws
+      port: 443
+      server: 103.102.228.113
+      servername: vp58.cc.cd
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+      ws-opts:
+        headers:
+            Host: vp58.cc.cd
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+        path: "/Telegram\U0001F1E8\U0001F1F3 @VPNine1"
+      xudp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_7bdb2d5d"
+      port: 9002
+      server: 84.239.49.223
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F4FA\U0001F39E️\U0001F50D]_github.com/Ruk1ng001_f6e17c34"
+      network: ws
+      port: 80
+      server: 199.232.170.4
+      type: vless
+      udp: true
+      uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+        path: "/?Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_59f086ef"
+      port: 9002
+      server: 84.239.49.239
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_6b7dbcaf"
+      port: 9002
+      server: 84.239.49.196
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_226fa120"
+      port: 9002
+      server: 84.239.49.184
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "\U0001F534\U0001F1FA\U0001F1F8_github.com/Ruk1ng001_76440e56"
+      password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
+      plugin: gost-plugin
+      plugin-opts:
+        host: one.local
+        mode: websocket
+        mux: true
+        path: /ws
+        tls: false
+      port: 20090
+      server: 172.96.161.152
+      type: ss
+      udp: true
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_aa105999"
+      port: 9002
+      server: 84.239.49.166
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_ca427c46"
+      port: 9002
+      server: 84.239.49.183
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_7063f71e"
+      port: 9002
+      server: 84.239.49.187
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_e76e07f3"
+      port: 9002
+      server: 84.239.49.37
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_e6c033a3"
+      port: 9002
+      server: 84.239.49.227
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d6864b0e"
+      port: 9002
+      server: 84.239.49.242
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_a0921b46"
+      port: 9002
+      server: 84.239.49.253
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9d1e9ccb"
+      port: 9002
+      server: 193.176.84.25
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - encryption: none
+      name: "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_8b2d8f6d"
+      network: ws
+      port: 80
+      server: 167.82.0.1
+      type: vless
+      udp: true
+      uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt.
+            User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+        path: /
+      xudp: true
+    - name: "\U0001F534\U0001F1E6\U0001F1FA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_75a616e0"
+      port: 443
+      server: 103.62.50.130
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - encryption: none
+      name: "⚪\U0001F3F3️[\U0001F4FA\U0001F3AA\U0001F4E6\U0001F50D]_github.com/Ruk1ng001_489b70ae"
+      network: ws
+      port: 80
+      server: 167.82.0.17
+      type: vless
+      udp: true
+      uuid: a69d5300-8101-47b5-9448-6730f228af37
+      ws-opts:
+        headers:
+            Host: BankMelat.glObal.ssl.faStly.nEt.
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /
+      xudp: true
+    - name: "\U0001F7E2\U0001F1F2\U0001F1F4[\U0001F3AC\U0001F3AD\U0001F3AA\U0001F39E️]_github.com/Ruk1ng001_6a735115"
+      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+      port: 20068
+      server: oplosgru-c.catcat321.com
+      skip-cert-verify: true
+      sni: hk.catxstar.com
+      type: trojan
+      udp: true
+    - name: "\U0001F534\U0001F1F0\U0001F1F7[\U0001F4FA\U0001F3AD\U0001F50D]_github.com/Ruk1ng001_5b8e1a9b"
+      port: 1090
+      server: 121.169.46.116
+      tls: false
+      type: socks5
+      username: Og%3D%3D
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_f9d7e7e2"
+      network: tcp
+      port: 40118
+      reality-opts:
+        public-key: x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20
+        short-id: 5895914d
+      server: 43.255.156.59
+      servername: www.lamer.com.sg
+      tls: true
+      type: vless
+      udp: true
+      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+      xudp: true
+    - name: "\U0001F534\U0001F1EB\U0001F1EE[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_5c79b4dc"
       network: ws
       port: 2053
       server: 103.54.16.230
@@ -656,516 +1554,8 @@ proxies:
         headers:
             Host: forfreeuse.sub-flow.online
         path: /
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_7063f71e"
-      port: 9002
-      server: 84.239.49.187
-      skip-cert-verify: true
-      tls: true
-      type: http
     - encryption: none
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F534\U0001F1FA\U0001F1F8_github.com/Ruk1ng001_d99dc948"
-      network: tcp
-      port: 10000
-      server: 180.178.60.252
-      type: vless
-      udp: true
-      uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_d3cd2e88"
-      network: ws
-      port: 80
-      server: 151.101.193.54
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
-      ws-opts:
-        headers:
-            Host: BankMelat.glObal.ssl.faStly.nEt.
-        path: /
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d6864b0e"
-      port: 9002
-      server: 84.239.49.242
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_390d92de"
-      port: 9002
-      server: 84.239.49.245
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_4de2b545"
-      port: 9002
-      server: 84.239.49.212
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F7E0\U0001F1EE\U0001F1E9[\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_87373ad9"
-      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20056
-      server: oplosgru-c.catcat321.com
-      skip-cert-verify: true
-      sni: hk.catxstar.com
-      type: trojan
-      udp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_59f086ef"
-      port: 9002
-      server: 84.239.49.239
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_73809fb0"
-      port: 9002
-      server: 84.239.49.225
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d8e88830"
-      port: 9002
-      server: 84.239.49.182
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_fd7b192d"
-      port: 9002
-      server: 84.239.49.161
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a89a852e"
-      port: 9002
-      server: 84.239.49.164
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_edf4fc20"
-      port: 9002
-      server: 84.239.49.57
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_9e2a5f02"
-      port: 9002
-      server: 84.239.14.152
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_aa105999"
-      port: 9002
-      server: 84.239.49.166
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_cc8f9182"
-      port: 9002
-      server: 84.239.49.42
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_786985ca"
-      port: 9002
-      server: 84.239.49.157
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_300e8e1c"
-      port: 9002
-      server: 84.239.49.219
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - client-fingerprint: chrome
-      name: "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_373c43e9"
-      network: tcp
-      password: FC60532879
-      port: 443
-      server: apt-midge.rooster465.autos
-      skip-cert-verify: false
-      sni: apt-midge.rooster465.autos
-      type: trojan
-      udp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_c5b61986"
-      port: 9002
-      server: 84.239.49.163
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - client-fingerprint: chrome
-      name: "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0743039a"
-      network: tcp
-      password: JT80563429
-      port: 443
-      server: prepared-turkey.rooster465.autos
-      skip-cert-verify: false
-      sni: prepared-turkey.rooster465.autos
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_363d7a2a"
-      network: tcp
-      password: IQ68037294
-      port: 443
-      server: endless-kiwi.rooster465.autos
-      skip-cert-verify: false
-      sni: endless-kiwi.rooster465.autos
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_49d95d0b"
-      network: tcp
-      password: IQ68037294
-      port: 443
-      server: fun-salmon.rooster465.autos
-      skip-cert-verify: false
-      sni: fun-salmon.rooster465.autos
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_c9ae5093"
-      network: tcp
-      password: FC60532879
-      port: 443
-      server: helpful-possum.rooster465.autos
-      skip-cert-verify: false
-      sni: helpful-possum.rooster465.autos
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2212bb53"
-      network: tcp
-      password: IQ68037294
-      port: 443
-      server: curious-oryx.rooster465.autos
-      skip-cert-verify: false
-      sni: curious-oryx.rooster465.autos
-      type: trojan
-      udp: true
-    - name: "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_a9607e73"
-      network: ws
-      port: 2096
-      server: cd18.almas-cloud.ir
-      type: vless
-      udp: true
-      uuid: 94d1b793-0670-405a-af31-d1270b582427
-      ws-opts:
-        headers:
-            Host: ""
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-        path: ""
-      xudp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_07b2ee2b"
-      port: 9002
-      server: 84.239.49.156
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - client-fingerprint: chrome
-      name: "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_8981df56"
-      network: tcp
-      password: IQ68037294
-      port: 443
-      server: pet-albacore.rooster465.autos
-      skip-cert-verify: false
-      sni: pet-albacore.rooster465.autos
-      type: trojan
-      udp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_26dd3d10"
-      port: 9002
-      server: 84.239.49.238
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_7bdb2d5d"
-      port: 9002
-      server: 84.239.49.223
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - client-fingerprint: chrome
-      name: "\U0001F7E2\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0efdf9f0"
-      network: tcp
-      password: JT80563429
-      port: 443
-      server: meet-doe.rooster465.autos
-      skip-cert-verify: false
-      sni: meet-doe.rooster465.autos
-      type: trojan
-      udp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6b7dbcaf"
-      port: 9002
-      server: 84.239.49.196
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_4c4d893a"
-      port: 9002
-      server: 193.176.84.37
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_3b6bf33f"
-      port: 9002
-      server: 193.176.84.32
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - client-fingerprint: chrome
-      name: "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_88f354d4"
-      network: tcp
-      password: JT80563429
-      port: 443
-      server: still-mastodon.rooster465.autos
-      skip-cert-verify: false
-      sni: still-mastodon.rooster465.autos
-      type: trojan
-      udp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_0ae131d7"
-      port: 9002
-      server: 193.176.84.27
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - client-fingerprint: chrome
-      name: "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6226f1a7"
-      network: tcp
-      password: FC60532879
-      port: 443
-      server: proud-escargot.rooster465.autos
-      skip-cert-verify: false
-      sni: proud-escargot.rooster465.autos
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F7E0\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_8d8146f7"
-      network: tcp
-      password: FC60532879
-      port: 443
-      server: 81.28.13.159
-      skip-cert-verify: false
-      sni: giving-bird.rooster465.autos
-      type: trojan
-      udp: true
-    - name: "\U0001F7E2\U0001F1F9\U0001F1FC[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_75a9209f"
-      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20025
-      server: Hkdcrtc-e.catcat321.com
-      skip-cert-verify: true
-      sni: tw.catxstar.com
-      type: trojan
-      udp: true
-    - encryption: none
-      name: "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_2d115cfa"
-      network: ws
-      port: 80
-      server: 167.82.0.4
-      type: vless
-      udp: true
-      uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
-      ws-opts:
-        headers:
-            Host: BankMelat.glObal.ssl.faStly.nEt.
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
-        path: /
-      xudp: true
-    - name: "\U0001F534\U0001F1FA\U0001F1E6[\U0001F916\U0001F4FA\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_7b832310"
-      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20066
-      server: Hkdcrtc-e.catcat321.com
-      skip-cert-verify: true
-      sni: hk.catxstar.com
-      type: trojan
-      udp: true
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_a0cc4c8a"
-      port: 9002
-      server: 84.239.14.160
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F7E2\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_048a8a9a"
-      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20041
-      server: Hkdcrtc-e.catcat321.com
-      skip-cert-verify: true
-      sni: de.catxstar.com
-      type: trojan
-      udp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F7E2\U0001F1E6\U0001F1FF[\U0001F916\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_1392a6d8"
-      obfs: ""
-      obfs-password: ""
-      password: ew9_M93_6a31Qd45_hUX3984F_jNZ83x_Nz1l_f
-      port: 8443
-      server: 94.20.88.13
-      skip-cert-verify: false
-      sni: azer-tea-grape.bumbleshrimp.com
-      type: hysteria2
-      up: ""
-    - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_50511bed"
-      port: 9002
-      server: 193.176.84.19
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F7E2\U0001F1F2\U0001F1F4[\U0001F4FA\U0001F3AD\U0001F3AA✨]_github.com/Ruk1ng001_6a735115"
-      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20068
-      server: oplosgru-c.catcat321.com
-      skip-cert-verify: true
-      sni: hk.catxstar.com
-      type: trojan
-      udp: true
-    - name: "\U0001F7E1\U0001F1EF\U0001F1F5[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_e0c55e7b"
-      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20129
-      server: Hkdcrtc-e.catcat321.com
-      skip-cert-verify: true
-      sni: hk.catxstar.com
-      type: trojan
-      udp: true
-    - alterId: 2
-      cipher: auto
-      name: "⚪\U0001F3F3️_github.com/Ruk1ng001_3305bc16"
-      port: 30829
-      server: v29.hdacd.com
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-      xudp: true
-    - client-fingerprint: chrome
-      name: "⚪\U0001F3F3️[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_f0d1ff67"
-      network: ws
-      password: "521314"
-      port: 443
-      server: 103.193.172.164
-      skip-cert-verify: true
-      sni: tjplay.lxdxo.kdns.fr
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
-        path: /
-    - alterId: 2
-      cipher: auto
-      name: "\U0001F7E0\U0001F1EB\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_158e7101"
-      port: 30835
-      server: v35.hdacd.com
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F534\U0001F1F8\U0001F1EC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2fe9a553"
-      network: tcp
-      password: IQ68037294
-      port: 443
-      server: brave-cattle.rooster465.autos
-      skip-cert-verify: false
-      sni: brave-cattle.rooster465.autos
-      type: trojan
-      udp: true
-    - name: "\U0001F534\U0001F1F9\U0001F1ED[\U0001F916\U0001F4E6]_github.com/Ruk1ng001_572aa3f1"
-      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20023
-      server: oplosgru-c.catcat321.com
-      skip-cert-verify: true
-      sni: hk.catxstar.com
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F7E2\U0001F1E8\U0001F1FE[\U0001F4FA\U0001F4E6]_github.com/Ruk1ng001_f5e8811b"
-      network: tcp
-      port: 40443
-      reality-opts:
-        public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
-        short-id: 88b6
-      server: 45.89.105.74
-      servername: deepl.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
-      xudp: true
-    - client-fingerprint: qq
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F534\U0001F1F5\U0001F1F1[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_184019c6"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-        short-id: "5678"
-      server: 151.245.192.225
-      servername: auto.malina24.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
-      xudp: true
-    - name: "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_6b9441dd"
-      network: ws
-      port: 18443
-      server: 23.95.18.12
-      servername: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: 90235096-9296-3d36-c77c-715577598fd5
-      ws-opts:
-        headers:
-            Host: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
-        path: /glasspanel/0038ba35_0_1bdabe931208/
-    - alpn:
-        - h3
-      auth_str: dongtaiwang.com
-      down: "1000"
-      name: "\U0001F534\U0001F1E9\U0001F1EA[\U0001F4FA\U0001F3AD\U0001F4E6\U0001F50D]_github.com/Ruk1ng001_f8850907"
-      obfs: ""
-      port: 54177
-      protocol: udp
-      server: 5.83.129.90
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "500"
-    - encryption: none
-      name: "\U0001F534\U0001F1F9\U0001F1ED[\U0001F916\U0001F4FA\U0001F3AA\U0001F50D]_github.com/Ruk1ng001_7eeb3713"
+      name: "\U0001F534\U0001F1F9\U0001F1ED[\U0001F916\U0001F4FA\U0001F3AA\U0001F39E️]_github.com/Ruk1ng001_7eeb3713"
       network: ws
       port: 80
       server: 18.239.134.69
@@ -1178,74 +1568,50 @@ proxies:
             User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36
         path: /
       xudp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F7E0\U0001F1ED\U0001F1F0[\U0001F4FA]_github.com/Ruk1ng001_a6ff1ae6"
-      obfs: salamander
-      obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-      password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-      port: 5010
-      server: nas.aizhzo.com
-      skip-cert-verify: true
-      sni: 127.0.0.1
-      type: hysteria2
-      up: ""
-    - name: "\U0001F534\U0001F1F9\U0001F1ED[\U0001F4FA]_github.com/Ruk1ng001_419c840d"
-      network: ws
-      port: 80
-      server: 18.244.214.36
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: f27894bf-349c-44e6-a0ce-4c787e18476f
-      ws-opts:
-        headers:
-            Host: duatoup3wk8q2.cloudfront.net
-        path: /GDkX4xpB/
-    - client-fingerprint: qq
-      encryption: none
-      grpc-opts:
-        grpc-service-name: grpc-tunnel
-      name: "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_2f63d08b"
-      network: grpc
-      port: 9892
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F7E2\U0001F1F9\U0001F1FC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_061d7c3c"
+      port: 443
       reality-opts:
-        public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-        short-id: ""
-      server: 72.56.38.194
-      servername: dl.google.com
+        public-key: aTPjxfJ5QPGxYRyQ8SRnYwyXUhuasda7i5Dc5VoKxVY
+        short-id: 4c9fbcb1
+      server: sg01.18adae16-f183-4aaf-9227-67dc4b27fec6.984b277d-718f-4ba8-9e06-0036b675c900.byteprivatelink.com
+      servername: www.samsung.com
+      skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: 884d811f-577b-421e-aabb-608660b0ecfa
-      xudp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F4FA\U0001F50D]_github.com/Ruk1ng001_14f6670a"
+      uuid: f018361c-3d66-4635-80c9-22be36b70ac4
+    - alpn:
+        - h3
+      auth_str: dongtaiwang.com
+      down: "1000"
+      name: "\U0001F534\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_f8850907"
       obfs: ""
-      obfs-password: ""
-      password: 35415e5e-3666-4454-8c45-903af0fcddf4
-      port: 47257
-      server: 85.120.228.208
+      port: 54177
+      protocol: udp
+      server: 5.83.129.90
       skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      up: ""
-    - cipher: 2022-blake3-aes-128-gcm
-      name: "\U0001F7E0\U0001F1FA\U0001F1F8_github.com/Ruk1ng001_c96451d4"
-      password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
-      plugin: gost-plugin
-      plugin-opts:
-        host: one.local
-        mode: websocket
-        mux: true
-        path: /ws
-        tls: false
-      port: 80
-      server: 104.128.72.119
-      type: ss
+      sni: apple.com
+      type: hysteria
+      up: "500"
+    - client-fingerprint: chrome
+      encryption: none
+      grpc-opts:
+        grpc-service-name: grpc
+      name: "\U0001F534\U0001F1E9\U0001F1EA[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_f3b69294"
+      network: grpc
+      port: 443
+      reality-opts:
+        public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+        short-id: 3303c7a5
+      server: 194.93.0.28
+      servername: media2.tcpdoor.net
+      tls: true
+      type: vless
       udp: true
+      uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+      xudp: true
     - alpn:
         - h3
       auth-str: dongtaiwang.com
@@ -1258,76 +1624,81 @@ proxies:
       sni: apple.com
       type: hysteria
       up: "500"
-    - client-fingerprint: qq
-      encryption: none
-      grpc-opts:
-        grpc-service-name: grpc-tunnel
-      name: "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F916✨\U0001F50D]_github.com/Ruk1ng001_a17b19ef"
-      network: grpc
-      port: 9878
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F7E2\U0001F1F9\U0001F1FC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_bc4b5ebb"
+      port: 443
       reality-opts:
-        public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-        short-id: aabbccdd
-      server: 5.42.106.202
-      servername: dl.google.com
+        public-key: -0yE1g45MXUmEbHsHjLcTB4viurXE4jFHmZR_W3aLAE
+        short-id: 3347f3eb
+      server: jp01.18adae16-f183-4aaf-9227-67dc4b27fec6.984b277d-718f-4ba8-9e06-0036b675c900.byteprivatelink.com
+      servername: data.bilibili.com
+      skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: 884d811f-577b-421e-aabb-608660b0ecfa
+      uuid: f018361c-3d66-4635-80c9-22be36b70ac4
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F7E2\U0001F1F9\U0001F1FC[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a5034644"
+      port: 443
+      reality-opts:
+        public-key: aTPjxfJ5QPGxYRyQ8SRnYwyXUhuasda7i5Dc5VoKxVY
+        short-id: 4c9fbcb1
+      server: jp03.18adae16-f183-4aaf-9227-67dc4b27fec6.984b277d-718f-4ba8-9e06-0036b675c900.byteprivatelink.com
+      servername: www.samsung.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: f018361c-3d66-4635-80c9-22be36b70ac4
+    - encryption: none
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F534\U0001F1E8\U0001F1FF[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1ed708eb"
+      network: tcp
+      port: 20342
+      server: 141.133.172.222
+      type: vless
+      udp: true
+      uuid: 5eecb34f-c905-4c77-b7fb-d830b451cd11
       xudp: true
-    - name: "\U0001F7E2\U0001F1F0\U0001F1F7[\U0001F4FA\U0001F3AD\U0001F39E️]_github.com/Ruk1ng001_bae4f46b"
+    - name: "⚪\U0001F3F3️_github.com/Ruk1ng001_501ac91e"
       password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 9450
-      server: rr2.tube-cat.com
+      port: 20120
+      server: oplosgru-c.catcat321.com
       skip-cert-verify: true
       sni: hk.catxstar.com
       type: trojan
       udp: true
-    - encryption: none
-      name: "\U0001F7E0\U0001F1E9\U0001F1EA[\U0001F3AA]_github.com/Ruk1ng001_8c574a4d"
-      network: ws
-      port: 4100
-      server: 194.87.161.60
-      servername: live.ok.ru
-      type: vless
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "\U0001F7E0\U0001F1FA\U0001F1F8_github.com/Ruk1ng001_216af303"
+      password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
+      plugin: gost-plugin
+      plugin-opts:
+        host: ous1.337777777.xyz
+        mode: websocket
+        mux: true
+        path: /api/v1/stream/us1
+        tls: false
+      port: 80
+      server: www.syfe.com
+      type: ss
       udp: true
-      uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
-      ws-opts:
-        headers:
-            Host: ""
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
-        path: /v1
-      xudp: true
-    - alpn:
-        - ""
-      alterId: "2"
-      cipher: auto
-      name: "⚪\U0001F3F3️_github.com/Ruk1ng001_Fs7VNNuZ"
+    - name: "\U0001F534\U0001F1FA\U0001F1E6[\U0001F4FA\U0001F3AA]_github.com/Ruk1ng001_04c1d2e9"
       network: tcp
-      port: 30807
-      server: v10.hdacd.com
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-      xudp: true
-    - alterId: "2"
-      cipher: auto
-      name: "\U0001F7E2\U0001F1ED\U0001F1F0_github.com/Ruk1ng001_9160c58b"
-      network: tcp
-      port: 30807
-      server: v10.zgtfqs.click
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-      xudp: true
-    - name: "\U0001F534\U0001F1F9\U0001F1ED[\U0001F4FA]_github.com/Ruk1ng001_c14d20ab"
       password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-      port: 20006
-      server: oplosgru-c.catcat321.com
+      port: 20066
+      server: hkdcrtc-e.catcat321.com
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F7E1\U0001F1EF\U0001F1F5[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_e0c55e7b"
+      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+      port: 20129
+      server: Hkdcrtc-e.catcat321.com
       skip-cert-verify: true
       sni: hk.catxstar.com
       type: trojan
