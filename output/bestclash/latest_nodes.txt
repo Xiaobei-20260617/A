@@ -43,6 +43,14 @@ proxies:
   server: 193.42.38.209
   type: ss
   udp: true
+- name: xx|00d9|puddincat07@Telegram
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: us|3055|puddincat07@Telegram
   network: ws
   password: MiTiVPN
@@ -65,72 +73,80 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: se|599b|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 13.53.198.63
-  type: ss
-  udp: true
-- name: xx|00d9|puddincat07@Telegram
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
   name: kr|9179|puddincat07@Telegram
   password: qwerREWQ@@
   port: 2078
   server: 27.255.82.134
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: gb|d00d|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.208
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: cn|8ff9|puddincat07@Telegram
-  password: d3c7f55f-e2af-4114-b0a3-058d219e2992
-  port: 27259
-  server: 120.199.94.30
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: ca|aab3|puddincat07@Telegram
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 23.162.200.149
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
-  name: gb|ba6d|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 77.72.5.150
+  name: se|599b|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 13.53.198.63
   type: ss
   udp: true
-- name: de|4ffc|puddincat07@Telegram
-  password: a6f2dfa2-dfde-46db-9b0d-29f8c9032ed5
-  port: 443
-  server: 164.90.167.242
+- alterId: 2
+  cipher: auto
+  name: xx|8151|puddincat07@Telegram
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: gb|99d3|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.2
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: xx|2d8b|puddincat07@Telegram
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  type: ss
+- name: us|9397|puddincat07@Telegram
+  network: ws
+  password: MiTiVPN
+  port: 2083
+  server: 104.18.7.178
   skip-cert-verify: true
+  sni: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: ec|11a8|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 179.49.5.114
-  type: ss
+  ws-opts:
+    headers:
+      Host: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
+    path: /---
+- client-fingerprint: chrome
+  name: xx|01fe|puddincat07@Telegram
+  network: tcp
+  password: NQ26071394
+  port: 443
+  server: heroic-cow.rooster465.autos
+  skip-cert-verify: false
+  sni: heroic-cow.rooster465.autos
+  type: trojan
   udp: true
-- cipher: rc4-md5
-  name: cn|0b51|puddincat07@Telegram
-  password: dbEcUJ
-  port: 24603
-  server: 211.99.97.8
-  type: ss
+- client-fingerprint: chrome
+  name: xx|147d|puddincat07@Telegram
+  network: tcp
+  password: PD07395842
+  port: 443
+  server: tough-pigeon.rooster465.autos
+  skip-cert-verify: false
+  sni: tough-pigeon.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: xx|b5d4|puddincat07@Telegram
+  network: tcp
+  password: FC60532879
+  port: 443
+  server: kind-unicorn.rooster465.autos
+  skip-cert-verify: false
+  sni: kind-unicorn.rooster465.autos
+  type: trojan
   udp: true
