@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-07-30T12:11:12Z",
+  "timestamp": "2026-07-30T14:40:27Z",
   "sources": {
     "fproxies": {
-      "status": "ok",
-      "nodes": 160,
-      "size_kb": 234.8,
+      "status": "failed",
+      "nodes": 0,
+      "size_kb": 0,
       "error": ""
     },
     "datiya": {
@@ -21,8 +21,8 @@
     },
     "mlfenx": {
       "status": "ok",
-      "nodes": 15,
-      "size_kb": 186.0,
+      "nodes": 16,
+      "size_kb": 186.6,
       "error": ""
     },
     "clashfree": {
@@ -33,32 +33,32 @@
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 4,
-      "size_kb": 676.2,
+      "nodes": 2,
+      "size_kb": 676.0,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 1040,
-      "size_kb": 321.9,
+      "nodes": 1124,
+      "size_kb": 377.9,
       "error": ""
     },
     "v2rayfree": {
       "status": "ok",
-      "nodes": 1179,
-      "size_kb": 465.8,
+      "nodes": 1185,
+      "size_kb": 466.4,
       "error": ""
     },
     "ruk1ng": {
       "status": "ok",
-      "nodes": 180,
-      "size_kb": 132.6,
+      "nodes": 175,
+      "size_kb": 129.7,
       "error": ""
     },
     "ruk1ng_v2ray": {
       "status": "ok",
-      "nodes": 204,
-      "size_kb": 45.9,
+      "nodes": 200,
+      "size_kb": 44.3,
       "error": ""
     },
     "ovmvo": {
@@ -93,20 +93,20 @@
     },
     "automerge": {
       "status": "ok",
-      "nodes": 183,
-      "size_kb": 436.1,
+      "nodes": 164,
+      "size_kb": 428.8,
       "error": ""
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 208,
-      "size_kb": 26.2,
+      "nodes": 195,
+      "size_kb": 23.5,
       "error": ""
     },
     "pawdroid": {
       "status": "ok",
-      "nodes": 15,
-      "size_kb": 5.0,
+      "nodes": 16,
+      "size_kb": 4.6,
       "error": ""
     },
     "barabama": {
@@ -166,13 +166,13 @@
     "shaoyouvip": {
       "status": "ok",
       "nodes": 0,
-      "size_kb": 1.4,
+      "size_kb": 2.0,
       "error": ""
     }
   },
   "summary": {
     "total": 28,
-    "ok": 27,
-    "failed": 1
+    "ok": 26,
+    "failed": 2
   }
 }
