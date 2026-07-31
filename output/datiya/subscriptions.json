@@ -520,5 +520,14 @@
       "clash": "https://free.datiya.com/uploads/20260731-clash.yaml",
       "v2ray": "https://free.datiya.com/uploads/20260731-v2ray.txt"
     }
+  },
+  {
+    "date": "0801",
+    "sort_key": "20260801",
+    "extra": "",
+    "urls": {
+      "clash": "https://free.datiya.com/uploads/20260801-clash.yaml",
+      "v2ray": "https://free.datiya.com/uploads/20260801-v2ray.txt"
+    }
   }
 ]
