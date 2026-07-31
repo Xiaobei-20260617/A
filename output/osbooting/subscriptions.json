@@ -403,5 +403,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260731AOYH.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260731KDMN.txt"
     }
+  },
+  {
+    "date": "0801",
+    "sort_key": "20260801",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260801ZNGW.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260801XIGM.txt"
+    }
   }
 ]
