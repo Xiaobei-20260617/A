@@ -13,13 +13,13 @@ proxies:
   udp: true
   udp-relay-mode: native
   uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
-- name: us|2852|puddincat07@Telegram
+- name: xx|00d9|puddincat07@Telegram
   network: tcp
-  password: i99Cef
-  port: 28101
-  server: 209.248.32.116
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: download.windowsupdate.com
+  sni: de.catxstar.com
   type: trojan
   udp: true
 - alterId: 0
@@ -41,6 +41,15 @@ proxies:
   sni: download.windowsupdate.com
   type: trojan
   udp: true
+- name: us|2852|puddincat07@Telegram
+  network: tcp
+  password: i99Cef
+  port: 28101
+  server: 209.248.32.116
+  skip-cert-verify: true
+  sni: download.windowsupdate.com
+  type: trojan
+  udp: true
 - name: xx|bd39|puddincat07@Telegram
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
@@ -49,6 +58,20 @@ proxies:
   sni: hk.catxstar.com
   type: trojan
   udp: true
+- name: xx|f24c|puddincat07@Telegram
+  network: ws
+  password: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  port: '2096'
+  server: jumao91.shop
+  skip-cert-verify: false
+  sni: jumao91.shop
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/57.0.2987.133 Safari/537.36
+    path: /proxyip=45.207.156.255
 - alterId: 2
   cipher: auto
   name: xx|8151|puddincat07@Telegram
@@ -58,70 +81,64 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: gb|3b4b|puddincat07@Telegram
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.34
-  type: ss
+- alterId: 0
+  name: xx|c4ab|puddincat07@Telegram
+  network: ws
+  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
+  port: 443
+  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  skip-cert-verify: true
+  sni: _acme-challenge.sb.cloudns.biz
+  tls: true
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
   name: gb|cf29|puddincat07@Telegram
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 94.156.250.148
   type: ss
-- cipher: rc4-md5
-  name: ca|4230|puddincat07@Telegram
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 137.184.174.93
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: gb|e901|puddincat07@Telegram
+  name: nl|0cb9|puddincat07@Telegram
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
-  server: 82.38.31.10
+  server: 193.29.139.235
   type: ss
-- name: us|b958|puddincat07@Telegram
+- cipher: rc4-md5
+  name: us|c950|puddincat07@Telegram
+  obfs: plain
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  protocol: origin
+  server: 107.151.182.253
+  type: ssr
+- cipher: chacha20-ietf-poly1305
+  name: us|dc13|puddincat07@Telegram
+  password: qFvn2fNEvBgM5knffrN96q
+  port: 9483
+  server: 92.118.112.101
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: xx|e913|puddincat07@Telegram
+  password: p78naCf2EfOlRSLTX0wFVx
+  port: 443
+  server: pupas-shirting-unsung.freesocks.work
+  type: ss
+- name: us|ac48|puddincat07@Telegram
   network: ws
   password: humanity
   port: 443
-  server: 104.26.14.137
+  server: 208.103.161.101
   skip-cert-verify: false
-  sni: www.ignitelimit.com
+  sni: www.creationlong.org
   type: trojan
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
+      Host: www.creationlong.org
     path: /assignment
 - cipher: chacha20-ietf-poly1305
-  name: xx|7a56|puddincat07@Telegram
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: gb|6a08|puddincat07@Telegram
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.155
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: gb|dd75|puddincat07@Telegram
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.48
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: us|c193|puddincat07@Telegram
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 162.251.61.221
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: xx|6671|puddincat07@Telegram
-  password: 7ivrGEHY88sQk3DP
+  name: us|4508|puddincat07@Telegram
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
   port: 443
-  server: account-mec.emofid.co
+  server: 23.95.75.146
   type: ss
-  udp: true
