@@ -412,5 +412,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260801ZNGW.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260801XIGM.txt"
     }
+  },
+  {
+    "date": "0802",
+    "sort_key": "20260802",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260802TLPD.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260802XVLR.txt"
+    }
   }
 ]
