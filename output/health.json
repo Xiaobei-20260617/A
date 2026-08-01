@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-01T13:06:58Z",
+  "timestamp": "2026-08-01T14:44:18Z",
   "sources": {
     "fproxies": {
-      "status": "failed",
-      "nodes": 0,
-      "size_kb": 0,
+      "status": "ok",
+      "nodes": 180,
+      "size_kb": 274.4,
       "error": ""
     },
     "datiya": {
@@ -21,44 +21,44 @@
     },
     "mlfenx": {
       "status": "ok",
-      "nodes": 12,
-      "size_kb": 184.4,
+      "nodes": 10,
+      "size_kb": 183.1,
       "error": ""
     },
     "clashfree": {
       "status": "ok",
-      "nodes": 0,
-      "size_kb": 0.0,
+      "nodes": 1235,
+      "size_kb": 1170.7,
       "error": ""
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 6,
-      "size_kb": 675.6,
+      "nodes": 5,
+      "size_kb": 675.8,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 744,
-      "size_kb": 557.7,
+      "nodes": 738,
+      "size_kb": 557.8,
       "error": ""
     },
     "v2rayfree": {
       "status": "ok",
-      "nodes": 1260,
-      "size_kb": 502.5,
+      "nodes": 1261,
+      "size_kb": 502.7,
       "error": ""
     },
     "ruk1ng": {
       "status": "ok",
-      "nodes": 189,
-      "size_kb": 182.1,
+      "nodes": 187,
+      "size_kb": 147.9,
       "error": ""
     },
     "ruk1ng_v2ray": {
       "status": "ok",
-      "nodes": 279,
-      "size_kb": 77.0,
+      "nodes": 230,
+      "size_kb": 56.2,
       "error": ""
     },
     "ovmvo": {
@@ -93,20 +93,20 @@
     },
     "automerge": {
       "status": "ok",
-      "nodes": 227,
-      "size_kb": 450.9,
+      "nodes": 213,
+      "size_kb": 443.4,
       "error": ""
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 290,
-      "size_kb": 34.4,
+      "nodes": 301,
+      "size_kb": 36.8,
       "error": ""
     },
     "pawdroid": {
       "status": "ok",
       "nodes": 11,
-      "size_kb": 4.0,
+      "size_kb": 4.1,
       "error": ""
     },
     "barabama": {
@@ -172,7 +172,7 @@
   },
   "summary": {
     "total": 28,
-    "ok": 26,
-    "failed": 2
+    "ok": 27,
+    "failed": 1
   }
 }
