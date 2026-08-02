@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-02T05:40:24Z",
+  "timestamp": "2026-08-02T08:13:20Z",
   "sources": {
     "fproxies": {
-      "status": "failed",
-      "nodes": 0,
-      "size_kb": 0,
+      "status": "ok",
+      "nodes": 178,
+      "size_kb": 275.9,
       "error": ""
     },
     "datiya": {
@@ -21,32 +21,32 @@
     },
     "mlfenx": {
       "status": "ok",
-      "nodes": 14,
-      "size_kb": 185.5,
+      "nodes": 17,
+      "size_kb": 187.6,
       "error": ""
     },
     "clashfree": {
       "status": "ok",
-      "nodes": 1295,
-      "size_kb": 1205.2,
+      "nodes": 0,
+      "size_kb": 0.0,
       "error": ""
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 6,
+      "nodes": 4,
       "size_kb": 675.8,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 843,
-      "size_kb": 499.4,
+      "nodes": 854,
+      "size_kb": 495.2,
       "error": ""
     },
     "v2rayfree": {
       "status": "ok",
-      "nodes": 1313,
-      "size_kb": 522.6,
+      "nodes": 1322,
+      "size_kb": 527.7,
       "error": ""
     },
     "ruk1ng": {
@@ -64,7 +64,7 @@
     "ovmvo": {
       "status": "ok",
       "nodes": 0,
-      "size_kb": 252.1,
+      "size_kb": 280.8,
       "error": ""
     },
     "v2raynnodes_clash": {
@@ -93,20 +93,20 @@
     },
     "automerge": {
       "status": "ok",
-      "nodes": 217,
-      "size_kb": 444.7,
+      "nodes": 324,
+      "size_kb": 494.3,
       "error": ""
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 304,
-      "size_kb": 38.7,
+      "nodes": 455,
+      "size_kb": 76.6,
       "error": ""
     },
     "pawdroid": {
       "status": "ok",
-      "nodes": 14,
-      "size_kb": 4.7,
+      "nodes": 17,
+      "size_kb": 5.5,
       "error": ""
     },
     "barabama": {
@@ -165,14 +165,14 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 12,
-      "size_kb": 38.1,
+      "nodes": 7,
+      "size_kb": 20.2,
       "error": ""
     }
   },
   "summary": {
     "total": 28,
-    "ok": 26,
-    "failed": 2
+    "ok": 27,
+    "failed": 1
   }
 }
