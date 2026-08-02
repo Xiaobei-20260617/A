@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-02T19:20:59Z",
+  "timestamp": "2026-08-02T20:27:39Z",
   "sources": {
     "fproxies": {
       "status": "ok",
@@ -33,14 +33,14 @@
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 5,
+      "nodes": 3,
       "size_kb": 675.8,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 690,
-      "size_kb": 555.7,
+      "nodes": 720,
+      "size_kb": 550.5,
       "error": ""
     },
     "v2rayfree": {
@@ -93,8 +93,8 @@
     },
     "automerge": {
       "status": "ok",
-      "nodes": 331,
-      "size_kb": 495.9,
+      "nodes": 332,
+      "size_kb": 496.0,
       "error": ""
     },
     "nomorewalls": {
