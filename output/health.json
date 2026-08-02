@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-02T13:08:45Z",
+  "timestamp": "2026-08-02T14:46:33Z",
   "sources": {
     "fproxies": {
       "status": "ok",
@@ -21,44 +21,44 @@
     },
     "mlfenx": {
       "status": "ok",
-      "nodes": 11,
-      "size_kb": 183.5,
+      "nodes": 12,
+      "size_kb": 184.0,
       "error": ""
     },
     "clashfree": {
       "status": "ok",
-      "nodes": 1298,
-      "size_kb": 1208.4,
+      "nodes": 1293,
+      "size_kb": 1205.6,
       "error": ""
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 4,
+      "nodes": 7,
       "size_kb": 675.8,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 733,
-      "size_kb": 557.2,
+      "nodes": 678,
+      "size_kb": 568.5,
       "error": ""
     },
     "v2rayfree": {
       "status": "ok",
       "nodes": 1325,
-      "size_kb": 529.1,
+      "size_kb": 529.7,
       "error": ""
     },
     "ruk1ng": {
-      "status": "ok",
-      "nodes": 194,
-      "size_kb": 164.8,
-      "error": ""
+      "status": "failed",
+      "nodes": 0,
+      "size_kb": 0,
+      "error": "Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     "ruk1ng_v2ray": {
       "status": "ok",
-      "nodes": 246,
-      "size_kb": 63.4,
+      "nodes": 261,
+      "size_kb": 70.5,
       "error": ""
     },
     "ovmvo": {
@@ -93,20 +93,20 @@
     },
     "automerge": {
       "status": "ok",
-      "nodes": 334,
-      "size_kb": 496.7,
+      "nodes": 331,
+      "size_kb": 495.7,
       "error": ""
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 414,
-      "size_kb": 67.6,
+      "nodes": 424,
+      "size_kb": 69.4,
       "error": ""
     },
     "pawdroid": {
       "status": "ok",
       "nodes": 12,
-      "size_kb": 3.9,
+      "size_kb": 4.7,
       "error": ""
     },
     "barabama": {
@@ -166,13 +166,13 @@
     "shaoyouvip": {
       "status": "ok",
       "nodes": 1,
-      "size_kb": 9.1,
+      "size_kb": 3.2,
       "error": ""
     }
   },
   "summary": {
     "total": 28,
-    "ok": 27,
-    "failed": 1
+    "ok": 26,
+    "failed": 2
   }
 }
