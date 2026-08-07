@@ -457,5 +457,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260806TVAJ.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260806UDQK.txt"
     }
+  },
+  {
+    "date": "0807",
+    "sort_key": "20260807",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260807ILPX.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260807MOPS.txt"
+    }
   }
 ]
