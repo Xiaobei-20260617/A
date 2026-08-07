@@ -466,5 +466,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260807ILPX.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260807MOPS.txt"
     }
+  },
+  {
+    "date": "0808",
+    "sort_key": "20260808",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260808QVBJ.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260808WPUF.txt"
+    }
   }
 ]
