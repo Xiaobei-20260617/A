@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-08T11:00:08Z",
+  "timestamp": "2026-08-08T11:35:54Z",
   "sources": {
     "fproxies": {
-      "status": "ok",
-      "nodes": 200,
-      "size_kb": 280.8,
+      "status": "failed",
+      "nodes": 0,
+      "size_kb": 0,
       "error": ""
     },
     "datiya": {
@@ -39,8 +39,8 @@
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 1144,
-      "size_kb": 379.7,
+      "nodes": 1164,
+      "size_kb": 374.9,
       "error": ""
     },
     "v2rayfree": {
@@ -105,8 +105,8 @@
     },
     "pawdroid": {
       "status": "ok",
-      "nodes": 12,
-      "size_kb": 3.7,
+      "nodes": 11,
+      "size_kb": 3.5,
       "error": ""
     },
     "barabama": {
@@ -165,14 +165,14 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 5,
-      "size_kb": 7.6,
+      "nodes": 13,
+      "size_kb": 15.2,
       "error": ""
     }
   },
   "summary": {
     "total": 28,
-    "ok": 27,
-    "failed": 1
+    "ok": 26,
+    "failed": 2
   }
 }
