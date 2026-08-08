@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-08T04:33:55Z",
+  "timestamp": "2026-08-08T05:38:40Z",
   "sources": {
     "fproxies": {
-      "status": "failed",
-      "nodes": 0,
-      "size_kb": 0,
+      "status": "ok",
+      "nodes": 200,
+      "size_kb": 280.8,
       "error": ""
     },
     "datiya": {
@@ -21,8 +21,8 @@
     },
     "mlfenx": {
       "status": "ok",
-      "nodes": 12,
-      "size_kb": 184.3,
+      "nodes": 11,
+      "size_kb": 183.4,
       "error": ""
     },
     "clashfree": {
@@ -39,14 +39,14 @@
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 1137,
-      "size_kb": 364.0,
+      "nodes": 1120,
+      "size_kb": 360.4,
       "error": ""
     },
     "v2rayfree": {
       "status": "ok",
-      "nodes": 1414,
-      "size_kb": 553.9,
+      "nodes": 1410,
+      "size_kb": 550.3,
       "error": ""
     },
     "ruk1ng": {
@@ -87,14 +87,14 @@
     },
     "free18": {
       "status": "ok",
-      "nodes": 162,
-      "size_kb": 86.7,
+      "nodes": 219,
+      "size_kb": 113.0,
       "error": ""
     },
     "automerge": {
       "status": "ok",
-      "nodes": 125,
-      "size_kb": 424.8,
+      "nodes": 124,
+      "size_kb": 424.6,
       "error": ""
     },
     "nomorewalls": {
@@ -106,7 +106,7 @@
     "pawdroid": {
       "status": "ok",
       "nodes": 12,
-      "size_kb": 3.3,
+      "size_kb": 4.1,
       "error": ""
     },
     "barabama": {
@@ -172,7 +172,7 @@
   },
   "summary": {
     "total": 28,
-    "ok": 26,
-    "failed": 2
+    "ok": 27,
+    "failed": 1
   }
 }
