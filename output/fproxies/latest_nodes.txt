@@ -1,179 +1,201 @@
 proxies:
-  - {name: ">🇨🇦CA|Ls|0802|TG@FProxies|", server: 208.66.228.194, port: 443, type: vless, uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2, tls: true, tfo: false, skip-cert-verify: true, servername: sni.ehb.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2", headers: {Host: sni.ehb.cc.cd}}, udp: true}
-  - {name: ">🇨🇦CA|Ms|0802|TG@FProxies|", server: 106.75.254.55, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇩🇪DE|Hs|0802|TG@FProxies|", server: f32c3226-tihds0-tjj8sz-1rvjz.de3.oshuawei.com, port: 443, type: http, username: 5e8bc530-3a90-11ef-bd5b-f23c913c8d2b, password: 5e8bc530-3a90-11ef-bd5b-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇫🇷FR|Hs|0802|TG@FProxies|", server: 9e448f4e-tihds0-tjj8sz-1rvjz.fr.oshuawei.com, port: 443, type: http, username: 5e8bc530-3a90-11ef-bd5b-f23c913c8d2b, password: 5e8bc530-3a90-11ef-bd5b-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇫🇷FR|Hs|0802|TG@FProxies| 2", server: 80.15.99.54, port: 8090, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇫🇷FR|Ls|0802|TG@FProxies|", server: oplosgru-c.catcat321.com, port: 20004, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, skip-cert-verify: true, udp: true}
-  - {name: ">🇫🇷FR|Ls|0802|TG@FProxies| 2", server: 217.181.201.254, port: 8090, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇫🇷FR|Ls|0802|TG@FProxies| 3", server: 193.251.72.202, port: 8090, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇫🇷FR|Ms|0802|TG@FProxies|", server: Hkdcrtc-e.catcat321.com, port: 20041, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: de.catxstar.com, skip-cert-verify: true, udp: true}
-  - {name: ">🇬🇧GB|Hs|0802|TG@FProxies|", server: ec736d7b-t9zts0-tb08pe-luwe.uk.oshuawei.com, port: 443, type: http, username: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a, password: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇬🇧GB|Ls|0802|TG@FProxies|", server: a2e7ab8a-thvs00-ths4hq-azvy.cldvpuk.cdnbytescm.com, port: 443, type: http, username: a95e9198-0671-11f0-9426-f23c932f2c32, password: a95e9198-0671-11f0-9426-f23c932f2c32, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇬🇧GB|Ls|0802|TG@FProxies| 2", server: 3.9.103.89, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇬🇧GB|Ls|0802|TG@FProxies| 3", server: 6caf5d3d-thx0g0-tkyblq-azvy.cldvpuk.cdnbytescm.com, port: 443, type: http, username: a95e9198-0671-11f0-9426-f23c932f2c32, password: a95e9198-0671-11f0-9426-f23c932f2c32, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇬🇧GB|Ls|0802|TG@FProxies| 4", server: d3ea7b20-ths2o0-ths4hq-azvy.cldvpuk.cdnbytescm.com, port: 443, type: http, username: a95e9198-0671-11f0-9426-f23c932f2c32, password: a95e9198-0671-11f0-9426-f23c932f2c32, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇬🇧GB|Ls|0802|TG@FProxies| 5", server: 5c78e09e-thxmo0-tjdj5q-azvy.cldvpuk.cdnbytescm.com, port: 443, type: http, username: a95e9198-0671-11f0-9426-f23c932f2c32, password: a95e9198-0671-11f0-9426-f23c932f2c32, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Hs|0802|TG@FProxies|", server: 05b4008f-tihds0-tjj8sz-1rvjz.hkt2.cdnhuawei.com, port: 443, type: socks5, username: 5e8bc530-3a90-11ef-bd5b-f23c913c8d2b, password: 5e8bc530-3a90-11ef-bd5b-f23c913c8d2b, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Hs|0802|TG@FProxies| 2", server: hkt03ddns.poke-mon.xyz, port: 42367, type: hysteria2, password: 3d59f7e8-dd80-4ec0-98de-1fafeaf0558d, auth: 3d59f7e8-dd80-4ec0-98de-1fafeaf0558d, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Hs|0802|TG@FProxies| 3", server: hk111.susuting168.com, port: 43753, type: trojan, password: 21ee8339-5607-4cf8-8029-3b31922b17e1, sni: www.baidu.com, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Hs|0802|TG@FProxies| 4", server: hk111.susuting168.com, port: 43298, type: trojan, password: 21ee8339-5607-4cf8-8029-3b31922b17e1, sni: www.baidu.com, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Hs|0802|TG@FProxies| 5", server: 59.38.113.185, port: 20000, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Hs|0802|TG@FProxies| 6", server: 47.243.181.85, port: 41802, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ls|0802|TG@FProxies|", server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ls|0802|TG@FProxies| 2", server: 47.243.225.10, port: 8888, type: socks5, username: 123, password: 123, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ls|0802|TG@FProxies| 3", server: 8.137.49.47, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ls|0802|TG@FProxies| 4", server: 123.58.219.171, port: 10808, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ls|0802|TG@FProxies| 5", server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ls|0802|TG@FProxies| 6", server: 47.243.173.50, port: 11211, type: socks5, username: 111, password: 111, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ls|0802|TG@FProxies| 7", server: 47.76.229.132, port: 11310, type: socks5, username: 111, password: 111, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ls|0802|TG@FProxies| 8", server: 47.83.121.251, port: 5555, type: socks5, username: 123, password: 123, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ls|0802|TG@FProxies| 9", server: 47.239.194.38, port: 5555, type: socks5, username: 123, password: 123, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ls|0802|TG@FProxies| 10", server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: none, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ls|0802|TG@FProxies| 11", server: v8.hdacd.com, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: none, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ls|0802|TG@FProxies| 12", server: 119.28.13.138, port: 1080, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ls|0802|TG@FProxies| 13", server: 8.210.18.221, port: 8888, type: socks5, username: 8888, password: 8888, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ls|0802|TG@FProxies| 14", server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: none, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ls|0802|TG@FProxies| 15", server: krhtybay.catcat321.com, port: 20035, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ls|0802|TG@FProxies| 16", server: 84.17.57.113, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ls|0802|TG@FProxies| 17", server: 8.217.35.37, port: 11300, type: socks5, username: 5555, password: 5555, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ls|0802|TG@FProxies| 18", server: 124.156.185.140, port: 1080, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ls|0802|TG@FProxies| 19", server: 103.149.182.79, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-  - {name: ">🇭🇰HK|Ls|0802|TG@FProxies| 20", server: 8.210.41.200, port: 10088, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ls|0802|TG@FProxies| 21", server: v10.zgtfqs.click, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ms|0802|TG@FProxies|", server: 202.85.53.25, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ms|0802|TG@FProxies| 2", server: f2c7e090-te7og0-tfo5nb-yjq0.hk2.hyhuawei.com, port: 443, type: anytls, password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9, udp: true, sni: f2c7e090-te7og0-tfo5nb-yjq0.hk2.hyhuawei.com, skip-cert-verify: true}
-  - {name: ">🇭🇰HK|Ms|0802|TG@FProxies| 3", server: c17b5a81-tdups0-tf8z9r-1pr35.hk2.hyhuawei.com, port: 443, type: anytls, password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b, udp: true, sni: c17b5a81-tdups0-tf8z9r-1pr35.hk2.hyhuawei.com, skip-cert-verify: true}
-  - {name: ">🇭🇰HK|Ms|0802|TG@FProxies| 4", server: 6d4a15d8-tiw740-tzzpok-1sllg.hk3.hyhuawei.com, port: 443, type: anytls, password: d6e1207c-f41a-11ef-9495-f23c91cfbbc9, udp: true, sni: 127.0.0.1, skip-cert-verify: true}
-  - {name: ">🇭🇰HK|Ms|0802|TG@FProxies| 5", server: 43.100.106.228, port: 2222, type: socks5, username: 2222, password: 2222, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ms|0802|TG@FProxies| 6", server: 43.100.106.246, port: 2222, type: socks5, username: 2222, password: 2222, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ms|0802|TG@FProxies| 7", server: 4562ef30-tegxs0-tr9h64-1f1f1.hk2.hyhuawei.com, port: 443, type: anytls, password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9, udp: true, sni: 4562ef30-tegxs0-tr9h64-1f1f1.hk2.hyhuawei.com, skip-cert-verify: true}
-  - {name: ">🇭🇰HK|Ms|0802|TG@FProxies| 8", server: 151.242.183.28, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ms|0802|TG@FProxies| 9", server: 43.100.106.217, port: 2222, type: socks5, username: 2222, password: 2222, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ms|0802|TG@FProxies| 10", server: hk3.moonbase.life, port: 30113, type: trojan, password: 20ddf7dc-26ba-457c-8486-f754664f3087, sni: www.microsoft.com, skip-cert-verify: true, network: ws, ws-opts: {path: /home, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: ">🇭🇰HK|Ms|0802|TG@FProxies| 11", server: 103.255.200.87, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇮🇩ID|Ls|0802|TG@FProxies|", server: 103.111.136.82, port: 8199, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: ">🇮🇳IN|Ls|0802|TG@FProxies|", server: 3.108.194.62, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: https://t.me/WangCai2🇨🇳, skip-cert-verify: true, udp: true}
-  - {name: ">🇮🇳IN|Ls|0802|TG@FProxies| 2", server: 3.109.184.38, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: https://t.me/WangCai2🇨🇳, skip-cert-verify: true, udp: true}
-  - {name: ">🇮🇳IN|Ms|0802|TG@FProxies|", server: ln4.xiaoliyu.cyou, port: 4433, type: hysteria2, password: a2b20422-71fe-44fd-a88f-ad1ec55935e1, auth: a2b20422-71fe-44fd-a88f-ad1ec55935e1, skip-cert-verify: true, udp: true}
-  - {name: ">🇮🇳IN|Ms|0802|TG@FProxies| 2", server: 202.56.200.226, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇮🇹IT|Ls|0802|TG@FProxies|", server: 91.243.118.217, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇮🇹IT|Ms|0802|TG@FProxies|", server: 185.187.43.38, port: 8090, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇮🇹IT|Ms|0802|TG@FProxies| 2", server: 178.237.4.200, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇮🇹IT|Ms|0802|TG@FProxies| 3", server: 212.77.75.25, port: 1088, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: ">🇯🇵JP|Hs|0802|TG@FProxies|", server: 425efce5-tihds0-tjj8sz-1rvjz.jp.oshuawei.com, port: 443, type: http, username: 5e8bc530-3a90-11ef-bd5b-f23c913c8d2b, password: 5e8bc530-3a90-11ef-bd5b-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇯🇵JP|Hs|0802|TG@FProxies| 2", server: 9bbaef12-ta0g00-taad0h-24c4.tkydc3.cdnbytescm.com, port: 3443, type: http, username: 0b869f32-657e-11ee-a90c-f23c9313b177, password: 0b869f32-657e-11ee-a90c-f23c9313b177, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇯🇵JP|Hs|0802|TG@FProxies| 3", server: 114.94.148.37, port: 18080, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇯🇵JP|Hs|0802|TG@FProxies| 4", server: ty-1.tr202512.com, port: 443, type: trojan, password: Z9b8ZOzCbmyCwI6Gbz, skip-cert-verify: true, udp: true}
-  - {name: ">🇯🇵JP|Ls|0802|TG@FProxies|", server: 151.241.130.7, port: 55000, type: hysteria2, password: 0bacdaea-099b-462b-b625-d7d44c89aace, auth: 0bacdaea-099b-462b-b625-d7d44c89aace, sni: www.bing.com, skip-cert-verify: true, udp: true}
-  - {name: ">🇯🇵JP|Ls|0802|TG@FProxies| 2", server: 151.241.130.7, port: 55000, type: hysteria2, password: 34899f2a-e819-4741-8663-186420bdc766, auth: 34899f2a-e819-4741-8663-186420bdc766, sni: www.bing.com, skip-cert-verify: true, udp: true}
-  - {name: ">🇯🇵JP|Ls|0802|TG@FProxies| 3", server: 151.241.130.7, port: 55000, type: hysteria2, password: 2ac8c744-8cf5-42fd-82ec-63abdfb463c8, auth: 2ac8c744-8cf5-42fd-82ec-63abdfb463c8, sni: www.bing.com, skip-cert-verify: true, udp: true}
-  - {name: ">🇯🇵JP|Ls|0802|TG@FProxies| 4", server: jjz.jjznodenode.top, port: 17964, type: anytls, password: 1a123b19-b833-4660-973c-010b1b32cb8b, udp: true, sni: jjz.jjznodenode.top, skip-cert-verify: true}
-  - {name: ">🇯🇵JP|Ls|0802|TG@FProxies| 5", server: jjz.jjznodenode.top, port: 17968, type: anytls, password: 1a123b19-b833-4660-973c-010b1b32cb8b, udp: true, sni: jjz.jjznodenode.top, skip-cert-verify: true}
-  - {name: ">🇯🇵JP|Ls|0802|TG@FProxies| 6", server: 37.120.210.66, port: 9443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇯🇵JP|Ls|0802|TG@FProxies| 7", server: 151.241.130.7, port: 55000, type: hysteria2, password: e6bb5979-ebfe-4700-81ea-c4e3b8b5f907, auth: e6bb5979-ebfe-4700-81ea-c4e3b8b5f907, sni: www.bing.com, skip-cert-verify: true, udp: true}
-  - {name: ">🇯🇵JP|Ls|0802|TG@FProxies| 8", server: jjz.jjznodenode.top, port: 17965, type: anytls, password: 1a123b19-b833-4660-973c-010b1b32cb8b, udp: true, sni: uk.jjznodenode.top, skip-cert-verify: true}
-  - {name: ">🇯🇵JP|Ls|0802|TG@FProxies| 9", server: 8.216.57.38, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇯🇵JP|Ls|0802|TG@FProxies| 10", server: 47.245.60.99, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇯🇵JP|Ls|0802|TG@FProxies| 11", server: 8.216.10.222, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇯🇵JP|Ls|0802|TG@FProxies| 12", server: 207.56.227.226, port: 48920, type: hysteria2, password: 53f193c4-6482-45fb-8e00-60e0baf016ee, auth: 53f193c4-6482-45fb-8e00-60e0baf016ee, sni: www.bing.com, skip-cert-verify: true, udp: true}
-  - {name: ">🇯🇵JP|Ls|0802|TG@FProxies| 13", server: jjz.jjznodenode.top, port: 17962, type: anytls, password: 1a123b19-b833-4660-973c-010b1b32cb8b, udp: true, sni: jjz.jjznodenode.top, skip-cert-verify: true}
-  - {name: ">🇯🇵JP|Ls|0802|TG@FProxies| 14", server: jjz.jjznodenode.top, port: 17967, type: anytls, password: 1a123b19-b833-4660-973c-010b1b32cb8b, udp: true, sni: jjz.jjznodenode.top, skip-cert-verify: true}
-  - {name: ">🇯🇵JP|Ms|0802|TG@FProxies|", server: 112.28.149.152, port: 8443, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇯🇵JP|Ms|0802|TG@FProxies| 2", server: tokyo.jknas.top, port: 443, type: hysteria2, password: 90e998cc-5aa2-4519-b0a3-6f602a8caa81, auth: 90e998cc-5aa2-4519-b0a3-6f602a8caa81, skip-cert-verify: true, alpn: [h3], obfs: salamander, obfs-password: 8jK#p2L$m9N!q5R&vB7tW, udp: true}
-  - {name: ">🇯🇵JP|Ms|0802|TG@FProxies| 3", server: freedom.chenlan.top, port: 12765, type: hysteria2, password: STYyftThFn, auth: STYyftThFn, sni: freedom.chenlan.top, skip-cert-verify: true, alpn: [h3], udp: true}
-  - {name: ">🇯🇵JP|Ms|0802|TG@FProxies| 4", server: 8.209.206.232, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇯🇵JP|Ms|0802|TG@FProxies| 5", server: jjz.jjznodenode.top, port: 17963, type: anytls, password: 1a123b19-b833-4660-973c-010b1b32cb8b, udp: true, sni: jjz.jjznodenode.top, skip-cert-verify: true}
-  - {name: ">🇰🇷KR|Hs|0802|TG@FProxies|", server: 002cf26d-tihds0-tjj8sz-1rvjz.kr.oshuawei.com, port: 31433, type: http, username: 5e8bc530-3a90-11ef-bd5b-f23c913c8d2b, password: 5e8bc530-3a90-11ef-bd5b-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇳🇱NL|Ls|0802|TG@FProxies|", server: 212.86.127.44, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇳🇱NL|Ms|0802|TG@FProxies|", server: 5.255.125.188, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇵🇱PL|Ls|0802|TG@FProxies|", server: 31.76.251.127.cdn-one.org, port: 443, type: trojan, password: 581e14a5fcc14107b9326cc54f047891, skip-cert-verify: true, network: grpc, grpc-opts: {grpc-service-name: /28786/4U7gXXHftA}, udp: true}
-  - {name: ">🇵🇱PL|Ls|0802|TG@FProxies| 2", server: 31.76.251.127.cdn-one.org, port: 443, type: trojan, password: 32b2m2w7hsdd93z7, skip-cert-verify: true, network: grpc, grpc-opts: {grpc-service-name: /28786/4U7gXXHftA}, udp: true}
-  - {name: ">🇷🇴RO|Hs|0802|TG@FProxies|", server: 84.239.49.184, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇷🇴RO|Hs|0802|TG@FProxies| 2", server: 84.239.49.227, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇷🇴RO|Ms|0802|TG@FProxies|", server: 101.200.43.84, port: 53005, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇷🇺RU|Hs|0802|TG@FProxies|", server: 5.35.100.14, port: 8443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇷🇺RU|Ls|0802|TG@FProxies|", server: 193.233.218.213, port: 1080, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: ">🇷🇺RU|Ms|0802|TG@FProxies|", server: 176.32.35.51, port: 10910, type: ss, cipher: aes-256-gcm, password: 895b4b796a357570, udp: true}
-  - {name: ">🇸🇬SG|Hs|0802|TG@FProxies|", server: 2026.xn--cjz291d.co, port: 12343, type: anytls, password: 9b86f405-7275-4b8b-8878-2d2d3ee8584a, udp: true, sni: 2026.xn--cjz291d.co, skip-cert-verify: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies|", server: d58a751f-tihds0-tjj8sz-1rvjz.sg.oshuawei.com, port: 443, type: http, username: 5e8bc530-3a90-11ef-bd5b-f23c913c8d2b, password: 5e8bc530-3a90-11ef-bd5b-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 2", server: sg2-r.link-t7.com, port: 10037, type: vless, uuid: 00E1EC12-D738-485F-8B11-34BDB56F8ACF, tls: true, tfo: false, packet-encoding: xudp, skip-cert-verify: true, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: "686c0ef0" }, servername: s0.awsstatic.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: update}, udp: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 3", server: sg.dickaws.top, port: 34505, type: anytls, password: 21c01a5c-df9b-48cb-9422-10c62cebc5de, udp: true, sni: um.edu.my, skip-cert-verify: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 4", server: sg.dickaws.top, port: 34504, type: anytls, password: 21c01a5c-df9b-48cb-9422-10c62cebc5de, udp: true, sni: waseda.jp, skip-cert-verify: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 5", server: sg01-hy.poke-mon.xyz, port: 29770, type: hysteria2, password: 739a7f31-0001-4c98-8eaf-9fc16597ef30, auth: 739a7f31-0001-4c98-8eaf-9fc16597ef30, skip-cert-verify: true, udp: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 6", server: sg3-r.link-t7.com, port: 10038, type: vless, uuid: 42AD99DB-EC24-47B7-BE3D-8BEE715C2D2B, tls: true, tfo: false, skip-cert-verify: true, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: "686c0ef0" }, servername: d1.awsstatic.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: update}, udp: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 7", server: 0b8b1f48-t9zts0-tiaexf-ufc0.sg.oshuawei.com, port: 443, type: http, username: 22308988-8548-11ea-a22e-f23c91cfbbc9, password: 22308988-8548-11ea-a22e-f23c91cfbbc9, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 8", server: 154.26.137.244, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 9", server: sg.dickaws.top, port: 34510, type: anytls, password: 21c01a5c-df9b-48cb-9422-10c62cebc5de, udp: true, sni: chula.ac.th, skip-cert-verify: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 10", server: sg01-hy.poke-mon.xyz, port: 42903, type: hysteria2, password: 97a90ab9-b46f-430f-a751-36a7fe35151f, auth: 97a90ab9-b46f-430f-a751-36a7fe35151f, skip-cert-verify: true, udp: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 11", server: 2026.xn--cjz291d.co, port: 35326, type: anytls, password: 9b86f405-7275-4b8b-8878-2d2d3ee8584a, udp: true, sni: 2026.xn--cjz291d.co, skip-cert-verify: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 12", server: sg.dickaws.top, port: 34502, type: anytls, password: 21c01a5c-df9b-48cb-9422-10c62cebc5de, udp: true, sni: caltech.edu, skip-cert-verify: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 13", server: sg01-hy.poke-mon.xyz, port: 39472, type: hysteria2, password: 85c5351d-c1be-4d1a-b94e-f58d3a003359, auth: 85c5351d-c1be-4d1a-b94e-f58d3a003359, skip-cert-verify: true, udp: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 14", server: sg.dickaws.top, port: 34522, type: anytls, password: 21c01a5c-df9b-48cb-9422-10c62cebc5de, udp: true, sni: vnuhcm.edu.vn, skip-cert-verify: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 15", server: me.khantry.net, port: 443, type: vmess, uuid: 050c83fa-fcec-4d34-d984-3bba9bd5b6f9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /khantri, headers: {Host: me.khantry.net}}, udp: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 16", server: me.khantry.net, port: 443, type: vmess, uuid: 050c83fa-fcec-4d34-d984-3bba9bd5b6f9, alterId: 0, cipher: none, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /khantri, headers: {Host: me.khantry.net}}, udp: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 17", server: 104.248.146.165, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 18", server: sg5-r.link-t7.com, port: 10040, type: vless, uuid: 00E1EC12-D738-485F-8B11-34BDB56F8ACF, tls: true, tfo: false, packet-encoding: xudp, skip-cert-verify: true, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: "686c0ef0" }, servername: d1.awsstatic.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: update}, udp: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 19", server: 154.26.139.27, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 20", server: 2026.xn--cjz291d.co, port: 65304, type: anytls, password: 9b86f405-7275-4b8b-8878-2d2d3ee8584a, udp: true, sni: 2026.xn--cjz291d.co, skip-cert-verify: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 21", server: 2026.xn--cjz291d.co, port: 26558, type: anytls, password: 9b86f405-7275-4b8b-8878-2d2d3ee8584a, udp: true, sni: 2026.xn--cjz291d.co, skip-cert-verify: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 22", server: hinet.1yuan.cyou, port: 8990, type: anytls, password: 75fda187-50bf-45f0-bde7-42cf896256ed, udp: true, skip-cert-verify: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 23", server: sg.dickaws.top, port: 34517, type: anytls, password: 21c01a5c-df9b-48cb-9422-10c62cebc5de, udp: true, sni: jpjd.fifafa.vip, skip-cert-verify: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 24", server: cc34d62c-t9zts0-tairte-1m0fq.sg.oshuawei.com, port: 443, type: http, username: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9, password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 25", server: 13.229.128.27, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇸🇬SG|Ls|0802|TG@FProxies| 26", server: sg01-hy.poke-mon.xyz, port: 44463, type: hysteria2, password: 04c611a0-c611-4415-9c89-bf406b772895, auth: 04c611a0-c611-4415-9c89-bf406b772895, skip-cert-verify: true, udp: true}
-  - {name: ">🇸🇬SG|Ms|0802|TG@FProxies|", server: sg2.dexlos.com, port: 20363, type: hysteria2, password: CC7EB1A7-49E0-453C-A657-814B173490BA, auth: CC7EB1A7-49E0-453C-A657-814B173490BA, sni: sg2.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: ">🇸🇬SG|Ms|0802|TG@FProxies| 2", server: sg01-hy.poke-mon.xyz, port: 24241, type: hysteria2, password: 0977a6df-151c-49a8-ba51-9a7fbabd76bc, auth: 0977a6df-151c-49a8-ba51-9a7fbabd76bc, skip-cert-verify: true, udp: true}
-  - {name: ">🇸🇬SG|Ms|0802|TG@FProxies| 3", server: 2026.xn--cjz291d.co, port: 36748, type: anytls, password: 9b86f405-7275-4b8b-8878-2d2d3ee8584a, udp: true, sni: 2026.xn--cjz291d.co, skip-cert-verify: true}
-  - {name: ">🇸🇬SG|Ms|0802|TG@FProxies| 4", server: sg01-hy.poke-mon.xyz, port: 29205, type: hysteria2, password: 543f680e-b63d-4bbf-b9cf-a9800c60a12f, auth: 543f680e-b63d-4bbf-b9cf-a9800c60a12f, skip-cert-verify: true, udp: true}
-  - {name: ">🇹🇼TW|Hs|0802|TG@FProxies|", server: tw2.dexlos.com, port: 8080, type: tuic, password: 5D0CF6A7-F51C-492C-BFFD-0901C4B781CE, uuid: 5D0CF6A7-F51C-492C-BFFD-0901C4B781CE, sni: tw2.dexlos.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0, udp-relay-mode: native, congestion-controller: bbr}
-  - {name: ">🇹🇼TW|Hs|0802|TG@FProxies| 2", server: tw2.dexlos.com, port: 8080, type: tuic, password: 00E1EC12-D738-485F-8B11-34BDB56F8ACF, uuid: 00E1EC12-D738-485F-8B11-34BDB56F8ACF, sni: tw2.dexlos.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0}
-  - {name: ">🇹🇼TW|Ms|0802|TG@FProxies|", server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Hs|0802|TG@FProxies|", server: 325a88f6-ta1og0-tc4puo-m0b9.se.oshuawei.com, port: 443, type: http, username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Hs|0802|TG@FProxies| 2", server: 6c846b23-t9zts0-tcop2n-tl32.se.oshuawei.com, port: 443, type: http, username: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b, password: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Hs|0802|TG@FProxies| 3", server: 3ce483da-t9zts0-tawg6w-1rfon.se.oshuawei.com, port: 443, type: http, username: aed1cc24-351d-11ef-ba52-f23c9164ca5d, password: aed1cc24-351d-11ef-ba52-f23c9164ca5d, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Hs|0802|TG@FProxies| 4", server: 42bb1294-t9zts0-tpftcp-13x18.se.oshuawei.com, port: 443, type: http, username: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d, password: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Hs|0802|TG@FProxies| 5", server: 326a16fe-tegxs0-tv7zgh-1ijh5.se.oshuawei.com, port: 443, type: http, username: f7d95364-607b-11ee-93af-f23c91369f2d, password: f7d95364-607b-11ee-93af-f23c91369f2d, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Hs|0802|TG@FProxies| 6", server: 209.148.53.153, port: 8090, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Hs|0802|TG@FProxies| 7", server: f600a38a-tihds0-tjj8sz-1rvjz.u12.oshuawei.com, port: 443, type: http, username: 5e8bc530-3a90-11ef-bd5b-f23c913c8d2b, password: 5e8bc530-3a90-11ef-bd5b-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Hs|0802|TG@FProxies| 8", server: 2bf1e5af-tdsv40-tf8z9r-1pr35.se.oshuawei.com, port: 443, type: http, username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b, password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Hs|0802|TG@FProxies| 9", server: 8c50765e-tihds0-tjj8sz-1rvjz.sj.oshuawei.com, port: 443, type: socks5, username: 5e8bc530-3a90-11ef-bd5b-f23c913c8d2b, password: 5e8bc530-3a90-11ef-bd5b-f23c913c8d2b, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|0802|TG@FProxies|", server: 88.218.44.4, port: 8443, type: vless, uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4, tls: true, tfo: false, skip-cert-verify: true, reality-opts: {public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ}, servername: download.nvidia.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: TunService}, udp: true}
-  - {name: ">🇺🇸US|Ls|0802|TG@FProxies| 2", server: saas.sin.fan, port: 443, type: vless, uuid: ef456d2c-b206-4b8b-b465-7c1df8b2bb00, tls: true, tfo: false, skip-cert-verify: true, servername: sap.xiaomayi.nyc.mn, client-fingerprint: chrome, network: ws, ws-opts: {path: /vless-argo, headers: {Host: sap.xiaomayi.nyc.mn}}, udp: true}
-  - {name: ">🇺🇸US|Ls|0802|TG@FProxies| 3", server: 172.96.161.152, port: 20090, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==, udp: true}
-  - {name: ">🇺🇸US|Ls|0802|TG@FProxies| 4", server: zjmmy.zywm.eu.org, port: 443, type: vless, uuid: 83564060-4069-40b4-e657-adccef9c4b62, tls: true, tfo: false, skip-cert-verify: true, servername: zjmmy.zywm.eu.org, network: ws, ws-opts: {path: /mmy, headers: {Host: zjmmy.zywm.eu.org}}, udp: true}
-  - {name: ">🇺🇸US|Ls|0802|TG@FProxies| 5", server: 43.166.187.191, port: 8443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|0802|TG@FProxies| 6", server: 104.128.72.119, port: 80, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==, udp: true}
-  - {name: ">🇺🇸US|Ls|0802|TG@FProxies| 7", server: 193.9.44.247, port: 8080, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|0802|TG@FProxies| 8", server: psf-2.zdshop.ir, port: 80, type: vless, uuid: ea1278d8-c65a-4bdf-8c68-e84a26be53a3, tls: false, tfo: false, skip-cert-verify: true, servername: machinemag.ir, network: ws, ws-opts: {path: /, headers: {Host: machinemag.ir}}, udp: true}
-  - {name: ">🇺🇸US|Ls|0802|TG@FProxies| 9", server: 104.128.72.119, port: 80, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==, udp: true}
-  - {name: ">🇺🇸US|Ls|0802|TG@FProxies| 10", server: 104.36.86.93, port: 9992, type: hysteria2, password: 57ad54a0-59ca-4553-bdad-35aab6bd3aa5, auth: 57ad54a0-59ca-4553-bdad-35aab6bd3aa5, sni: 104.36.86.93, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|0802|TG@FProxies| 11", server: 172.96.161.152, port: 20090, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==, udp: true}
-  - {name: ">🇺🇸US|Ls|0802|TG@FProxies| 12", server: 45.61.188.134, port: 44499, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies|", server: 38.28.193.84, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 2", server: 38.28.185.249, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 3", server: 38.180.135.39, port: 8316, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 4", server: 58e80f61-tcxds0-tiuovf-v3c2.los.hyhuawei.com, port: 443, type: anytls, password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d, udp: true, sni: 58e80f61-tcxds0-tiuovf-v3c2.los.hyhuawei.com, skip-cert-verify: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 5", server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com, port: 443, type: http, username: 16955d72-1794-11f0-a035-f23c95b6f51d, password: 16955d72-1794-11f0-a035-f23c95b6f51d, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 6", server: 0d51a71f-teisg0-tpaqgu-1smhu.los.hyhuawei.com, port: 443, type: anytls, password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d, udp: true, sni: 0d51a71f-teisg0-tpaqgu-1smhu.los.hyhuawei.com, skip-cert-verify: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 7", server: anytls.864106.xyz, port: 18001, type: anytls, password: fanvpn.net, udp: true, sni: anytls.864106.xyz, skip-cert-verify: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 8", server: 3af9f9ca-tegxs0-tnsc3a-1f0gu.los.hyhuawei.com, port: 443, type: anytls, password: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b, udp: true, sni: 3af9f9ca-tegxs0-tnsc3a-1f0gu.los.hyhuawei.com, skip-cert-verify: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 9", server: 199.232.78.159, port: 443, type: vless, uuid: 6e2e03e2-4f66-479a-a186-a34d66ca8c91, tls: true, tfo: false, skip-cert-verify: true, servername: ssl.fastly.com, client-fingerprint: chrome, network: ws, ws-opts: {path: "/TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053", headers: {Host: pan11.global.ssl.fastly.net}}, udp: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 10", server: 162.191.87.112, port: 8443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 11", server: 107.91.88.6, port: 8443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 12", server: cf04a2e7-tiw740-tzzpok-1sllg.los.hyhuawei.com, port: 443, type: anytls, password: d6e1207c-f41a-11ef-9495-f23c91cfbbc9, udp: true, skip-cert-verify: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 13", server: www.true.th, port: 80, type: vless, uuid: ff0c1cde-6f94-4bf1-9774-ab25c6b4977d, tls: false, tfo: false, skip-cert-verify: true, servername: d7iwyzy9wpvuu.cloudfront.net, network: ws, ws-opts: {path: /knl8, headers: {Host: d7iwyzy9wpvuu.cloudfront.net}}, udp: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 14", server: 38.28.185.224, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 15", server: 198.200.57.153, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 16", server: 21244da9-te3z40-tyt0e8-1mh67.los.hyhuawei.com, port: 443, type: anytls, password: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b, udp: true, sni: 21244da9-te3z40-tyt0e8-1mh67.los.hyhuawei.com, skip-cert-verify: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 17", server: 10a5374a-tcxds0-tnt75r-1k8ga.los.hyhuawei.com, port: 443, type: anytls, password: f860f2da-5035-11ed-bb74-f23c9164ca5d, udp: true, sni: 10a5374a-tcxds0-tnt75r-1k8ga.los.hyhuawei.com, skip-cert-verify: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 18", server: 714ffc8e-te09s0-tfgtqm-nx3b.los.hyhuawei.com, port: 443, type: anytls, password: 32315324-cf6b-11ed-979b-f23c9164ca5d, udp: true, sni: 714ffc8e-te09s0-tfgtqm-nx3b.los.hyhuawei.com, skip-cert-verify: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 19", server: 38.28.193.129, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 20", server: 198.200.57.155, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 21", server: 38.28.193.178, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 22", server: 5cfbea55-tekn40-tflsjv-zn8y.los.hyhuawei.com, port: 443, type: anytls, password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d, udp: true, skip-cert-verify: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 23", server: 6a492b95-temhs0-tqx9ef-1k0yf.los.hyhuawei.com, port: 443, type: anytls, password: 9cc3c03e-21fd-11ee-a642-f23c91369f2d, udp: true, sni: 6a492b95-temhs0-tqx9ef-1k0yf.los.hyhuawei.com, skip-cert-verify: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 24", server: ai.bless.top, port: 443, type: vmess, uuid: 25c09e60-e69d-4b6b-b119-300180ef7fbb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ai.bless.top, network: ws, ws-opts: {path: /bs, headers: {Host: ai.bless.top}}, udp: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 25", server: 138.199.35.208, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 26", server: 38.28.193.1, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|0802|TG@FProxies| 27", server: starlink-ft.251313.xyz, port: 443, type: hysteria2, password: https://xship.top, auth: https://xship.top, sni: xship.top, skip-cert-verify: true, udp: true}
+  - {name: ">🇦🇺AU|Ls|0808|TG@FProxies|", server: 54.79.125.20, port: 9091, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇦🇺AU|Ms|0808|TG@FProxies|", server: 54.253.183.151, port: 39262, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇧🇷BR|Hs|0808|TG@FProxies|", server: brb.nnpy.org, port: 11100, type: hysteria2, password: df8d55f9-fb51-442d-902a-bf8160dc051b, auth: df8d55f9-fb51-442d-902a-bf8160dc051b, sni: www.bing.com, skip-cert-verify: true, udp: true}
+  - {name: ">🇧🇷BR|Ls|0808|TG@FProxies|", server: 186.226.167.191, port: 3128, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇨🇦CA|Ls|0808|TG@FProxies|", server: 99.79.58.74, port: 44062, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇨🇦CA|Ms|0808|TG@FProxies|", server: 3.99.158.157, port: 15238, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇩🇪DE|Hs|0808|TG@FProxies|", server: 152.89.104.11, port: 1080, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇩🇪DE|Hs|0808|TG@FProxies| 2", server: 176.94.74.21, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇩🇪DE|Hs|0808|TG@FProxies| 3", server: 158.173.154.70, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇩🇪DE|Ls|0808|TG@FProxies|", server: 194.67.110.12, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇩🇪DE|Ls|0808|TG@FProxies| 2", server: 87.251.77.29, port: 3128, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇩🇪DE|Ls|0808|TG@FProxies| 3", server: 200.225.173.142, port: 64218, type: http, username: ZJWRqQLE, password: qGwNSnw1, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇩🇪DE|Ms|0808|TG@FProxies|", server: 159.195.61.240, port: 1080, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇩🇪DE|Ms|0808|TG@FProxies| 2", server: 159.195.49.27, port: 1080, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇩🇪DE|Ms|0808|TG@FProxies| 3", server: krhtybay.catcat321.com, port: 20041, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: de.catxstar.com, skip-cert-verify: true, udp: true}
+  - {name: ">🇫🇷FR|Hs|0808|TG@FProxies|", server: 80.15.99.54, port: 8090, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇫🇷FR|Hs|0808|TG@FProxies| 2", server: 37.59.125.131, port: 8888, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇫🇷FR|Ls|0808|TG@FProxies|", server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇫🇷FR|Ms|0808|TG@FProxies|", server: 144.91.121.61, port: 1088, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇫🇷FR|Ms|0808|TG@FProxies| 2", server: 213.136.92.91, port: 1080, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇬🇧GB|Hs|0808|TG@FProxies|", server: c6132f4c-t9zts0-tm23vf-1jk6u.uk.oshuawei.com, port: 443, type: http, username: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9, password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇬🇧GB|Hs|0808|TG@FProxies| 2", server: 7770dfdb-t9zts0-taj9mo-1tco3.uk.oshuawei.com, port: 443, type: http, username: e29de954-ea01-11ef-a271-f23c91cfbbc9, password: e29de954-ea01-11ef-a271-f23c91cfbbc9, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇬🇧GB|Hs|0808|TG@FProxies| 3", server: 9ddfd892-t9zts0-tnsc3a-1f0gu.uk.oshuawei.com, port: 443, type: http, username: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b, password: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇬🇧GB|Hs|0808|TG@FProxies| 4", server: 408ce027-thv5s0-thri9q-azvy.cldvpuk.cdnbytescm.com, port: 443, type: http, username: YTk1ZTkxOTgtMDY3MS0xMWYwLTk0MjYtZjIzYzkzMmYyYzMyOmE5NWU5MTk4LTA2NzEtMTFmMC05NDI2LWYyM2M5MzJmMmMzMg==, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇬🇧GB|Hs|0808|TG@FProxies| 5", server: f92a9516-tcxds0-tpaqgu-1smhu.uk.oshuawei.com, port: 443, type: http, username: 62f2374c-891b-11ef-a3f6-f23c9164ca5d, password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇬🇧GB|Hs|0808|TG@FProxies| 6", server: 1762e001-tcxds0-th2ajx-1rnrp.uk.oshuawei.com, port: 443, type: http, username: 989aa406-ea9b-11ef-97da-f23c91cfbbc9, password: 989aa406-ea9b-11ef-97da-f23c91cfbbc9, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇬🇧GB|Hs|0808|TG@FProxies| 7", server: 9035056e-t9zts0-tcmken-19les.uk.oshuawei.com, port: 443, type: http, username: d095ecc6-7b69-11eb-b77b-f23c913c8d2b, password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇬🇧GB|Hs|0808|TG@FProxies| 8", server: 0a6a8aa6-t9zts0-tighxj-12hj8.uk.oshuawei.com, port: 443, type: http, username: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d, password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇬🇧GB|Hs|0808|TG@FProxies| 9", server: aa254e35-t9zts0-tb592v-4lg6.uk.oshuawei.com, port: 443, type: http, username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d, password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇬🇧GB|Hs|0808|TG@FProxies| 10", server: 6caf5d3d-thx0g0-tkyblq-azvy.cldvpuk.cdnbytescm.com, port: 443, type: http, username: a95e9198-0671-11f0-9426-f23c932f2c32, password: a95e9198-0671-11f0-9426-f23c932f2c32, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇬🇧GB|Hs|0808|TG@FProxies| 11", server: efe1539c-t9zts0-tlpfci-1jdha.uk.oshuawei.com, port: 443, type: http, username: de629d50-1711-11ed-bd7c-f23c913c8d2b, password: de629d50-1711-11ed-bd7c-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇬🇧GB|Hs|0808|TG@FProxies| 12", server: 3051f36a-t9zts0-tr9h64-1f1f1.uk.oshuawei.com, port: 443, type: http, username: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9, password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇬🇧GB|Hs|0808|TG@FProxies| 13", server: 0bfaae1c-t9zts0-tlm64c-xm0q.uk.oshuawei.com, port: 443, type: http, username: 3437f34e-1b77-11eb-8684-f23c913c8d2b, password: 3437f34e-1b77-11eb-8684-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇬🇧GB|Hs|0808|TG@FProxies| 14", server: 73721193-tcxds0-tvgkxc-hrtf.uk.oshuawei.com, port: 443, type: http, username: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b, password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇬🇧GB|Hs|0808|TG@FProxies| 15", server: f6cfde13-tcxds0-tqgocx-1plv4.uk.oshuawei.com, port: 443, type: http, username: 28213b50-7ed5-11ee-add6-f23c91369f2d, password: 28213b50-7ed5-11ee-add6-f23c91369f2d, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇬🇧GB|Ls|0808|TG@FProxies|", server: 5c78e09e-thxmo0-tjdj5q-azvy.cldvpuk.cdnbytescm.com, port: 443, type: http, username: a95e9198-0671-11f0-9426-f23c932f2c32, password: a95e9198-0671-11f0-9426-f23c932f2c32, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇬🇧GB|Ls|0808|TG@FProxies| 2", server: 2f24d33a-thtb40-thri9q-azvy.cldvpuk.cdnbytescm.com, port: 443, type: http, username: YTk1ZTkxOTgtMDY3MS0xMWYwLTk0MjYtZjIzYzkzMmYyYzMyOmE5NWU5MTk4LTA2NzEtMTFmMC05NDI2LWYyM2M5MzJmMmMzMg==, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇬🇧GB|Ms|0808|TG@FProxies|", server: 91.98.86.26, port: 8888, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇬🇧GB|Ms|0808|TG@FProxies| 2", server: 217.196.14.20, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇬🇧GB|Ms|0808|TG@FProxies| 3", server: d3ea7b20-ths2o0-ths4hq-azvy.cldvpuk.cdnbytescm.com, port: 443, type: http, username: YTk1ZTkxOTgtMDY3MS0xMWYwLTk0MjYtZjIzYzkzMmYyYzMyOmE5NWU5MTk4LTA2NzEtMTFmMC05NDI2LWYyM2M5MzJmMmMzMg==, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇬🇧GB|Ms|0808|TG@FProxies| 4", server: 104.194.146.9, port: 80, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Hs|0808|TG@FProxies|", server: 8.218.153.191, port: 3060, type: socks5, username: 123, password: 123, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Hs|0808|TG@FProxies| 2", server: 59.38.113.185, port: 20000, type: socks5, username: Og==, password: Og==, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Hs|0808|TG@FProxies| 3", server: 47.239.71.70, port: 11601, type: socks5, username: 123, password: 123, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Ls|0808|TG@FProxies|", server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: none, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Ls|0808|TG@FProxies| 2", server: v10.zgtfqs.click, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: none, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Ls|0808|TG@FProxies| 3", server: hk40.240104.xyz, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Ls|0808|TG@FProxies| 4", server: n1761296892.4u9ma.icu, port: 443, type: vmess, uuid: d6db128f-42b9-40b1-b979-5e0095fa593c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: n1761296892.4u9ma.icu, network: ws, ws-opts: {path: /, headers: {Host: n1761296892.4u9ma.icu}}, udp: true}
+  - {name: ">🇭🇰HK|Ls|0808|TG@FProxies| 5", server: 45.144.136.244, port: 443, type: anytls, password: 3QZglKmlgzc9zBCDD5W8tQ==, udp: true, sni: www.bing.com, skip-cert-verify: true}
+  - {name: ">🇭🇰HK|Ls|0808|TG@FProxies| 6", server: 43.100.106.245, port: 2222, type: socks5, username: 2222, password: 2222, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Ls|0808|TG@FProxies| 7", server: 8.217.35.37, port: 11300, type: socks5, username: 5555, password: 5555, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Ls|0808|TG@FProxies| 8", server: 8.217.213.161, port: 3060, type: socks5, username: 123, password: 123, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Ms|0808|TG@FProxies|", server: cdn.cn-east.hk6.cloud.985996.xyz, port: 53009, type: vmess, uuid: c8e04c36-387a-3ad0-adb9-f877a3cc18cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Ms|0808|TG@FProxies| 2", server: 47.76.186.28, port: 11408, type: socks5, username: 111, password: 111, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Ms|0808|TG@FProxies| 3", server: 8.218.225.75, port: 1080, type: socks5, username: 1111, password: 1111, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Ms|0808|TG@FProxies| 4", server: 43.199.29.225, port: 56387, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Ms|0808|TG@FProxies| 5", server: 43.100.106.220, port: 2222, type: socks5, username: 2222, password: 2222, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Ms|0808|TG@FProxies| 6", server: 45.202.248.138, port: 55000, type: hysteria2, password: 34899f2a-e819-4741-8663-186420bdc766, auth: 34899f2a-e819-4741-8663-186420bdc766, sni: www.bing.com, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇩ID|Hs|0808|TG@FProxies|", server: 103.247.20.75, port: 8546, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇩ID|Hs|0808|TG@FProxies| 2", server: 129.227.44.190, port: 9443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇩ID|Ls|0808|TG@FProxies|", server: 146.196.108.206, port: 3128, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇩ID|Ls|0808|TG@FProxies| 2", server: 103.107.117.242, port: 8080, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇩ID|Ls|0808|TG@FProxies| 3", server: 202.155.19.143, port: 9999, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇩ID|Ms|0808|TG@FProxies|", server: edu.ruangguru.com, port: 443, type: trojan, password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00, sni: id1.nathaya.web.id, skip-cert-verify: true, network: ws, ws-opts: {path: /trojan, headers: {Host: id1.nathaya.web.id}}, udp: true}
+  - {name: ">🇮🇳IN|Ls|0808|TG@FProxies|", server: 202.56.200.226, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇳IN|Ls|0808|TG@FProxies| 2", server: 3.110.68.130, port: 59885, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇳IN|Ls|0808|TG@FProxies| 3", server: 141.148.222.181, port: 51000, type: hysteria2, password: 5a0f8574-07a5-45d5-84c9-f8b2c2bcd595, auth: 5a0f8574-07a5-45d5-84c9-f8b2c2bcd595, sni: cn.cremedelamer.com, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇹IT|Ms|0808|TG@FProxies|", server: 66.163.119.55, port: 10006, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇯🇵JP|Hs|0808|TG@FProxies|", server: 13.208.169.24, port: 12308, type: trojan, password: a703fe02-9bdf-4124-a812-0284d0acdf36, sni: jp03.ulifeai.com, skip-cert-verify: true, udp: true}
+  - {name: ">🇯🇵JP|Ls|0808|TG@FProxies|", server: 8.209.236.192, port: 1080, type: socks5, username: 123456, password: 123456, skip-cert-verify: true, udp: true}
+  - {name: ">🇯🇵JP|Ls|0808|TG@FProxies| 2", server: 207.56.227.226, port: 48920, type: hysteria2, password: 53f193c4-6482-45fb-8e00-60e0baf016ee, auth: 53f193c4-6482-45fb-8e00-60e0baf016ee, sni: www.bing.com, skip-cert-verify: true, udp: true}
+  - {name: ">🇯🇵JP|Ls|0808|TG@FProxies| 3", server: 101.36.104.239, port: 10808, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇯🇵JP|Ls|0808|TG@FProxies| 4", server: 101.36.104.46, port: 10808, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇯🇵JP|Ls|0808|TG@FProxies| 5", server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇯🇵JP|Ls|0808|TG@FProxies| 6", server: t11.qifei.app, port: 55682, type: trojan, password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1, skip-cert-verify: true, udp: true}
+  - {name: ">🇯🇵JP|Ls|0808|TG@FProxies| 7", server: tokyo02.zgjok.com, port: 443, type: vmess, uuid: 3fe113f9-e564-4111-b8c7-11f597687689, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tokyo02.zgjok.com, network: ws, ws-opts: {path: /, headers: {Host: tokyo02.zgjok.com}}, udp: true}
+  - {name: ">🇯🇵JP|Ls|0808|TG@FProxies| 8", server: aak1247.cn, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇯🇵JP|Ls|0808|TG@FProxies| 9", server: 59.66.22.107, port: 7898, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇯🇵JP|Ls|0808|TG@FProxies| 10", server: 47.74.1.217, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇯🇵JP|Ls|0808|TG@FProxies| 11", server: 13.208.166.217, port: 7884, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇯🇵JP|Ms|0808|TG@FProxies|", server: jpa.nnpy.org, port: 11000, type: hysteria2, password: 0c3bd8c8-53db-4126-a98f-d12d908d5301, auth: 0c3bd8c8-53db-4126-a98f-d12d908d5301, sni: www.bing.com, skip-cert-verify: true, udp: true}
+  - {name: ">🇯🇵JP|Ms|0808|TG@FProxies| 2", server: 13.208.166.217, port: 53644, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇯🇵JP|Ms|0808|TG@FProxies| 3", server: 103.127.242.229, port: 7000, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇯🇵JP|Ms|0808|TG@FProxies| 4", server: 43.207.141.180, port: 15536, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇰🇷KR|Ls|0808|TG@FProxies|", server: 158.247.204.254, port: 8443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇰🇷KR|Ls|0808|TG@FProxies| 2", server: 152.69.230.221, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇳🇱NL|Hs|0808|TG@FProxies|", server: 95.211.64.139, port: 8888, type: http, password: None, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇳🇱NL|Hs|0808|TG@FProxies| 2", server: 188.114.97.6, port: 80, type: vless, uuid: eff5e09f-567b-4ef7-830f-c64af1e9ea76, tls: false, tfo: false, skip-cert-verify: true, servername: web.whatsapp.com.r3xxe.eu.cc, network: ws, ws-opts: {path: /id-tksi, headers: {Host: web.whatsapp.com.r3xxe.eu.cc}}, udp: true}
+  - {name: ">🇳🇱NL|Ls|0808|TG@FProxies|", server: 84.17.47.148, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇳🇱NL|Ls|0808|TG@FProxies| 2", server: 84.17.47.125, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇳🇱NL|Ls|0808|TG@FProxies| 3", server: 84.17.47.146, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇳🇱NL|Ls|0808|TG@FProxies| 4", server: 185.140.209.235, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇳🇱NL|Ls|0808|TG@FProxies| 5", server: 84.17.47.150, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇳🇱NL|Ls|0808|TG@FProxies| 6", server: 185.246.153.28, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇳🇱NL|Ls|0808|TG@FProxies| 7", server: 95.211.64.139, port: 8888, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇳🇱NL|Ls|0808|TG@FProxies| 8", server: 89.125.33.16, port: 1234, type: ss, cipher: chacha20-ietf-poly1305, password: ka2ZF-Jp4TZEtmhUnmkrBFag-Xx-Fg87, udp: true}
+  - {name: ">🇳🇱NL|Ms|0808|TG@FProxies|", server: 95.211.64.139, port: 8889, type: http, password: None, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇳🇱NL|Ms|0808|TG@FProxies| 2", server: 185.238.170.10, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Hs|0808|TG@FProxies|", server: 84.239.49.166, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Hs|0808|TG@FProxies| 2", server: 84.239.49.177, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Hs|0808|TG@FProxies| 3", server: 84.239.14.148, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Hs|0808|TG@FProxies| 4", server: 84.239.49.201, port: 9002, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Hs|0808|TG@FProxies| 5", server: 84.239.49.38, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Hs|0808|TG@FProxies| 6", server: 84.239.49.215, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies|", server: 84.239.49.215, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 2", server: 84.239.49.54, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 3", server: 84.239.49.244, port: 9002, type: http, username: None, password: None, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 4", server: 84.239.49.244, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 5", server: 84.239.49.238, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 6", server: 193.176.84.21, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 7", server: 84.239.49.160, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 8", server: 193.176.84.27, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 9", server: 84.239.49.213, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 10", server: 84.239.49.191, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 11", server: 193.176.84.25, port: 9002, type: http, username: None, password: None, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 12", server: 193.176.84.30, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 13", server: 84.239.49.232, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 14", server: 84.239.49.160, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 15", server: 84.239.49.53, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 16", server: 84.239.49.214, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 17", server: 84.239.49.241, port: 9002, type: http, username: None, password: None, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 18", server: 84.239.49.207, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 19", server: 84.239.49.162, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 20", server: 84.239.49.219, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 21", server: 84.239.49.167, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 22", server: 84.239.49.48, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 23", server: 84.239.49.38, port: 9002, type: http, username: None, password: None, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 24", server: 84.239.14.157, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 25", server: 84.239.49.234, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 26", server: 84.239.49.220, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 27", server: 84.239.49.60, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 28", server: 84.239.49.225, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 29", server: 84.239.49.197, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ls|0808|TG@FProxies| 30", server: 84.239.49.199, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ms|0808|TG@FProxies|", server: 84.239.14.149, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ms|0808|TG@FProxies| 2", server: 84.239.49.180, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ms|0808|TG@FProxies| 3", server: 193.176.84.32, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ms|0808|TG@FProxies| 4", server: 193.176.84.36, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ms|0808|TG@FProxies| 5", server: 84.239.49.159, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ms|0808|TG@FProxies| 6", server: 84.239.49.57, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ms|0808|TG@FProxies| 7", server: 84.239.49.245, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ms|0808|TG@FProxies| 8", server: 84.239.49.242, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ms|0808|TG@FProxies| 9", server: 84.239.49.242, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ms|0808|TG@FProxies| 10", server: 84.239.14.146, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ms|0808|TG@FProxies| 11", server: 84.239.14.153, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ms|0808|TG@FProxies| 12", server: 84.239.49.40, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇺RU|Ls|0808|TG@FProxies|", server: 178.219.43.226, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇺RU|Ls|0808|TG@FProxies| 2", server: 194.26.229.209, port: 2200, type: vless, uuid: 894c0b5f-5ea8-41ca-96ad-1892766b74c3, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v1}, udp: true}
+  - {name: ">🇷🇺RU|Ls|0808|TG@FProxies| 3", server: 176.98.178.17, port: 4100, type: vless, uuid: 87f3bc47-ee10-4418-9260-7a4e43f28e00, tls: false, tfo: false, skip-cert-verify: true, servername: live.ok.ru, network: ws, ws-opts: {path: /v1, headers: {Host: live.ok.ru}}, udp: true}
+  - {name: ">🇷🇺RU|Ls|0808|TG@FProxies| 4", server: 109.94.1.23, port: 4050, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇺RU|Ls|0808|TG@FProxies| 5", server: 194.26.229.220, port: 2200, type: vless, uuid: 47947923-49ac-49f8-86ed-2912bcbf2d18, tls: false, tfo: false, skip-cert-verify: true, servername: rzd.ru, network: ws, ws-opts: {path: /v1, headers: {Host: rzd.ru}}, udp: true}
+  - {name: ">🇷🇺RU|Ls|0808|TG@FProxies| 6", server: 84.54.47.8, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇺RU|Ls|0808|TG@FProxies| 7", server: 89.169.168.25, port: 6101, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬SG|Ls|0808|TG@FProxies|", server: 159.223.41.216, port: 9090, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬SG|Ls|0808|TG@FProxies| 2", server: 139.180.144.76, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬SG|Ls|0808|TG@FProxies| 3", server: 154.26.138.75, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬SG|Ls|0808|TG@FProxies| 4", server: 45.43.63.37, port: 10808, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬SG|Ls|0808|TG@FProxies| 5", server: 47.237.78.169, port: 1080, type: socks5, username: user, password: pass, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬SG|Ls|0808|TG@FProxies| 6", server: sg01-hy.poke-mon.xyz, port: 26857, type: hysteria2, password: a5c95246-104f-421d-9965-b7cac8a3d52c, auth: a5c95246-104f-421d-9965-b7cac8a3d52c, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬SG|Ls|0808|TG@FProxies| 7", server: 152.42.170.187, port: 9090, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬SG|Ls|0808|TG@FProxies| 8", server: singapore01.zgjok.com, port: 443, type: vmess, uuid: 9469bf84-6e2a-4cc2-84e9-f334161a9e94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: singapore01.zgjok.com, network: ws, ws-opts: {path: /, headers: {Host: singapore01.zgjok.com}}, udp: true}
+  - {name: ">🇸🇬SG|Ls|0808|TG@FProxies| 9", server: 152.42.167.241, port: 3128, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬SG|Ls|0808|TG@FProxies| 10", server: 45.195.184.106, port: 63124, type: http, username: ZJWRqQLE, password: qGwNSnw1, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬SG|Ms|0808|TG@FProxies|", server: sg4.dexlos.com, port: 20767, type: hysteria2, password: 5D0CF6A7-F51C-492C-BFFD-0901C4B781CE, auth: 5D0CF6A7-F51C-492C-BFFD-0901C4B781CE, skip-cert-verify: true, obfs: salamander, obfs-password: xK9mN2pLq5vR8wB3, udp: true}
+  - {name: ">🇸🇬SG|Ms|0808|TG@FProxies| 2", server: sg5.dexlos.com, port: 20890, type: hysteria2, password: 5D0CF6A7-F51C-492C-BFFD-0901C4B781CE, auth: 5D0CF6A7-F51C-492C-BFFD-0901C4B781CE, skip-cert-verify: true, obfs: salamander, obfs-password: xK9mN2pLq5vR8wB3, udp: true}
+  - {name: ">🇸🇬SG|Ms|0808|TG@FProxies| 3", server: 154.219.254.66, port: 64462, type: http, username: n17sMRE7S, password: ESfDSCxpD, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬SG|Ms|0808|TG@FProxies| 4", server: 47.97.171.33, port: 8080, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬SG|Ms|0808|TG@FProxies| 5", server: sg01-hy.poke-mon.xyz, port: 47966, type: hysteria2, password: 56580d60-5b0e-4b24-bec7-93824e166758, auth: 56580d60-5b0e-4b24-bec7-93824e166758, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬SG|Ms|0808|TG@FProxies| 6", server: 47.84.230.119, port: 6443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇹🇼TW|Ms|0808|TG@FProxies|", server: tw3.dexlos.com, port: 8080, type: tuic, password: 5D0CF6A7-F51C-492C-BFFD-0901C4B781CE, uuid: 5D0CF6A7-F51C-492C-BFFD-0901C4B781CE, sni: tw3.dexlos.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0, udp-relay-mode: native, congestion-controller: bbr}
+  - {name: ">🇹🇼TW|Ms|0808|TG@FProxies| 2", server: NAMRCG001598AHF.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b, udp: true}
+  - {name: ">🇺🇸US|Hs|0808|TG@FProxies|", server: 138.199.35.195, port: 9002, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Hs|0808|TG@FProxies| 2", server: 6c846b23-t9zts0-tcop2n-tl32.se.oshuawei.com, port: 443, type: http, username: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b, password: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Hs|0808|TG@FProxies| 3", server: 18.190.253.157, port: 26781, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Hs|0808|TG@FProxies| 4", server: 156.146.59.47, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Hs|0808|TG@FProxies| 5", server: 141.148.181.144, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ls|0808|TG@FProxies|", server: 156.146.59.38, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ls|0808|TG@FProxies| 2", server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ls|0808|TG@FProxies| 3", server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ls|0808|TG@FProxies| 4", server: 156.146.59.49, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ls|0808|TG@FProxies| 5", server: 34.220.80.147, port: 54055, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ls|0808|TG@FProxies| 6", server: 156.146.59.23, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ls|0808|TG@FProxies| 7", server: 156.146.59.27, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ls|0808|TG@FProxies| 8", server: autodiscover.fuzzyaytor.cyou, port: 42982, type: ss, cipher: chacha20-ietf-poly1305, password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS, udp: true}
+  - {name: ">🇺🇸US|Ms|0808|TG@FProxies|", server: 3.219.99.125, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|0808|TG@FProxies| 2", server: 156.146.59.17, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|0808|TG@FProxies| 3", server: 38.28.193.84, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|0808|TG@FProxies| 4", server: 156.146.59.7, port: 9002, type: http, username: None, password: None, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|0808|TG@FProxies| 5", server: 38.28.193.178, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|0808|TG@FProxies| 6", server: 38.28.185.224, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|0808|TG@FProxies| 7", server: 138.199.35.220, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|0808|TG@FProxies| 8", server: 38.28.193.191, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|0808|TG@FProxies| 9", server: starlink-ft.251313.xyz, port: 443, type: hysteria2, password: https://xship.top, auth: https://xship.top, sni: xship.top, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|0808|TG@FProxies| 10", server: 156.146.59.45, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|0808|TG@FProxies| 11", server: 38.28.185.249, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|0808|TG@FProxies| 12", server: 138.199.35.199, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|0808|TG@FProxies| 13", server: 47.253.201.85, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|0808|TG@FProxies| 14", server: 162.191.87.112, port: 8443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|0808|TG@FProxies| 15", server: 38.28.193.1, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇻🇳VN|Ls|0808|TG@FProxies|", server: 113.176.118.150, port: 1080, type: socks5, skip-cert-verify: true, udp: true}
