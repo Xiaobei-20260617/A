@@ -475,5 +475,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260808QVBJ.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260808WPUF.txt"
     }
+  },
+  {
+    "date": "0809",
+    "sort_key": "20260809",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260809KOEA.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260809TJEV.txt"
+    }
   }
 ]
