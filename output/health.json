@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-08T17:02:00Z",
+  "timestamp": "2026-08-08T17:55:48Z",
   "sources": {
     "fproxies": {
       "status": "failed",
@@ -25,6 +25,12 @@
       "size_kb": 182.2,
       "error": ""
     },
+    "clashfree": {
+      "status": "ok",
+      "nodes": 1402,
+      "size_kb": 1258.6,
+      "error": ""
+    },
     "bestclash": {
       "status": "ok",
       "nodes": 6,
@@ -35,6 +41,12 @@
       "status": "ok",
       "nodes": 1239,
       "size_kb": 408.3,
+      "error": ""
+    },
+    "v2rayfree": {
+      "status": "ok",
+      "nodes": 1411,
+      "size_kb": 551.2,
       "error": ""
     },
     "ruk1ng": {
@@ -81,8 +93,8 @@
     },
     "automerge": {
       "status": "ok",
-      "nodes": 130,
-      "size_kb": 426.8,
+      "nodes": 128,
+      "size_kb": 426.0,
       "error": ""
     },
     "nomorewalls": {
@@ -159,8 +171,8 @@
     }
   },
   "summary": {
-    "total": 26,
-    "ok": 24,
+    "total": 28,
+    "ok": 26,
     "failed": 2
   }
 }
