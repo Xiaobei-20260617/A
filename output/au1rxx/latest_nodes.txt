@@ -2678,6 +2678,13 @@ proxies:
       server: 149.22.87.241
       type: ss
       udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: shadowsocks-212
+      password: CJmTCCx7Ltud
+      port: 8388
+      server: 108.181.126.122
+      type: ss
+      udp: true
     - cipher: aes-128-cfb
       name: shadowsocks-205
       password: shadowsocks
@@ -2739,6 +2746,13 @@ proxies:
       password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
       port: 50099
       server: 36.224.177.236
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: shadowsocks-217
+      password: CJmTCCx7Ltud
+      port: 8388
+      server: 108.181.58.239
       type: ss
       udp: true
     - cipher: aes-256-cfb
@@ -5778,6 +5792,14 @@ proxies:
       sni: prompt-duckling.rooster465.autos
       type: trojan
       udp: true
+    - name: trojan-325097933
+      password: MiTiVPN
+      port: 443
+      server: 104.254.140.62
+      skip-cert-verify: false
+      sni: ddp-mitivpn--mitivpn--mitivpn---mitivpn--mitivpn--mitivpn.kingnetwork.ir
+      type: trojan
+      udp: true
     - name: trojan-266972503
       password: ND91608427
       port: 443
@@ -6128,6 +6150,14 @@ proxies:
       server: 51.44.160.58
       skip-cert-verify: false
       sni: great-krill.rooster465.autos
+      type: trojan
+      udp: true
+    - name: trojan-313165057
+      password: MiTiVPN
+      port: 443
+      server: 104.254.140.62
+      skip-cert-verify: false
+      sni: ddp-mitivpn--mitivpn--mitivpn---mitivpn--mitivpn--mitivpn.kingnetwork.ir
       type: trojan
       udp: true
     - name: trojan-268441889
@@ -10580,6 +10610,20 @@ proxies:
       udp: true
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
+      name: vless-65137002
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: 4-qE0E0B5ShfnAe0KFM0qRkXJ33rRF39AlHK7MpBzAE
+        short-id: 4c5a76834671
+      server: 185.164.111.48
+      servername: www.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 59eefc04-b831-45cf-8d68-63ca23381171
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
       name: vless-46200915
       network: tcp
       port: 443
@@ -14529,164 +14573,3 @@ proxies:
       type: vless
       udp: true
       uuid: 814bd064-544d-4255-a070-5705c03f6da9
-    - name: vless-173280244
-      network: ws
-      port: 2095
-      server: 172.67.202.17
-      type: vless
-      udp: true
-      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: vless-301213521
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-        short-id: c39cc7310a
-      server: 169.40.42.15
-      servername: yahoo.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-    - name: vless-270685468
-      network: raw
-      port: 60771
-      server: 93.119.168.215
-      type: vless
-      udp: true
-      uuid: 060a5db6-7ff9-4a64-87c1-8a27be4f11ab
-    - client-fingerprint: ios
-      flow: xtls-rprx-vision
-      name: vless-194747182
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-        short-id: c39cc7310a
-      server: 169.40.42.95
-      servername: yahoo.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-    - name: vless-13097683
-      network: ws
-      port: 443
-      server: 104.16.72.251
-      servername: hhlfy.twiladaphne.ndjp.net
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-    - client-fingerprint: chrome
-      name: vless-258636511
-      network: grpc
-      port: 8443
-      reality-opts:
-        public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
-        short-id: ""
-      server: 88.218.44.4
-      servername: download.nvidia.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: vless-27000
-      network: tcp
-      port: 10001
-      reality-opts:
-        public-key: 4jNz4Bw-FZlaX-WtfAdwK0hegY28W_k8AttGd-7hZn4
-        short-id: fb2c6678
-      server: 156.229.161.107
-      servername: www.icloud.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 9c79aceb-4649-44ea-9698-b5e9ecf6d6da
-    - name: vless-102268082
-      network: tcp
-      port: 45647
-      server: 182.16.61.3
-      type: vless
-      udp: true
-      uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-    - client-fingerprint: ios
-      flow: xtls-rprx-vision
-      name: vless-200281637
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-        short-id: c39cc7310a
-      server: 169.40.42.44
-      servername: yahoo.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-    - client-fingerprint: chrome
-      name: vless-277424508
-      network: raw
-      port: 27407
-      reality-opts:
-        public-key: SajK6LzHBkkFlEXjIwseyqbpezgPiop5ZnSToou3G04
-        short-id: e6ac18b63f23
-      server: 13.193.205.133
-      servername: bgcpartners.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: cd5cf6e7-7ce5-42c9-9316-68210fa72a32
-    - name: vless-305228712
-      network: ws
-      port: 80
-      server: 72.167.241.4
-      type: vless
-      udp: true
-      uuid: 58c1b245-2ea0-40b9-b512-bd2bbe3cbe3f
-    - client-fingerprint: chrome
-      name: vless-245487951
-      network: tcp
-      port: 46197
-      reality-opts:
-        public-key: npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00
-        short-id: f24c17bb7fc284
-      server: 70.39.198.93
-      servername: updates.cdn-apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5aab0d40-c509-4560-b048-ade921fdfb6a
-    - name: vless-239195035
-      network: tcp
-      port: 10086
-      server: 204.216.216.23
-      type: vless
-      udp: true
-      uuid: 9f0285ee-20ca-4953-bcdb-86a920652923
-    - name: vless-153623537
-      network: ws
-      port: 2095
-      server: 172.64.146.153
-      type: vless
-      udp: true
-      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: vless-245487969
-      network: tcp
-      port: 8443
-      reality-opts:
-        public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-        short-id: ""
-      server: 31.58.50.200
-      servername: tradingview.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06e00e3d-f71f-4621-99a2-779793daf449
