@@ -484,5 +484,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260809KOEA.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260809TJEV.txt"
     }
+  },
+  {
+    "date": "0810",
+    "sort_key": "20260810",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260810RMVX.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260810NXOR.txt"
+    }
   }
 ]
