@@ -14833,13 +14833,3 @@ proxies:
       type: vless
       udp: true
       uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
-    - name: vless-192061506
-      network: ws
-      port: 443
-      server: 104.18.37.228
-      servername: hhlfy.twiladaphne.ndjp.net
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
