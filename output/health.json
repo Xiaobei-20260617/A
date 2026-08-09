@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-09T21:25:50Z",
+  "timestamp": "2026-08-09T21:57:33Z",
   "sources": {
     "fproxies": {
       "status": "failed",
@@ -27,8 +27,8 @@
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 5,
-      "size_kb": 675.7,
+      "nodes": 4,
+      "size_kb": 675.8,
       "error": ""
     },
     "au1rxx": {
@@ -87,14 +87,14 @@
     },
     "automerge": {
       "status": "ok",
-      "nodes": 131,
-      "size_kb": 426.1,
+      "nodes": 128,
+      "size_kb": 425.2,
       "error": ""
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 155,
-      "size_kb": 28.8,
+      "nodes": 157,
+      "size_kb": 29.2,
       "error": ""
     },
     "pawdroid": {
