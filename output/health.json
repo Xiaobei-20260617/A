@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-10T22:31:26Z",
+  "timestamp": "2026-08-10T23:29:37Z",
   "sources": {
     "fproxies": {
       "status": "failed",
@@ -15,8 +15,8 @@
     },
     "osbooting": {
       "status": "ok",
-      "nodes": 155,
-      "size_kb": 87.0,
+      "nodes": 497,
+      "size_kb": 278.0,
       "error": ""
     },
     "clashfree": {
@@ -27,14 +27,14 @@
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 3,
-      "size_kb": 675.5,
+      "nodes": 8,
+      "size_kb": 675.8,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 1107,
-      "size_kb": 433.3,
+      "nodes": 1097,
+      "size_kb": 424.2,
       "error": ""
     },
     "v2rayfree": {
@@ -100,7 +100,7 @@
     "pawdroid": {
       "status": "ok",
       "nodes": 20,
-      "size_kb": 5.0,
+      "size_kb": 5.3,
       "error": ""
     },
     "barabama": {

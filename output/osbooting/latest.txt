@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (0810)
-https://freenode.osbooting.com/nodefiles/20260810RMVX.yaml
-https://freenode.osbooting.com/nodefiles/20260810NXOR.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (0811)
+https://freenode.osbooting.com/nodefiles/20260811MRFT.yaml
+https://freenode.osbooting.com/nodefiles/20260811CUFX.txt
