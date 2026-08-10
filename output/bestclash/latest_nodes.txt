@@ -1,12 +1,4 @@
 proxies:
-- name: nl|7363|puddincat07@Telegram
-  password: gf1:gfhysteria2024
-  port: 443
-  server: 5.129.235.85
-  skip-cert-verify: true
-  sni: www.linux.com
-  type: hysteria2
-  udp: true
 - alpn:
   - h3
   congestion-controller: bbr
@@ -29,6 +21,14 @@ proxies:
   sni: de-two.quiet-rogue.site
   type: hysteria2
   udp: true
+- name: nl|7363|puddincat07@Telegram
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 5.129.235.85
+  skip-cert-verify: true
+  sni: www.linux.com
+  type: hysteria2
+  udp: true
 - name: xx|ef9a|puddincat07@Telegram
   obfs: salamander
   obfs-password: 8zzng75tz4tf82pj
@@ -39,15 +39,18 @@ proxies:
   sni: musicclips.videolinks.ru
   type: hysteria2
   udp: true
-- alterId: 2
-  cipher: auto
-  name: xx|8151|puddincat07@Telegram
-  port: 30807
-  server: v10.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: gb|761a|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.149
+  type: ss
+- cipher: aes-256-cfb
+  name: us|95ff|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 98.89.48.191
+  type: ss
 - client-fingerprint: chrome
   name: hk|6371|puddincat07@Telegram
   network: tcp
@@ -58,79 +61,68 @@ proxies:
   sni: 119.246.1.143
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: kr|9a36|puddincat07@Telegram
-  network: ws
-  port: 443
-  server: 152.67.218.38
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
-  ws-opts:
-    path: /
-- cipher: aes-256-cfb
-  name: jp|68d6|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 13.231.227.228
-  type: ss
-- cipher: aes-256-cfb
-  name: us|95ff|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 98.89.48.191
-  type: ss
-- name: xx|aaeb|puddincat07@Telegram
-  password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
-  port: 36511
-  server: 3u1s03.a3b5wy.xyz
-  skip-cert-verify: true
-  sni: us03.abpilot.xyz
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: xx|296f|puddincat07@Telegram
-  password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
-  port: 36031
-  server: 3u1s02.a3b5wy.xyz
+  name: gb|e901|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.10
+  type: ss
+- cipher: aes-256-gcm
+  name: gb|cfbd|puddincat07@Telegram
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 51.68.206.229
   type: ss
   udp: true
-- name: ie|21bc|puddincat07@Telegram
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.208.218.51
+- name: us|ca86|puddincat07@Telegram
+  password: onBbMV6Bt9
+  port: 15981
+  server: 38.59.245.114
   skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- name: ie|c970|puddincat07@Telegram
-  password: telegram-id-directvpn
-  port: 22222
-  server: 34.249.148.68
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: rc4-md5
-  name: xx|c046|puddincat07@Telegram
-  password: dbEcUJ
-  port: 24603
-  server: sgp03.ktp.wtf
+- cipher: aes-256-cfb
+  name: lt|7a1f|puddincat07@Telegram
+  password: qYEN5HX4JKeVCdEC
+  port: 9039
+  server: 195.238.126.84
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: ba|22cc|puddincat07@Telegram
+  name: al|2855|puddincat07@Telegram
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 185.164.35.9
+  server: 31.171.153.178
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: xx|f339|puddincat07@Telegram
-  password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
-  port: 36032
-  server: 3u1s03.a3b5wy.xyz
+  name: in|5ec5|puddincat07@Telegram
+  password: P7Mq81xOOwVCMxRtTYqv0T
+  port: 51117
+  server: 143.110.242.24
   type: ss
+  udp: true
+- name: us|36a3|puddincat07@Telegram
+  password: e8105dfd24414268b6c7652c63731097
+  port: 443
+  server: 104.16.192.155
+  skip-cert-verify: true
+  sni: jobscareerfortoday.com
+  type: trojan
+  udp: true
+- name: us|71fb|puddincat07@Telegram
+  password: 669d0ac7b5b64ebbb1abb75d5d540a5c
+  port: 443
+  server: 104.16.159.6
+  skip-cert-verify: true
+  sni: bangladeshipatri.com
+  type: trojan
+  udp: true
+- name: fr|2d37|puddincat07@Telegram
+  password: telegram-id-directvpn
+  port: 22222
+  server: 35.181.197.213
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
   udp: true
