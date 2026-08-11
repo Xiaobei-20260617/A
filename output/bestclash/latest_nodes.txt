@@ -31,16 +31,6 @@ proxies:
   sni: musicclips.videolinks.ru
   type: hysteria2
   udp: true
-- client-fingerprint: chrome
-  name: ie|690b|puddincat07@Telegram
-  network: tcp
-  password: UO36402987
-  port: 443
-  server: 34.251.228.118
-  skip-cert-verify: false
-  sni: definite-ladybird.rooster465.autos
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: xx|3f45|puddincat07@Telegram
   password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
@@ -55,21 +45,24 @@ proxies:
   sni: www.linux.com
   type: hysteria2
   udp: true
-- alterId: 0
-  name: xx|bd39|puddincat07@Telegram
+- name: xx|bd39|puddincat07@Telegram
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
   server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: hk.catxstar.com
-  tls: true
   type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: nl|0cb9|puddincat07@Telegram
+  name: gb|597e|puddincat07@Telegram
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
-  server: 193.29.139.235
+  server: 82.38.31.46
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: nl|42be|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.151
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: nl|9e7b|puddincat07@Telegram
@@ -116,9 +109,9 @@ proxies:
   port: 443
   server: 141.98.101.181
   type: ss
-- cipher: aes-128-gcm
-  name: us|72d8|puddincat07@Telegram
-  password: shadowsocks
+- cipher: aes-256-cfb
+  name: de|27a4|puddincat07@Telegram
+  password: amazonskr05
   port: 443
-  server: 173.244.56.6
+  server: 63.180.254.10
   type: ss
