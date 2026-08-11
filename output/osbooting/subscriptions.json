@@ -502,5 +502,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260811MRFT.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260811CUFX.txt"
     }
+  },
+  {
+    "date": "0812",
+    "sort_key": "20260812",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260812OXGB.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260812BFYD.txt"
+    }
   }
 ]
