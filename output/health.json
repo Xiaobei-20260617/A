@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-11T06:57:03Z",
+  "timestamp": "2026-08-11T08:08:44Z",
   "sources": {
     "fproxies": {
       "status": "failed",
@@ -27,14 +27,14 @@
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 4,
+      "nodes": 6,
       "size_kb": 675.9,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 1114,
-      "size_kb": 374.1,
+      "nodes": 1090,
+      "size_kb": 385.0,
       "error": ""
     },
     "v2rayfree": {
@@ -58,7 +58,7 @@
     "ovmvo": {
       "status": "ok",
       "nodes": 0,
-      "size_kb": 276.1,
+      "size_kb": 202.3,
       "error": ""
     },
     "v2raynnodes_clash": {
@@ -87,20 +87,20 @@
     },
     "automerge": {
       "status": "ok",
-      "nodes": 157,
-      "size_kb": 432.5,
+      "nodes": 246,
+      "size_kb": 448.8,
       "error": ""
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 236,
-      "size_kb": 39.9,
+      "nodes": 201,
+      "size_kb": 32.5,
       "error": ""
     },
     "pawdroid": {
       "status": "ok",
       "nodes": 20,
-      "size_kb": 5.4,
+      "size_kb": 5.7,
       "error": ""
     },
     "barabama": {
