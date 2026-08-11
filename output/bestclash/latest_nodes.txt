@@ -1,4 +1,12 @@
 proxies:
+- name: nl|7363|puddincat07@Telegram
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 5.129.235.85
+  skip-cert-verify: true
+  sni: www.linux.com
+  type: hysteria2
+  udp: true
 - alpn:
   - h3
   congestion-controller: bbr
@@ -14,24 +22,12 @@ proxies:
   udp-relay-mode: native
   uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
 - cipher: chacha20-ietf-poly1305
-  name: xx|ae82|puddincat07@Telegram
-  password: LHZzf4y0j2WQlZsTh0NzPxVmTYufR-TA
-  port: 1080
-  server: sub.almavpn.shop
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: xx|3f45|puddincat07@Telegram
   password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
   port: 42982
   server: autodiscover.fuzzyaytor.cyou
-  type: ss
-- name: nl|7363|puddincat07@Telegram
-  password: gf1:gfhysteria2024
-  port: 443
-  server: 5.129.235.85
   skip-cert-verify: true
-  sni: www.linux.com
-  type: hysteria2
+  type: ss
   udp: true
 - name: xx|ef9a|puddincat07@Telegram
   obfs: salamander
@@ -43,6 +39,12 @@ proxies:
   sni: musicclips.videolinks.ru
   type: hysteria2
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: xx|ae82|puddincat07@Telegram
+  password: LHZzf4y0j2WQlZsTh0NzPxVmTYufR-TA
+  port: 1080
+  server: sub.almavpn.shop
+  type: ss
 - cipher: aes-256-cfb
   name: us|95ff|puddincat07@Telegram
   password: amazonskr05
@@ -59,70 +61,65 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: us|01cb|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 54.163.196.142
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: nl|20ee|puddincat07@Telegram
-  password: QCXDxuDlTTMD7jtgHUjIoj
+- cipher: rc4-md5
+  name: ca|4230|puddincat07@Telegram
+  password: 14fFPrbezE3HDZzsMOr6
   port: 8080
-  server: 193.29.139.168
+  server: 137.184.174.93
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: gb|3b4b|puddincat07@Telegram
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.34
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: ca|711a|puddincat07@Telegram
-  network: ws
+- cipher: aes-128-gcm
+  name: ca|3286|puddincat07@Telegram
+  password: shadowsocks
   port: 443
-  server: 158.51.121.63
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: seribus.org
-    path: /
-- cipher: aes-256-gcm
-  name: gb|cf29|puddincat07@Telegram
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
+  server: 149.22.95.183
   type: ss
-- name: ie|21bc|puddincat07@Telegram
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.208.218.51
+- cipher: aes-128-gcm
+  name: us|f2e0|puddincat07@Telegram
+  password: Yc2CtrIz8L
+  port: 16899
+  server: 204.93.164.95
+  type: ss
+  udp: true
+- name: sg|0c2e|puddincat07@Telegram
+  password: yR7hP9aw5L
+  port: 443
+  server: 134.209.105.33
   skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
+  sni: aka.ms
+  type: trojan
+  udp: true
+- name: fr|764f|puddincat07@Telegram
+  password: fc1e07b5-840b-4446-8232-94b0606f2e0d
+  port: 443
+  server: 193.70.112.90
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: vn|0207|puddincat07@Telegram
+  password: 5a92d674-308c-4d95-b283-28383e63a59b
+  port: 443
+  server: 103.9.77.6
+  skip-cert-verify: true
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: xx|9814|puddincat07@Telegram
-  password: qwerREWQ@@
-  port: 49032
-  server: p227.panda004.net
+  name: ma|716c|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 188.214.157.5
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: tr|2958|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.123.101.241
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: xx|d344|puddincat07@Telegram
+  name: xx|4a3a|puddincat07@Telegram
   password: dbEcUJ
   port: 24603
-  server: jp04.ktp.wtf
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: at|4f6b|puddincat07@Telegram
-  password: ug4Fu79SEREdFGlt2sUyT4
-  port: 2927
-  server: 95.164.9.144
+  server: tw14.ktp.wtf
   type: ss
   udp: true
