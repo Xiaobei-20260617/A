@@ -14,6 +14,21 @@ proxies:
   udp-relay-mode: native
   uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
 - client-fingerprint: chrome
+  name: us|b3d2|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.7.70
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
   name: us|4896|puddincat07@Telegram
   network: ws
   password: humanity
@@ -28,14 +43,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/41.0.2272.76 Safari/537.36
     path: /assignment
-- name: nl|7363|puddincat07@Telegram
-  password: gf1:gfhysteria2024
-  port: 443
-  server: 5.129.235.85
-  skip-cert-verify: true
-  sni: www.linux.com
-  type: hysteria2
-  udp: true
 - client-fingerprint: chrome
   name: us|9165|puddincat07@Telegram
   network: ws
@@ -51,27 +58,13 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/49.0.2623.112 Safari/537.36
     path: /assignment
-- client-fingerprint: chrome
-  name: us|b3d2|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.7.70
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
-    path: /assignment
-- cipher: aes-256-cfb
-  name: us|c200|puddincat07@Telegram
-  password: amazonskr05
+- name: nl|7363|puddincat07@Telegram
+  password: gf1:gfhysteria2024
   port: 443
-  server: 18.219.164.184
-  type: ss
+  server: 5.129.235.85
+  skip-cert-verify: true
+  sni: www.linux.com
+  type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: xx|3f45|puddincat07@Telegram
@@ -84,6 +77,13 @@ proxies:
   password: amazonskr05
   port: 443
   server: 51.102.205.132
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: us|c200|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 18.219.164.184
   type: ss
   udp: true
 - name: xx|ef9a|puddincat07@Telegram
@@ -113,10 +113,16 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-128-gcm
-  name: us|675b|puddincat07@Telegram
+  name: us|72d8|puddincat07@Telegram
   password: shadowsocks
   port: 443
-  server: 156.146.38.169
+  server: 173.244.56.6
+  type: ss
+- cipher: rc4-md5
+  name: gb|1af8|puddincat07@Telegram
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.37
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: de|55a3|puddincat07@Telegram
@@ -124,27 +130,15 @@ proxies:
   port: 8388
   server: 209.46.102.22
   type: ss
-- client-fingerprint: chrome
-  name: ie|690b|puddincat07@Telegram
-  network: tcp
-  password: UO36402987
+- cipher: aes-128-gcm
+  name: us|eba3|puddincat07@Telegram
+  password: shadowsocks
   port: 443
-  server: 34.251.228.118
-  skip-cert-verify: false
-  sni: definite-ladybird.rooster465.autos
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: cn|abb9|puddincat07@Telegram
-  password: ad2114ca-1c75-4607-ad14-1a1824a6dde9
-  port: 10182
-  server: 36.139.183.164
-  tfo: false
+  server: 156.146.38.167
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: kz|f99a|puddincat07@Telegram
-  password: DLW8QqdfAvfUHSeucMIF4E
-  port: 2636
-  server: 45.8.98.163
+- cipher: chacha20-ietf
+  name: hk|de92|puddincat07@Telegram
+  password: asd123456
+  port: 8388
+  server: 103.149.182.79
   type: ss
