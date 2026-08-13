@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-13T12:07:22Z",
+  "timestamp": "2026-08-13T13:55:08Z",
   "sources": {
     "fproxies": {
-      "status": "failed",
-      "nodes": 0,
-      "size_kb": 0,
+      "status": "ok",
+      "nodes": 200,
+      "size_kb": 280.8,
       "error": ""
     },
     "datiya": {
@@ -33,8 +33,8 @@
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 1266,
-      "size_kb": 407.1,
+      "nodes": 1335,
+      "size_kb": 415.6,
       "error": ""
     },
     "v2rayfree": {
@@ -87,20 +87,20 @@
     },
     "automerge": {
       "status": "ok",
-      "nodes": 239,
-      "size_kb": 453.4,
+      "nodes": 234,
+      "size_kb": 452.2,
       "error": ""
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 311,
-      "size_kb": 43.2,
+      "nodes": 307,
+      "size_kb": 42.3,
       "error": ""
     },
     "pawdroid": {
       "status": "ok",
       "nodes": 20,
-      "size_kb": 5.8,
+      "size_kb": 6.4,
       "error": ""
     },
     "barabama": {
@@ -166,7 +166,7 @@
   },
   "summary": {
     "total": 27,
-    "ok": 25,
-    "failed": 2
+    "ok": 26,
+    "failed": 1
   }
 }
