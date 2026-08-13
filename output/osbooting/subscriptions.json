@@ -520,5 +520,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260813NKTP.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260813FRVK.txt"
     }
+  },
+  {
+    "date": "0814",
+    "sort_key": "20260814",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260814YJBT.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260814QLGT.txt"
+    }
   }
 ]
