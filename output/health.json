@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-15T22:15:07Z",
+  "timestamp": "2026-08-15T22:45:40Z",
   "sources": {
     "fproxies": {
       "status": "ok",
@@ -15,8 +15,8 @@
     },
     "osbooting": {
       "status": "ok",
-      "nodes": 338,
-      "size_kb": 164.1,
+      "nodes": 211,
+      "size_kb": 95.5,
       "error": ""
     },
     "clashfree": {
@@ -28,13 +28,13 @@
     "bestclash": {
       "status": "ok",
       "nodes": 1,
-      "size_kb": 678.6,
+      "size_kb": 678.7,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 1357,
-      "size_kb": 589.5,
+      "nodes": 1210,
+      "size_kb": 588.6,
       "error": ""
     },
     "v2rayfree": {
