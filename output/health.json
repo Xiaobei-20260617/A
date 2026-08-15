@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-15T15:43:37Z",
+  "timestamp": "2026-08-15T16:17:31Z",
   "sources": {
     "fproxies": {
       "status": "failed",
@@ -58,7 +58,7 @@
     "ovmvo": {
       "status": "ok",
       "nodes": 0,
-      "size_kb": 84.3,
+      "size_kb": 85.2,
       "error": ""
     },
     "v2raynnodes_clash": {
@@ -100,7 +100,7 @@
     "pawdroid": {
       "status": "ok",
       "nodes": 10,
-      "size_kb": 2.8,
+      "size_kb": 2.9,
       "error": ""
     },
     "barabama": {
