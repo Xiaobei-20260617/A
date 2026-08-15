@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-15T12:26:40Z",
+  "timestamp": "2026-08-15T13:07:48Z",
   "sources": {
     "fproxies": {
       "status": "failed",
@@ -93,14 +93,14 @@
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 334,
-      "size_kb": 43.6,
+      "nodes": 302,
+      "size_kb": 39.7,
       "error": ""
     },
     "pawdroid": {
       "status": "ok",
       "nodes": 13,
-      "size_kb": 4.4,
+      "size_kb": 3.7,
       "error": ""
     },
     "barabama": {
