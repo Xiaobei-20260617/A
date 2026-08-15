@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-15T18:54:53Z",
+  "timestamp": "2026-08-15T19:17:50Z",
   "sources": {
     "fproxies": {
       "status": "failed",
@@ -99,8 +99,8 @@
     },
     "pawdroid": {
       "status": "ok",
-      "nodes": 10,
-      "size_kb": 3.4,
+      "nodes": 12,
+      "size_kb": 3.7,
       "error": ""
     },
     "barabama": {
