@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-15T05:49:34Z",
+  "timestamp": "2026-08-15T06:27:46Z",
   "sources": {
     "fproxies": {
       "status": "failed",
@@ -33,8 +33,8 @@
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 1271,
-      "size_kb": 449.6,
+      "nodes": 1132,
+      "size_kb": 615.8,
       "error": ""
     },
     "v2rayfree": {
@@ -100,7 +100,7 @@
     "pawdroid": {
       "status": "ok",
       "nodes": 13,
-      "size_kb": 3.6,
+      "size_kb": 4.0,
       "error": ""
     },
     "barabama": {
