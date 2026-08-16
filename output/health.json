@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-16T21:14:26Z",
+  "timestamp": "2026-08-16T21:42:45Z",
   "sources": {
     "fproxies": {
-      "status": "ok",
-      "nodes": 200,
-      "size_kb": 280.8,
+      "status": "failed",
+      "nodes": 0,
+      "size_kb": 0,
       "error": ""
     },
     "datiya": {
@@ -87,14 +87,14 @@
     },
     "automerge": {
       "status": "ok",
-      "nodes": 263,
-      "size_kb": 460.1,
+      "nodes": 262,
+      "size_kb": 459.5,
       "error": ""
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 332,
-      "size_kb": 48.2,
+      "nodes": 474,
+      "size_kb": 82.1,
       "error": ""
     },
     "pawdroid": {
@@ -166,7 +166,7 @@
   },
   "summary": {
     "total": 27,
-    "ok": 26,
-    "failed": 1
+    "ok": 25,
+    "failed": 2
   }
 }
