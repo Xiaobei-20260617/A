@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T03:26:48Z",
+  "timestamp": "2026-08-17T04:11:26Z",
   "sources": {
     "fproxies": {
       "status": "failed",
@@ -87,14 +87,14 @@
     },
     "automerge": {
       "status": "ok",
-      "nodes": 279,
-      "size_kb": 463.8,
+      "nodes": 280,
+      "size_kb": 464.0,
       "error": ""
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 377,
-      "size_kb": 53.3,
+      "nodes": 509,
+      "size_kb": 88.9,
       "error": ""
     },
     "pawdroid": {
