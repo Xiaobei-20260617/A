@@ -556,5 +556,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260817NFEC.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260817WMYE.txt"
     }
+  },
+  {
+    "date": "0818",
+    "sort_key": "20260818",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260818AUQG.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260818WULF.txt"
+    }
   }
 ]
