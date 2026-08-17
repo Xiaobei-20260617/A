@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T14:21:33Z",
+  "timestamp": "2026-08-17T14:55:11Z",
   "sources": {
     "fproxies": {
       "status": "ok",
@@ -33,8 +33,8 @@
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 1412,
-      "size_kb": 512.6,
+      "nodes": 1470,
+      "size_kb": 517.8,
       "error": ""
     },
     "v2rayfree": {
@@ -110,9 +110,9 @@
       "error": "无可用 URL"
     },
     "barabama_玉豆免费节点": {
-      "status": "ok",
-      "nodes": 166,
-      "size_kb": 68.8,
+      "status": "failed",
+      "nodes": 0,
+      "size_kb": 0,
       "error": ""
     },
     "barabama_Blues 免费节点": {
@@ -166,7 +166,7 @@
   },
   "summary": {
     "total": 27,
-    "ok": 26,
-    "failed": 1
+    "ok": 25,
+    "failed": 2
   }
 }
