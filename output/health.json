@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-17T20:19:37Z",
+  "timestamp": "2026-08-17T20:51:50Z",
   "sources": {
     "fproxies": {
-      "status": "ok",
-      "nodes": 200,
-      "size_kb": 280.8,
+      "status": "failed",
+      "nodes": 0,
+      "size_kb": 0,
       "error": ""
     },
     "datiya": {
@@ -19,28 +19,16 @@
       "size_kb": 196.2,
       "error": ""
     },
-    "clashfree": {
-      "status": "ok",
-      "nodes": 0,
-      "size_kb": 0.0,
-      "error": ""
-    },
     "bestclash": {
       "status": "ok",
-      "nodes": 1,
-      "size_kb": 678.6,
+      "nodes": 2,
+      "size_kb": 678.4,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
       "nodes": 1168,
       "size_kb": 650.0,
-      "error": ""
-    },
-    "v2rayfree": {
-      "status": "ok",
-      "nodes": 0,
-      "size_kb": 0.0,
       "error": ""
     },
     "ruk1ng": {
@@ -88,7 +76,7 @@
     "automerge": {
       "status": "ok",
       "nodes": 286,
-      "size_kb": 467.6,
+      "size_kb": 467.5,
       "error": ""
     },
     "nomorewalls": {
@@ -165,8 +153,8 @@
     }
   },
   "summary": {
-    "total": 27,
-    "ok": 26,
-    "failed": 1
+    "total": 25,
+    "ok": 23,
+    "failed": 2
   }
 }
