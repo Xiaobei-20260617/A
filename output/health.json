@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T14:55:11Z",
+  "timestamp": "2026-08-17T15:51:15Z",
   "sources": {
     "fproxies": {
       "status": "ok",
@@ -33,26 +33,26 @@
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 1470,
-      "size_kb": 517.8,
+      "nodes": 1380,
+      "size_kb": 530.9,
       "error": ""
     },
     "v2rayfree": {
-      "status": "ok",
+      "status": "failed",
       "nodes": 0,
-      "size_kb": 0.0,
+      "size_kb": 0,
       "error": ""
     },
     "ruk1ng": {
       "status": "ok",
-      "nodes": 289,
-      "size_kb": 281.8,
+      "nodes": 0,
+      "size_kb": 0.2,
       "error": ""
     },
     "ruk1ng_v2ray": {
       "status": "ok",
-      "nodes": 424,
-      "size_kb": 113.3,
+      "nodes": 1,
+      "size_kb": 0.2,
       "error": ""
     },
     "ovmvo": {
@@ -87,20 +87,20 @@
     },
     "automerge": {
       "status": "ok",
-      "nodes": 283,
-      "size_kb": 467.9,
+      "nodes": 63,
+      "size_kb": 414.2,
       "error": ""
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 389,
-      "size_kb": 59.9,
+      "nodes": 368,
+      "size_kb": 54.9,
       "error": ""
     },
     "pawdroid": {
       "status": "ok",
-      "nodes": 12,
-      "size_kb": 3.9,
+      "nodes": 11,
+      "size_kb": 3.0,
       "error": ""
     },
     "barabama": {
@@ -110,9 +110,9 @@
       "error": "无可用 URL"
     },
     "barabama_玉豆免费节点": {
-      "status": "failed",
-      "nodes": 0,
-      "size_kb": 0,
+      "status": "ok",
+      "nodes": 166,
+      "size_kb": 68.8,
       "error": ""
     },
     "barabama_Blues 免费节点": {
@@ -159,8 +159,8 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 12,
-      "size_kb": 13.1,
+      "nodes": 0,
+      "size_kb": 0.4,
       "error": ""
     }
   },
