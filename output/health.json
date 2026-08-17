@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T15:51:15Z",
+  "timestamp": "2026-08-17T16:20:57Z",
   "sources": {
     "fproxies": {
       "status": "ok",
@@ -27,38 +27,38 @@
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 1,
-      "size_kb": 678.9,
+      "nodes": 0,
+      "size_kb": 679.0,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 1380,
-      "size_kb": 530.9,
+      "nodes": 1178,
+      "size_kb": 648.1,
       "error": ""
     },
     "v2rayfree": {
-      "status": "failed",
+      "status": "ok",
       "nodes": 0,
-      "size_kb": 0,
+      "size_kb": 0.0,
       "error": ""
     },
     "ruk1ng": {
       "status": "ok",
-      "nodes": 0,
-      "size_kb": 0.2,
+      "nodes": 289,
+      "size_kb": 281.8,
       "error": ""
     },
     "ruk1ng_v2ray": {
       "status": "ok",
-      "nodes": 1,
-      "size_kb": 0.2,
+      "nodes": 424,
+      "size_kb": 113.3,
       "error": ""
     },
     "ovmvo": {
       "status": "ok",
       "nodes": 0,
-      "size_kb": 88.7,
+      "size_kb": 91.3,
       "error": ""
     },
     "v2raynnodes_clash": {
@@ -100,7 +100,7 @@
     "pawdroid": {
       "status": "ok",
       "nodes": 11,
-      "size_kb": 3.0,
+      "size_kb": 3.2,
       "error": ""
     },
     "barabama": {
@@ -166,7 +166,7 @@
   },
   "summary": {
     "total": 27,
-    "ok": 25,
-    "failed": 2
+    "ok": 26,
+    "failed": 1
   }
 }
