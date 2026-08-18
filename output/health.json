@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-18T16:26:15Z",
+  "timestamp": "2026-08-18T16:57:31Z",
   "sources": {
     "fproxies": {
       "status": "ok",
@@ -76,7 +76,7 @@
     "ts_sf_fly": {
       "status": "ok",
       "nodes": 0,
-      "size_kb": 246.9,
+      "size_kb": 247.2,
       "error": ""
     },
     "free18": {
@@ -88,7 +88,7 @@
     "automerge": {
       "status": "ok",
       "nodes": 265,
-      "size_kb": 462.4,
+      "size_kb": 462.7,
       "error": ""
     },
     "nomorewalls": {
