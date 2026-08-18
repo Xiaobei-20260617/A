@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-18T16:57:31Z",
+  "timestamp": "2026-08-18T17:27:36Z",
   "sources": {
     "fproxies": {
       "status": "ok",
@@ -21,8 +21,8 @@
     },
     "clashfree": {
       "status": "ok",
-      "nodes": 1554,
-      "size_kb": 1337.7,
+      "nodes": 1558,
+      "size_kb": 1341.1,
       "error": ""
     },
     "bestclash": {
@@ -100,7 +100,7 @@
     "pawdroid": {
       "status": "ok",
       "nodes": 20,
-      "size_kb": 5.1,
+      "size_kb": 4.7,
       "error": ""
     },
     "barabama": {
