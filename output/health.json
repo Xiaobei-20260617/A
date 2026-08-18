@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-18T09:57:32Z",
+  "timestamp": "2026-08-18T10:28:41Z",
   "sources": {
     "fproxies": {
       "status": "failed",
@@ -33,8 +33,8 @@
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 1125,
-      "size_kb": 454.2,
+      "nodes": 1306,
+      "size_kb": 561.6,
       "error": ""
     },
     "v2rayfree": {
