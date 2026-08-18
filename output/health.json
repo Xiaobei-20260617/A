@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-18T22:16:57Z",
+  "timestamp": "2026-08-18T22:48:59Z",
   "sources": {
     "fproxies": {
-      "status": "failed",
-      "nodes": 0,
-      "size_kb": 0,
+      "status": "ok",
+      "nodes": 200,
+      "size_kb": 280.8,
       "error": ""
     },
     "datiya": {
@@ -28,7 +28,7 @@
     "bestclash": {
       "status": "ok",
       "nodes": 2,
-      "size_kb": 677.4,
+      "size_kb": 677.6,
       "error": ""
     },
     "au1rxx": {
@@ -159,14 +159,14 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 65,
-      "size_kb": 25.4,
+      "nodes": 46,
+      "size_kb": 29.5,
       "error": ""
     }
   },
   "summary": {
     "total": 27,
-    "ok": 25,
-    "failed": 2
+    "ok": 26,
+    "failed": 1
   }
 }
