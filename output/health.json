@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-19T20:20:32Z",
+  "timestamp": "2026-08-19T20:52:41Z",
   "sources": {
     "fproxies": {
       "status": "ok",
@@ -28,7 +28,7 @@
     "bestclash": {
       "status": "ok",
       "nodes": 1,
-      "size_kb": 676.7,
+      "size_kb": 677.3,
       "error": ""
     },
     "au1rxx": {
