@@ -583,5 +583,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260820GBIS.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260820AVGH.txt"
     }
+  },
+  {
+    "date": "0821",
+    "sort_key": "20260821",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260821NYLB.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260821CSON.txt"
+    }
   }
 ]
