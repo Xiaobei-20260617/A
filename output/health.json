@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-21T21:18:24Z",
+  "timestamp": "2026-08-21T21:47:17Z",
   "sources": {
     "fproxies": {
-      "status": "failed",
-      "nodes": 0,
-      "size_kb": 0,
+      "status": "ok",
+      "nodes": 200,
+      "size_kb": 280.8,
       "error": ""
     },
     "datiya": {
@@ -93,8 +93,8 @@
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 259,
-      "size_kb": 32.7,
+      "nodes": 299,
+      "size_kb": 35.2,
       "error": ""
     },
     "pawdroid": {
@@ -159,14 +159,14 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 85,
-      "size_kb": 22.2,
+      "nodes": 84,
+      "size_kb": 21.8,
       "error": ""
     }
   },
   "summary": {
     "total": 27,
-    "ok": 25,
-    "failed": 2
+    "ok": 26,
+    "failed": 1
   }
 }
