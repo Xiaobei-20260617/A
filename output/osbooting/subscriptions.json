@@ -592,5 +592,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260821NYLB.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260821CSON.txt"
     }
+  },
+  {
+    "date": "0822",
+    "sort_key": "20260822",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260822YWLB.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260822KFEZ.txt"
+    }
   }
 ]
