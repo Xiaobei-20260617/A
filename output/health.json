@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-21T11:51:07Z",
+  "timestamp": "2026-08-21T12:36:16Z",
   "sources": {
     "fproxies": {
       "status": "ok",
@@ -28,13 +28,13 @@
     "bestclash": {
       "status": "ok",
       "nodes": 1,
-      "size_kb": 678.5,
+      "size_kb": 678.3,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 1247,
-      "size_kb": 579.8,
+      "nodes": 1348,
+      "size_kb": 566.0,
       "error": ""
     },
     "v2rayfree": {
@@ -100,7 +100,7 @@
     "pawdroid": {
       "status": "ok",
       "nodes": 16,
-      "size_kb": 5.0,
+      "size_kb": 5.2,
       "error": ""
     },
     "barabama": {
