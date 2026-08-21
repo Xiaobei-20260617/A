@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-21T23:17:58Z",
+  "timestamp": "2026-08-21T23:46:54Z",
   "sources": {
     "fproxies": {
       "status": "failed",
@@ -28,7 +28,7 @@
     "bestclash": {
       "status": "ok",
       "nodes": 1,
-      "size_kb": 678.3,
+      "size_kb": 678.4,
       "error": ""
     },
     "au1rxx": {
@@ -159,8 +159,8 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 84,
-      "size_kb": 21.8,
+      "nodes": 88,
+      "size_kb": 19.6,
       "error": ""
     }
   },
