@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-22T04:04:06Z",
+  "timestamp": "2026-08-22T04:58:39Z",
   "sources": {
     "fproxies": {
       "status": "ok",
@@ -33,8 +33,8 @@
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 1348,
-      "size_kb": 582.2,
+      "nodes": 1109,
+      "size_kb": 540.4,
       "error": ""
     },
     "v2rayfree": {
@@ -81,8 +81,8 @@
     },
     "free18": {
       "status": "ok",
-      "nodes": 723,
-      "size_kb": 346.1,
+      "nodes": 446,
+      "size_kb": 218.7,
       "error": ""
     },
     "automerge": {
