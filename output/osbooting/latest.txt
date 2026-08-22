@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (0822)
-https://freenode.osbooting.com/nodefiles/20260822YWLB.yaml
-https://freenode.osbooting.com/nodefiles/20260822KFEZ.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (0823)
+https://freenode.osbooting.com/nodefiles/20260823WBRI.yaml
+https://freenode.osbooting.com/nodefiles/20260823IHOV.txt

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-22T21:44:36Z",
+  "timestamp": "2026-08-22T22:16:13Z",
   "sources": {
     "fproxies": {
       "status": "ok",
@@ -15,8 +15,8 @@
     },
     "osbooting": {
       "status": "ok",
-      "nodes": 723,
-      "size_kb": 346.1,
+      "nodes": 446,
+      "size_kb": 218.7,
       "error": ""
     },
     "clashfree": {
@@ -100,7 +100,7 @@
     "pawdroid": {
       "status": "ok",
       "nodes": 20,
-      "size_kb": 5.0,
+      "size_kb": 4.8,
       "error": ""
     },
     "barabama": {
