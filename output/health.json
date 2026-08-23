@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-23T15:16:39Z",
+  "timestamp": "2026-08-23T15:45:33Z",
   "sources": {
     "fproxies": {
-      "status": "ok",
-      "nodes": 200,
-      "size_kb": 279.7,
+      "status": "failed",
+      "nodes": 0,
+      "size_kb": 0,
       "error": ""
     },
     "datiya": {
@@ -27,8 +27,8 @@
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 2,
-      "size_kb": 677.4,
+      "nodes": 1,
+      "size_kb": 678.1,
       "error": ""
     },
     "au1rxx": {
@@ -93,8 +93,8 @@
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 332,
-      "size_kb": 49.5,
+      "nodes": 315,
+      "size_kb": 48.6,
       "error": ""
     },
     "pawdroid": {
@@ -166,7 +166,7 @@
   },
   "summary": {
     "total": 27,
-    "ok": 26,
-    "failed": 1
+    "ok": 25,
+    "failed": 2
   }
 }
