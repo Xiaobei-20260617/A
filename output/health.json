@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-23T04:09:56Z",
+  "timestamp": "2026-08-23T05:00:34Z",
   "sources": {
     "fproxies": {
       "status": "ok",
@@ -33,8 +33,8 @@
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 621,
-      "size_kb": 574.0,
+      "nodes": 703,
+      "size_kb": 563.8,
       "error": ""
     },
     "v2rayfree": {
@@ -81,13 +81,13 @@
     },
     "free18": {
       "status": "ok",
-      "nodes": 446,
-      "size_kb": 218.7,
+      "nodes": 380,
+      "size_kb": 193.0,
       "error": ""
     },
     "automerge": {
       "status": "ok",
-      "nodes": 242,
+      "nodes": 241,
       "size_kb": 444.2,
       "error": ""
     },
@@ -159,8 +159,8 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 74,
-      "size_kb": 24.1,
+      "nodes": 31,
+      "size_kb": 30.2,
       "error": ""
     }
   },
