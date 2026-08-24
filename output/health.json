@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-24T21:28:44Z",
+  "timestamp": "2026-08-24T21:54:46Z",
   "sources": {
     "fproxies": {
-      "status": "failed",
-      "nodes": 0,
-      "size_kb": 0,
+      "status": "ok",
+      "nodes": 200,
+      "size_kb": 279.7,
       "error": ""
     },
     "datiya": {
@@ -28,7 +28,7 @@
     "bestclash": {
       "status": "ok",
       "nodes": 1,
-      "size_kb": 677.8,
+      "size_kb": 678.1,
       "error": ""
     },
     "au1rxx": {
@@ -166,7 +166,7 @@
   },
   "summary": {
     "total": 27,
-    "ok": 25,
-    "failed": 2
+    "ok": 26,
+    "failed": 1
   }
 }
