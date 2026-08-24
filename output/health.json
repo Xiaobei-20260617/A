@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-24T20:23:12Z",
+  "timestamp": "2026-08-24T20:57:24Z",
   "sources": {
     "fproxies": {
       "status": "ok",
@@ -10,7 +10,7 @@
     "datiya": {
       "status": "ok",
       "nodes": 14,
-      "size_kb": 183.1,
+      "size_kb": 182.7,
       "error": ""
     },
     "osbooting": {
@@ -28,7 +28,7 @@
     "bestclash": {
       "status": "ok",
       "nodes": 1,
-      "size_kb": 677.8,
+      "size_kb": 677.9,
       "error": ""
     },
     "au1rxx": {
@@ -87,8 +87,8 @@
     },
     "automerge": {
       "status": "ok",
-      "nodes": 229,
-      "size_kb": 440.8,
+      "nodes": 224,
+      "size_kb": 439.8,
       "error": ""
     },
     "nomorewalls": {
