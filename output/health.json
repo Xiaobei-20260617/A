@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-24T19:24:27Z",
+  "timestamp": "2026-08-24T19:53:13Z",
   "sources": {
     "fproxies": {
       "status": "ok",
@@ -28,7 +28,7 @@
     "bestclash": {
       "status": "ok",
       "nodes": 1,
-      "size_kb": 678.7,
+      "size_kb": 678.1,
       "error": ""
     },
     "au1rxx": {
@@ -88,7 +88,7 @@
     "automerge": {
       "status": "ok",
       "nodes": 229,
-      "size_kb": 440.7,
+      "size_kb": 440.8,
       "error": ""
     },
     "nomorewalls": {
