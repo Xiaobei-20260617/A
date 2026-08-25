@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-25T17:07:22Z",
+  "timestamp": "2026-08-25T17:54:25Z",
   "sources": {
     "fproxies": {
       "status": "failed",
@@ -21,14 +21,14 @@
     },
     "clashfree": {
       "status": "ok",
-      "nodes": 1686,
-      "size_kb": 1415.5,
+      "nodes": 1681,
+      "size_kb": 1415.0,
       "error": ""
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 1,
-      "size_kb": 678.5,
+      "nodes": 2,
+      "size_kb": 678.6,
       "error": ""
     },
     "au1rxx": {
@@ -159,8 +159,8 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 4,
-      "size_kb": 3.5,
+      "nodes": 8,
+      "size_kb": 13.5,
       "error": ""
     }
   },
