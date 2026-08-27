@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (0826)
-https://freenode.osbooting.com/nodefiles/20260826XPZU.yaml
-https://freenode.osbooting.com/nodefiles/20260826XEKJ.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (0827)
+https://freenode.osbooting.com/nodefiles/20260827NTES.yaml
+https://freenode.osbooting.com/nodefiles/20260827GDTK.txt

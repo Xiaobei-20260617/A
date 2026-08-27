@@ -637,5 +637,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260826XPZU.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260826XEKJ.txt"
     }
+  },
+  {
+    "date": "0827",
+    "sort_key": "20260827",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260827NTES.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260827GDTK.txt"
+    }
   }
 ]
