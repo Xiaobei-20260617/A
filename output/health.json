@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-27T08:36:28Z",
+  "timestamp": "2026-08-27T19:23:08Z",
   "sources": {
     "fproxies": {
-      "status": "failed",
-      "nodes": 0,
-      "size_kb": 0,
+      "status": "ok",
+      "nodes": 200,
+      "size_kb": 279.7,
       "error": ""
     },
     "datiya": {
@@ -21,20 +21,20 @@
     },
     "clashfree": {
       "status": "ok",
-      "nodes": 1725,
-      "size_kb": 1438.4,
+      "nodes": 1736,
+      "size_kb": 1442.0,
       "error": ""
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 1,
-      "size_kb": 678.4,
+      "nodes": 2,
+      "size_kb": 678.5,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 789,
-      "size_kb": 570.0,
+      "nodes": 608,
+      "size_kb": 565.2,
       "error": ""
     },
     "v2rayfree": {
@@ -45,14 +45,14 @@
     },
     "ruk1ng": {
       "status": "ok",
-      "nodes": 361,
-      "size_kb": 255.2,
+      "nodes": 343,
+      "size_kb": 228.3,
       "error": ""
     },
     "ruk1ng_v2ray": {
       "status": "ok",
-      "nodes": 433,
-      "size_kb": 109.3,
+      "nodes": 406,
+      "size_kb": 95.0,
       "error": ""
     },
     "ovmvo": {
@@ -76,7 +76,7 @@
     "ts_sf_fly": {
       "status": "ok",
       "nodes": 0,
-      "size_kb": 245.4,
+      "size_kb": 245.3,
       "error": ""
     },
     "free18": {
@@ -93,14 +93,14 @@
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 294,
-      "size_kb": 39.6,
+      "nodes": 277,
+      "size_kb": 36.2,
       "error": ""
     },
     "pawdroid": {
       "status": "ok",
-      "nodes": 15,
-      "size_kb": 4.6,
+      "nodes": 11,
+      "size_kb": 3.3,
       "error": ""
     },
     "barabama": {
@@ -159,14 +159,14 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 18,
-      "size_kb": 14.4,
+      "nodes": 79,
+      "size_kb": 22.7,
       "error": ""
     }
   },
   "summary": {
     "total": 27,
-    "ok": 25,
-    "failed": 2
+    "ok": 26,
+    "failed": 1
   }
 }
