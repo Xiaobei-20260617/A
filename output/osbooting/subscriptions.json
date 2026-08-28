@@ -646,5 +646,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260827NTES.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260827GDTK.txt"
     }
+  },
+  {
+    "date": "0828",
+    "sort_key": "20260828",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260828FPTG.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260828JOGA.txt"
+    }
   }
 ]
