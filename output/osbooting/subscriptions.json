@@ -655,5 +655,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260828FPTG.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260828JOGA.txt"
     }
+  },
+  {
+    "date": "0829",
+    "sort_key": "20260829",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260829OUPH.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260829KEPC.txt"
+    }
   }
 ]
