@@ -664,5 +664,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260829OUPH.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260829KEPC.txt"
     }
+  },
+  {
+    "date": "0830",
+    "sort_key": "20260830",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260830QMUC.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260830UTDN.txt"
+    }
   }
 ]
