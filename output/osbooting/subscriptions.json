@@ -682,5 +682,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260831PJMY.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260831BOTZ.txt"
     }
+  },
+  {
+    "date": "0901",
+    "sort_key": "20260901",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260901INCB.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260901FNRY.txt"
+    }
   }
 ]
