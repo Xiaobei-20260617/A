@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (0901)
-https://freenode.osbooting.com/nodefiles/20260901INCB.yaml
-https://freenode.osbooting.com/nodefiles/20260901FNRY.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (0902)
+https://freenode.osbooting.com/nodefiles/20260902MCIV.yaml
+https://freenode.osbooting.com/nodefiles/20260902JHTX.txt
