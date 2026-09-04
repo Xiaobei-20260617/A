@@ -709,5 +709,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260903PRTN.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260903AULC.txt"
     }
+  },
+  {
+    "date": "0904",
+    "sort_key": "20260904",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260904AIFQ.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260904MJCZ.txt"
+    }
   }
 ]
