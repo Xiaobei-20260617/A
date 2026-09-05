@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (0904)
-https://freenode.osbooting.com/nodefiles/20260904AIFQ.yaml
-https://freenode.osbooting.com/nodefiles/20260904MJCZ.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (0905)
+https://freenode.osbooting.com/nodefiles/20260905PKDQ.yaml
+https://freenode.osbooting.com/nodefiles/20260905HOYI.txt
