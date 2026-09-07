@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (0906)
-https://freenode.osbooting.com/nodefiles/20260906PODZ.yaml
-https://freenode.osbooting.com/nodefiles/20260906DCMS.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (0907)
+https://freenode.osbooting.com/nodefiles/20260907HKSV.yaml
+https://freenode.osbooting.com/nodefiles/20260907GZIN.txt

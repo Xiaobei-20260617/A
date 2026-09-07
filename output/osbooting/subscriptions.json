@@ -736,5 +736,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260906PODZ.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260906DCMS.txt"
     }
+  },
+  {
+    "date": "0907",
+    "sort_key": "20260907",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260907HKSV.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260907GZIN.txt"
+    }
   }
 ]
