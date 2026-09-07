@@ -745,5 +745,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260907HKSV.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260907GZIN.txt"
     }
+  },
+  {
+    "date": "0908",
+    "sort_key": "20260908",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260908ZIWV.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260908SOCM.txt"
+    }
   }
 ]
