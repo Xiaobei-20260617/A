@@ -772,5 +772,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260910EINU.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260910LNRF.txt"
     }
+  },
+  {
+    "date": "0911",
+    "sort_key": "20260911",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260911TFYN.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260911BLRU.txt"
+    }
   }
 ]
