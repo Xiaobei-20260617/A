@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-14T05:40:24Z",
+  "timestamp": "2026-09-14T11:32:32Z",
   "sources": {
     "fproxies": {
       "status": "failed",
@@ -27,14 +27,14 @@
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 11,
-      "size_kb": 676.1,
+      "nodes": 12,
+      "size_kb": 676.0,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 385,
-      "size_kb": 589.0,
+      "nodes": 345,
+      "size_kb": 566.7,
       "error": ""
     },
     "v2rayfree": {
@@ -58,7 +58,7 @@
     "ovmvo": {
       "status": "ok",
       "nodes": 0,
-      "size_kb": 52.5,
+      "size_kb": 54.1,
       "error": ""
     },
     "v2raynnodes_clash": {
@@ -99,8 +99,8 @@
     },
     "pawdroid": {
       "status": "ok",
-      "nodes": 18,
-      "size_kb": 5.8,
+      "nodes": 15,
+      "size_kb": 4.1,
       "error": ""
     },
     "barabama": {
@@ -159,8 +159,8 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 61,
-      "size_kb": 26.7,
+      "nodes": 42,
+      "size_kb": 19.5,
       "error": ""
     }
   },
