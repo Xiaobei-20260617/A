@@ -799,5 +799,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260913NRJX.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260913CWNJ.txt"
     }
+  },
+  {
+    "date": "0914",
+    "sort_key": "20260914",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260914KWMJ.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260914BGCP.txt"
+    }
   }
 ]
