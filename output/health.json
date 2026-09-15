@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-09-15T08:51:00Z",
+  "timestamp": "2026-09-15T14:06:03Z",
   "sources": {
     "fproxies": {
-      "status": "failed",
-      "nodes": 0,
-      "size_kb": 0,
+      "status": "ok",
+      "nodes": 160,
+      "size_kb": 261.8,
       "error": ""
     },
     "datiya": {
@@ -21,20 +21,20 @@
     },
     "clashfree": {
       "status": "ok",
-      "nodes": 1640,
-      "size_kb": 1409.9,
+      "nodes": 1642,
+      "size_kb": 1409.7,
       "error": ""
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 15,
-      "size_kb": 676.0,
+      "nodes": 13,
+      "size_kb": 676.1,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 437,
-      "size_kb": 538.8,
+      "nodes": 491,
+      "size_kb": 517.4,
       "error": ""
     },
     "v2rayfree": {
@@ -45,14 +45,14 @@
     },
     "ruk1ng": {
       "status": "ok",
-      "nodes": 338,
-      "size_kb": 185.9,
+      "nodes": 327,
+      "size_kb": 200.3,
       "error": ""
     },
     "ruk1ng_v2ray": {
       "status": "ok",
-      "nodes": 375,
-      "size_kb": 77.5,
+      "nodes": 386,
+      "size_kb": 82.7,
       "error": ""
     },
     "ovmvo": {
@@ -76,7 +76,7 @@
     "ts_sf_fly": {
       "status": "ok",
       "nodes": 0,
-      "size_kb": 245.4,
+      "size_kb": 245.5,
       "error": ""
     },
     "free18": {
@@ -87,20 +87,20 @@
     },
     "automerge": {
       "status": "ok",
-      "nodes": 276,
-      "size_kb": 484.4,
+      "nodes": 252,
+      "size_kb": 479.2,
       "error": ""
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 344,
-      "size_kb": 46.7,
+      "nodes": 320,
+      "size_kb": 45.6,
       "error": ""
     },
     "pawdroid": {
       "status": "ok",
-      "nodes": 16,
-      "size_kb": 4.5,
+      "nodes": 12,
+      "size_kb": 3.0,
       "error": ""
     },
     "barabama": {
@@ -159,14 +159,14 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 27,
-      "size_kb": 13.6,
+      "nodes": 8,
+      "size_kb": 2.5,
       "error": ""
     }
   },
   "summary": {
     "total": 27,
-    "ok": 25,
-    "failed": 2
+    "ok": 26,
+    "failed": 1
   }
 }
