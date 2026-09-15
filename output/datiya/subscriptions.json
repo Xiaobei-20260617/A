@@ -925,5 +925,23 @@
       "clash": "https://free.datiya.com/uploads/20260914-clash.yaml",
       "v2ray": "https://free.datiya.com/uploads/20260914-v2ray.txt"
     }
+  },
+  {
+    "date": "0915",
+    "sort_key": "20260915",
+    "extra": "",
+    "urls": {
+      "clash": "https://free.datiya.com/uploads/20260915-clash.yaml",
+      "v2ray": "https://free.datiya.com/uploads/20260915-v2ray.txt"
+    }
+  },
+  {
+    "date": "0916",
+    "sort_key": "20260916",
+    "extra": "",
+    "urls": {
+      "clash": "https://free.datiya.com/uploads/20260916-clash.yaml",
+      "v2ray": "https://free.datiya.com/uploads/20260916-v2ray.txt"
+    }
   }
 ]
