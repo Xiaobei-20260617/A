@@ -817,5 +817,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260915MXKC.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260915DLPS.txt"
     }
+  },
+  {
+    "date": "0916",
+    "sort_key": "20260916",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260916QHFO.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260916ZWEU.txt"
+    }
   }
 ]
