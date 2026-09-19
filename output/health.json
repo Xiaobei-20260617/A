@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-09-19T01:23:29Z",
+  "timestamp": "2026-09-19T06:13:06Z",
   "sources": {
     "fproxies": {
-      "status": "ok",
-      "nodes": 160,
-      "size_kb": 261.8,
+      "status": "failed",
+      "nodes": 0,
+      "size_kb": 0,
       "error": ""
     },
     "datiya": {
@@ -21,20 +21,20 @@
     },
     "clashfree": {
       "status": "ok",
-      "nodes": 1608,
-      "size_kb": 1374.8,
+      "nodes": 1612,
+      "size_kb": 1379.0,
       "error": ""
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 12,
+      "nodes": 13,
       "size_kb": 676.1,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 599,
-      "size_kb": 583.9,
+      "nodes": 553,
+      "size_kb": 545.9,
       "error": ""
     },
     "v2rayfree": {
@@ -45,14 +45,14 @@
     },
     "ruk1ng": {
       "status": "ok",
-      "nodes": 350,
-      "size_kb": 243.4,
+      "nodes": 333,
+      "size_kb": 240.0,
       "error": ""
     },
     "ruk1ng_v2ray": {
       "status": "ok",
-      "nodes": 476,
-      "size_kb": 111.1,
+      "nodes": 468,
+      "size_kb": 113.5,
       "error": ""
     },
     "ovmvo": {
@@ -76,31 +76,31 @@
     "ts_sf_fly": {
       "status": "ok",
       "nodes": 0,
-      "size_kb": 246.4,
+      "size_kb": 245.5,
       "error": ""
     },
     "free18": {
       "status": "ok",
-      "nodes": 342,
-      "size_kb": 152.0,
+      "nodes": 569,
+      "size_kb": 270.7,
       "error": ""
     },
     "automerge": {
       "status": "ok",
-      "nodes": 243,
-      "size_kb": 452.3,
+      "nodes": 218,
+      "size_kb": 451.9,
       "error": ""
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 276,
-      "size_kb": 32.2,
+      "nodes": 283,
+      "size_kb": 33.3,
       "error": ""
     },
     "pawdroid": {
       "status": "ok",
-      "nodes": 20,
-      "size_kb": 4.6,
+      "nodes": 15,
+      "size_kb": 4.3,
       "error": ""
     },
     "barabama": {
@@ -159,14 +159,14 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 70,
-      "size_kb": 25.8,
+      "nodes": 38,
+      "size_kb": 26.1,
       "error": ""
     }
   },
   "summary": {
     "total": 27,
-    "ok": 26,
-    "failed": 1
+    "ok": 25,
+    "failed": 2
   }
 }
