@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (0918)
-https://freenode.osbooting.com/nodefiles/20260918MAXS.yaml
-https://freenode.osbooting.com/nodefiles/20260918SMKP.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (0919)
+https://freenode.osbooting.com/nodefiles/20260919HSGR.yaml
+https://freenode.osbooting.com/nodefiles/20260919POCA.txt

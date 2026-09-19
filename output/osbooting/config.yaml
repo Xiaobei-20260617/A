@@ -56,7 +56,7 @@ dns:
 proxy-providers:
   provider:
     type: http
-    url: "https://freenode.osbooting.com/nodefiles/20260918MAXS.yaml"
+    url: "https://freenode.osbooting.com/nodefiles/20260919HSGR.yaml"
     interval: 3600
     path: ./proxy_providers/osbooting.yaml
     health-check:
