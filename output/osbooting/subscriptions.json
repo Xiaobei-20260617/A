@@ -853,5 +853,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260919HSGR.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260919POCA.txt"
     }
+  },
+  {
+    "date": "0920",
+    "sort_key": "20260920",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260920OHEC.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260920KDJX.txt"
+    }
   }
 ]
