@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (0920)
-https://freenode.osbooting.com/nodefiles/20260920OHEC.yaml
-https://freenode.osbooting.com/nodefiles/20260920KDJX.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (0921)
+https://freenode.osbooting.com/nodefiles/20260921ZTPB.yaml
+https://freenode.osbooting.com/nodefiles/20260921BXWD.txt
