@@ -871,5 +871,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260921ZTPB.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260921BXWD.txt"
     }
+  },
+  {
+    "date": "0922",
+    "sort_key": "20260922",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260922FJQS.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260922UCZH.txt"
+    }
   }
 ]
