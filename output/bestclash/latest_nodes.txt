@@ -1,24 +1,17 @@
 proxies:
-- name: xx|8727|puddincat07@Telegram
-  password: 1beb216e3f60aea9555dae60d219a5ca
-  port: 50160
-  server: 152-69-231-175.liao.kdns.fr
-  sni: 152-69-231-175.liao.kdns.fr
-  tls: false
-  type: hysteria2
-- name: hk|a1f8|puddincat07@Telegram
-  password: T2c9PTpPZz09
-  port: '1080'
-  server: 103.210.161.8
-  skip-cert-verify: true
-  type: socks5
-  username: T2c9PTpPZz09
 - name: xx|3972|puddincat07@Telegram
   password: HysTeria2026!Proxy
   port: 8443
   server: mz.hkychina.com
   skip-cert-verify: false
   sni: mz.hkychina.com
+  tls: false
+  type: hysteria2
+- name: xx|8727|puddincat07@Telegram
+  password: 1beb216e3f60aea9555dae60d219a5ca
+  port: 50160
+  server: 152-69-231-175.liao.kdns.fr
+  sni: 152-69-231-175.liao.kdns.fr
   tls: false
   type: hysteria2
 - auth: 19f72087-4591-4d72-930b-2697078ec2be
@@ -36,13 +29,6 @@ proxies:
   sni: ''
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  name: jp|b0fd|puddincat07@Telegram
-  password: amazonskr05
-  port: '443'
-  server: 3.112.209.209
-  type: ss
-  udp: true
 - name: gb|5e7a|puddincat07@Telegram
   password: we9_I1893UFj3149xbr1_k8qvJ8734ic_Mx82gH
   port: 8443
@@ -51,12 +37,35 @@ proxies:
   sni: hopp-swizland-new.mysynology.net
   tls: false
   type: hysteria2
+- name: ro|e70d|puddincat07@Telegram
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 85.204.107.177
+  sni: hopp-romania-new.roxa.org
+  tls: false
+  type: hysteria2
 - name: ro|4d15|puddincat07@Telegram
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
   server: 85.204.107.183
   sni: hopp-romania-new.roxa.org
   tls: false
+  type: hysteria2
+- name: ro|70e4|puddincat07@Telegram
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 85.204.107.170
+  skip-cert-verify: true
+  sni: hopp-romania-new.roxa.org
+  tls: false
+  type: hysteria2
+- auth: github.com/Alvin9999-newpac/fanqiang
+  name: fr|08d8|puddincat07@Telegram
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: google.com
   type: hysteria2
 - name: us|d4f7|puddincat07@Telegram
   obfs: salamander
@@ -76,32 +85,34 @@ proxies:
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- name: ro|e70d|puddincat07@Telegram
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8443
-  server: 85.204.107.177
-  sni: hopp-romania-new.roxa.org
+- name: xx|454e|puddincat07@Telegram
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: se.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: se.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- auth: github.com/Alvin9999-newpac/fanqiang
-  name: fr|08d8|puddincat07@Telegram
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 60111
-  server: 62.210.7.139
+- name: de|2b7b|puddincat07@Telegram
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+  password: Telegram@vpnjey
+  port: 54759
+  server: 179.61.138.145
   skip-cert-verify: true
-  sni: google.com
-  type: hysteria2
-- name: ro|0ec3|puddincat07@Telegram
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8080
-  server: 85.204.107.176
-  sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
 - name: ro|7611|puddincat07@Telegram
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.173
+  sni: hopp-romania-new.roxa.org
+  tls: false
+  type: hysteria2
+- name: ro|0ec3|puddincat07@Telegram
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8080
+  server: 85.204.107.176
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
@@ -113,13 +124,3 @@ proxies:
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- name: us|4991|puddincat07@Telegram
-  obfs: salamander
-  obfs-password: c8827ab99e316c5bd414e21afa915ddf
-  password: 8294f130408299df8cab08c80bf6f819
-  port: 443
-  server: 24.233.8.109
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
