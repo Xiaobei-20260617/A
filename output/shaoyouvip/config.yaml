@@ -1,44 +1,24 @@
 proxies:
-    - auth: 29ffde49-e1d6-4dcd-a135-352920f9f0b8
-      name: "\U0001F1F8\U0001F1EASE_1|1.7MB/s"
-      password: 29ffde49-e1d6-4dcd-a135-352920f9f0b8
-      port: 25443
-      server: se-node.rumedia-cdn.com
+    - down: ""
+      fingerprint: ""
+      name: ❓Other_1|2.1MB/s
+      obfs: salamander
+      obfs-password: maintell
+      password: maintell
+      port: "2053"
+      server: 107.172.67.52
       skip-cert-verify: true
-      sni: cf2.rumedia-cdn.com
+      sni: bing.com
       type: hysteria2
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_1|2.7MB/s"
-      network: ws
-      port: "443"
-      server: 172.67.212.14
-      servername: 8-m19.souTh-afRiCA-ONLinE.CcwU.CC
-      tls: true
-      type: vless
-      udp: true
-      uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-      ws-opts:
-        headers:
-            Host: 8-m19.SoUth-AFriCa-onlInE.cCwU.cC
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
-        path: /CjBjB9sn5pCvaSwScc
-      xudp: true
-    - name: "\U0001F1F3\U0001F1F1NL_1|1.2MB/s"
-      password: None
-      port: 443
-      server: 5.255.118.82
+      up: ""
+    - name: "\U0001F1E8\U0001F1F3CN_1|5.3MB/s"
+      password: T2c9PTpPZz09
+      port: "1080"
+      server: 103.210.161.8
       skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1FA\U0001F1F8US_2|2.7MB/s"
-      password: github.com/Alvin9999-newpac/fanqiang
-      port: 19000
-      server: anytls2.864106.xyz
-      skip-cert-verify: true
-      sni: anytls2.864106.xyz
-      type: anytls
-    - name: "\U0001F1F1\U0001F1FBLV_1|1.6MB/s"
+      type: socks5
+      username: T2c9PTpPZz09
+    - name: "\U0001F1F1\U0001F1FBLV_1|2.4MB/s"
       password: ""
       port: 443
       server: 109.248.147.66
@@ -46,48 +26,10 @@ proxies:
       tls: true
       type: http
       username: ""
-    - name: "\U0001F1EA\U0001F1F8ES_1|1008KB/s"
-      password: None
-      port: 443
-      server: 130.195.250.18
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1E9\U0001F1EADE_1|1.4MB/s"
+    - name: "\U0001F1E9\U0001F1EADE_1|2.5MB/s"
       password: None
       port: 443
       server: 149.36.50.129
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1EE\U0001F1F9IT_1|1.7MB/s"
-      port: 443
-      server: 185.183.105.130
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F8\U0001F1EASE_2|1.8MB/s"
-      password: None
-      port: 443
-      server: 146.70.242.130
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1EA\U0001F1F8ES_2|1.0MB/s"
-      password: None
-      port: 443
-      server: 130.195.250.34
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1ED\U0001F1FAHU_1|1.2MB/s"
-      password: None
-      port: 443
-      server: 146.70.203.18
       skip-cert-verify: true
       tls: true
       type: http
@@ -101,145 +43,58 @@ proxies:
       type: http
       udp: true
       username: ""
-    - name: "\U0001F1E6\U0001F1F9AT_1|1.8MB/s"
-      port: 443
-      server: 146.70.244.18
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F3\U0001F1F1NL_2|1.6MB/s"
-      port: 9002
-      server: 84.17.47.148
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - auth: github.com/Alvin9999-newpac/fanqiang
-      name: "\U0001F1EB\U0001F1F7FR_1|2.5MB/s"
-      password: github.com/Alvin9999-newpac/fanqiang
-      port: 60111
-      server: 62.210.7.139
-      skip-cert-verify: true
-      sni: google.com
-      type: hysteria2
-    - name: "\U0001F1EC\U0001F1E7GB_1|1.4MB/s"
-      password: null
-      port: 9443
-      server: 37.120.233.34
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1F5\U0001F1F1PL_1|2.4MB/s"
-      password: null
-      port: 443
-      server: 37.120.156.18
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1EC\U0001F1E7GB_2|1.0MB/s"
-      password: None
-      port: 443
-      server: 185.235.0.2
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1E9\U0001F1EADE_2|1.4MB/s"
-      password: null
-      port: 443
-      server: 87.249.132.97
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1F7\U0001F1F8RS_1|1.2MB/s"
-      port: 443
-      server: 146.70.221.18
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1E9\U0001F1F0DK_1|1.7MB/s"
-      password: null
-      port: 9443
-      server: 185.245.84.50
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1F7\U0001F1F8RS_2|1.5MB/s"
-      port: 443
-      server: 146.70.221.34
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EC\U0001F1E7GB_3|1.3MB/s"
-      port: 443
-      server: 212.102.63.31
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EF\U0001F1F5JP_1|2.2MB/s"
-      password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-      port: 20561
-      server: msjp1.mangshe.xyz
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-    - name: "\U0001F1E6\U0001F1F9AT_2|1019KB/s"
-      password: null
-      port: 443
-      server: 146.70.244.2
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1ED\U0001F1F7HR_1|2.1MB/s"
+    - name: "\U0001F1ED\U0001F1F7HR_1|2.7MB/s"
       port: 443
       server: 154.47.29.174
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1F5\U0001F1F9PT_1|2.3MB/s"
+    - name: "\U0001F1EC\U0001F1E7GB_1|2.5MB/s"
+      password: ""
+      port: 443
+      server: 37.120.233.34
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1EA\U0001F1F8ES_1|1.3MB/s"
       password: None
       port: 443
-      server: 149.22.86.14
+      server: 82.102.17.178
       skip-cert-verify: true
       tls: true
       type: http
       username: null
-    - name: "\U0001F1EC\U0001F1E7GB_4|2.8MB/s"
-      port: 443
-      server: 212.102.63.61
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F3\U0001F1F1NL_3|1.6MB/s"
+    - name: "\U0001F1E8\U0001F1FFCZ_1|1.7MB/s"
       password: ""
-      port: 1080
-      server: 5.255.99.75
-      type: socks5
-      username: ""
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F5\U0001F1F1PL_2|1.1MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: nFJCJ2tvxLdLrc9G-O1laW8KDir5SDnaOTmYndVaOGQ
-        short-id: 7a3f9e2b1c8d4f6a
-      server: d1-pl.cloud-cdn.xyz
-      servername: d1-pl.cloud-cdn.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: a0248c3b-b631-4ada-b8d6-e2f6af2986d0
-      xudp: true
-    - name: "\U0001F1F3\U0001F1F1NL_4|1.9MB/s"
       port: 443
-      server: 149.36.51.129
+      server: 185.216.35.66
       skip-cert-verify: true
       tls: true
       type: http
+      udp: true
+      username: ""
+    - name: "\U0001F1E8\U0001F1EDCH_1|2.9MB/s"
+      password: null
+      port: 443
+      server: 31.7.62.50
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "\U0001F1EC\U0001F1E7GB_2|2.3MB/s"
+      password: null
+      port: 443
+      server: 212.102.63.1
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "\U0001F1EC\U0001F1F7GR_1|1.3MB/s"
+      password: None
+      port: 443
+      server: 149.22.85.65
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
