@@ -898,5 +898,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260924EBCH.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260924GPAS.txt"
     }
+  },
+  {
+    "date": "0925",
+    "sort_key": "20260925",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260925WPAH.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260925GXFU.txt"
+    }
   }
 ]
