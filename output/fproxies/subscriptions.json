@@ -77,6 +77,17 @@
     }
   },
   {
+    "date": "0925",
+    "sort_key": "260925",
+    "extra": "",
+    "urls": {
+      "clash": "https://sub.danhu.dpdns.org/paste/26HappyMAF-TG@FProxies/clash",
+      "base64": "https://sub.danhu.dpdns.org/paste/26HappyMAF-TG@FProxies/base64",
+      "quanx": "https://sub.danhu.dpdns.org/paste/26HappyMAF-TG@FProxies/quanx",
+      "urls": "https://sub.danhu.dpdns.org/paste/26HappyMAF-TG@FProxies/urls"
+    }
+  },
+  {
     "date": "2608",
     "sort_key": "262608",
     "extra": "22.",
