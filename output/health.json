@@ -1,40 +1,40 @@
 {
-  "timestamp": "2026-09-25T22:35:56Z",
+  "timestamp": "2026-09-26T01:07:22Z",
   "sources": {
     "fproxies": {
-      "status": "ok",
-      "nodes": 160,
-      "size_kb": 261.8,
+      "status": "failed",
+      "nodes": 0,
+      "size_kb": 0,
       "error": ""
     },
     "datiya": {
       "status": "ok",
       "nodes": 14,
-      "size_kb": 182.7,
+      "size_kb": 184.2,
       "error": ""
     },
     "osbooting": {
       "status": "ok",
-      "nodes": 438,
-      "size_kb": 211.8,
+      "nodes": 198,
+      "size_kb": 110.4,
       "error": ""
     },
     "clashfree": {
       "status": "ok",
-      "nodes": 203,
-      "size_kb": 618.8,
+      "nodes": 222,
+      "size_kb": 630.7,
       "error": ""
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 14,
-      "size_kb": 675.9,
+      "nodes": 12,
+      "size_kb": 676.1,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 486,
-      "size_kb": 527.9,
+      "nodes": 484,
+      "size_kb": 532.1,
       "error": ""
     },
     "v2rayfree": {
@@ -166,7 +166,7 @@
   },
   "summary": {
     "total": 27,
-    "ok": 26,
-    "failed": 1
+    "ok": 25,
+    "failed": 2
   }
 }
