@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-09-27T00:07:14Z",
+  "timestamp": "2026-09-27T05:30:53Z",
   "sources": {
     "fproxies": {
-      "status": "ok",
-      "nodes": 160,
-      "size_kb": 261.8,
+      "status": "failed",
+      "nodes": 0,
+      "size_kb": 0,
       "error": ""
     },
     "datiya": {
@@ -27,14 +27,14 @@
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 11,
-      "size_kb": 675.9,
+      "nodes": 13,
+      "size_kb": 676.0,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 546,
-      "size_kb": 573.8,
+      "nodes": 515,
+      "size_kb": 515.0,
       "error": ""
     },
     "v2rayfree": {
@@ -45,14 +45,14 @@
     },
     "ruk1ng": {
       "status": "ok",
-      "nodes": 242,
-      "size_kb": 150.9,
+      "nodes": 237,
+      "size_kb": 164.2,
       "error": ""
     },
     "ruk1ng_v2ray": {
       "status": "ok",
-      "nodes": 278,
-      "size_kb": 57.9,
+      "nodes": 291,
+      "size_kb": 64.4,
       "error": ""
     },
     "ovmvo": {
@@ -76,31 +76,31 @@
     "ts_sf_fly": {
       "status": "ok",
       "nodes": 0,
-      "size_kb": 244.3,
+      "size_kb": 245.3,
       "error": ""
     },
     "free18": {
       "status": "ok",
-      "nodes": 345,
-      "size_kb": 169.0,
+      "nodes": 492,
+      "size_kb": 224.4,
       "error": ""
     },
     "automerge": {
       "status": "ok",
-      "nodes": 233,
-      "size_kb": 450.7,
+      "nodes": 199,
+      "size_kb": 442.9,
       "error": ""
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 263,
-      "size_kb": 30.3,
+      "nodes": 237,
+      "size_kb": 28.6,
       "error": ""
     },
     "pawdroid": {
       "status": "ok",
       "nodes": 20,
-      "size_kb": 5.5,
+      "size_kb": 5.6,
       "error": ""
     },
     "barabama": {
@@ -159,14 +159,14 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 60,
-      "size_kb": 31.0,
+      "nodes": 13,
+      "size_kb": 3.9,
       "error": ""
     }
   },
   "summary": {
     "total": 27,
-    "ok": 26,
-    "failed": 1
+    "ok": 25,
+    "failed": 2
   }
 }
