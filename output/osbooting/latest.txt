@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (0926)
-https://freenode.osbooting.com/nodefiles/20260926XBCL.yaml
-https://freenode.osbooting.com/nodefiles/20260926VAYL.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (0927)
+https://freenode.osbooting.com/nodefiles/20260927VXRW.yaml
+https://freenode.osbooting.com/nodefiles/20260927DTMQ.txt

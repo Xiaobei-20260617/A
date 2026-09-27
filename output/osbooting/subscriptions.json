@@ -916,5 +916,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20260926XBCL.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20260926VAYL.txt"
     }
+  },
+  {
+    "date": "0927",
+    "sort_key": "20260927",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20260927VXRW.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20260927DTMQ.txt"
+    }
   }
 ]
