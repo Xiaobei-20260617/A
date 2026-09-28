@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-09-28T01:02:39Z",
+  "timestamp": "2026-09-28T07:14:06Z",
   "sources": {
     "fproxies": {
-      "status": "failed",
-      "nodes": 0,
-      "size_kb": 0,
+      "status": "ok",
+      "nodes": 160,
+      "size_kb": 261.8,
       "error": ""
     },
     "datiya": {
@@ -21,20 +21,20 @@
     },
     "clashfree": {
       "status": "ok",
-      "nodes": 238,
-      "size_kb": 639.7,
+      "nodes": 250,
+      "size_kb": 645.4,
       "error": ""
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 10,
-      "size_kb": 675.9,
+      "nodes": 9,
+      "size_kb": 676.1,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 433,
-      "size_kb": 516.2,
+      "nodes": 593,
+      "size_kb": 522.7,
       "error": ""
     },
     "v2rayfree": {
@@ -45,14 +45,14 @@
     },
     "ruk1ng": {
       "status": "ok",
-      "nodes": 237,
-      "size_kb": 164.2,
+      "nodes": 251,
+      "size_kb": 180.4,
       "error": ""
     },
     "ruk1ng_v2ray": {
       "status": "ok",
-      "nodes": 291,
-      "size_kb": 64.4,
+      "nodes": 318,
+      "size_kb": 71.1,
       "error": ""
     },
     "ovmvo": {
@@ -76,31 +76,31 @@
     "ts_sf_fly": {
       "status": "ok",
       "nodes": 0,
-      "size_kb": 243.9,
+      "size_kb": 244.1,
       "error": ""
     },
     "free18": {
       "status": "ok",
-      "nodes": 492,
-      "size_kb": 224.4,
+      "nodes": 495,
+      "size_kb": 234.8,
       "error": ""
     },
     "automerge": {
       "status": "ok",
-      "nodes": 221,
-      "size_kb": 451.1,
+      "nodes": 211,
+      "size_kb": 457.5,
       "error": ""
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 271,
-      "size_kb": 33.4,
+      "nodes": 273,
+      "size_kb": 37.6,
       "error": ""
     },
     "pawdroid": {
       "status": "ok",
       "nodes": 20,
-      "size_kb": 4.9,
+      "size_kb": 5.0,
       "error": ""
     },
     "barabama": {
@@ -159,14 +159,14 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 47,
-      "size_kb": 33.5,
+      "nodes": 29,
+      "size_kb": 15.8,
       "error": ""
     }
   },
   "summary": {
     "total": 27,
-    "ok": 25,
-    "failed": 2
+    "ok": 26,
+    "failed": 1
   }
 }
