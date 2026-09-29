@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (0928)
-https://freenode.osbooting.com/nodefiles/20260928OXDF.yaml
-https://freenode.osbooting.com/nodefiles/20260928QZKU.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (0929)
+https://freenode.osbooting.com/nodefiles/20260929LXRF.yaml
+https://freenode.osbooting.com/nodefiles/20260929RLBG.txt
