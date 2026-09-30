@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (0929)
-https://freenode.osbooting.com/nodefiles/20260929LXRF.yaml
-https://freenode.osbooting.com/nodefiles/20260929RLBG.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (0930)
+https://freenode.osbooting.com/nodefiles/20260930TLQX.yaml
+https://freenode.osbooting.com/nodefiles/20260930UFLS.txt
