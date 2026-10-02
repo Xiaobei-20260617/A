@@ -961,5 +961,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20261001SVBT.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20261001QDSK.txt"
     }
+  },
+  {
+    "date": "1002",
+    "sort_key": "20261002",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20261002LGDN.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20261002CXPG.txt"
+    }
   }
 ]
