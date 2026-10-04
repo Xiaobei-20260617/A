@@ -979,5 +979,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20261003XZMS.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20261003FRDN.txt"
     }
+  },
+  {
+    "date": "1004",
+    "sort_key": "20261004",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20261004UYVE.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20261004HURD.txt"
+    }
   }
 ]
