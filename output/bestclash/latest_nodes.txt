@@ -1,11 +1,4 @@
 proxies:
-- name: xx|febb|puddincat07@Telegram
-  password: 96ab5cd282733fd4c312a61f972f330a
-  port: 443
-  server: vp3.yysyy.online
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
 - auth: my_super_password_123
   name: xx|e524|puddincat07@Telegram
   password: my_super_password_123
@@ -15,13 +8,12 @@ proxies:
   sni: open.w2m.ink
   type: hysteria2
   udp: true
-- auth: my_super_password_123
-  name: xx|01b0|puddincat07@Telegram
-  password: my_super_password_123
+- name: xx|febb|puddincat07@Telegram
+  password: 96ab5cd282733fd4c312a61f972f330a
   port: 443
-  server: open.2ml.bid
-  skip-cert-verify: true
-  sni: open.2ml.bid
+  server: vp3.yysyy.online
+  skip-cert-verify: false
+  tls: false
   type: hysteria2
 - down: ''
   fingerprint: ''
@@ -35,6 +27,22 @@ proxies:
   sni: open.2ml.cc.cd
   type: hysteria2
   up: ''
+- auth: maintell
+  name: kr|1325|puddincat07@Telegram
+  password: maintell
+  port: 2053
+  server: 152.70.237.123
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+- auth: my_super_password_123
+  name: xx|01b0|puddincat07@Telegram
+  password: my_super_password_123
+  port: 443
+  server: open.2ml.bid
+  skip-cert-verify: true
+  sni: open.2ml.bid
+  type: hysteria2
 - auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
   name: hk|b589|puddincat07@Telegram
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -44,14 +52,31 @@ proxies:
   sni: 202.146.222.29
   tls: false
   type: hysteria2
-- auth: maintell
-  name: kr|1325|puddincat07@Telegram
-  password: maintell
-  port: 2053
-  server: 152.70.237.123
+- down: ''
+  fingerprint: ''
+  name: xx|344a|puddincat07@Telegram
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: '443'
+  server: vpn-sg-001.fastervpn.world
   skip-cert-verify: true
-  sni: bing.com
+  sni: vpn-sg-001.fastervpn.world
   type: hysteria2
+  up: ''
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: ajv
+  name: gb|35ea|puddincat07@Telegram
+  network: grpc
+  password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
+  port: 443
+  server: 31.77.168.33
+  skip-cert-verify: true
+  sni: d3-de2.cloud-cdn.xyz
+  type: trojan
+  udp: true
 - name: xx|4994|puddincat07@Telegram
   password: bce6c821-200d-421f-bf3d-7159e5246ea0
   port: 33333
@@ -59,19 +84,6 @@ proxies:
   sni: hy2.123266.xyz
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  disable-sni: false
-  name: xx|f654|puddincat07@Telegram
-  password: D7286728-678E-443B-B76B-B699654C66DD
-  port: 8080
-  reduce-rtt: false
-  request-timeout: 0
-  server: tw6.dexlos.com
-  skip-cert-verify: true
-  sni: tw6.dexlos.com
-  type: tuic
-  uuid: D7286728-678E-443B-B76B-B699654C66DD
 - down: ''
   fingerprint: ''
   name: xx|f149|puddincat07@Telegram
@@ -94,26 +106,6 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- auth: https://xship.best
-  name: xx|a030|puddincat07@Telegram
-  password: https://xship.best
-  port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: xship.top
-  type: hysteria2
-  udp: true
-- auth: b42d90fa667942aebc734d60
-  name: us|051a|puddincat07@Telegram
-  obfs: salamander
-  obfs-password: b42d90fa667942aebc734d60
-  password: b42d90fa667942aebc734d60
-  port: 20000
-  ports: 20000-30000
-  server: 137.23.3.238
-  skip-cert-verify: true
-  sni: rmgyvpn.rest
-  type: hysteria2
 - auth: gf1:gfhysteria2024
   name: us|7a73|puddincat07@Telegram
   password: gf1:gfhysteria2024
@@ -122,6 +114,32 @@ proxies:
   skip-cert-verify: true
   sni: www.broadcom.com
   type: hysteria2
+- auth: 19f72087-4591-4d72-930b-2697078ec2be
+  name: xx|aa43|puddincat07@Telegram
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: hk2.xiaoliyu.cyou
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: xx|b47e|puddincat07@Telegram
+  password: 5b140fc6a0a74e7f
+  port: 20008
+  server: gsg192i.zxom.eu.org
+  skip-cert-verify: true
+  sni: gsg192i.zxom.eu.org
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: us|b935|puddincat07@Telegram
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: "(Telegram\U0001F1E8\U0001F1F3 @VPNine1)fa03bb5:137563"
+    mode: tls
+  port: '2377'
+  server: 134.195.101.117
+  type: ss
+  udp: true
 - name: ro|5265|puddincat07@Telegram
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
@@ -129,21 +147,4 @@ proxies:
   skip-cert-verify: false
   sni: grape-test-italy.dynuddns.net
   tls: false
-  type: hysteria2
-- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  name: us|56d2|puddincat07@Telegram
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.127.142
-  skip-cert-verify: true
-  sni: hop-germany-september.dynuddns.com
-  tls: false
-  type: hysteria2
-- auth: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  name: ro|d8c4|puddincat07@Telegram
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 77.74.123.99
-  skip-cert-verify: true
-  sni: grape-test-italy.dynuddns.net
   type: hysteria2
