@@ -997,5 +997,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20261005SGLA.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20261005DWOP.txt"
     }
+  },
+  {
+    "date": "1006",
+    "sort_key": "20261006",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20261006LDZS.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20261006RNKG.txt"
+    }
   }
 ]
