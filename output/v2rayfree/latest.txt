@@ -1,2 +1,2 @@
-# v2rayfree (free-nodes/v2rayfree) 最新订阅 (1006)
-https://raw.githubusercontent.com/free-nodes/v2rayfree/main/v202610061
+# v2rayfree (free-nodes/v2rayfree) 最新订阅 (1007)
+https://raw.githubusercontent.com/free-nodes/v2rayfree/main/v202610071
