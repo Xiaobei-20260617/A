@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (1006)
-https://freenode.osbooting.com/nodefiles/20261006LDZS.yaml
-https://freenode.osbooting.com/nodefiles/20261006RNKG.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (1007)
+https://freenode.osbooting.com/nodefiles/20261007KHOU.yaml
+https://freenode.osbooting.com/nodefiles/20261007FYIB.txt

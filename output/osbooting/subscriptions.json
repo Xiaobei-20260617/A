@@ -1006,5 +1006,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20261006LDZS.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20261006RNKG.txt"
     }
+  },
+  {
+    "date": "1007",
+    "sort_key": "20261007",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20261007KHOU.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20261007FYIB.txt"
+    }
   }
 ]
