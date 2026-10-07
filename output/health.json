@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-07T10:47:48Z",
+  "timestamp": "2026-10-07T17:38:21Z",
   "sources": {
     "fproxies": {
-      "status": "ok",
-      "nodes": 160,
-      "size_kb": 261.8,
+      "status": "failed",
+      "nodes": 0,
+      "size_kb": 0,
       "error": ""
     },
     "datiya": {
@@ -21,20 +21,20 @@
     },
     "clashfree": {
       "status": "ok",
-      "nodes": 522,
-      "size_kb": 800.7,
+      "nodes": 512,
+      "size_kb": 797.0,
       "error": ""
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 5,
+      "nodes": 6,
       "size_kb": 676.3,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 764,
-      "size_kb": 595.5,
+      "nodes": 712,
+      "size_kb": 618.9,
       "error": ""
     },
     "v2rayfree": {
@@ -45,14 +45,14 @@
     },
     "ruk1ng": {
       "status": "ok",
-      "nodes": 445,
-      "size_kb": 222.3,
+      "nodes": 447,
+      "size_kb": 219.2,
       "error": ""
     },
     "ruk1ng_v2ray": {
       "status": "ok",
-      "nodes": 489,
-      "size_kb": 102.4,
+      "nodes": 484,
+      "size_kb": 95.7,
       "error": ""
     },
     "ovmvo": {
@@ -76,7 +76,7 @@
     "ts_sf_fly": {
       "status": "ok",
       "nodes": 0,
-      "size_kb": 243.6,
+      "size_kb": 242.5,
       "error": ""
     },
     "free18": {
@@ -87,8 +87,8 @@
     },
     "automerge": {
       "status": "ok",
-      "nodes": 319,
-      "size_kb": 528.8,
+      "nodes": 312,
+      "size_kb": 522.0,
       "error": ""
     },
     "nomorewalls": {
@@ -99,8 +99,8 @@
     },
     "pawdroid": {
       "status": "ok",
-      "nodes": 15,
-      "size_kb": 5.5,
+      "nodes": 11,
+      "size_kb": 3.9,
       "error": ""
     },
     "barabama": {
@@ -159,14 +159,14 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 19,
-      "size_kb": 5.4,
+      "nodes": 68,
+      "size_kb": 16.2,
       "error": ""
     }
   },
   "summary": {
     "total": 27,
-    "ok": 26,
-    "failed": 1
+    "ok": 25,
+    "failed": 2
   }
 }
