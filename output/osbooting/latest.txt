@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (1009)
-https://freenode.osbooting.com/nodefiles/20261009DNEM.yaml
-https://freenode.osbooting.com/nodefiles/20261009SVCK.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (1010)
+https://freenode.osbooting.com/nodefiles/20261010BVDX.yaml
+https://freenode.osbooting.com/nodefiles/20261010PNEV.txt
