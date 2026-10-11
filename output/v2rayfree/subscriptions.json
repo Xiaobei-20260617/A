@@ -990,5 +990,13 @@
     "urls": {
       "v2ray": "https://raw.githubusercontent.com/free-nodes/v2rayfree/main/v202610111"
     }
+  },
+  {
+    "date": "1012",
+    "sort_key": "202610121",
+    "extra": "v2rayfree 链接 (202610121)",
+    "urls": {
+      "v2ray": "https://raw.githubusercontent.com/free-nodes/v2rayfree/main/v202610121"
+    }
   }
 ]
