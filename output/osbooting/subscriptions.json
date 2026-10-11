@@ -1042,5 +1042,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20261010BVDX.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20261010PNEV.txt"
     }
+  },
+  {
+    "date": "1011",
+    "sort_key": "20261011",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20261011YDNI.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20261011OCVU.txt"
+    }
   }
 ]
