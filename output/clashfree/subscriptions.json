@@ -1006,5 +1006,13 @@
     "urls": {
       "clash": "https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20261012.yml"
     }
+  },
+  {
+    "date": "1013",
+    "sort_key": "20261013",
+    "extra": "",
+    "urls": {
+      "clash": "https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20261013.yml"
+    }
   }
 ]
