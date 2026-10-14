@@ -1,727 +1,28 @@
 proxies:
+    - encryption: mlkem768x25519plus.native.0rtt.T-gHfXonmN4GiwBIHvADVc8uAEQyff099ST33D7IzA0
+      http-opts:
+        headers:
+            Host:
+                - b--g.bntabriz.ir
+        path:
+            - /
+      name: "\U0001F1F3\U0001F1F1NL_1|2.0MB/s"
+      network: http
+      port: "25566"
+      server: g--p.soreanapanel.com
+      type: vless
+      udp: true
+      uuid: 938bee33-7319-4c39-99bf-1128fab04c7d
+      xudp: true
     - alpn:
+        - h3
         - h2
       client-fingerprint: chrome
-      encryption: mlkem768x25519plus.native.0rtt.BjNG8wpxXidElQMwcKqn6YAVeg8IG8sSisuwtE8pGgg
-      name: "\U0001F1E9\U0001F1EADE_1|1.1MB/s"
+      encryption: none
+      name: "\U0001F1EF\U0001F1F5JP_1|5.5MB/s"
       network: ws
-      port: 443
-      server: zhechengtoy.com
-      servername: zhechengtoy.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: cd73e80c-912e-4f8c-bd0f-92be89bcb6df
-      ws-opts:
-        headers:
-            Host: ded1up.hpcdn.shop
-        path: /14424/v7
-        v2ray-http-upgrade: true
-    - client-fingerprint: random
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI_1|1.3MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: III2StgFziJtisbaKDYlEF2qYwBHJZnzZH5DHdwuFQ8
-        short-id: d110331f200987ae
-      server: 196.196.206.36
-      servername: finaluty.loknietotop.digital
-      tls: true
-      type: vless
-      udp: true
-      uuid: ace33fb8-c593-4b17-8f72-f3359b6e9638
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1E7\U0001F1ECBG_1|1.6MB/s"
-      network: xhttp
-      port: "8443"
-      server: 78.159.246.179
-      servername: randomquaint.net
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6a2aff19-ff1f-4a13-96c8-a4d8986a9699
-      xhttp-opts:
-        host: randomquaint.net
-        mode: auto
-        path: /api/v1/upload
-        reuse-settings:
-            c-max-reuse-times: 64-128
-            h-keep-alive-period: 0
-            h-max-request-times: "0"
-            h-max-reusable-secs: "0"
-            max-concurrency: 16-32
-            max-connections: "0"
-        session-length: "0"
-        x-padding-bytes: 100-1000
-        x-padding-obfs-mode: false
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1E9\U0001F1EADE_2|1.8MB/s"
-      network: xhttp
-      port: "8448"
-      reality-opts:
-        public-key: LTZezy5Z-ZFQQpCPiSglPRyqqxr2ekFRnbz0lahfxCI
-        short-id: 24b61af4458b5152
-      server: 2.27.211.84
-      servername: api-maps.yandex.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4dcfe8ff-b24c-4241-96a2-31fac7c87ad8
-      xhttp-opts:
-        host: 2.27.211.84
-        mode: stream-one
-        path: /assets/v2
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_1|1.4MB/s"
-      network: tcp
       port: "443"
-      reality-opts:
-        public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
-        short-id: a696de84963656de
-      server: 185.164.57.152
-      servername: amd.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0de1d303-d7de-0001-8679-c4cb67e2e2cc
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI_2|2.0MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: III2StgFziJtisbaKDYlEF2qYwBHJZnzZH5DHdwuFQ8
-        short-id: d110331f200987ae
-      server: salt0.khovanski.mom
-      servername: salt0.khovanski.mom
-      tls: true
-      type: vless
-      udp: true
-      uuid: ace33fb8-c593-4b17-8f72-f3359b6e9638
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EA\U0001F1EAEE_1|1.1MB/s"
-      network: xhttp
-      port: "8448"
-      reality-opts:
-        public-key: 5a7gJ2ukZ5NPECAks1GHvsg-lVDXVp0W6mCHQ00_cVw
-        short-id: e02b44b0419d931c
-      server: 13.143.182.99
-      servername: api-maps.yandex.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4dcfe8ff-b24c-4241-96a2-31fac7c87ad8
-      xhttp-opts:
-        host: 13.143.182.99
-        mode: stream-one
-        path: /assets/v2
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_1|2.4MB/s"
-      network: xhttp
-      port: "6443"
-      reality-opts:
-        public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
-        short-id: 844352756c1fabba
-      server: 45.129.176.34
-      servername: avatars.mds.yandex.net
-      tls: true
-      type: vless
-      udp: true
-      uuid: d7b4d5b3-2c2d-493c-9b83-f25e3f6771b2
-      xhttp-opts:
-        mode: auto
-      xudp: true
-    - encryption: none
-      name: "\U0001F1FA\U0001F1F8US_2|1.4MB/s"
-      network: ws
-      port: "8880"
-      server: 155.46.213.30
-      type: vless
-      udp: true
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: vms.lifetime51.workers.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-        path: /
-      xudp: true
-    - name: "\U0001F1F0\U0001F1F7KR_1|2.2MB/s"
-      password: Trojan@82164024
-      port: 443
-      server: kr.tronsg.com
-      skip-cert-verify: true
-      sni: kr.tronsg.com
-      type: trojan
-      udp: true
-    - name: "\U0001F1F8\U0001F1ECSG_1|1.8MB/s"
-      network: ws
-      port: 80
-      server: free.sahanwickramasinghe.me
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
-      ws-opts:
-        headers:
-            Host: free.sahanwickramasinghe.me
-        path: /
-    - name: "\U0001F1E9\U0001F1EADE_3|1.1MB/s"
-      password: None
-      port: 443
-      server: 149.36.50.1
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1E9\U0001F1EADE_4|2.8MB/s"
-      port: 9002
-      server: 158.173.154.5
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1E9\U0001F1EADE_5|2.2MB/s"
-      port: 9002
-      server: 158.173.154.1
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F1\U0001F1FALU_1|2.0MB/s"
-      port: 443
-      server: 185.221.132.242
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F1\U0001F1FBLV_1|1.8MB/s"
-      port: 443
-      server: 109.248.147.66
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F8\U0001F1EASE_1|1.3MB/s"
-      port: 443
-      server: 217.210.129.243
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F3\U0001F1F1NL_2|1.4MB/s"
-      port: 443
-      server: 149.36.51.129
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_3|3.2MB/s"
-      port: 19362
-      server: 51.159.225.197
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_1|1.6MB/s"
-      password: "null"
-      port: 9002
-      server: 193.176.84.37
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: "null"
-    - name: "\U0001F1F7\U0001F1F4RO_2|2.0MB/s"
-      port: 9443
-      server: 135.136.1.2
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F1\U0001F1FALU_2|2.9MB/s"
-      port: 9443
-      server: 185.221.132.226
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EC\U0001F1E7GB_1|2.4MB/s"
-      port: 9443
-      server: 84.17.50.214
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1E7\U0001F1EABE_1|1.4MB/s"
-      password: None
-      port: 443
-      server: 146.70.123.98
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1FA\U0001F1F8US_3|1.2MB/s"
-      port: 443
-      server: 167.88.60.242
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EC\U0001F1EAGE_1|1.4MB/s"
-      port: 443
-      server: 195.54.178.210
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1E9\U0001F1EADE_6|2.1MB/s"
-      port: 443
-      server: 213.177.229.161
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F8\U0001F1EASE_2|1.0MB/s"
-      password: None
-      port: 443
-      server: 149.50.216.65
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F5\U0001F1F9PT_1|1.7MB/s"
-      port: 443
-      server: 149.22.86.1
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1E9\U0001F1EADE_7|1.3MB/s"
-      port: 8443
-      server: 188.120.225.125
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1FA\U0001F1F8US_4|1.6MB/s"
-      port: 443
-      server: 45.63.38.134
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_3|2.1MB/s"
-      port: 9002
-      server: 193.176.84.38
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F3\U0001F1F1NL_4|3.8MB/s"
-      password: None
-      port: 9002
-      server: 84.17.47.148
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_4|2.9MB/s"
-      port: 9002
-      server: 193.176.84.27
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_5|1.5MB/s"
-      network: ws
-      port: 443
-      server: 209.206.51.240
-      servername: and-75r.pages.dev
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 573c6482-37db-454a-8c31-5b45a338a580
-      ws-opts:
-        headers:
-            Host: and-75r.pages.dev
-        path: /
-    - name: "\U0001F1F3\U0001F1F1NL_5|1.3MB/s"
-      port: 9443
-      server: 149.36.51.161
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EE\U0001F1F9IT_1|3.5MB/s"
-      port: 443
-      server: 185.183.105.130
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F3\U0001F1F1NL_6|1.4MB/s"
-      port: 9443
-      server: 149.36.51.157
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1E8\U0001F1EDCH_1|3.2MB/s"
-      password: null
-      port: 9443
-      server: 37.120.213.210
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1F5\U0001F1F1PL_1|2.2MB/s"
-      port: 443
-      server: 37.120.156.34
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EE\U0001F1EAIE_1|1.2MB/s"
-      password: null
-      port: 443
-      server: 149.88.96.1
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1E9\U0001F1EADE_8|2.3MB/s"
-      port: 443
-      server: 79.127.156.177
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EC\U0001F1E7GB_2|1.6MB/s|R002-260618"
-      password: None
-      port: 443
-      server: 37.120.233.18
-      skip-cert-verify: true
-      sub_tag: R002-260618
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1EE\U0001F1F9IT_2|3.0MB/s"
-      port: 443
-      server: 185.183.105.146
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1E6\U0001F1F9AT_1|2.1MB/s"
-      password: None
-      port: 443
-      server: 146.70.244.2
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1EC\U0001F1E7GB_3|3.2MB/s"
-      port: 443
-      server: 37.120.233.34
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EE\U0001F1EAIE_2|3.2MB/s"
-      port: 443
-      server: 149.88.96.12
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EE\U0001F1F9IT_3|1.4MB/s"
-      port: 443
-      server: 95.229.15.89
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1FA\U0001F1F8US_6|2.8MB/s"
-      port: 443
-      server: 12.221.146.147
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F8\U0001F1ECSG_2|1.9MB/s"
-      port: 9443
-      server: 152.233.9.239
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F8\U0001F1EASE_3|1.9MB/s"
-      password: None
-      port: 443
-      server: 146.70.242.146
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1E9\U0001F1EADE_9|1.6MB/s"
-      port: 443
-      server: 193.233.75.115
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F3\U0001F1F1NL_7|3.1MB/s"
-      port: 9002
-      server: 84.17.47.124
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F3\U0001F1F1NL_8|3.1MB/s"
-      password: "null"
-      port: 9002
-      server: 84.17.47.125
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: "null"
-    - name: "\U0001F1EA\U0001F1F8ES_1|1.6MB/s"
-      port: 443
-      server: 130.195.250.18
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1E6\U0001F1F1AL_1|2.1MB/s"
-      port: 443
-      server: 31.171.154.66
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F3\U0001F1F1NL_9|2.2MB/s"
-      password: "null"
-      port: 9002
-      server: 84.17.47.148
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: "null"
-    - name: "\U0001F1E6\U0001F1F9AT_2|2.8MB/s"
-      password: null
-      port: 443
-      server: 146.70.244.18
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1E8\U0001F1FFCZ_1|1.6MB/s"
-      password: null
-      port: 443
-      server: 185.216.35.66
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1EC\U0001F1E7GB_4|1.0MB/s"
-      password: None
-      port: 443
-      server: 37.120.233.50
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1FA\U0001F1F8US_7|2.8MB/s"
-      port: 443
-      server: 12.202.180.118
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EA\U0001F1EAEE_2|1.1MB/s"
-      port: 9443
-      server: 192.159.101.174
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1FA\U0001F1F8US_8|2.1MB/s"
-      port: 443
-      server: 149.88.21.140
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1E9\U0001F1EADE_10|2.1MB/s"
-      port: 9002
-      server: 158.173.154.2
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1ED\U0001F1FAHU_1|1008KB/s"
-      password: null
-      port: 443
-      server: 146.70.203.18
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1FA\U0001F1F8US_9|2.9MB/s"
-      port: 443
-      server: 44.198.49.169
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1E9\U0001F1F0DK_1|1.8MB/s"
-      port: 443
-      server: 185.245.84.50
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F1\U0001F1FBLV_2|1.6MB/s"
-      password: null
-      port: 443
-      server: 109.248.149.34
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1EC\U0001F1E7GB_5|1.1MB/s"
-      port: 9443
-      server: 84.233.178.33
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EA\U0001F1EAEE_3|2.7MB/s"
-      port: 443
-      server: 95.153.32.2
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_5|3.5MB/s"
-      password: ""
-      port: 9002
-      server: 193.176.84.23
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: "\U0001F1EA\U0001F1F8ES_2|2.4MB/s"
-      password: null
-      port: 443
-      server: 130.195.250.34
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1FA\U0001F1F8US_10|1.2MB/s"
-      port: 443
-      server: 68.235.56.51
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EC\U0001F1F7GR_1|1.4MB/s"
-      password: null
-      port: 443
-      server: 149.22.85.78
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1FA\U0001F1F8US_11|1.6MB/s"
-      port: 443
-      server: 149.88.21.129
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EC\U0001F1E7GB_6|1.4MB/s"
-      port: 443
-      server: 84.17.50.193
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EB\U0001F1F7FR_1|2.3MB/s"
-      port: 8081
-      server: 31.32.19.111
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1E8\U0001F1E6CA_1|1.1MB/s"
-      port: 9443
-      server: 198.44.157.19
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_6|2.4MB/s"
-      password: null
-      port: 9002
-      server: 193.176.84.29
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1E8\U0001F1E6CA_2|2.0MB/s"
-      port: 443
-      server: 35.183.131.26
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EA\U0001F1F8ES_3|2.0MB/s"
-      password: None
-      port: 443
-      server: 130.195.250.18
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1EB\U0001F1F7FR_2|1.2MB/s"
-      port: 8090
-      server: 80.124.109.22
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1E8\U0001F1E6CA_3|1.2MB/s"
-      port: 9443
-      server: 149.88.98.81
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1E8\U0001F1E6CA_4|1.7MB/s"
-      port: 443
-      server: 206.223.183.16
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EC\U0001F1E7GB_7|1.7MB/s"
-      port: 443
-      server: 212.102.63.31
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EE\U0001F1F8IS_1|1.6MB/s"
-      port: 9443
-      server: 185.165.170.1
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1FA\U0001F1F8US_12|1.4MB/s"
-      password: e4b72b531a2d10900519
-      port: 443
-      server: 147.182.216.4
-      sni: 93b6d804.acsnet.co
-      tls: true
-      type: http
-      username: testuser1
-    - name: "\U0001F1EA\U0001F1EAEE_4|3.1MB/s"
-      port: 9443
-      server: 95.153.31.66
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1E6\U0001F1F1AL_2|2.3MB/s"
-      password: null
-      port: 443
-      server: 87.120.103.226
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1E8\U0001F1E6CA_5|1.3MB/s"
-      port: 443
-      server: 23.169.224.34
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1FA\U0001F1F8US_13|1.5MB/s"
-      port: 443
-      server: 193.239.236.134
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_1|1.4MB/s"
-      network: ws
-      port: 443
-      server: 139.162.84.224
+      server: saas.sin.fan
       servername: snip.edgeoneai.cc.cd
       tls: true
       type: vless
@@ -730,96 +31,93 @@ proxies:
       ws-opts:
         headers:
             Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-        path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+        path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560
       xudp: true
-    - name: "\U0001F1E8\U0001F1E6CA_6|1.7MB/s"
-      port: 9443
-      server: 198.44.157.27
+    - name: "\U0001F1F7\U0001F1F8RS_1|1.1MB/s"
+      port: 443
+      server: 146.70.221.18
       skip-cert-verify: true
       tls: true
       type: http
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_11|3.3MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
-        short-id: 4be4110078ebed4a
-      server: de2.balancer.vbuste-bot.com
-      servername: de2.balancer.vbuste-bot.com
+    - name: "\U0001F1E9\U0001F1EADE_1|1.3MB/s"
+      port: 443
+      server: 213.177.229.161
+      skip-cert-verify: true
       tls: true
-      type: vless
-      udp: true
-      uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
-      xudp: true
+      type: http
+    - name: "\U0001F1F3\U0001F1F1NL_2|1.6MB/s"
+      port: 9443
+      server: 149.36.51.157
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1ED\U0001F1F0HK_1|2.2MB/s"
+      port: 10808
+      server: 36.155.23.163
+      skip-cert-verify: true
+      type: socks5
+    - name: "\U0001F1E6\U0001F1F9AT_1|1.1MB/s"
+      password: null
+      port: 443
+      server: 146.70.244.18
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "\U0001F1FA\U0001F1F8US_1|1.2MB/s"
+      port: 443
+      server: 12.202.180.118
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1E9\U0001F1F0DK_1|1.1MB/s"
+      port: 443
+      server: 185.245.84.50
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1E9\U0001F1EADE_2|1.5MB/s"
+      port: 443
+      server: 152.233.20.206
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1EC\U0001F1E7GB_1|1.7MB/s"
+      port: 443
+      server: 84.17.50.193
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1EC\U0001F1E7GB_2|2.2MB/s"
+      port: 9443
+      server: 84.17.50.129
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1F8\U0001F1EASE_1|1.2MB/s"
+      port: 443
+      server: 149.50.216.65
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1E6\U0001F1F1AL_1|2.8MB/s"
+      port: 443
+      server: 87.120.103.242
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1F8\U0001F1ECSG_1|4.2MB/s"
+      password: "1234"
+      port: "2080"
+      server: 18.143.167.6
+      skip-cert-verify: true
+      type: http
+      username: "1234"
     - client-fingerprint: random
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI_3|3.4MB/s"
-      network: raw
-      port: "443"
-      reality-opts:
-        public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
-        short-id: 1c3e8241a8743df9
-      server: 152.233.71.81
-      servername: brointelengence.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 741809be-e44e-000b-b411-bf66f0ae3860
-      xudp: true
-    - client-fingerprint: random
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_10|3.4MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: -ADm-o6yFYNcLgLQgHguNWDWrH9xcRwQyqLMoVuajgo
-        short-id: 8944e69f4aadde1e
-      server: 89.105.195.43
-      servername: azxcc.kovsh.lol
-      tls: true
-      type: vless
-      udp: true
-      uuid: ace33fb8-c593-4b17-8f72-f3359b6e9638
-      xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E8\U0001F1FFCZ_2|1.7MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: WU5baXUzRH9BceiYI8MPBmDMEloTFImx2vvE5uh1yjM
-        short-id: f19e02a2fb573c18
-      server: czekkk.loknietotop.digital
-      servername: czekkk.loknietotop.digital
-      tls: true
-      type: vless
-      udp: true
-      uuid: ace33fb8-c593-4b17-8f72-f3359b6e9638
-      xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_8|1.9MB/s"
-      network: tcp
-      port: "443"
-      server: 45.141.118.49
-      servername: lagad17.api3-max.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: b8254d35-1cb0-4b74-8f7f-d2bc985196a0
-      xudp: true
-    - client-fingerprint: random
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_12|3.3MB/s"
+      name: "\U0001F1E9\U0001F1EADE_3|2.1MB/s"
       network: tcp
       port: "443"
       reality-opts:
@@ -832,10 +130,3 @@ proxies:
       udp: true
       uuid: 5aefad36-749b-401c-8b3b-547ef7d2253e
       xudp: true
-    - name: "\U0001F1F7\U0001F1F4RO_7|2.8MB/s"
-      port: 9002
-      server: 193.176.84.33
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
