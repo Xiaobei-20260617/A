@@ -1078,5 +1078,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20261014SUPE.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20261014YSBF.txt"
     }
+  },
+  {
+    "date": "1015",
+    "sort_key": "20261015",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20261015ULAB.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20261015OMHP.txt"
+    }
   }
 ]
