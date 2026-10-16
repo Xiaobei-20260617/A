@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (1015)
-https://freenode.osbooting.com/nodefiles/20261015ULAB.yaml
-https://freenode.osbooting.com/nodefiles/20261015OMHP.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (1016)
+https://freenode.osbooting.com/nodefiles/20261016KDYM.yaml
+https://freenode.osbooting.com/nodefiles/20261016FTYC.txt
