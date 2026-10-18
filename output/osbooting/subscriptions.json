@@ -1105,5 +1105,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20261017CFDE.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20261017WSCP.txt"
     }
+  },
+  {
+    "date": "1018",
+    "sort_key": "20261018",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20261018AHJX.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20261018LNJM.txt"
+    }
   }
 ]
