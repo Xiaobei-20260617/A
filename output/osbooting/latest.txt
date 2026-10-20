@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (1019)
-https://freenode.osbooting.com/nodefiles/20261019EGHJ.yaml
-https://freenode.osbooting.com/nodefiles/20261019DPQY.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (1020)
+https://freenode.osbooting.com/nodefiles/20261020VNBR.yaml
+https://freenode.osbooting.com/nodefiles/20261020BTIP.txt
