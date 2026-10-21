@@ -1132,5 +1132,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20261020VNBR.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20261020BTIP.txt"
     }
+  },
+  {
+    "date": "1021",
+    "sort_key": "20261021",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20261021LUZJ.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20261021ETSH.txt"
+    }
   }
 ]
