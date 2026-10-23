@@ -1150,5 +1150,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20261022VHMJ.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20261022UDZS.txt"
     }
+  },
+  {
+    "date": "1023",
+    "sort_key": "20261023",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20261023DKYR.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20261023WTRA.txt"
+    }
   }
 ]
