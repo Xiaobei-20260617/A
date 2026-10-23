@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-23T06:13:26Z",
+  "timestamp": "2026-10-23T11:53:42Z",
   "sources": {
     "fproxies": {
-      "status": "ok",
-      "nodes": 160,
-      "size_kb": 261.8,
+      "status": "failed",
+      "nodes": 0,
+      "size_kb": 0,
       "error": ""
     },
     "datiya": {
@@ -27,14 +27,14 @@
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 8,
-      "size_kb": 675.9,
+      "nodes": 11,
+      "size_kb": 676.1,
       "error": ""
     },
     "au1rxx": {
       "status": "ok",
-      "nodes": 713,
-      "size_kb": 509.7,
+      "nodes": 619,
+      "size_kb": 525.4,
       "error": ""
     },
     "v2rayfree": {
@@ -58,7 +58,7 @@
     "ovmvo": {
       "status": "ok",
       "nodes": 0,
-      "size_kb": 45.5,
+      "size_kb": 49.8,
       "error": ""
     },
     "v2raynnodes_clash": {
@@ -87,20 +87,20 @@
     },
     "automerge": {
       "status": "ok",
-      "nodes": 235,
-      "size_kb": 507.7,
+      "nodes": 194,
+      "size_kb": 503.0,
       "error": ""
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 534,
-      "size_kb": 116.8,
+      "nodes": 478,
+      "size_kb": 112.6,
       "error": ""
     },
     "pawdroid": {
       "status": "ok",
       "nodes": 20,
-      "size_kb": 6.3,
+      "size_kb": 6.0,
       "error": ""
     },
     "barabama": {
@@ -111,44 +111,44 @@
     },
     "barabama_玉豆免费节点": {
       "status": "ok",
-      "nodes": 166,
-      "size_kb": 68.8,
+      "nodes": 0,
+      "size_kb": 0.0,
       "error": ""
     },
     "barabama_Blues 免费节点": {
       "status": "ok",
-      "nodes": 135,
-      "size_kb": 38.4,
+      "nodes": 0,
+      "size_kb": 0.0,
       "error": ""
     },
     "barabama_nodev2ray.com": {
       "status": "ok",
-      "nodes": 13,
-      "size_kb": 3.2,
+      "nodes": 3167,
+      "size_kb": 828.6,
       "error": ""
     },
     "barabama_naidounode.com": {
       "status": "ok",
-      "nodes": 14,
-      "size_kb": 2.2,
+      "nodes": 0,
+      "size_kb": 0.0,
       "error": ""
     },
     "barabama_wenode.cc": {
       "status": "ok",
-      "nodes": 23,
-      "size_kb": 4.4,
+      "nodes": 0,
+      "size_kb": 0.0,
       "error": ""
     },
     "barabama_v2rayshare.com": {
       "status": "ok",
-      "nodes": 23,
-      "size_kb": 4.4,
+      "nodes": 0,
+      "size_kb": 0.0,
       "error": ""
     },
     "barabama_nodefree.org": {
       "status": "ok",
-      "nodes": 23,
-      "size_kb": 4.4,
+      "nodes": 0,
+      "size_kb": 0.0,
       "error": ""
     },
     "flikify": {
@@ -159,14 +159,14 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 74,
-      "size_kb": 17.6,
+      "nodes": 32,
+      "size_kb": 12.5,
       "error": ""
     }
   },
   "summary": {
     "total": 27,
-    "ok": 26,
-    "failed": 1
+    "ok": 25,
+    "failed": 2
   }
 }
