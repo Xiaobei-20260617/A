@@ -1,324 +1,56 @@
 proxies:
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_1|2.2MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      server: 45.151.71.176
-      servername: gb.ozon.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F9\U0001F1F7TR_1|2.7MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      server: 193.160.141.27
-      servername: abuse.ozon.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FARU_1|4.2MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      server: 45.151.71.145
-      servername: abuse.ozon.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 04edf721-b2b7-4a80-9fbd-c949438c58c9
-    - name: "\U0001F1E6\U0001F1F9AT_1|1.3MB/s"
-      port: 443
-      server: 146.70.244.2
+    - name: "\U0001F1ED\U0001F1F0HK_1|3.5MB/s"
+      port: 10007
+      server: 118.25.131.160
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1F1\U0001F1FALU_1|1.0MB/s"
-      port: 9443
-      server: 185.221.132.226
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EE\U0001F1EAIE_1|1.3MB/s"
-      password: None
-      port: 443
-      server: 149.88.96.1
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1E7\U0001F1EABE_1|1.9MB/s|R002-260618"
-      password: None
-      port: 443
-      server: 146.70.176.242
-      skip-cert-verify: true
-      sub_tag: R002-260618
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1EB\U0001F1F7FR_1|1.1MB/s"
-      password: None
-      port: 443
-      server: 149.102.245.65
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_1|1.0MB/s"
-      port: 443
-      server: 12.202.180.118
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FARU_2|1.1MB/s"
-      port: 443
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      server: 45.151.71.169
-      servername: abuse.ozon.ru
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0b6a937e-5b0e-49ca-b31e-f03f290e97cf
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FARU_3|1.1MB/s"
-      port: 443
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      server: 193.160.141.8
-      servername: ozon.ru
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_2|1.1MB/s"
-      port: 443
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      server: 45.151.71.167
-      servername: abuse.ozon.ru
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-    - name: "\U0001F1EC\U0001F1E7GB_2|1.2MB/s"
-      password: null
-      port: 443
-      server: 37.120.233.50
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1FA\U0001F1F8US_2|2.6MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_1|1.9MB/s"
       port: 8443
       server: 154.81.36.92
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1E8\U0001F1EDCH_1|1.1MB/s"
-      password: null
-      port: 9443
-      server: 37.120.213.210
+    - name: "\U0001F1F8\U0001F1ECSG_1|1.7MB/s"
+      password: "1234"
+      port: 2080
+      server: 13.212.190.30
       skip-cert-verify: true
-      tls: true
       type: http
-      username: null
-    - name: "\U0001F1EA\U0001F1EAEE_1|1016KB/s"
-      port: 9443
-      server: 95.153.32.2
+      username: "1234"
+    - name: "\U0001F1F8\U0001F1ECSG_2|1.5MB/s"
+      password: "1234"
+      port: 2080
+      server: 18.143.144.220
       skip-cert-verify: true
-      tls: true
       type: http
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_3|1016KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      server: 45.151.71.167
-      servername: abuse.ozon.ru
-      skip-cert-verify: false
-      sni: abuse.ozon.ru
-      tls: true
-      type: vless
       udp: true
-      uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-    - name: "\U0001F1EC\U0001F1E7GB_3|2.1MB/s"
+      username: "1234"
+    - name: "\U0001F1E9\U0001F1F0DK_1|1.4MB/s"
+      port: 443
+      server: 185.245.84.50
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1EC\U0001F1E7GB_1|1.6MB/s"
       password: null
       port: 443
-      server: 185.164.138.156
+      server: 212.102.63.31
       skip-cert-verify: true
       tls: true
       type: http
       username: null
-    - name: "\U0001F1EC\U0001F1E7GB_4|1.8MB/s"
-      password: null
-      port: 9443
-      server: 84.17.50.214
+    - name: "\U0001F1F8\U0001F1ECSG_3|1.7MB/s"
+      password: "1234"
+      port: "2080"
+      server: 18.143.167.6
       skip-cert-verify: true
-      tls: true
       type: http
-      username: null
-    - name: "\U0001F1F8\U0001F1EASE_1|1.3MB/s"
-      password: None
-      port: 443
-      server: 146.70.242.130
+      username: "1234"
+    - name: "\U0001F1F8\U0001F1ECSG_4|1.1MB/s"
+      password: "1234"
+      port: "2080"
+      server: 13.250.6.249
       skip-cert-verify: true
-      tls: true
       type: http
-      username: null
-    - name: "\U0001F1EA\U0001F1EAEE_2|1.6MB/s"
-      password: null
-      port: 9443
-      server: 95.153.31.66
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1E7\U0001F1E6BA_1|1.6MB/s"
-      port: 443
-      server: 185.164.35.16
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1EESI_1|1.1MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU
-        short-id: 88d9dc52ef39c8bd
-      server: 92.42.201.107
-      servername: node-slo02.rkitman.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: d0c8aa8d-a535-432a-b521-21f0e561f643
-      xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      name: "\U0001F1E9\U0001F1EADE_1|1.1MB/s"
-      network: xhttp
-      port: "2052"
-      reality-opts:
-        public-key: 3ds1sPK8MuZVr6IOAwjRx0h_2IZMZ2v_RzNGl3iYwno
-        short-id: 025ee5be0c789ece
-      server: 2.27.206.215
-      servername: yastatic.net
-      tls: true
-      type: vless
-      udp: true
-      uuid: fafc7c16-f890-45ee-a856-02df225172dd
-      xhttp-opts:
-        mode: stream-up
-        path: /cdn/api
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_3|1.2MB/s"
-      password: ""
-      port: "20001"
-      server: 38.246.236.143
-      skip-cert-verify: true
-      type: socks5
-      username: ""
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FARU_4|1.2MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-        short-id: ""
-      server: 193.160.141.8
-      servername: ozon.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-      xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_5|2.3MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-        short-id: ""
-      server: 147.45.46.184
-      servername: gb.ozon.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
-      xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FARU_5|1.1MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-        short-id: ""
-      server: 37.235.249.43
-      servername: ozon.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
-      xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FARU_6|1.4MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-        short-id: ""
-      server: 37.235.249.24
-      servername: ozon.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
-      xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_4|1.7MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-        short-id: ""
-      server: 147.45.47.117
-      servername: ozon.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
-      xudp: true
+      username: "1234"
