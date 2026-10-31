@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-31T15:26:39Z",
+  "timestamp": "2026-10-31T19:26:26Z",
   "sources": {
     "fproxies": {
-      "status": "failed",
-      "nodes": 0,
-      "size_kb": 0,
+      "status": "ok",
+      "nodes": 150,
+      "size_kb": 241.7,
       "error": ""
     },
     "datiya": {
@@ -87,20 +87,20 @@
     },
     "automerge": {
       "status": "ok",
-      "nodes": 224,
-      "size_kb": 496.3,
+      "nodes": 234,
+      "size_kb": 500.0,
       "error": ""
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 506,
-      "size_kb": 119.1,
+      "nodes": 515,
+      "size_kb": 121.5,
       "error": ""
     },
     "pawdroid": {
       "status": "ok",
-      "nodes": 12,
-      "size_kb": 3.2,
+      "nodes": 11,
+      "size_kb": 2.6,
       "error": ""
     },
     "barabama": {
@@ -159,14 +159,14 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 3,
-      "size_kb": 2.3,
+      "nodes": 5,
+      "size_kb": 2.2,
       "error": ""
     }
   },
   "summary": {
     "total": 27,
-    "ok": 25,
-    "failed": 2
+    "ok": 26,
+    "failed": 1
   }
 }
