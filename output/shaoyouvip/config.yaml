@@ -1,86 +1,60 @@
 proxies:
-    - alterId: "1"
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5JP_1|1.4MB/s"
-      network: tcp
-      port: "28788"
-      server: wo6ah0f-g06.jp06-jz-vm0.entry.fr0528.art
-      servername: wo6ah0f-g06.jp06-jz-vm0.entry.fr0528.art
-      skip-cert-verify: false
-      tls: true
-      type: vmess
+    - name: "\U0001F1ED\U0001F1F0HK_1|3.7MB/s"
+      password: b17e9b52db9623bd6c16eea3d7adb5b3
+      port: 43638
+      server: ench-snet-app.w-ctrip.cn
+      skip-cert-verify: true
+      sni: cm.g.doubleclick.net
+      type: trojan
       udp: true
-      uuid: a3b5a6fc-0b92-3b66-beda-eb2a49361a21
-      xudp: true
-    - alterId: "1"
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5JP_2|4.9MB/s"
-      network: tcp
-      port: "28786"
-      server: ou44bxs-g04.jp06-jz-vm0.entry.fr0528.art
-      servername: ou44bxs-g04.jp06-jz-vm0.entry.fr0528.art
-      skip-cert-verify: false
-      tls: true
-      type: vmess
+    - name: "\U0001F1F8\U0001F1ECSG_1|1.2MB/s"
+      password: b17e9b52db9623bd6c16eea3d7adb5b3
+      port: 42338
+      server: ench-snet-app.w-ctrip.cn
+      skip-cert-verify: true
+      sni: cm.g.doubleclick.net
+      type: trojan
       udp: true
-      uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-      xudp: true
-    - name: "\U0001F1EA\U0001F1F8ES_1|2.7MB/s"
+    - name: "\U0001F1EC\U0001F1E7GB_1|1.2MB/s"
       password: None
       port: 443
-      server: 130.195.250.34
+      server: 37.120.233.50
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1E9\U0001F1EADE_1|1.0MB/s"
-      password: None
-      port: 9443
-      server: 213.177.229.161
+    - name: "\U0001F1ED\U0001F1F0HK_2|2.5MB/s"
+      port: 3128
+      server: 119.28.24.235
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1E8\U0001F1FECY_1|1001KB/s"
+    - name: "\U0001F1F0\U0001F1F7KR_1|1.5MB/s"
+      password: b17e9b52db9623bd6c16eea3d7adb5b3
+      port: 29628
+      server: ench-snet-app.w-ctrip.cn
+      skip-cert-verify: true
+      sni: cm.g.doubleclick.net
+      type: trojan
+      udp: true
+    - name: ❓Other_1|1.9MB/s
+      password: b17e9b52db9623bd6c16eea3d7adb5b3
+      port: 45502
+      server: ench-snet-app.w-ctrip.cn
+      skip-cert-verify: true
+      sni: cm.g.doubleclick.net
+      type: trojan
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_1|1.1MB/s"
+      password: 16955d72-1794-11f0-a035-f23c95b6f51d
       port: 443
-      server: 213.207.130.34
-      skip-cert-verify: true
+      server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
       tls: true
       type: http
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EB\U0001F1EEFI_1|1.8MB/s"
-      network: xhttp
-      port: "61374"
-      reality-opts:
-        public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
-        short-id: ""
-      server: se-2.pythonsetupbib.online
-      servername: se-2.pythonsetupbib.online
+      username: 16955d72-1794-11f0-a035-f23c95b6f51d
+    - name: "\U0001F1EB\U0001F1F7FR_1|1.1MB/s"
+      password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
+      port: 443
+      server: 8a7d3033-ta1og0-ta5i1s-1j61y.fr.oshuawei.com
       tls: true
-      type: vless
-      udp: true
-      uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-      xhttp-opts:
-        host: se-2.pythonsetupbib.online
-        mode: packet-up
-        path: /
-        reuse-settings:
-            max-connections: "3"
-        x-padding-bytes: 100-500
-      xudp: true
-    - alterId: 1
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5JP_3|4.4MB/s"
-      port: 21581
-      server: 01eb6-g01.jp03-7d22-vm0.entry.fr0307a.art
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      udp: true
-      uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
-    - name: "\U0001F1E7\U0001F1E9BD_1|1.5MB/s"
-      password: ""
-      port: "1080"
-      server: 47.245.99.1
-      skip-cert-verify: true
-      type: socks5
-      username: ""
+      type: http
+      username: f13f964e-f06c-11ec-a858-f23c91cfbbc9
