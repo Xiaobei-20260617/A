@@ -1231,5 +1231,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20261031JKED.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20261031CXIU.txt"
     }
+  },
+  {
+    "date": "1101",
+    "sort_key": "20261101",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20261101XBWN.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20261101NWDA.txt"
+    }
   }
 ]
