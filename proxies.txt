@@ -5,1245 +5,1237 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: ">🇦🇺AU|Hs|1024|TG@FProxies|", server: 103.107.197.146, port: 9443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇦🇺AU|Hs|1024|TG@FProxies| 2", server: 103.77.232.74, port: 9443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇦🇺AU|Ls|1024|TG@FProxies|", server: 103.108.95.226, port: 9443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇧🇷BR|Hs|1024|TG@FProxies|", server: 149.102.251.193, port: 9443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇧🇷BR|Ls|1024|TG@FProxies|", server: 45.168.244.10, port: 9090, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇧🇷BR|Ms|1024|TG@FProxies|", server: 149.102.251.206, port: 9443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇩🇪DE|Ls|1024|TG@FProxies|", server: 159.69.94.125, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇩🇪DE|Ls|1024|TG@FProxies| 2", server: 185.44.107.166, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇩🇪DE|Ls|1024|TG@FProxies| 3", server: 188.120.225.125, port: 8443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇩🇪DE|Ls|1024|TG@FProxies| 4", server: 161.35.70.249, port: 8080, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇩🇪DE|Ls|1024|TG@FProxies| 5", server: fan.973511.xyz, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇩🇪DE|Ls|1024|TG@FProxies| 6", server: 176.94.74.21, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇩🇪DE|Ls|1024|TG@FProxies| 7", server: 158.173.154.1, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇩🇪DE|Ls|1024|TG@FProxies| 8", server: fan.973511.xyz, port: 443, type: http, username: None, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇩🇪DE|Ms|1024|TG@FProxies|", server: 149.36.50.1, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇩🇪DE|Ms|1024|TG@FProxies| 2", server: gg.iliuuafgfhyghf.com, port: 30016, type: anytls, password: 9ece503b-7090-4591-b3cb-94f751c98eee, udp: true, skip-cert-verify: true}
-  - {name: ">🇩🇪DE|Ms|1024|TG@FProxies| 3", server: 213.177.229.161, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇫🇷FR|Ls|1024|TG@FProxies|", server: 109.190.196.5, port: 8090, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇫🇷FR|Ls|1024|TG@FProxies| 2", server: 83.172.143.53, port: 4443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇬🇧GB|Hs|1024|TG@FProxies|", server: 84.17.50.129, port: 9443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇬🇧GB|Ms|1024|TG@FProxies|", server: 77.221.136.60, port: 8443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Hs|1024|TG@FProxies|", server: 61.142.113.42, port: 6666, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Hs|1024|TG@FProxies| 2", server: 146.70.9.242, port: 9443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ls|1024|TG@FProxies|", server: 45.149.92.160, port: 1080, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ls|1024|TG@FProxies| 2", server: 176.111.37.5, port: 39811, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰HK|Ls|1024|TG@FProxies| 3", server: 56481.df6h451rh.xin, port: 443, type: anytls, password: 0324fbc29561, udp: true, sni: images.ctfassets.net, skip-cert-verify: true}
-  - {name: ">🇭🇰HK|Ms|1024|TG@FProxies|", server: 501.150333.xyz, port: 21003, type: vless, uuid: 972be0be-1831-4b5e-b26b-3b6e139a1cd0, tls: true, tfo: false, skip-cert-verify: true, reality-opts: {public-key: OCs6EIBsSg-f8MW0RE7QDwjZafk09F1aGl7olF7yAW0, short-id: "09acf476305bdc56" }, servername: www.cloudflare.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: ">🇮🇩ID|Ls|1024|TG@FProxies|", server: cr1-id.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇮🇩ID|Ms|1024|TG@FProxies|", server: 2.27.116.2, port: 9443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇮🇩ID|Ms|1024|TG@FProxies| 2", server: 222.167.229.242, port: 9443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇮🇩ID|Ms|1024|TG@FProxies| 3", server: 178.248.73.58, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇮🇳IN|Ls|1024|TG@FProxies|", server: 3.111.253.23, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇯🇵JP|Hs|1024|TG@FProxies|", server: 167.179.90.184, port: 7897, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇯🇵JP|Hs|1024|TG@FProxies| 2", server: 223.254.128.244, port: 7897, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇯🇵JP|Hs|1024|TG@FProxies| 3", server: alexwcy.fun, port: 7893, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇯🇵JP|Hs|1024|TG@FProxies| 4", server: 120.232.204.58, port: 40583, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇯🇵JP|Ls|1024|TG@FProxies|", server: 139.162.78.109, port: 8080, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇯🇵JP|Ls|1024|TG@FProxies| 2", server: 101.36.104.46, port: 10808, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: ">🇯🇵JP|Ms|1024|TG@FProxies|", server: 103.135.244.2, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇯🇵JP|Ms|1024|TG@FProxies| 2", server: tokyo.jknas.top, port: 443, type: hysteria2, password: 90e998cc-5aa2-4519-b0a3-6f602a8caa81, auth: 90e998cc-5aa2-4519-b0a3-6f602a8caa81, skip-cert-verify: true, obfs: salamander, obfs-password: 8jK#p2L$m9N!q5R&vB7tW, udp: true}
-  - {name: ">🇰🇷KR|Ms|1024|TG@FProxies|", server: 3.34.91.121, port: 12308, type: trojan, password: 3637190e-4ce3-41cd-9425-f5676345b38c, sni: kr02.ulifeai.com, skip-cert-verify: true, udp: true}
-  - {name: ">🇰🇷KR|Ms|1024|TG@FProxies| 2", server: 183.106.215.208, port: 1080, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: ">🇳🇱NL|Hs|1024|TG@FProxies|", server: 45.154.87.85, port: 1443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇳🇱NL|Hs|1024|TG@FProxies| 2", server: 45.128.27.169, port: 1443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇳🇱NL|Hs|1024|TG@FProxies| 3", server: 88.99.38.70, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇳🇱NL|Hs|1024|TG@FProxies| 4", server: 185.140.209.235, port: 443, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇳🇱NL|Ls|1024|TG@FProxies|", server: 185.238.168.20, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇳🇱NL|Ls|1024|TG@FProxies| 2", server: 144.124.251.24, port: 10334, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇳🇱NL|Ls|1024|TG@FProxies| 3", server: 84.17.47.149, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇳🇱NL|Ls|1024|TG@FProxies| 4", server: 185.93.106.214, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇳🇱NL|Ls|1024|TG@FProxies| 5", server: 149.210.158.107, port: 5001, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇳🇱NL|Ls|1024|TG@FProxies| 6", server: 84.17.47.146, port: 9002, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇳🇱NL|Ls|1024|TG@FProxies| 7", server: 144.124.251.24, port: 10574, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇳🇱NL|Ls|1024|TG@FProxies| 8", server: 144.124.251.24, port: 10811, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇳🇱NL|Ls|1024|TG@FProxies| 9", server: 185.246.153.42, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇳🇱NL|Ls|1024|TG@FProxies| 10", server: nl205.freeconnect.link, port: 9251, type: http, username: freeuser1, password: freeuser1, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇳🇱NL|Ls|1024|TG@FProxies| 11", server: 84.17.47.126, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇳🇱NL|Ms|1024|TG@FProxies|", server: 5.255.118.82, port: 443, type: http, username: "null", password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇷🇴RO|Ls|1024|TG@FProxies|", server: 193.176.84.20, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇷🇴RO|Ls|1024|TG@FProxies| 2", server: 193.176.84.32, port: 9002, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇷🇴RO|Ls|1024|TG@FProxies| 3", server: 193.176.84.24, port: 9002, type: http, username: None, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇷🇴RO|Ls|1024|TG@FProxies| 4", server: 193.176.84.35, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇷🇴RO|Ls|1024|TG@FProxies| 5", server: 193.176.84.39, port: 9002, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇷🇴RO|Ls|1024|TG@FProxies| 6", server: 193.176.84.20, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇷🇴RO|Ls|1024|TG@FProxies| 7", server: 193.176.84.21, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇷🇴RO|Ls|1024|TG@FProxies| 8", server: 193.176.84.37, port: 9002, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇷🇴RO|Ls|1024|TG@FProxies| 9", server: 193.176.84.25, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇷🇴RO|Ms|1024|TG@FProxies|", server: 193.176.84.34, port: 9002, type: http, username: None, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇷🇴RO|Ms|1024|TG@FProxies| 2", server: 185.163.110.194, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇷🇴RO|Ms|1024|TG@FProxies| 3", server: 193.176.84.17, port: 9002, type: http, username: None, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇸🇬SG|Hs|1024|TG@FProxies|", server: 172.67.73.39, port: 443, type: trojan, password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d, sni: sg1.nathaya.web.id, skip-cert-verify: true, network: ws, ws-opts: {path: /trojan, headers: {Host: sg1.nathaya.web.id}}, udp: true}
-  - {name: ">🇸🇬SG|Hs|1024|TG@FProxies| 2", server: parasail.undertook.barcode.aliyungslb.com, port: 443, type: trojan, password: e64abcb6-6267-321a-acbd-cdcd19b8572e, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: ">🇸🇬SG|Ls|1024|TG@FProxies|", server: 13.229.54.109, port: 2080, type: http, username: 1234, password: 1234, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇸🇬SG|Ls|1024|TG@FProxies| 2", server: 154.26.139.29, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇸🇬SG|Ls|1024|TG@FProxies| 3", server: 146.190.80.158, port: 9090, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇸🇬SG|Ls|1024|TG@FProxies| 4", server: 128.199.113.85, port: 9090, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇸🇬SG|Ls|1024|TG@FProxies| 5", server: p.xiaolong.world, port: 443, type: vmess, uuid: 2b6847cf-706a-4b59-9393-26a15f88b2a8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: oracle1.gamexl.cloudns.org, network: ws, ws-opts: {path: /vhofd6bs5x4ryi28, headers: {Host: p.xiaolong.world}}, udp: true}
-  - {name: ">🇸🇬SG|Ls|1024|TG@FProxies| 6", server: 104.248.151.93, port: 9090, type: http, username: None, password: None, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇸🇬SG|Ms|1024|TG@FProxies|", server: p.xiaolong.world, port: 443, type: vmess, uuid: 08fd9f14-493e-4802-bf3c-54bae5977c91, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: oracle3.gamexl.cloudns.org, network: ws, ws-opts: {path: /kdssy72yor2s4u76, headers: {Host: p.xiaolong.world}}, udp: true}
-  - {name: ">🇸🇬SG|Ms|1024|TG@FProxies| 2", server: 66.42.49.247, port: 8443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇸🇬SG|Ms|1024|TG@FProxies| 3", server: 47.97.22.65, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇸🇬SG|Ms|1024|TG@FProxies| 4", server: p.xiaolong.world, port: 443, type: vmess, uuid: d0b1639d-ae85-4e74-9a16-7e4dd375e65a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: oracle2.gamexl.cloudns.org, network: ws, ws-opts: {path: /i778hu6qe4o2pqwy, headers: {Host: p.xiaolong.world}}, udp: true}
-  - {name: ">🇸🇬SG|Ms|1024|TG@FProxies| 5", server: edu.ruangguru.com, port: 443, type: trojan, password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d, sni: sg1.nathaya.web.id, skip-cert-verify: true, network: ws, ws-opts: {path: /trojan, headers: {Host: sg1.nathaya.web.id}}, udp: true}
-  - {name: ">🇹🇼TW|Hs|1024|TG@FProxies|", server: aktw.prepop.online, port: 17825, type: anytls, password: 04de3d54-2c09-4c35-9e33-1eccbb11a25e, udp: true, sni: aktw.prepop.online, skip-cert-verify: true}
-  - {name: ">🇹🇼TW|Ms|1024|TG@FProxies|", server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇹🇼TW|Ms|1024|TG@FProxies| 2", server: 60.249.14.39, port: 443, type: trojan, password: 0cc6b4268dea0ba8, sni: TG.WangCai2, skip-cert-verify: true, network: grpc, grpc-opts: {grpc-service-name: db}, udp: true}
-  - {name: ">🇹🇼TW|Ms|1024|TG@FProxies| 3", server: 47.243.181.85, port: 42533, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇹🇼TW|Ms|1024|TG@FProxies| 4", server: 125.227.86.45, port: 443, type: trojan, password: 0a9f1f5a397bd427, sni: TG.freecodes, skip-cert-verify: true, network: grpc, grpc-opts: {grpc-service-name: db}, udp: true}
-  - {name: ">🇺🇸US|Hs|1024|TG@FProxies|", server: 199.217.105.226, port: 9443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Hs|1024|TG@FProxies| 2", server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net, port: 443, type: trojan, password: 6cddea99-9b18-4d42-8638-131bd9f5374f, sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Hs|1024|TG@FProxies| 3", server: 141.148.181.144, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Hs|1024|TG@FProxies| 4", server: 76.164.193.18, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Hs|1024|TG@FProxies| 5", server: 84.233.159.193, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Hs|1024|TG@FProxies| 6", server: 104.244.210.242, port: 9443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Hs|1024|TG@FProxies| 7", server: 45.61.188.134, port: 44499, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Hs|1024|TG@FProxies| 8", server: kimberlymilano.icu, port: 443, type: http, username: Ok5vbmU=, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies|", server: 162.214.159.94, port: 3128, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 2", server: 138.199.35.214, port: 9002, type: http, username: None, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 3", server: 138.199.35.218, port: 9002, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 4", server: webdrone.club, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 5", server: 138.199.35.201, port: 9002, type: http, username: None, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 6", server: 138.197.69.103, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 7", server: 206.188.209.77, port: 8447, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 8", server: 107.91.88.70, port: 8443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 9", server: 138.199.35.210, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 10", server: 138.199.35.209, port: 9002, type: http, username: None, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 11", server: us.yzero.xyz, port: 7860, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 12", server: 138.199.35.204, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 13", server: 206.188.208.101, port: 8447, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 14", server: jewelscollecti.icu, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 15", server: 138.199.35.196, port: 9002, type: http, username: None, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 16", server: 107.91.88.6, port: 8443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 17", server: 35.84.133.236, port: 8443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 18", server: 138.199.35.200, port: 9002, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 19", server: 138.199.35.211, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 20", server: fan.571589.xyz, port: 443, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 21", server: 138.199.35.214, port: 9002, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 22", server: zebpay.site, port: 443, type: http, username: Ok5vbmU=, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 23", server: 44.217.145.28, port: 8443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 24", server: 138.199.35.213, port: 9002, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 25", server: 198.199.86.11, port: 80, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 26", server: 138.199.35.201, port: 9002, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 27", server: 138.199.35.216, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 28", server: 24.225.10.211, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 29", server: 138.199.35.206, port: 9002, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ls|1024|TG@FProxies| 30", server: 45.61.129.165, port: 9050, type: socks5, password: None, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|1024|TG@FProxies|", server: fan.571589.xyz, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|1024|TG@FProxies| 2", server: 38.28.193.188, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|1024|TG@FProxies| 3", server: 49.51.180.61, port: 8888, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|1024|TG@FProxies| 4", server: user02.godvpn.lol, port: 62405, type: anytls, password: 4bbfa33a-449a-4a50-8dfc-6d0de880f7bc, udp: true, skip-cert-verify: true}
-  - {name: ">🇺🇸US|Ms|1024|TG@FProxies| 5", server: fan.571589.xyz, port: 443, type: http, username: None, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|1024|TG@FProxies| 6", server: 38.28.193.1, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|1024|TG@FProxies| 7", server: fan.587475.xyz, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|1024|TG@FProxies| 8", server: 38.28.193.178, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|1024|TG@FProxies| 9", server: 23.254.194.215, port: 21981, type: anytls, password: 3c75a551-81d6-46d0-876d-79519719bb22, udp: true, sni: www.bing.com, skip-cert-verify: true}
-  - {name: ">🇺🇸US|Ms|1024|TG@FProxies| 10", server: 38.28.193.71, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|1024|TG@FProxies| 11", server: 137.175.22.85, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|1024|TG@FProxies| 12", server: 38.28.193.129, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|1024|TG@FProxies| 13", server: 12.221.146.147, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|1024|TG@FProxies| 14", server: 12.202.180.10, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|1024|TG@FProxies| 15", server: purposebydesig.club, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|1024|TG@FProxies| 16", server: 137.175.22.96, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|1024|TG@FProxies| 17", server: 45.150.164.18, port: 8443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|1024|TG@FProxies| 18", server: 104.36.250.48, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|1024|TG@FProxies| 19", server: 137.175.22.84, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|1024|TG@FProxies| 20", server: purecambogiasl.live, port: 443, type: http, username: bnVsbDpudWxs, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|1024|TG@FProxies| 21", server: 137.175.22.41, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|1024|TG@FProxies| 22", server: usgp3-cdn-route.couldflare-cdn.com, port: 443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|1024|TG@FProxies| 23", server: 45.63.38.134, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸US|Ms|1024|TG@FProxies| 24", server: 112.74.97.79, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇧🇷BR|Hs|1103|TG@FProxies|", server: 179.96.182.182, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇩🇪DE|Hs|1103|TG@FProxies|", server: 45.61.129.165, port: 9050, type: socks5, username: None, password: None, skip-cert-verify: true, udp: true}
+  - {name: ">🇩🇪DE|Ls|1103|TG@FProxies|", server: 188.120.225.125, port: 8443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇩🇪DE|Ms|1103|TG@FProxies|", server: fan.973511.xyz, port: 443, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇩🇪DE|Ms|1103|TG@FProxies| 2", server: fan.973511.xyz, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇩🇪DE|Ms|1103|TG@FProxies| 3", server: fan.973511.xyz, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇩🇪DE|Ns|1103|TG@FProxies|", server: 152.233.20.193, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇩🇪DE|Ns|1103|TG@FProxies| 2", server: 213.177.229.161, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇫🇷FR|Hs|1103|TG@FProxies|", server: fan.132031.xyz, port: 443, type: http, username: bnVsbDpudWxs, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇫🇷FR|Ls|1103|TG@FProxies|", server: 213.199.47.140, port: 1080, type: socks5, password: None, skip-cert-verify: true, udp: true}
+  - {name: ">🇫🇷FR|Ls|1103|TG@FProxies| 2", server: 80.15.99.54, port: 8090, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇫🇷FR|Ms|1103|TG@FProxies|", server: 62.210.70.194, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇬🇧GB|Ls|1103|TG@FProxies|", server: 206.189.118.214, port: 443, type: http, username: testuser1, password: e4b72b531a2d10900519, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇬🇧GB|Ns|1103|TG@FProxies|", server: hkprto.5jkhsgwuesi.kdns.fr, port: 443, type: vless, uuid: efebb2f7-2ec9-4f24-b78c-74903c69a331, tls: true, tfo: false, skip-cert-verify: true, servername: hkprto.5jkhsgwuesi.kdns.fr, network: ws, ws-opts: {path: /vl/Bphpil4LTD2ApK3f69, headers: {Host: hkprto.5jkhsgwuesi.kdns.fr}}, udp: true}
+  - {name: ">🇬🇧GB|Ns|1103|TG@FProxies| 2", server: 79.98.32.137, port: 8080, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Hs|1103|TG@FProxies|", server: 56481.df6h451rh.xin, port: 443, type: anytls, password: 0324fbc29561, udp: true, sni: images.ctfassets.net, skip-cert-verify: true}
+  - {name: ">🇭🇰HK|Ls|1103|TG@FProxies|", server: 43.161.254.16, port: 3128, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Ls|1103|TG@FProxies| 2", server: 165.154.7.156, port: 8888, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Ls|1103|TG@FProxies| 3", server: 43.155.62.157, port: 443, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Ls|1103|TG@FProxies| 4", server: trapping.manned.unengaged.aliyungslb.com, port: 32118, type: trojan, password: 9acf6137-555c-3a2f-a1da-e7b4b1b88753, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Ms|1103|TG@FProxies|", server: 134.122.129.254, port: 8443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Ms|1103|TG@FProxies| 2", server: 112.121.173.84, port: 1080, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Ms|1103|TG@FProxies| 3", server: fan.240104.xyz, port: 443, type: http, username: bnVsbDpudWxs, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Ms|1103|TG@FProxies| 4", server: fan.240104.xyz, port: 443, type: http, username: None, password: None, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Ms|1103|TG@FProxies| 5", server: fan.240104.xyz, port: 443, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰HK|Ms|1103|TG@FProxies| 6", server: 38.55.192.122, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇩ID|Hs|1103|TG@FProxies|", server: 120.89.95.117, port: 9500, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇩ID|Hs|1103|TG@FProxies| 2", server: 103.120.76.158, port: 8080, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇩ID|Hs|1103|TG@FProxies| 3", server: 103.86.117.23, port: 8080, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇩ID|Ls|1103|TG@FProxies|", server: 103.130.61.61, port: 8081, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇩ID|Ls|1103|TG@FProxies| 2", server: 38.46.214.243, port: 1111, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇩ID|Ls|1103|TG@FProxies| 3", server: 103.179.252.74, port: 3128, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇩ID|Ls|1103|TG@FProxies| 4", server: 103.72.89.28, port: 8097, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇩ID|Ns|1103|TG@FProxies|", server: 103.81.65.77, port: 8080, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇳IN|Ls|1103|TG@FProxies|", server: 3.110.20.129, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇳IN|Ls|1103|TG@FProxies| 2", server: 13.201.217.41, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇳IN|Ls|1103|TG@FProxies| 3", server: 3.109.65.43, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇳IN|Ls|1103|TG@FProxies| 4", server: 13.232.233.63, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇳IN|Ls|1103|TG@FProxies| 5", server: 52.66.121.218, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇳IN|Ls|1103|TG@FProxies| 6", server: 13.235.75.49, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇳IN|Ms|1103|TG@FProxies|", server: 144.24.109.215, port: 51000, type: hysteria2, password: d105c6ae-621b-47c1-b85b-075fd6a39aca, auth: d105c6ae-621b-47c1-b85b-075fd6a39aca, sni: cn.cremedelamer.com, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇳IN|Ns|1103|TG@FProxies|", server: 139.59.1.14, port: 8080, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇹IT|Hs|1103|TG@FProxies|", server: 109.116.41.154, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇮🇹IT|Ms|1103|TG@FProxies|", server: 91.243.118.217, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇯🇵JP|Hs|1103|TG@FProxies|", server: 35.78.252.142, port: 55368, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇯🇵JP|Ls|1103|TG@FProxies|", server: 45.43.60.220, port: 8080, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇯🇵JP|Ls|1103|TG@FProxies| 2", server: 101.36.104.46, port: 10808, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇯🇵JP|Ls|1103|TG@FProxies| 3", server: 154.36.158.197, port: 8388, type: ss, cipher: aes-256-gcm, password: BeaUf9c0AEWH40Pu, udp: true}
+  - {name: ">🇯🇵JP|Ls|1103|TG@FProxies| 4", server: 56.155.73.159, port: 23904, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇯🇵JP|Ls|1103|TG@FProxies| 5", server: 101.36.104.239, port: 10808, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇯🇵JP|Ls|1103|TG@FProxies| 6", server: 101.36.104.239, port: 10808, type: socks5, password: None, skip-cert-verify: true, udp: true}
+  - {name: ">🇯🇵JP|Ls|1103|TG@FProxies| 7", server: 101.36.104.46, port: 10808, type: socks5, password: None, skip-cert-verify: true, udp: true}
+  - {name: ">🇯🇵JP|Ms|1103|TG@FProxies|", server: 16.mgjiasuyunnet.26621689.xyz, port: 23616, type: vmess, uuid: 63ba99a7-0184-3a85-ba01-85f4ffe99a68, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.mgjiasuyunnet.26621689.xyz}}, udp: true}
+  - {name: ">🇯🇵JP|Ms|1103|TG@FProxies| 2", server: 11.mgjiasuyunnet.26621689.xyz, port: 23611, type: vmess, uuid: f932ae5a-6ab7-39eb-9ca7-21817720a076, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mgjiasuyunnet.26621689.xyz}}, udp: true}
+  - {name: ">🇰🇷KR|Ls|1103|TG@FProxies|", server: 43.202.1.87, port: 443, type: hysteria2, password: 7e68e32f-8015-4f37-9082-70e8b0b58043, auth: 7e68e32f-8015-4f37-9082-70e8b0b58043, sni: www.bing.com, skip-cert-verify: true, udp: true}
+  - {name: ">🇳🇱NL|Ls|1103|TG@FProxies|", server: 144.124.251.24, port: 10407, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇳🇱NL|Ls|1103|TG@FProxies| 2", server: 144.124.251.24, port: 10091, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇳🇱NL|Ls|1103|TG@FProxies| 3", server: 144.124.251.24, port: 10117, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇳🇱NL|Ls|1103|TG@FProxies| 4", server: 144.124.251.24, port: 10574, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇳🇱NL|Ls|1103|TG@FProxies| 5", server: 144.124.251.24, port: 11280, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇳🇱NL|Ls|1103|TG@FProxies| 6", server: 144.124.251.24, port: 10811, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇳🇱NL|Ls|1103|TG@FProxies| 7", server: 144.124.251.24, port: 10509, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇳🇱NL|Ms|1103|TG@FProxies|", server: 5.255.103.55, port: 1080, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇳🇱NL|Ms|1103|TG@FProxies| 2", server: 5.255.97.222, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇳🇱NL|Ms|1103|TG@FProxies| 3", server: 5.255.118.82, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇳🇱NL|Ms|1103|TG@FProxies| 4", server: 5.255.118.82, port: 443, type: http, username: None, password: None, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇳🇱NL|Ms|1103|TG@FProxies| 5", server: 186.246.9.29, port: 443, type: vless, uuid: b2847c3b-5278-4b06-9c66-bc919d2dfec7, tls: true, tfo: false, skip-cert-verify: true, reality-opts: {public-key: MPNMomAMn_lu9YMYjD2jAQWrI-rTM4hj9Jgg9d6qzTA, short-id: "50ad5564" }, servername: wordpress.com, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: ">🇵🇱PL|Ms|1103|TG@FProxies|", server: 31.186.220.204, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Hs|1103|TG@FProxies|", server: 193.176.84.39, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Hs|1103|TG@FProxies| 2", server: 193.176.84.25, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Hs|1103|TG@FProxies| 3", server: 193.176.84.33, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Hs|1103|TG@FProxies| 4", server: 193.176.84.29, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Hs|1103|TG@FProxies| 5", server: 193.176.84.34, port: 9002, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ms|1103|TG@FProxies|", server: 169.150.199.1, port: 9443, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇴RO|Ms|1103|TG@FProxies| 2", server: 193.176.84.39, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇷🇺RU|Ms|1103|TG@FProxies|", server: chalo-ru.nexorcdn.com, port: 41560, type: http, username: ef37886e2aacd6fa622e3de3810299c2, password: 9jkvAVV-9ufV6IGd, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬SG|Hs|1103|TG@FProxies|", server: 104.248.151.93, port: 9090, type: http, username: None, password: None, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬SG|Hs|1103|TG@FProxies| 2", server: 194.233.73.140, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬SG|Hs|1103|TG@FProxies| 3", server: 128.199.254.13, port: 9090, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬SG|Ls|1103|TG@FProxies|", server: 18.143.144.220, port: 2080, type: http, username: 1234, password: 1234, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬SG|Ls|1103|TG@FProxies| 2", server: 54.255.133.243, port: 2080, type: http, username: 1234, password: 1234, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬SG|Ls|1103|TG@FProxies| 3", server: 52.74.26.202, port: 8080, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬SG|Ls|1103|TG@FProxies| 4", server: 47.129.174.248, port: 2080, type: http, username: 1234, password: 1234, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬SG|Ms|1103|TG@FProxies|", server: 152.42.170.187, port: 9090, type: http, username: None, password: None, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬SG|Ms|1103|TG@FProxies| 2", server: sg01-hy.poke-mon.xyz, port: 34713, type: hysteria2, password: 1a49b729-c9b9-41ae-a47b-e4f11368bcbe, auth: 1a49b729-c9b9-41ae-a47b-e4f11368bcbe, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬SG|Ms|1103|TG@FProxies| 3", server: 138.2.74.42, port: 60110, type: hysteria2, password: 5bc65313-6a35-4685-ba97-fe7784370c7b, auth: 5bc65313-6a35-4685-ba97-fe7784370c7b, sni: www.bing.com, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬SG|Ms|1103|TG@FProxies| 4", server: 152.42.170.187, port: 9090, type: http, password: None, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇹🇼TW|Ls|1103|TG@FProxies|", server: 164.52.11.194, port: 18080, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇹🇼TW|Ms|1103|TG@FProxies|", server: user02.godvpn.lol, port: 62405, type: anytls, password: 4bbfa33a-449a-4a50-8dfc-6d0de880f7bc, udp: true, skip-cert-verify: true}
+  - {name: ">🇹🇼TW|Ms|1103|TG@FProxies| 2", server: 19.mgjiasuyunnet.26621689.xyz, port: 23619, type: vmess, uuid: f932ae5a-6ab7-39eb-9ca7-21817720a076, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.mgjiasuyunnet.26621689.xyz}}, udp: true}
+  - {name: ">🇹🇼TW|Ms|1103|TG@FProxies| 3", server: 19.mgjiasuyunnet.26621689.xyz, port: 23619, type: vmess, uuid: a7736f9c-8663-3cd9-a6d5-b9cd4e274129, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.mgjiasuyunnet.26621689.xyz}}, udp: true}
+  - {name: ">🇺🇸US|Hs|1103|TG@FProxies|", server: 15.mgjiasuyunnet.26621689.xyz, port: 23615, type: vmess, uuid: a7736f9c-8663-3cd9-a6d5-b9cd4e274129, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.mgjiasuyunnet.26621689.xyz}}, udp: true}
+  - {name: ">🇺🇸US|Hs|1103|TG@FProxies| 2", server: 107.91.88.6, port: 8443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Hs|1103|TG@FProxies| 3", server: 205.178.144.94, port: 8447, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Hs|1103|TG@FProxies| 4", server: 129.146.124.201, port: 51000, type: hysteria2, password: 1d491f8c-ccaa-43e1-b62d-f255c7832e27, auth: 1d491f8c-ccaa-43e1-b62d-f255c7832e27, sni: cn.cremedelamer.com, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Hs|1103|TG@FProxies| 5", server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: guanwang.awsno.com, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}, udp: true}
+  - {name: ">🇺🇸US|Hs|1103|TG@FProxies| 6", server: 205.178.136.139, port: 8447, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Hs|1103|TG@FProxies| 7", server: 162.172.63.120, port: 8443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ls|1103|TG@FProxies|", server: 107.91.88.78, port: 8443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ls|1103|TG@FProxies| 2", server: jp.sofast.live, port: 52683, type: vless, uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc, tls: false, tfo: false, skip-cert-verify: true, network: tcp, udp: true}
+  - {name: ">🇺🇸US|Ls|1103|TG@FProxies| 3", server: us22.sofast.live, port: 58011, type: vless, uuid: 0afc6426-606c-48e7-bd70-3c424a416842, tls: false, tfo: false, skip-cert-verify: true, network: tcp, udp: true}
+  - {name: ">🇺🇸US|Ls|1103|TG@FProxies| 4", server: 13.mgjiasuyunnet.26621689.xyz, port: 23613, type: vmess, uuid: 59ecdd09-5d4a-30b2-b394-ce14ef06193c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.mgjiasuyunnet.26621689.xyz}}, udp: true}
+  - {name: ">🇺🇸US|Ls|1103|TG@FProxies| 5", server: 129.146.124.201, port: 51000, type: hysteria2, password: d105c6ae-621b-47c1-b85b-075fd6a39aca, auth: d105c6ae-621b-47c1-b85b-075fd6a39aca, sni: cn.cremedelamer.com, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ls|1103|TG@FProxies| 6", server: 45.150.164.14, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ls|1103|TG@FProxies| 7", server: 50.76.211.251, port: 8090, type: http, username: None, password: None, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ls|1103|TG@FProxies| 8", server: 23.82.137.230, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|1103|TG@FProxies|", server: 130.127.204.197, port: 8080, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|1103|TG@FProxies| 2", server: 156.229.165.91, port: 55000, type: hysteria2, password: dc8ee5c7-865b-4fa5-8a24-5d94fa3e8c90, auth: dc8ee5c7-865b-4fa5-8a24-5d94fa3e8c90, sni: www.bing.com, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|1103|TG@FProxies| 3", server: 156.229.165.91, port: 55000, type: hysteria2, password: 2d8fb6f1-e205-4d6f-8fd7-54f6520ca5a2, auth: 2d8fb6f1-e205-4d6f-8fd7-54f6520ca5a2, sni: www.bing.com, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|1103|TG@FProxies| 4", server: 137.175.77.35, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|1103|TG@FProxies| 5", server: 38.28.193.84, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|1103|TG@FProxies| 6", server: 38.28.185.163, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|1103|TG@FProxies| 7", server: 156.229.165.91, port: 55000, type: hysteria2, password: e26696d0-dfcd-4dba-94e0-43c9396c2942, auth: e26696d0-dfcd-4dba-94e0-43c9396c2942, sni: www.bing.com, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|1103|TG@FProxies| 8", server: 38.28.193.188, port: 443, type: http, username: None, password: None, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|1103|TG@FProxies| 9", server: 45.74.31.47, port: 8654, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|1103|TG@FProxies| 10", server: 38.28.185.222, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|1103|TG@FProxies| 11", server: 38.28.185.208, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|1103|TG@FProxies| 12", server: 38.28.193.188, port: 443, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|1103|TG@FProxies| 13", server: 162.191.226.246, port: 9443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|1103|TG@FProxies| 14", server: 129.146.215.233, port: 51000, type: hysteria2, password: f274d006-4c01-4fe0-aaa4-83c426577cd0, auth: f274d006-4c01-4fe0-aaa4-83c426577cd0, sni: cn.cremedelamer.com, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|1103|TG@FProxies| 15", server: 156.229.165.91, port: 55000, type: hysteria2, password: 35e5d604-392a-43ac-b8b0-db079fcba62e, auth: 35e5d604-392a-43ac-b8b0-db079fcba62e, sni: www.bing.com, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|1103|TG@FProxies| 16", server: 45.145.72.122, port: 8443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|1103|TG@FProxies| 17", server: 156.229.165.91, port: 55000, type: hysteria2, password: 37a4f1e6-c0d8-44c1-9a09-f25a8290da82, auth: 37a4f1e6-c0d8-44c1-9a09-f25a8290da82, sni: www.bing.com, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|1103|TG@FProxies| 18", server: fan.571589.xyz, port: 443, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|1103|TG@FProxies| 19", server: 45.145.73.240, port: 8443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ms|1103|TG@FProxies| 20", server: fan.596189.xyz, port: 443, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ns|1103|TG@FProxies|", server: 35.84.133.236, port: 8443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ns|1103|TG@FProxies| 2", server: 45.74.31.40, port: 4932, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ns|1103|TG@FProxies| 3", server: 45.74.31.47, port: 4091, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ns|1103|TG@FProxies| 4", server: 45.74.31.42, port: 5029, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ns|1103|TG@FProxies| 5", server: fan.571589.xyz, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ns|1103|TG@FProxies| 6", server: us.yzero.xyz, port: 7860, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ns|1103|TG@FProxies| 7", server: webdrone.club, port: 443, type: http, username: T2s1dmJtVT06, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ns|1103|TG@FProxies| 8", server: 38.95.111.226, port: 9443, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ns|1103|TG@FProxies| 9", server: 45.74.31.40, port: 4992, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ns|1103|TG@FProxies| 10", server: 38.28.193.188, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ns|1103|TG@FProxies| 11", server: 28f9916a-tcxds0-tei4of-1qxa1.sj.oshuawei.com, port: 443, type: http, username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d, password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ">🇺🇸US|Ns|1103|TG@FProxies| 12", server: 45.74.31.41, port: 5053, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇻🇳VN|Ls|1103|TG@FProxies|", server: 42.115.72.145, port: 1041, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇻🇳VN|Ls|1103|TG@FProxies| 2", server: 42.115.72.145, port: 1039, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇻🇳VN|Ls|1103|TG@FProxies| 3", server: 42.115.72.145, port: 1098, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇻🇳VN|Ls|1103|TG@FProxies| 4", server: 14.225.205.152, port: 1080, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇻🇳VN|Ls|1103|TG@FProxies| 5", server: 42.115.72.145, port: 1068, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇻🇳VN|Ls|1103|TG@FProxies| 6", server: 42.115.72.145, port: 1117, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇻🇳VN|Ls|1103|TG@FProxies| 7", server: 42.115.72.145, port: 1057, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇻🇳VN|Ls|1103|TG@FProxies| 8", server: 42.115.72.145, port: 1070, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇻🇳VN|Ls|1103|TG@FProxies| 9", server: 14.225.205.152, port: 1081, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇻🇳VN|Ls|1103|TG@FProxies| 10", server: 42.115.72.145, port: 1109, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: ">🇻🇳VN|Ls|1103|TG@FProxies| 11", server: 42.115.72.145, port: 1103, type: socks5, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ">🇦🇺AU|Hs|1024|TG@FProxies|"
-      - ">🇦🇺AU|Hs|1024|TG@FProxies| 2"
-      - ">🇦🇺AU|Ls|1024|TG@FProxies|"
-      - ">🇧🇷BR|Hs|1024|TG@FProxies|"
-      - ">🇧🇷BR|Ls|1024|TG@FProxies|"
-      - ">🇧🇷BR|Ms|1024|TG@FProxies|"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies|"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 2"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 3"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 4"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 5"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 6"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 7"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 8"
-      - ">🇩🇪DE|Ms|1024|TG@FProxies|"
-      - ">🇩🇪DE|Ms|1024|TG@FProxies| 2"
-      - ">🇩🇪DE|Ms|1024|TG@FProxies| 3"
-      - ">🇫🇷FR|Ls|1024|TG@FProxies|"
-      - ">🇫🇷FR|Ls|1024|TG@FProxies| 2"
-      - ">🇬🇧GB|Hs|1024|TG@FProxies|"
-      - ">🇬🇧GB|Ms|1024|TG@FProxies|"
-      - ">🇭🇰HK|Hs|1024|TG@FProxies|"
-      - ">🇭🇰HK|Hs|1024|TG@FProxies| 2"
-      - ">🇭🇰HK|Ls|1024|TG@FProxies|"
-      - ">🇭🇰HK|Ls|1024|TG@FProxies| 2"
-      - ">🇭🇰HK|Ls|1024|TG@FProxies| 3"
-      - ">🇭🇰HK|Ms|1024|TG@FProxies|"
-      - ">🇮🇩ID|Ls|1024|TG@FProxies|"
-      - ">🇮🇩ID|Ms|1024|TG@FProxies|"
-      - ">🇮🇩ID|Ms|1024|TG@FProxies| 2"
-      - ">🇮🇩ID|Ms|1024|TG@FProxies| 3"
-      - ">🇮🇳IN|Ls|1024|TG@FProxies|"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies|"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies| 2"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies| 3"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies| 4"
-      - ">🇯🇵JP|Ls|1024|TG@FProxies|"
-      - ">🇯🇵JP|Ls|1024|TG@FProxies| 2"
-      - ">🇯🇵JP|Ms|1024|TG@FProxies|"
-      - ">🇯🇵JP|Ms|1024|TG@FProxies| 2"
-      - ">🇰🇷KR|Ms|1024|TG@FProxies|"
-      - ">🇰🇷KR|Ms|1024|TG@FProxies| 2"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies|"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies| 2"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies| 3"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies| 4"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies|"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 2"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 3"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 4"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 5"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 6"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 7"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 8"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 9"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 10"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 11"
-      - ">🇳🇱NL|Ms|1024|TG@FProxies|"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies|"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 2"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 3"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 4"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 5"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 6"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 7"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 8"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 9"
-      - ">🇷🇴RO|Ms|1024|TG@FProxies|"
-      - ">🇷🇴RO|Ms|1024|TG@FProxies| 2"
-      - ">🇷🇴RO|Ms|1024|TG@FProxies| 3"
-      - ">🇸🇬SG|Hs|1024|TG@FProxies|"
-      - ">🇸🇬SG|Hs|1024|TG@FProxies| 2"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies|"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 2"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 3"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 4"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 5"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 6"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies|"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 2"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 3"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 4"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 5"
-      - ">🇹🇼TW|Hs|1024|TG@FProxies|"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies|"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies| 2"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies| 3"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Hs|1024|TG@FProxies|"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 2"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 3"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 5"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 6"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 7"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 8"
-      - ">🇺🇸US|Ls|1024|TG@FProxies|"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 2"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 3"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 5"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 6"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 7"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 8"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 9"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 10"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 11"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 12"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 13"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 14"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 15"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 16"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 17"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 18"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 19"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 20"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 21"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 22"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 23"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 24"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 25"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 26"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 27"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 28"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 29"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 30"
-      - ">🇺🇸US|Ms|1024|TG@FProxies|"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 2"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 3"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 5"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 6"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 7"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 8"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 9"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 10"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 11"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 12"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 13"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 14"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 15"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 16"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 17"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 18"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 19"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 20"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 21"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 22"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 23"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 24"
+      - ">🇧🇷BR|Hs|1103|TG@FProxies|"
+      - ">🇩🇪DE|Hs|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ls|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ms|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ms|1103|TG@FProxies| 2"
+      - ">🇩🇪DE|Ms|1103|TG@FProxies| 3"
+      - ">🇩🇪DE|Ns|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ns|1103|TG@FProxies| 2"
+      - ">🇫🇷FR|Hs|1103|TG@FProxies|"
+      - ">🇫🇷FR|Ls|1103|TG@FProxies|"
+      - ">🇫🇷FR|Ls|1103|TG@FProxies| 2"
+      - ">🇫🇷FR|Ms|1103|TG@FProxies|"
+      - ">🇬🇧GB|Ls|1103|TG@FProxies|"
+      - ">🇬🇧GB|Ns|1103|TG@FProxies|"
+      - ">🇬🇧GB|Ns|1103|TG@FProxies| 2"
+      - ">🇭🇰HK|Hs|1103|TG@FProxies|"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies|"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies| 2"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies| 3"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies| 4"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies|"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 2"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 3"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 4"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 5"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 6"
+      - ">🇮🇩ID|Hs|1103|TG@FProxies|"
+      - ">🇮🇩ID|Hs|1103|TG@FProxies| 2"
+      - ">🇮🇩ID|Hs|1103|TG@FProxies| 3"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies|"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies| 2"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies| 3"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies| 4"
+      - ">🇮🇩ID|Ns|1103|TG@FProxies|"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies|"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 2"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 3"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 4"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 5"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 6"
+      - ">🇮🇳IN|Ms|1103|TG@FProxies|"
+      - ">🇮🇳IN|Ns|1103|TG@FProxies|"
+      - ">🇮🇹IT|Hs|1103|TG@FProxies|"
+      - ">🇮🇹IT|Ms|1103|TG@FProxies|"
+      - ">🇯🇵JP|Hs|1103|TG@FProxies|"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies|"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 2"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 3"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 4"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 5"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 6"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 7"
+      - ">🇯🇵JP|Ms|1103|TG@FProxies|"
+      - ">🇯🇵JP|Ms|1103|TG@FProxies| 2"
+      - ">🇰🇷KR|Ls|1103|TG@FProxies|"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies|"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 2"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 3"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 4"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 5"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 6"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 7"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies|"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 2"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 3"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 4"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 5"
+      - ">🇵🇱PL|Ms|1103|TG@FProxies|"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies|"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 2"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 3"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 4"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 5"
+      - ">🇷🇴RO|Ms|1103|TG@FProxies|"
+      - ">🇷🇴RO|Ms|1103|TG@FProxies| 2"
+      - ">🇷🇺RU|Ms|1103|TG@FProxies|"
+      - ">🇸🇬SG|Hs|1103|TG@FProxies|"
+      - ">🇸🇬SG|Hs|1103|TG@FProxies| 2"
+      - ">🇸🇬SG|Hs|1103|TG@FProxies| 3"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies|"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies| 2"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies| 3"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies| 4"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies|"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies| 2"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies| 3"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies| 4"
+      - ">🇹🇼TW|Ls|1103|TG@FProxies|"
+      - ">🇹🇼TW|Ms|1103|TG@FProxies|"
+      - ">🇹🇼TW|Ms|1103|TG@FProxies| 2"
+      - ">🇹🇼TW|Ms|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Hs|1103|TG@FProxies|"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ls|1103|TG@FProxies|"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 8"
+      - ">🇺🇸US|Ms|1103|TG@FProxies|"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 8"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 9"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 10"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 11"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 12"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 13"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 14"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 15"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 16"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 17"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 18"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 19"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 20"
+      - ">🇺🇸US|Ns|1103|TG@FProxies|"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 8"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 9"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 10"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 11"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 12"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies|"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 2"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 3"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 4"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 5"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 6"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 7"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 8"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 9"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 10"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 11"
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ">🇦🇺AU|Hs|1024|TG@FProxies|"
-      - ">🇦🇺AU|Hs|1024|TG@FProxies| 2"
-      - ">🇦🇺AU|Ls|1024|TG@FProxies|"
-      - ">🇧🇷BR|Hs|1024|TG@FProxies|"
-      - ">🇧🇷BR|Ls|1024|TG@FProxies|"
-      - ">🇧🇷BR|Ms|1024|TG@FProxies|"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies|"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 2"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 3"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 4"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 5"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 6"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 7"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 8"
-      - ">🇩🇪DE|Ms|1024|TG@FProxies|"
-      - ">🇩🇪DE|Ms|1024|TG@FProxies| 2"
-      - ">🇩🇪DE|Ms|1024|TG@FProxies| 3"
-      - ">🇫🇷FR|Ls|1024|TG@FProxies|"
-      - ">🇫🇷FR|Ls|1024|TG@FProxies| 2"
-      - ">🇬🇧GB|Hs|1024|TG@FProxies|"
-      - ">🇬🇧GB|Ms|1024|TG@FProxies|"
-      - ">🇭🇰HK|Hs|1024|TG@FProxies|"
-      - ">🇭🇰HK|Hs|1024|TG@FProxies| 2"
-      - ">🇭🇰HK|Ls|1024|TG@FProxies|"
-      - ">🇭🇰HK|Ls|1024|TG@FProxies| 2"
-      - ">🇭🇰HK|Ls|1024|TG@FProxies| 3"
-      - ">🇭🇰HK|Ms|1024|TG@FProxies|"
-      - ">🇮🇩ID|Ls|1024|TG@FProxies|"
-      - ">🇮🇩ID|Ms|1024|TG@FProxies|"
-      - ">🇮🇩ID|Ms|1024|TG@FProxies| 2"
-      - ">🇮🇩ID|Ms|1024|TG@FProxies| 3"
-      - ">🇮🇳IN|Ls|1024|TG@FProxies|"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies|"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies| 2"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies| 3"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies| 4"
-      - ">🇯🇵JP|Ls|1024|TG@FProxies|"
-      - ">🇯🇵JP|Ls|1024|TG@FProxies| 2"
-      - ">🇯🇵JP|Ms|1024|TG@FProxies|"
-      - ">🇯🇵JP|Ms|1024|TG@FProxies| 2"
-      - ">🇰🇷KR|Ms|1024|TG@FProxies|"
-      - ">🇰🇷KR|Ms|1024|TG@FProxies| 2"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies|"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies| 2"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies| 3"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies| 4"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies|"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 2"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 3"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 4"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 5"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 6"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 7"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 8"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 9"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 10"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 11"
-      - ">🇳🇱NL|Ms|1024|TG@FProxies|"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies|"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 2"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 3"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 4"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 5"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 6"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 7"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 8"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 9"
-      - ">🇷🇴RO|Ms|1024|TG@FProxies|"
-      - ">🇷🇴RO|Ms|1024|TG@FProxies| 2"
-      - ">🇷🇴RO|Ms|1024|TG@FProxies| 3"
-      - ">🇸🇬SG|Hs|1024|TG@FProxies|"
-      - ">🇸🇬SG|Hs|1024|TG@FProxies| 2"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies|"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 2"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 3"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 4"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 5"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 6"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies|"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 2"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 3"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 4"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 5"
-      - ">🇹🇼TW|Hs|1024|TG@FProxies|"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies|"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies| 2"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies| 3"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Hs|1024|TG@FProxies|"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 2"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 3"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 5"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 6"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 7"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 8"
-      - ">🇺🇸US|Ls|1024|TG@FProxies|"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 2"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 3"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 5"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 6"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 7"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 8"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 9"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 10"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 11"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 12"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 13"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 14"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 15"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 16"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 17"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 18"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 19"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 20"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 21"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 22"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 23"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 24"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 25"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 26"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 27"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 28"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 29"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 30"
-      - ">🇺🇸US|Ms|1024|TG@FProxies|"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 2"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 3"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 5"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 6"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 7"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 8"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 9"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 10"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 11"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 12"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 13"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 14"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 15"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 16"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 17"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 18"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 19"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 20"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 21"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 22"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 23"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 24"
+      - ">🇧🇷BR|Hs|1103|TG@FProxies|"
+      - ">🇩🇪DE|Hs|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ls|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ms|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ms|1103|TG@FProxies| 2"
+      - ">🇩🇪DE|Ms|1103|TG@FProxies| 3"
+      - ">🇩🇪DE|Ns|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ns|1103|TG@FProxies| 2"
+      - ">🇫🇷FR|Hs|1103|TG@FProxies|"
+      - ">🇫🇷FR|Ls|1103|TG@FProxies|"
+      - ">🇫🇷FR|Ls|1103|TG@FProxies| 2"
+      - ">🇫🇷FR|Ms|1103|TG@FProxies|"
+      - ">🇬🇧GB|Ls|1103|TG@FProxies|"
+      - ">🇬🇧GB|Ns|1103|TG@FProxies|"
+      - ">🇬🇧GB|Ns|1103|TG@FProxies| 2"
+      - ">🇭🇰HK|Hs|1103|TG@FProxies|"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies|"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies| 2"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies| 3"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies| 4"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies|"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 2"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 3"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 4"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 5"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 6"
+      - ">🇮🇩ID|Hs|1103|TG@FProxies|"
+      - ">🇮🇩ID|Hs|1103|TG@FProxies| 2"
+      - ">🇮🇩ID|Hs|1103|TG@FProxies| 3"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies|"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies| 2"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies| 3"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies| 4"
+      - ">🇮🇩ID|Ns|1103|TG@FProxies|"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies|"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 2"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 3"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 4"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 5"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 6"
+      - ">🇮🇳IN|Ms|1103|TG@FProxies|"
+      - ">🇮🇳IN|Ns|1103|TG@FProxies|"
+      - ">🇮🇹IT|Hs|1103|TG@FProxies|"
+      - ">🇮🇹IT|Ms|1103|TG@FProxies|"
+      - ">🇯🇵JP|Hs|1103|TG@FProxies|"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies|"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 2"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 3"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 4"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 5"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 6"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 7"
+      - ">🇯🇵JP|Ms|1103|TG@FProxies|"
+      - ">🇯🇵JP|Ms|1103|TG@FProxies| 2"
+      - ">🇰🇷KR|Ls|1103|TG@FProxies|"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies|"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 2"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 3"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 4"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 5"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 6"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 7"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies|"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 2"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 3"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 4"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 5"
+      - ">🇵🇱PL|Ms|1103|TG@FProxies|"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies|"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 2"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 3"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 4"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 5"
+      - ">🇷🇴RO|Ms|1103|TG@FProxies|"
+      - ">🇷🇴RO|Ms|1103|TG@FProxies| 2"
+      - ">🇷🇺RU|Ms|1103|TG@FProxies|"
+      - ">🇸🇬SG|Hs|1103|TG@FProxies|"
+      - ">🇸🇬SG|Hs|1103|TG@FProxies| 2"
+      - ">🇸🇬SG|Hs|1103|TG@FProxies| 3"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies|"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies| 2"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies| 3"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies| 4"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies|"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies| 2"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies| 3"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies| 4"
+      - ">🇹🇼TW|Ls|1103|TG@FProxies|"
+      - ">🇹🇼TW|Ms|1103|TG@FProxies|"
+      - ">🇹🇼TW|Ms|1103|TG@FProxies| 2"
+      - ">🇹🇼TW|Ms|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Hs|1103|TG@FProxies|"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ls|1103|TG@FProxies|"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 8"
+      - ">🇺🇸US|Ms|1103|TG@FProxies|"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 8"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 9"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 10"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 11"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 12"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 13"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 14"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 15"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 16"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 17"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 18"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 19"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 20"
+      - ">🇺🇸US|Ns|1103|TG@FProxies|"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 8"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 9"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 10"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 11"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 12"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies|"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 2"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 3"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 4"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 5"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 6"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 7"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 8"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 9"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 10"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 11"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ">🇦🇺AU|Hs|1024|TG@FProxies|"
-      - ">🇦🇺AU|Hs|1024|TG@FProxies| 2"
-      - ">🇦🇺AU|Ls|1024|TG@FProxies|"
-      - ">🇧🇷BR|Hs|1024|TG@FProxies|"
-      - ">🇧🇷BR|Ls|1024|TG@FProxies|"
-      - ">🇧🇷BR|Ms|1024|TG@FProxies|"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies|"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 2"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 3"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 4"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 5"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 6"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 7"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 8"
-      - ">🇩🇪DE|Ms|1024|TG@FProxies|"
-      - ">🇩🇪DE|Ms|1024|TG@FProxies| 2"
-      - ">🇩🇪DE|Ms|1024|TG@FProxies| 3"
-      - ">🇫🇷FR|Ls|1024|TG@FProxies|"
-      - ">🇫🇷FR|Ls|1024|TG@FProxies| 2"
-      - ">🇬🇧GB|Hs|1024|TG@FProxies|"
-      - ">🇬🇧GB|Ms|1024|TG@FProxies|"
-      - ">🇭🇰HK|Hs|1024|TG@FProxies|"
-      - ">🇭🇰HK|Hs|1024|TG@FProxies| 2"
-      - ">🇭🇰HK|Ls|1024|TG@FProxies|"
-      - ">🇭🇰HK|Ls|1024|TG@FProxies| 2"
-      - ">🇭🇰HK|Ls|1024|TG@FProxies| 3"
-      - ">🇭🇰HK|Ms|1024|TG@FProxies|"
-      - ">🇮🇩ID|Ls|1024|TG@FProxies|"
-      - ">🇮🇩ID|Ms|1024|TG@FProxies|"
-      - ">🇮🇩ID|Ms|1024|TG@FProxies| 2"
-      - ">🇮🇩ID|Ms|1024|TG@FProxies| 3"
-      - ">🇮🇳IN|Ls|1024|TG@FProxies|"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies|"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies| 2"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies| 3"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies| 4"
-      - ">🇯🇵JP|Ls|1024|TG@FProxies|"
-      - ">🇯🇵JP|Ls|1024|TG@FProxies| 2"
-      - ">🇯🇵JP|Ms|1024|TG@FProxies|"
-      - ">🇯🇵JP|Ms|1024|TG@FProxies| 2"
-      - ">🇰🇷KR|Ms|1024|TG@FProxies|"
-      - ">🇰🇷KR|Ms|1024|TG@FProxies| 2"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies|"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies| 2"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies| 3"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies| 4"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies|"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 2"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 3"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 4"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 5"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 6"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 7"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 8"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 9"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 10"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 11"
-      - ">🇳🇱NL|Ms|1024|TG@FProxies|"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies|"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 2"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 3"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 4"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 5"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 6"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 7"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 8"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 9"
-      - ">🇷🇴RO|Ms|1024|TG@FProxies|"
-      - ">🇷🇴RO|Ms|1024|TG@FProxies| 2"
-      - ">🇷🇴RO|Ms|1024|TG@FProxies| 3"
-      - ">🇸🇬SG|Hs|1024|TG@FProxies|"
-      - ">🇸🇬SG|Hs|1024|TG@FProxies| 2"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies|"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 2"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 3"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 4"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 5"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 6"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies|"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 2"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 3"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 4"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 5"
-      - ">🇹🇼TW|Hs|1024|TG@FProxies|"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies|"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies| 2"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies| 3"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Hs|1024|TG@FProxies|"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 2"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 3"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 5"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 6"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 7"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 8"
-      - ">🇺🇸US|Ls|1024|TG@FProxies|"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 2"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 3"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 5"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 6"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 7"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 8"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 9"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 10"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 11"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 12"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 13"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 14"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 15"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 16"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 17"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 18"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 19"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 20"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 21"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 22"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 23"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 24"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 25"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 26"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 27"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 28"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 29"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 30"
-      - ">🇺🇸US|Ms|1024|TG@FProxies|"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 2"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 3"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 5"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 6"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 7"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 8"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 9"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 10"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 11"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 12"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 13"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 14"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 15"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 16"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 17"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 18"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 19"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 20"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 21"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 22"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 23"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 24"
+      - ">🇧🇷BR|Hs|1103|TG@FProxies|"
+      - ">🇩🇪DE|Hs|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ls|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ms|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ms|1103|TG@FProxies| 2"
+      - ">🇩🇪DE|Ms|1103|TG@FProxies| 3"
+      - ">🇩🇪DE|Ns|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ns|1103|TG@FProxies| 2"
+      - ">🇫🇷FR|Hs|1103|TG@FProxies|"
+      - ">🇫🇷FR|Ls|1103|TG@FProxies|"
+      - ">🇫🇷FR|Ls|1103|TG@FProxies| 2"
+      - ">🇫🇷FR|Ms|1103|TG@FProxies|"
+      - ">🇬🇧GB|Ls|1103|TG@FProxies|"
+      - ">🇬🇧GB|Ns|1103|TG@FProxies|"
+      - ">🇬🇧GB|Ns|1103|TG@FProxies| 2"
+      - ">🇭🇰HK|Hs|1103|TG@FProxies|"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies|"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies| 2"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies| 3"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies| 4"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies|"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 2"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 3"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 4"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 5"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 6"
+      - ">🇮🇩ID|Hs|1103|TG@FProxies|"
+      - ">🇮🇩ID|Hs|1103|TG@FProxies| 2"
+      - ">🇮🇩ID|Hs|1103|TG@FProxies| 3"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies|"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies| 2"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies| 3"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies| 4"
+      - ">🇮🇩ID|Ns|1103|TG@FProxies|"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies|"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 2"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 3"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 4"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 5"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 6"
+      - ">🇮🇳IN|Ms|1103|TG@FProxies|"
+      - ">🇮🇳IN|Ns|1103|TG@FProxies|"
+      - ">🇮🇹IT|Hs|1103|TG@FProxies|"
+      - ">🇮🇹IT|Ms|1103|TG@FProxies|"
+      - ">🇯🇵JP|Hs|1103|TG@FProxies|"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies|"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 2"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 3"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 4"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 5"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 6"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 7"
+      - ">🇯🇵JP|Ms|1103|TG@FProxies|"
+      - ">🇯🇵JP|Ms|1103|TG@FProxies| 2"
+      - ">🇰🇷KR|Ls|1103|TG@FProxies|"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies|"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 2"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 3"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 4"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 5"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 6"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 7"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies|"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 2"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 3"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 4"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 5"
+      - ">🇵🇱PL|Ms|1103|TG@FProxies|"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies|"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 2"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 3"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 4"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 5"
+      - ">🇷🇴RO|Ms|1103|TG@FProxies|"
+      - ">🇷🇴RO|Ms|1103|TG@FProxies| 2"
+      - ">🇷🇺RU|Ms|1103|TG@FProxies|"
+      - ">🇸🇬SG|Hs|1103|TG@FProxies|"
+      - ">🇸🇬SG|Hs|1103|TG@FProxies| 2"
+      - ">🇸🇬SG|Hs|1103|TG@FProxies| 3"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies|"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies| 2"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies| 3"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies| 4"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies|"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies| 2"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies| 3"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies| 4"
+      - ">🇹🇼TW|Ls|1103|TG@FProxies|"
+      - ">🇹🇼TW|Ms|1103|TG@FProxies|"
+      - ">🇹🇼TW|Ms|1103|TG@FProxies| 2"
+      - ">🇹🇼TW|Ms|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Hs|1103|TG@FProxies|"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ls|1103|TG@FProxies|"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 8"
+      - ">🇺🇸US|Ms|1103|TG@FProxies|"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 8"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 9"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 10"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 11"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 12"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 13"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 14"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 15"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 16"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 17"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 18"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 19"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 20"
+      - ">🇺🇸US|Ns|1103|TG@FProxies|"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 8"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 9"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 10"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 11"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 12"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies|"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 2"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 3"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 4"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 5"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 6"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 7"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 8"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 9"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 10"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 11"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ">🇦🇺AU|Hs|1024|TG@FProxies|"
-      - ">🇦🇺AU|Hs|1024|TG@FProxies| 2"
-      - ">🇦🇺AU|Ls|1024|TG@FProxies|"
-      - ">🇧🇷BR|Hs|1024|TG@FProxies|"
-      - ">🇧🇷BR|Ls|1024|TG@FProxies|"
-      - ">🇧🇷BR|Ms|1024|TG@FProxies|"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies|"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 2"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 3"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 4"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 5"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 6"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 7"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 8"
-      - ">🇩🇪DE|Ms|1024|TG@FProxies|"
-      - ">🇩🇪DE|Ms|1024|TG@FProxies| 2"
-      - ">🇩🇪DE|Ms|1024|TG@FProxies| 3"
-      - ">🇫🇷FR|Ls|1024|TG@FProxies|"
-      - ">🇫🇷FR|Ls|1024|TG@FProxies| 2"
-      - ">🇬🇧GB|Hs|1024|TG@FProxies|"
-      - ">🇬🇧GB|Ms|1024|TG@FProxies|"
-      - ">🇭🇰HK|Hs|1024|TG@FProxies|"
-      - ">🇭🇰HK|Hs|1024|TG@FProxies| 2"
-      - ">🇭🇰HK|Ls|1024|TG@FProxies|"
-      - ">🇭🇰HK|Ls|1024|TG@FProxies| 2"
-      - ">🇭🇰HK|Ls|1024|TG@FProxies| 3"
-      - ">🇭🇰HK|Ms|1024|TG@FProxies|"
-      - ">🇮🇩ID|Ls|1024|TG@FProxies|"
-      - ">🇮🇩ID|Ms|1024|TG@FProxies|"
-      - ">🇮🇩ID|Ms|1024|TG@FProxies| 2"
-      - ">🇮🇩ID|Ms|1024|TG@FProxies| 3"
-      - ">🇮🇳IN|Ls|1024|TG@FProxies|"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies|"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies| 2"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies| 3"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies| 4"
-      - ">🇯🇵JP|Ls|1024|TG@FProxies|"
-      - ">🇯🇵JP|Ls|1024|TG@FProxies| 2"
-      - ">🇯🇵JP|Ms|1024|TG@FProxies|"
-      - ">🇯🇵JP|Ms|1024|TG@FProxies| 2"
-      - ">🇰🇷KR|Ms|1024|TG@FProxies|"
-      - ">🇰🇷KR|Ms|1024|TG@FProxies| 2"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies|"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies| 2"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies| 3"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies| 4"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies|"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 2"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 3"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 4"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 5"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 6"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 7"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 8"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 9"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 10"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 11"
-      - ">🇳🇱NL|Ms|1024|TG@FProxies|"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies|"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 2"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 3"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 4"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 5"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 6"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 7"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 8"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 9"
-      - ">🇷🇴RO|Ms|1024|TG@FProxies|"
-      - ">🇷🇴RO|Ms|1024|TG@FProxies| 2"
-      - ">🇷🇴RO|Ms|1024|TG@FProxies| 3"
-      - ">🇸🇬SG|Hs|1024|TG@FProxies|"
-      - ">🇸🇬SG|Hs|1024|TG@FProxies| 2"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies|"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 2"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 3"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 4"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 5"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 6"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies|"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 2"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 3"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 4"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 5"
-      - ">🇹🇼TW|Hs|1024|TG@FProxies|"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies|"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies| 2"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies| 3"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Hs|1024|TG@FProxies|"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 2"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 3"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 5"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 6"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 7"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 8"
-      - ">🇺🇸US|Ls|1024|TG@FProxies|"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 2"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 3"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 5"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 6"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 7"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 8"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 9"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 10"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 11"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 12"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 13"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 14"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 15"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 16"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 17"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 18"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 19"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 20"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 21"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 22"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 23"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 24"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 25"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 26"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 27"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 28"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 29"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 30"
-      - ">🇺🇸US|Ms|1024|TG@FProxies|"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 2"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 3"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 5"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 6"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 7"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 8"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 9"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 10"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 11"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 12"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 13"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 14"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 15"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 16"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 17"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 18"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 19"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 20"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 21"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 22"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 23"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 24"
+      - ">🇧🇷BR|Hs|1103|TG@FProxies|"
+      - ">🇩🇪DE|Hs|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ls|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ms|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ms|1103|TG@FProxies| 2"
+      - ">🇩🇪DE|Ms|1103|TG@FProxies| 3"
+      - ">🇩🇪DE|Ns|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ns|1103|TG@FProxies| 2"
+      - ">🇫🇷FR|Hs|1103|TG@FProxies|"
+      - ">🇫🇷FR|Ls|1103|TG@FProxies|"
+      - ">🇫🇷FR|Ls|1103|TG@FProxies| 2"
+      - ">🇫🇷FR|Ms|1103|TG@FProxies|"
+      - ">🇬🇧GB|Ls|1103|TG@FProxies|"
+      - ">🇬🇧GB|Ns|1103|TG@FProxies|"
+      - ">🇬🇧GB|Ns|1103|TG@FProxies| 2"
+      - ">🇭🇰HK|Hs|1103|TG@FProxies|"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies|"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies| 2"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies| 3"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies| 4"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies|"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 2"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 3"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 4"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 5"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 6"
+      - ">🇮🇩ID|Hs|1103|TG@FProxies|"
+      - ">🇮🇩ID|Hs|1103|TG@FProxies| 2"
+      - ">🇮🇩ID|Hs|1103|TG@FProxies| 3"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies|"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies| 2"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies| 3"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies| 4"
+      - ">🇮🇩ID|Ns|1103|TG@FProxies|"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies|"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 2"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 3"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 4"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 5"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 6"
+      - ">🇮🇳IN|Ms|1103|TG@FProxies|"
+      - ">🇮🇳IN|Ns|1103|TG@FProxies|"
+      - ">🇮🇹IT|Hs|1103|TG@FProxies|"
+      - ">🇮🇹IT|Ms|1103|TG@FProxies|"
+      - ">🇯🇵JP|Hs|1103|TG@FProxies|"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies|"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 2"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 3"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 4"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 5"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 6"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 7"
+      - ">🇯🇵JP|Ms|1103|TG@FProxies|"
+      - ">🇯🇵JP|Ms|1103|TG@FProxies| 2"
+      - ">🇰🇷KR|Ls|1103|TG@FProxies|"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies|"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 2"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 3"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 4"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 5"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 6"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 7"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies|"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 2"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 3"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 4"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 5"
+      - ">🇵🇱PL|Ms|1103|TG@FProxies|"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies|"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 2"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 3"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 4"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 5"
+      - ">🇷🇴RO|Ms|1103|TG@FProxies|"
+      - ">🇷🇴RO|Ms|1103|TG@FProxies| 2"
+      - ">🇷🇺RU|Ms|1103|TG@FProxies|"
+      - ">🇸🇬SG|Hs|1103|TG@FProxies|"
+      - ">🇸🇬SG|Hs|1103|TG@FProxies| 2"
+      - ">🇸🇬SG|Hs|1103|TG@FProxies| 3"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies|"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies| 2"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies| 3"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies| 4"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies|"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies| 2"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies| 3"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies| 4"
+      - ">🇹🇼TW|Ls|1103|TG@FProxies|"
+      - ">🇹🇼TW|Ms|1103|TG@FProxies|"
+      - ">🇹🇼TW|Ms|1103|TG@FProxies| 2"
+      - ">🇹🇼TW|Ms|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Hs|1103|TG@FProxies|"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ls|1103|TG@FProxies|"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 8"
+      - ">🇺🇸US|Ms|1103|TG@FProxies|"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 8"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 9"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 10"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 11"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 12"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 13"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 14"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 15"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 16"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 17"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 18"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 19"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 20"
+      - ">🇺🇸US|Ns|1103|TG@FProxies|"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 8"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 9"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 10"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 11"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 12"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies|"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 2"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 3"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 4"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 5"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 6"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 7"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 8"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 9"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 10"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 11"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ">🇦🇺AU|Hs|1024|TG@FProxies|"
-      - ">🇦🇺AU|Hs|1024|TG@FProxies| 2"
-      - ">🇦🇺AU|Ls|1024|TG@FProxies|"
-      - ">🇧🇷BR|Hs|1024|TG@FProxies|"
-      - ">🇧🇷BR|Ls|1024|TG@FProxies|"
-      - ">🇧🇷BR|Ms|1024|TG@FProxies|"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies|"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 2"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 3"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 4"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 5"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 6"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 7"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 8"
-      - ">🇩🇪DE|Ms|1024|TG@FProxies|"
-      - ">🇩🇪DE|Ms|1024|TG@FProxies| 2"
-      - ">🇩🇪DE|Ms|1024|TG@FProxies| 3"
-      - ">🇫🇷FR|Ls|1024|TG@FProxies|"
-      - ">🇫🇷FR|Ls|1024|TG@FProxies| 2"
-      - ">🇬🇧GB|Hs|1024|TG@FProxies|"
-      - ">🇬🇧GB|Ms|1024|TG@FProxies|"
-      - ">🇭🇰HK|Hs|1024|TG@FProxies|"
-      - ">🇭🇰HK|Hs|1024|TG@FProxies| 2"
-      - ">🇭🇰HK|Ls|1024|TG@FProxies|"
-      - ">🇭🇰HK|Ls|1024|TG@FProxies| 2"
-      - ">🇭🇰HK|Ls|1024|TG@FProxies| 3"
-      - ">🇭🇰HK|Ms|1024|TG@FProxies|"
-      - ">🇮🇩ID|Ls|1024|TG@FProxies|"
-      - ">🇮🇩ID|Ms|1024|TG@FProxies|"
-      - ">🇮🇩ID|Ms|1024|TG@FProxies| 2"
-      - ">🇮🇩ID|Ms|1024|TG@FProxies| 3"
-      - ">🇮🇳IN|Ls|1024|TG@FProxies|"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies|"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies| 2"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies| 3"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies| 4"
-      - ">🇯🇵JP|Ls|1024|TG@FProxies|"
-      - ">🇯🇵JP|Ls|1024|TG@FProxies| 2"
-      - ">🇯🇵JP|Ms|1024|TG@FProxies|"
-      - ">🇯🇵JP|Ms|1024|TG@FProxies| 2"
-      - ">🇰🇷KR|Ms|1024|TG@FProxies|"
-      - ">🇰🇷KR|Ms|1024|TG@FProxies| 2"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies|"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies| 2"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies| 3"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies| 4"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies|"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 2"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 3"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 4"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 5"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 6"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 7"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 8"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 9"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 10"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 11"
-      - ">🇳🇱NL|Ms|1024|TG@FProxies|"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies|"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 2"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 3"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 4"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 5"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 6"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 7"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 8"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 9"
-      - ">🇷🇴RO|Ms|1024|TG@FProxies|"
-      - ">🇷🇴RO|Ms|1024|TG@FProxies| 2"
-      - ">🇷🇴RO|Ms|1024|TG@FProxies| 3"
-      - ">🇸🇬SG|Hs|1024|TG@FProxies|"
-      - ">🇸🇬SG|Hs|1024|TG@FProxies| 2"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies|"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 2"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 3"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 4"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 5"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 6"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies|"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 2"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 3"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 4"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 5"
-      - ">🇹🇼TW|Hs|1024|TG@FProxies|"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies|"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies| 2"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies| 3"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Hs|1024|TG@FProxies|"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 2"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 3"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 5"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 6"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 7"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 8"
-      - ">🇺🇸US|Ls|1024|TG@FProxies|"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 2"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 3"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 5"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 6"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 7"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 8"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 9"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 10"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 11"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 12"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 13"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 14"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 15"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 16"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 17"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 18"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 19"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 20"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 21"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 22"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 23"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 24"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 25"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 26"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 27"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 28"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 29"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 30"
-      - ">🇺🇸US|Ms|1024|TG@FProxies|"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 2"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 3"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 5"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 6"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 7"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 8"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 9"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 10"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 11"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 12"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 13"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 14"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 15"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 16"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 17"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 18"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 19"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 20"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 21"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 22"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 23"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 24"
+      - ">🇧🇷BR|Hs|1103|TG@FProxies|"
+      - ">🇩🇪DE|Hs|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ls|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ms|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ms|1103|TG@FProxies| 2"
+      - ">🇩🇪DE|Ms|1103|TG@FProxies| 3"
+      - ">🇩🇪DE|Ns|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ns|1103|TG@FProxies| 2"
+      - ">🇫🇷FR|Hs|1103|TG@FProxies|"
+      - ">🇫🇷FR|Ls|1103|TG@FProxies|"
+      - ">🇫🇷FR|Ls|1103|TG@FProxies| 2"
+      - ">🇫🇷FR|Ms|1103|TG@FProxies|"
+      - ">🇬🇧GB|Ls|1103|TG@FProxies|"
+      - ">🇬🇧GB|Ns|1103|TG@FProxies|"
+      - ">🇬🇧GB|Ns|1103|TG@FProxies| 2"
+      - ">🇭🇰HK|Hs|1103|TG@FProxies|"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies|"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies| 2"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies| 3"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies| 4"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies|"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 2"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 3"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 4"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 5"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 6"
+      - ">🇮🇩ID|Hs|1103|TG@FProxies|"
+      - ">🇮🇩ID|Hs|1103|TG@FProxies| 2"
+      - ">🇮🇩ID|Hs|1103|TG@FProxies| 3"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies|"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies| 2"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies| 3"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies| 4"
+      - ">🇮🇩ID|Ns|1103|TG@FProxies|"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies|"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 2"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 3"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 4"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 5"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 6"
+      - ">🇮🇳IN|Ms|1103|TG@FProxies|"
+      - ">🇮🇳IN|Ns|1103|TG@FProxies|"
+      - ">🇮🇹IT|Hs|1103|TG@FProxies|"
+      - ">🇮🇹IT|Ms|1103|TG@FProxies|"
+      - ">🇯🇵JP|Hs|1103|TG@FProxies|"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies|"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 2"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 3"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 4"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 5"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 6"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 7"
+      - ">🇯🇵JP|Ms|1103|TG@FProxies|"
+      - ">🇯🇵JP|Ms|1103|TG@FProxies| 2"
+      - ">🇰🇷KR|Ls|1103|TG@FProxies|"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies|"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 2"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 3"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 4"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 5"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 6"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 7"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies|"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 2"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 3"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 4"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 5"
+      - ">🇵🇱PL|Ms|1103|TG@FProxies|"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies|"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 2"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 3"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 4"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 5"
+      - ">🇷🇴RO|Ms|1103|TG@FProxies|"
+      - ">🇷🇴RO|Ms|1103|TG@FProxies| 2"
+      - ">🇷🇺RU|Ms|1103|TG@FProxies|"
+      - ">🇸🇬SG|Hs|1103|TG@FProxies|"
+      - ">🇸🇬SG|Hs|1103|TG@FProxies| 2"
+      - ">🇸🇬SG|Hs|1103|TG@FProxies| 3"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies|"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies| 2"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies| 3"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies| 4"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies|"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies| 2"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies| 3"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies| 4"
+      - ">🇹🇼TW|Ls|1103|TG@FProxies|"
+      - ">🇹🇼TW|Ms|1103|TG@FProxies|"
+      - ">🇹🇼TW|Ms|1103|TG@FProxies| 2"
+      - ">🇹🇼TW|Ms|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Hs|1103|TG@FProxies|"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ls|1103|TG@FProxies|"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 8"
+      - ">🇺🇸US|Ms|1103|TG@FProxies|"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 8"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 9"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 10"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 11"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 12"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 13"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 14"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 15"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 16"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 17"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 18"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 19"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 20"
+      - ">🇺🇸US|Ns|1103|TG@FProxies|"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 8"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 9"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 10"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 11"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 12"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies|"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 2"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 3"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 4"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 5"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 6"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 7"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 8"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 9"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 10"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 11"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ">🇦🇺AU|Hs|1024|TG@FProxies|"
-      - ">🇦🇺AU|Hs|1024|TG@FProxies| 2"
-      - ">🇦🇺AU|Ls|1024|TG@FProxies|"
-      - ">🇧🇷BR|Hs|1024|TG@FProxies|"
-      - ">🇧🇷BR|Ls|1024|TG@FProxies|"
-      - ">🇧🇷BR|Ms|1024|TG@FProxies|"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies|"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 2"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 3"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 4"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 5"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 6"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 7"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 8"
-      - ">🇩🇪DE|Ms|1024|TG@FProxies|"
-      - ">🇩🇪DE|Ms|1024|TG@FProxies| 2"
-      - ">🇩🇪DE|Ms|1024|TG@FProxies| 3"
-      - ">🇫🇷FR|Ls|1024|TG@FProxies|"
-      - ">🇫🇷FR|Ls|1024|TG@FProxies| 2"
-      - ">🇬🇧GB|Hs|1024|TG@FProxies|"
-      - ">🇬🇧GB|Ms|1024|TG@FProxies|"
-      - ">🇭🇰HK|Hs|1024|TG@FProxies|"
-      - ">🇭🇰HK|Hs|1024|TG@FProxies| 2"
-      - ">🇭🇰HK|Ls|1024|TG@FProxies|"
-      - ">🇭🇰HK|Ls|1024|TG@FProxies| 2"
-      - ">🇭🇰HK|Ls|1024|TG@FProxies| 3"
-      - ">🇭🇰HK|Ms|1024|TG@FProxies|"
-      - ">🇮🇩ID|Ls|1024|TG@FProxies|"
-      - ">🇮🇩ID|Ms|1024|TG@FProxies|"
-      - ">🇮🇩ID|Ms|1024|TG@FProxies| 2"
-      - ">🇮🇩ID|Ms|1024|TG@FProxies| 3"
-      - ">🇮🇳IN|Ls|1024|TG@FProxies|"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies|"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies| 2"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies| 3"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies| 4"
-      - ">🇯🇵JP|Ls|1024|TG@FProxies|"
-      - ">🇯🇵JP|Ls|1024|TG@FProxies| 2"
-      - ">🇯🇵JP|Ms|1024|TG@FProxies|"
-      - ">🇯🇵JP|Ms|1024|TG@FProxies| 2"
-      - ">🇰🇷KR|Ms|1024|TG@FProxies|"
-      - ">🇰🇷KR|Ms|1024|TG@FProxies| 2"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies|"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies| 2"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies| 3"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies| 4"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies|"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 2"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 3"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 4"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 5"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 6"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 7"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 8"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 9"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 10"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 11"
-      - ">🇳🇱NL|Ms|1024|TG@FProxies|"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies|"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 2"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 3"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 4"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 5"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 6"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 7"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 8"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 9"
-      - ">🇷🇴RO|Ms|1024|TG@FProxies|"
-      - ">🇷🇴RO|Ms|1024|TG@FProxies| 2"
-      - ">🇷🇴RO|Ms|1024|TG@FProxies| 3"
-      - ">🇸🇬SG|Hs|1024|TG@FProxies|"
-      - ">🇸🇬SG|Hs|1024|TG@FProxies| 2"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies|"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 2"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 3"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 4"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 5"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 6"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies|"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 2"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 3"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 4"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 5"
-      - ">🇹🇼TW|Hs|1024|TG@FProxies|"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies|"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies| 2"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies| 3"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Hs|1024|TG@FProxies|"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 2"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 3"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 5"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 6"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 7"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 8"
-      - ">🇺🇸US|Ls|1024|TG@FProxies|"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 2"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 3"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 5"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 6"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 7"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 8"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 9"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 10"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 11"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 12"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 13"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 14"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 15"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 16"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 17"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 18"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 19"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 20"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 21"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 22"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 23"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 24"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 25"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 26"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 27"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 28"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 29"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 30"
-      - ">🇺🇸US|Ms|1024|TG@FProxies|"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 2"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 3"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 5"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 6"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 7"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 8"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 9"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 10"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 11"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 12"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 13"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 14"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 15"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 16"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 17"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 18"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 19"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 20"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 21"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 22"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 23"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 24"
+      - ">🇧🇷BR|Hs|1103|TG@FProxies|"
+      - ">🇩🇪DE|Hs|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ls|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ms|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ms|1103|TG@FProxies| 2"
+      - ">🇩🇪DE|Ms|1103|TG@FProxies| 3"
+      - ">🇩🇪DE|Ns|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ns|1103|TG@FProxies| 2"
+      - ">🇫🇷FR|Hs|1103|TG@FProxies|"
+      - ">🇫🇷FR|Ls|1103|TG@FProxies|"
+      - ">🇫🇷FR|Ls|1103|TG@FProxies| 2"
+      - ">🇫🇷FR|Ms|1103|TG@FProxies|"
+      - ">🇬🇧GB|Ls|1103|TG@FProxies|"
+      - ">🇬🇧GB|Ns|1103|TG@FProxies|"
+      - ">🇬🇧GB|Ns|1103|TG@FProxies| 2"
+      - ">🇭🇰HK|Hs|1103|TG@FProxies|"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies|"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies| 2"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies| 3"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies| 4"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies|"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 2"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 3"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 4"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 5"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 6"
+      - ">🇮🇩ID|Hs|1103|TG@FProxies|"
+      - ">🇮🇩ID|Hs|1103|TG@FProxies| 2"
+      - ">🇮🇩ID|Hs|1103|TG@FProxies| 3"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies|"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies| 2"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies| 3"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies| 4"
+      - ">🇮🇩ID|Ns|1103|TG@FProxies|"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies|"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 2"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 3"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 4"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 5"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 6"
+      - ">🇮🇳IN|Ms|1103|TG@FProxies|"
+      - ">🇮🇳IN|Ns|1103|TG@FProxies|"
+      - ">🇮🇹IT|Hs|1103|TG@FProxies|"
+      - ">🇮🇹IT|Ms|1103|TG@FProxies|"
+      - ">🇯🇵JP|Hs|1103|TG@FProxies|"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies|"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 2"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 3"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 4"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 5"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 6"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 7"
+      - ">🇯🇵JP|Ms|1103|TG@FProxies|"
+      - ">🇯🇵JP|Ms|1103|TG@FProxies| 2"
+      - ">🇰🇷KR|Ls|1103|TG@FProxies|"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies|"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 2"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 3"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 4"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 5"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 6"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 7"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies|"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 2"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 3"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 4"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 5"
+      - ">🇵🇱PL|Ms|1103|TG@FProxies|"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies|"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 2"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 3"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 4"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 5"
+      - ">🇷🇴RO|Ms|1103|TG@FProxies|"
+      - ">🇷🇴RO|Ms|1103|TG@FProxies| 2"
+      - ">🇷🇺RU|Ms|1103|TG@FProxies|"
+      - ">🇸🇬SG|Hs|1103|TG@FProxies|"
+      - ">🇸🇬SG|Hs|1103|TG@FProxies| 2"
+      - ">🇸🇬SG|Hs|1103|TG@FProxies| 3"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies|"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies| 2"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies| 3"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies| 4"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies|"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies| 2"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies| 3"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies| 4"
+      - ">🇹🇼TW|Ls|1103|TG@FProxies|"
+      - ">🇹🇼TW|Ms|1103|TG@FProxies|"
+      - ">🇹🇼TW|Ms|1103|TG@FProxies| 2"
+      - ">🇹🇼TW|Ms|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Hs|1103|TG@FProxies|"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ls|1103|TG@FProxies|"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 8"
+      - ">🇺🇸US|Ms|1103|TG@FProxies|"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 8"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 9"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 10"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 11"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 12"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 13"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 14"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 15"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 16"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 17"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 18"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 19"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 20"
+      - ">🇺🇸US|Ns|1103|TG@FProxies|"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 8"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 9"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 10"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 11"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 12"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies|"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 2"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 3"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 4"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 5"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 6"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 7"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 8"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 9"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 10"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 11"
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ">🇦🇺AU|Hs|1024|TG@FProxies|"
-      - ">🇦🇺AU|Hs|1024|TG@FProxies| 2"
-      - ">🇦🇺AU|Ls|1024|TG@FProxies|"
-      - ">🇧🇷BR|Hs|1024|TG@FProxies|"
-      - ">🇧🇷BR|Ls|1024|TG@FProxies|"
-      - ">🇧🇷BR|Ms|1024|TG@FProxies|"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies|"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 2"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 3"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 4"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 5"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 6"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 7"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 8"
-      - ">🇩🇪DE|Ms|1024|TG@FProxies|"
-      - ">🇩🇪DE|Ms|1024|TG@FProxies| 2"
-      - ">🇩🇪DE|Ms|1024|TG@FProxies| 3"
-      - ">🇫🇷FR|Ls|1024|TG@FProxies|"
-      - ">🇫🇷FR|Ls|1024|TG@FProxies| 2"
-      - ">🇬🇧GB|Hs|1024|TG@FProxies|"
-      - ">🇬🇧GB|Ms|1024|TG@FProxies|"
-      - ">🇭🇰HK|Hs|1024|TG@FProxies|"
-      - ">🇭🇰HK|Hs|1024|TG@FProxies| 2"
-      - ">🇭🇰HK|Ls|1024|TG@FProxies|"
-      - ">🇭🇰HK|Ls|1024|TG@FProxies| 2"
-      - ">🇭🇰HK|Ls|1024|TG@FProxies| 3"
-      - ">🇭🇰HK|Ms|1024|TG@FProxies|"
-      - ">🇮🇩ID|Ls|1024|TG@FProxies|"
-      - ">🇮🇩ID|Ms|1024|TG@FProxies|"
-      - ">🇮🇩ID|Ms|1024|TG@FProxies| 2"
-      - ">🇮🇩ID|Ms|1024|TG@FProxies| 3"
-      - ">🇮🇳IN|Ls|1024|TG@FProxies|"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies|"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies| 2"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies| 3"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies| 4"
-      - ">🇯🇵JP|Ls|1024|TG@FProxies|"
-      - ">🇯🇵JP|Ls|1024|TG@FProxies| 2"
-      - ">🇯🇵JP|Ms|1024|TG@FProxies|"
-      - ">🇯🇵JP|Ms|1024|TG@FProxies| 2"
-      - ">🇰🇷KR|Ms|1024|TG@FProxies|"
-      - ">🇰🇷KR|Ms|1024|TG@FProxies| 2"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies|"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies| 2"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies| 3"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies| 4"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies|"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 2"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 3"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 4"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 5"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 6"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 7"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 8"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 9"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 10"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 11"
-      - ">🇳🇱NL|Ms|1024|TG@FProxies|"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies|"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 2"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 3"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 4"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 5"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 6"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 7"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 8"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 9"
-      - ">🇷🇴RO|Ms|1024|TG@FProxies|"
-      - ">🇷🇴RO|Ms|1024|TG@FProxies| 2"
-      - ">🇷🇴RO|Ms|1024|TG@FProxies| 3"
-      - ">🇸🇬SG|Hs|1024|TG@FProxies|"
-      - ">🇸🇬SG|Hs|1024|TG@FProxies| 2"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies|"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 2"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 3"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 4"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 5"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 6"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies|"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 2"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 3"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 4"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 5"
-      - ">🇹🇼TW|Hs|1024|TG@FProxies|"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies|"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies| 2"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies| 3"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Hs|1024|TG@FProxies|"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 2"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 3"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 5"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 6"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 7"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 8"
-      - ">🇺🇸US|Ls|1024|TG@FProxies|"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 2"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 3"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 5"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 6"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 7"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 8"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 9"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 10"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 11"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 12"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 13"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 14"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 15"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 16"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 17"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 18"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 19"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 20"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 21"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 22"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 23"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 24"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 25"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 26"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 27"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 28"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 29"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 30"
-      - ">🇺🇸US|Ms|1024|TG@FProxies|"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 2"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 3"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 5"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 6"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 7"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 8"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 9"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 10"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 11"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 12"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 13"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 14"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 15"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 16"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 17"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 18"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 19"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 20"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 21"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 22"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 23"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 24"
+      - ">🇧🇷BR|Hs|1103|TG@FProxies|"
+      - ">🇩🇪DE|Hs|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ls|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ms|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ms|1103|TG@FProxies| 2"
+      - ">🇩🇪DE|Ms|1103|TG@FProxies| 3"
+      - ">🇩🇪DE|Ns|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ns|1103|TG@FProxies| 2"
+      - ">🇫🇷FR|Hs|1103|TG@FProxies|"
+      - ">🇫🇷FR|Ls|1103|TG@FProxies|"
+      - ">🇫🇷FR|Ls|1103|TG@FProxies| 2"
+      - ">🇫🇷FR|Ms|1103|TG@FProxies|"
+      - ">🇬🇧GB|Ls|1103|TG@FProxies|"
+      - ">🇬🇧GB|Ns|1103|TG@FProxies|"
+      - ">🇬🇧GB|Ns|1103|TG@FProxies| 2"
+      - ">🇭🇰HK|Hs|1103|TG@FProxies|"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies|"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies| 2"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies| 3"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies| 4"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies|"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 2"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 3"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 4"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 5"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 6"
+      - ">🇮🇩ID|Hs|1103|TG@FProxies|"
+      - ">🇮🇩ID|Hs|1103|TG@FProxies| 2"
+      - ">🇮🇩ID|Hs|1103|TG@FProxies| 3"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies|"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies| 2"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies| 3"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies| 4"
+      - ">🇮🇩ID|Ns|1103|TG@FProxies|"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies|"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 2"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 3"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 4"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 5"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 6"
+      - ">🇮🇳IN|Ms|1103|TG@FProxies|"
+      - ">🇮🇳IN|Ns|1103|TG@FProxies|"
+      - ">🇮🇹IT|Hs|1103|TG@FProxies|"
+      - ">🇮🇹IT|Ms|1103|TG@FProxies|"
+      - ">🇯🇵JP|Hs|1103|TG@FProxies|"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies|"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 2"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 3"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 4"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 5"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 6"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 7"
+      - ">🇯🇵JP|Ms|1103|TG@FProxies|"
+      - ">🇯🇵JP|Ms|1103|TG@FProxies| 2"
+      - ">🇰🇷KR|Ls|1103|TG@FProxies|"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies|"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 2"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 3"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 4"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 5"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 6"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 7"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies|"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 2"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 3"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 4"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 5"
+      - ">🇵🇱PL|Ms|1103|TG@FProxies|"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies|"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 2"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 3"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 4"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 5"
+      - ">🇷🇴RO|Ms|1103|TG@FProxies|"
+      - ">🇷🇴RO|Ms|1103|TG@FProxies| 2"
+      - ">🇷🇺RU|Ms|1103|TG@FProxies|"
+      - ">🇸🇬SG|Hs|1103|TG@FProxies|"
+      - ">🇸🇬SG|Hs|1103|TG@FProxies| 2"
+      - ">🇸🇬SG|Hs|1103|TG@FProxies| 3"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies|"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies| 2"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies| 3"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies| 4"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies|"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies| 2"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies| 3"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies| 4"
+      - ">🇹🇼TW|Ls|1103|TG@FProxies|"
+      - ">🇹🇼TW|Ms|1103|TG@FProxies|"
+      - ">🇹🇼TW|Ms|1103|TG@FProxies| 2"
+      - ">🇹🇼TW|Ms|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Hs|1103|TG@FProxies|"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ls|1103|TG@FProxies|"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 8"
+      - ">🇺🇸US|Ms|1103|TG@FProxies|"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 8"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 9"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 10"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 11"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 12"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 13"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 14"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 15"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 16"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 17"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 18"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 19"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 20"
+      - ">🇺🇸US|Ns|1103|TG@FProxies|"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 8"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 9"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 10"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 11"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 12"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies|"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 2"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 3"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 4"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 5"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 6"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 7"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 8"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 9"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 10"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 11"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1266,194 +1258,156 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ">🇦🇺AU|Hs|1024|TG@FProxies|"
-      - ">🇦🇺AU|Hs|1024|TG@FProxies| 2"
-      - ">🇦🇺AU|Ls|1024|TG@FProxies|"
-      - ">🇧🇷BR|Hs|1024|TG@FProxies|"
-      - ">🇧🇷BR|Ls|1024|TG@FProxies|"
-      - ">🇧🇷BR|Ms|1024|TG@FProxies|"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies|"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 2"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 3"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 4"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 5"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 6"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 7"
-      - ">🇩🇪DE|Ls|1024|TG@FProxies| 8"
-      - ">🇩🇪DE|Ms|1024|TG@FProxies|"
-      - ">🇩🇪DE|Ms|1024|TG@FProxies| 2"
-      - ">🇩🇪DE|Ms|1024|TG@FProxies| 3"
-      - ">🇫🇷FR|Ls|1024|TG@FProxies|"
-      - ">🇫🇷FR|Ls|1024|TG@FProxies| 2"
-      - ">🇬🇧GB|Hs|1024|TG@FProxies|"
-      - ">🇬🇧GB|Ms|1024|TG@FProxies|"
-      - ">🇭🇰HK|Hs|1024|TG@FProxies|"
-      - ">🇭🇰HK|Hs|1024|TG@FProxies| 2"
-      - ">🇭🇰HK|Ls|1024|TG@FProxies|"
-      - ">🇭🇰HK|Ls|1024|TG@FProxies| 2"
-      - ">🇭🇰HK|Ls|1024|TG@FProxies| 3"
-      - ">🇭🇰HK|Ms|1024|TG@FProxies|"
-      - ">🇮🇩ID|Ls|1024|TG@FProxies|"
-      - ">🇮🇩ID|Ms|1024|TG@FProxies|"
-      - ">🇮🇩ID|Ms|1024|TG@FProxies| 2"
-      - ">🇮🇩ID|Ms|1024|TG@FProxies| 3"
-      - ">🇮🇳IN|Ls|1024|TG@FProxies|"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies|"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies| 2"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies| 3"
-      - ">🇯🇵JP|Hs|1024|TG@FProxies| 4"
-      - ">🇯🇵JP|Ls|1024|TG@FProxies|"
-      - ">🇯🇵JP|Ls|1024|TG@FProxies| 2"
-      - ">🇯🇵JP|Ms|1024|TG@FProxies|"
-      - ">🇯🇵JP|Ms|1024|TG@FProxies| 2"
-      - ">🇰🇷KR|Ms|1024|TG@FProxies|"
-      - ">🇰🇷KR|Ms|1024|TG@FProxies| 2"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies|"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies| 2"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies| 3"
-      - ">🇳🇱NL|Hs|1024|TG@FProxies| 4"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies|"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 2"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 3"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 4"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 5"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 6"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 7"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 8"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 9"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 10"
-      - ">🇳🇱NL|Ls|1024|TG@FProxies| 11"
-      - ">🇳🇱NL|Ms|1024|TG@FProxies|"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies|"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 2"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 3"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 4"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 5"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 6"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 7"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 8"
-      - ">🇷🇴RO|Ls|1024|TG@FProxies| 9"
-      - ">🇷🇴RO|Ms|1024|TG@FProxies|"
-      - ">🇷🇴RO|Ms|1024|TG@FProxies| 2"
-      - ">🇷🇴RO|Ms|1024|TG@FProxies| 3"
-      - ">🇸🇬SG|Hs|1024|TG@FProxies|"
-      - ">🇸🇬SG|Hs|1024|TG@FProxies| 2"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies|"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 2"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 3"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 4"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 5"
-      - ">🇸🇬SG|Ls|1024|TG@FProxies| 6"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies|"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 2"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 3"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 4"
-      - ">🇸🇬SG|Ms|1024|TG@FProxies| 5"
-      - ">🇹🇼TW|Hs|1024|TG@FProxies|"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies|"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies| 2"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies| 3"
-      - ">🇹🇼TW|Ms|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Hs|1024|TG@FProxies|"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 2"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 3"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 5"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 6"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 7"
-      - ">🇺🇸US|Hs|1024|TG@FProxies| 8"
-      - ">🇺🇸US|Ls|1024|TG@FProxies|"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 2"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 3"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 5"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 6"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 7"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 8"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 9"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 10"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 11"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 12"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 13"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 14"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 15"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 16"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 17"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 18"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 19"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 20"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 21"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 22"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 23"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 24"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 25"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 26"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 27"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 28"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 29"
-      - ">🇺🇸US|Ls|1024|TG@FProxies| 30"
-      - ">🇺🇸US|Ms|1024|TG@FProxies|"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 2"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 3"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 4"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 5"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 6"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 7"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 8"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 9"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 10"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 11"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 12"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 13"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 14"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 15"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 16"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 17"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 18"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 19"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 20"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 21"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 22"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 23"
-      - ">🇺🇸US|Ms|1024|TG@FProxies| 24"
+      - ">🇧🇷BR|Hs|1103|TG@FProxies|"
+      - ">🇩🇪DE|Hs|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ls|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ms|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ms|1103|TG@FProxies| 2"
+      - ">🇩🇪DE|Ms|1103|TG@FProxies| 3"
+      - ">🇩🇪DE|Ns|1103|TG@FProxies|"
+      - ">🇩🇪DE|Ns|1103|TG@FProxies| 2"
+      - ">🇫🇷FR|Hs|1103|TG@FProxies|"
+      - ">🇫🇷FR|Ls|1103|TG@FProxies|"
+      - ">🇫🇷FR|Ls|1103|TG@FProxies| 2"
+      - ">🇫🇷FR|Ms|1103|TG@FProxies|"
+      - ">🇬🇧GB|Ls|1103|TG@FProxies|"
+      - ">🇬🇧GB|Ns|1103|TG@FProxies|"
+      - ">🇬🇧GB|Ns|1103|TG@FProxies| 2"
+      - ">🇭🇰HK|Hs|1103|TG@FProxies|"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies|"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies| 2"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies| 3"
+      - ">🇭🇰HK|Ls|1103|TG@FProxies| 4"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies|"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 2"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 3"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 4"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 5"
+      - ">🇭🇰HK|Ms|1103|TG@FProxies| 6"
+      - ">🇮🇩ID|Hs|1103|TG@FProxies|"
+      - ">🇮🇩ID|Hs|1103|TG@FProxies| 2"
+      - ">🇮🇩ID|Hs|1103|TG@FProxies| 3"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies|"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies| 2"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies| 3"
+      - ">🇮🇩ID|Ls|1103|TG@FProxies| 4"
+      - ">🇮🇩ID|Ns|1103|TG@FProxies|"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies|"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 2"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 3"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 4"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 5"
+      - ">🇮🇳IN|Ls|1103|TG@FProxies| 6"
+      - ">🇮🇳IN|Ms|1103|TG@FProxies|"
+      - ">🇮🇳IN|Ns|1103|TG@FProxies|"
+      - ">🇮🇹IT|Hs|1103|TG@FProxies|"
+      - ">🇮🇹IT|Ms|1103|TG@FProxies|"
+      - ">🇯🇵JP|Hs|1103|TG@FProxies|"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies|"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 2"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 3"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 4"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 5"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 6"
+      - ">🇯🇵JP|Ls|1103|TG@FProxies| 7"
+      - ">🇯🇵JP|Ms|1103|TG@FProxies|"
+      - ">🇯🇵JP|Ms|1103|TG@FProxies| 2"
+      - ">🇰🇷KR|Ls|1103|TG@FProxies|"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies|"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 2"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 3"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 4"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 5"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 6"
+      - ">🇳🇱NL|Ls|1103|TG@FProxies| 7"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies|"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 2"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 3"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 4"
+      - ">🇳🇱NL|Ms|1103|TG@FProxies| 5"
+      - ">🇵🇱PL|Ms|1103|TG@FProxies|"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies|"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 2"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 3"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 4"
+      - ">🇷🇴RO|Hs|1103|TG@FProxies| 5"
+      - ">🇷🇴RO|Ms|1103|TG@FProxies|"
+      - ">🇷🇴RO|Ms|1103|TG@FProxies| 2"
+      - ">🇷🇺RU|Ms|1103|TG@FProxies|"
+      - ">🇸🇬SG|Hs|1103|TG@FProxies|"
+      - ">🇸🇬SG|Hs|1103|TG@FProxies| 2"
+      - ">🇸🇬SG|Hs|1103|TG@FProxies| 3"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies|"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies| 2"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies| 3"
+      - ">🇸🇬SG|Ls|1103|TG@FProxies| 4"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies|"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies| 2"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies| 3"
+      - ">🇸🇬SG|Ms|1103|TG@FProxies| 4"
+      - ">🇹🇼TW|Ls|1103|TG@FProxies|"
+      - ">🇹🇼TW|Ms|1103|TG@FProxies|"
+      - ">🇹🇼TW|Ms|1103|TG@FProxies| 2"
+      - ">🇹🇼TW|Ms|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Hs|1103|TG@FProxies|"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Hs|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ls|1103|TG@FProxies|"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ls|1103|TG@FProxies| 8"
+      - ">🇺🇸US|Ms|1103|TG@FProxies|"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 8"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 9"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 10"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 11"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 12"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 13"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 14"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 15"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 16"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 17"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 18"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 19"
+      - ">🇺🇸US|Ms|1103|TG@FProxies| 20"
+      - ">🇺🇸US|Ns|1103|TG@FProxies|"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 2"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 3"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 4"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 5"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 6"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 7"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 8"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 9"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 10"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 11"
+      - ">🇺🇸US|Ns|1103|TG@FProxies| 12"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies|"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 2"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 3"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 4"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 5"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 6"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 7"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 8"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 9"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 10"
+      - ">🇻🇳VN|Ls|1103|TG@FProxies| 11"
 rules:
-  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
-  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
-  - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
-  - DOMAIN-SUFFIX,internal,🎯 全球直连
-  - DOMAIN-SUFFIX,lan,🎯 全球直连
-  - DOMAIN-SUFFIX,local,🎯 全球直连
-  - DOMAIN-SUFFIX,localhost,🎯 全球直连
-  - IP-CIDR,0.0.0.0/8,🎯 全球直连,no-resolve
-  - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
-  - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
-  - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
-  - IP-CIDR,169.254.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,172.16.0.0/12,🎯 全球直连,no-resolve
-  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,198.18.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,224.0.0.0/4,🎯 全球直连,no-resolve
-  - IP-CIDR6,::1/128,🎯 全球直连,no-resolve
-  - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
-  - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
-  - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
-  - DOMAIN,instant.arubanetworks.com,🎯 全球直连
-  - DOMAIN,setmeup.arubanetworks.com,🎯 全球直连
-  - DOMAIN,router.asus.com,🎯 全球直连
-  - DOMAIN,www.asusrouter.com,🎯 全球直连
-  - DOMAIN-SUFFIX,hiwifi.com,🎯 全球直连
-  - DOMAIN-SUFFIX,leike.cc,🎯 全球直连
-  - DOMAIN-SUFFIX,miwifi.com,🎯 全球直连
-  - DOMAIN-SUFFIX,my.router,🎯 全球直连
-  - DOMAIN-SUFFIX,p.to,🎯 全球直连
-  - DOMAIN-SUFFIX,peiluyou.com,🎯 全球直连
-  - DOMAIN-SUFFIX,phicomm.me,🎯 全球直连
-  - DOMAIN-SUFFIX,router.ctc,🎯 全球直连
-  - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
-  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
-  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
-  - DOMAIN-SUFFIX,tplogin.cn,🎯 全球直连
-  - DOMAIN-SUFFIX,wifi.cmcc,🎯 全球直连
   - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
   - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
   - DOMAIN,dl.google.com,🎯 全球直连
@@ -1485,594 +1439,6 @@ rules:
   - DOMAIN-SUFFIX,FamilyDS.com,🎯 全球直连
   - DOMAIN-SUFFIX,FamilyDS.net,🎯 全球直连
   - DOMAIN-SUFFIX,FamilyDS.org,🎯 全球直连
-  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
-  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
-  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
-  - DOMAIN-KEYWORD,adsensor,🛑 全球拦截
-  - DOMAIN-KEYWORD,adsmogo,🛑 全球拦截
-  - DOMAIN-KEYWORD,adsrvmedia,🛑 全球拦截
-  - DOMAIN-KEYWORD,adsserving,🛑 全球拦截
-  - DOMAIN-KEYWORD,adsystem,🛑 全球拦截
-  - DOMAIN-KEYWORD,adwords,🛑 全球拦截
-  - DOMAIN-KEYWORD,applovin,🛑 全球拦截
-  - DOMAIN-KEYWORD,appsflyer,🛑 全球拦截
-  - DOMAIN-KEYWORD,domob,🛑 全球拦截
-  - DOMAIN-KEYWORD,duomeng,🛑 全球拦截
-  - DOMAIN-KEYWORD,dwtrack,🛑 全球拦截
-  - DOMAIN-KEYWORD,guanggao,🛑 全球拦截
-  - DOMAIN-KEYWORD,omgmta,🛑 全球拦截
-  - DOMAIN-KEYWORD,omniture,🛑 全球拦截
-  - DOMAIN-KEYWORD,openx,🛑 全球拦截
-  - DOMAIN-KEYWORD,partnerad,🛑 全球拦截
-  - DOMAIN-KEYWORD,pingfore,🛑 全球拦截
-  - DOMAIN-KEYWORD,socdm,🛑 全球拦截
-  - DOMAIN-KEYWORD,supersonicads,🛑 全球拦截
-  - DOMAIN-KEYWORD,wlmonitor,🛑 全球拦截
-  - DOMAIN-KEYWORD,zjtoolbar,🛑 全球拦截
-  - DOMAIN-SUFFIX,09mk.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,100peng.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,114la.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,123juzi.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,138lm.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,17un.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,2cnt.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,3gmimo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,3xx.vip,🛑 全球拦截
-  - DOMAIN-SUFFIX,51.la,🛑 全球拦截
-  - DOMAIN-SUFFIX,51taifu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,51yes.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,600ad.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,6dad.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,70e.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,86.cc,🛑 全球拦截
-  - DOMAIN-SUFFIX,8le8le.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,8ox.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,95558000.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,99click.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,99youmeng.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,a3p4.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,acs86.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,acxiom-online.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ad-brix.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ad-delivery.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,ad-locus.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ad-plus.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,ad7.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adadapted.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adadvisor.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,adap.tv,🛑 全球拦截
-  - DOMAIN-SUFFIX,adbana.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adchina.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adcome.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,ader.mobi,🛑 全球拦截
-  - DOMAIN-SUFFIX,adform.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,adfuture.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,adhouyi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adinfuse.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adirects.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adjust.io,🛑 全球拦截
-  - DOMAIN-SUFFIX,adkmob.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adlive.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,adlocus.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,admaji.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,admin6.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,admon.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,adnyg.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adpolestar.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,adpro.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,adpush.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,adquan.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adreal.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,ads8.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adsame.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adsmogo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adsmogo.org,🛑 全球拦截
-  - DOMAIN-SUFFIX,adsunflower.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adsunion.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adtrk.me,🛑 全球拦截
-  - DOMAIN-SUFFIX,adups.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,aduu.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,advertising.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adview.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,advmob.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,adwetec.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adwhirl.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adwo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adxmi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adyun.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adzerk.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,agrant.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,agrantsem.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,aihaoduo.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,ajapk.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,allyes.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,allyes.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,amazon-adsystem.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,analysys.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,angsrvr.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,anquan.org,🛑 全球拦截
-  - DOMAIN-SUFFIX,anysdk.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,appadhoc.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,appads.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,appboy.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,appdriver.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,appjiagu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,applifier.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,appsflyer.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,atdmt.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,baifendian.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,banmamedia.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,baoyatu.cc,🛑 全球拦截
-  - DOMAIN-SUFFIX,baycode.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,bayimob.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,behe.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,bfshan.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,biddingos.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,biddingx.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,bjvvqu.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,bjxiaohua.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,bloggerads.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,branch.io,🛑 全球拦截
-  - DOMAIN-SUFFIX,bsdev.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,bshare.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,btyou.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,bugtags.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,buysellads.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,c0563.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,cacafly.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,casee.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,cdnmaster.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,chance-ad.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,chanet.com.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,chartbeat.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,chartboost.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,chengadx.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,chmae.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,clickadu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,clicki.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,clicktracks.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,clickzs.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,cloudmobi.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,cmcore.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,cnxad.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,cnzz.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,cnzzlink.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,cocounion.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,coocaatv.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,cooguo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,coolguang.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,coremetrics.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,cpmchina.co,🛑 全球拦截
-  - DOMAIN-SUFFIX,cpx24.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,crasheye.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,crosschannel.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ctrmi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,customer-security.online,🛑 全球拦截
-  - DOMAIN-SUFFIX,daoyoudao.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,datouniao.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ddapp.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,dianjoy.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,dianru.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,disqusads.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,domob.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,domob.com.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,domob.org,🛑 全球拦截
-  - DOMAIN-SUFFIX,dotmore.com.tw,🛑 全球拦截
-  - DOMAIN-SUFFIX,doubleverify.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,doudouguo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,doumob.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,duanat.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,duiba.com.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,duomeng.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,dxpmedia.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,edigitalsurvey.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,eduancm.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,emarbox.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,exosrv.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,fancyapi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,feitian001.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,feixin2.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,flashtalking.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,fraudmetrix.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,g1.tagtic.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,gentags.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,gepush.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,getui.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,glispa.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,go-mpulse,🛑 全球拦截
-  - DOMAIN-SUFFIX,go-mpulse.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,godloveme.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,gridsum.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,gridsumdissector.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,gridsumdissector.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,growingio.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,guohead.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,guomob.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,haoghost.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,hivecn.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,hypers.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,icast.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,igexin.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,il8r.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,imageter.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,immob.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,inad.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,inmobi.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,inmobi.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,inmobicdn.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,inmobicdn.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,innity.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,instabug.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,intely.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,iperceptions.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ipinyou.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,irs01.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,irs01.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,irs09.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,istreamsche.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,jesgoo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,jiaeasy.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,jiguang.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,jimdo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,jisucn.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,jmgehn.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,jpush.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,jusha.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,juzi.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,juzilm.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,kejet.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,kejet.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,keydot.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,keyrun.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,kmd365.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,krux.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,lnk0.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,lnk8.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,localytics.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,lomark.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,lotuseed.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,lrswl.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,lufax.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,madhouse.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,madmini.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,madserving.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,magicwindow.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,mathtag.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,maysunmedia.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,mbai.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,mediaplex.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,mediav.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,megajoy.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,mgogo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,miaozhen.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,microad-cn.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,miidi.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,mijifen.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,mixpanel.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,mjmobi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,mng-ads.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,moad.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,moatads.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,mobaders.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,mobclix.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,mobgi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,mobisage.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,moogos.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,mopub.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,moquanad.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,mpush.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,mxpnl.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,myhug.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,mzy2014.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,networkbench.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ninebox.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,nylalobghyhirgh.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,o2omobi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,oadz.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,oneapm.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,onetad.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,optaim.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,optimix.asia,🛑 全球拦截
-  - DOMAIN-SUFFIX,optimix.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,optimizelyapis.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,overture.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,p0y.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,pagechoice.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,pingdom.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,plugrush.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,popin.cc,🛑 全球拦截
-  - DOMAIN-SUFFIX,pro.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,publicidad.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,publicidad.tv,🛑 全球拦截
-  - DOMAIN-SUFFIX,pubmatic.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,pubnub.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,qcl777.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,qiyou.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,qtmojo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,quantcount.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,qucaigg.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,qumi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,qxxys.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,reachmax.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,responsys.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,revsci.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,rlcdn.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,rtbasia.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sanya1.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,scupio.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,shuiguo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,shuzilm.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,sitemeter.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sitescout.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sitetag.us,🛑 全球拦截
-  - DOMAIN-SUFFIX,smartmad.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,social-touch.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,somecoding.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sponsorpay.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,stargame.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,stg8.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,switchadhub.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sycbbs.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,synacast.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sysdig.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,talkingdata.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,talkingdata.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,tansuotv.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tanv.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tanx.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tapjoy.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,th7.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,thoughtleadr.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tianmidian.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tiqcdn.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,touclick.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,trafficjam.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,trafficmp.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tuia.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,ueadlian.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uerzyr.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,ugdtimg.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ugvip.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ujian.cc,🛑 全球拦截
-  - DOMAIN-SUFFIX,ukeiae.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,umeng.co,🛑 全球拦截
-  - DOMAIN-SUFFIX,umeng.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,umtrack.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,unimhk.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,union-wifi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,union001.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,unionsy.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,unlitui.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uri6.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ushaqi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,usingde.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uuzu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uyunad.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,vamaker.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,vlion.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,voiceads.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,voiceads.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,vpon.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,vungle.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,vungle.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,waps.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,wapx.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,webterren.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,whpxy.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,winads.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,winasdaq.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,wiyun.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,wooboo.com.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,wqmobile.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,wrating.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,wumii.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,wwads.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,xcy8.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,xdrig.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,xiaozhen.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,xibao100.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,xtgreat.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,xy.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,yandui.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,yigao.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,yijifen.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,yinooo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,yiqifa.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,yiwk.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ylunion.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ymapp.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ymcdn.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,yongyuelm.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,yooli.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,youmi.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,youxiaoad.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,yoyi.com.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,yoyi.tv,🛑 全球拦截
-  - DOMAIN-SUFFIX,yrxmr.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ysjwj.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,yunjiasu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,yunpifu.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,zampdsp.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,zamplus.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,zcdsp.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,zhidian3g.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,zhiziyun.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,zhjfad.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,zqzxz.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,zzsx8.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,acuityplatform.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ad-stir.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ad-survey.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ad4game.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adcloud.jp,🛑 全球拦截
-  - DOMAIN-SUFFIX,adcolony.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,addthis.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adfurikun.jp,🛑 全球拦截
-  - DOMAIN-SUFFIX,adhigh.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,adhood.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adinall.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adition.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adk2x.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,admarket.mobi,🛑 全球拦截
-  - DOMAIN-SUFFIX,admarvel.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,admedia.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adnxs.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adotmob.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adperium.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adriver.ru,🛑 全球拦截
-  - DOMAIN-SUFFIX,adroll.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adsco.re,🛑 全球拦截
-  - DOMAIN-SUFFIX,adservice.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adsrvr.org,🛑 全球拦截
-  - DOMAIN-SUFFIX,adsymptotic.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adtaily.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adtech.de,🛑 全球拦截
-  - DOMAIN-SUFFIX,adtechjp.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adtechus.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,airpush.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,am15.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,amobee.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,appier.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,applift.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,apsalar.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,atas.io,🛑 全球拦截
-  - DOMAIN-SUFFIX,awempire.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,axonix.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,beintoo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,bepolite.eu,🛑 全球拦截
-  - DOMAIN-SUFFIX,bidtheatre.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,bidvertiser.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,blismedia.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,brucelead.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,bttrack.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,casalemedia.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,celtra.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,channeladvisor.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,connexity.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,criteo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,criteo.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,csbew.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,directrev.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,dumedia.ru,🛑 全球拦截
-  - DOMAIN-SUFFIX,effectivemeasure.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,effectivemeasure.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,eqads.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,everesttech.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,exoclick.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,extend.tv,🛑 全球拦截
-  - DOMAIN-SUFFIX,eyereturn.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,fastapi.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,fastclick.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,fastclick.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,flurry.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,gosquared.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,gtags.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,heyzap.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,histats.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,hitslink.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,hot-mob.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,hyperpromote.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,i-mobile.co.jp,🛑 全球拦截
-  - DOMAIN-SUFFIX,imrworldwide.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,inmobi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,inner-active.mobi,🛑 全球拦截
-  - DOMAIN-SUFFIX,intentiq.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,inter1ads.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ipredictive.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ironsrc.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,iskyworker.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,jizzads.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,juicyads.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,kochava.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,leadbolt.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,leadbolt.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,leadboltads.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,leadboltapps.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,leadboltmobile.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,lenzmx.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,liveadvert.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,marketgid.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,marketo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,mdotm.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,medialytics.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,medialytics.io,🛑 全球拦截
-  - DOMAIN-SUFFIX,meetrics.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,meetrics.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,mgid.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,millennialmedia.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,mobadme.jp,🛑 全球拦截
-  - DOMAIN-SUFFIX,mobfox.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,mobileadtrading.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,mobilityware.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,mojiva.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,mookie1.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,msads.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,mydas.mobi,🛑 全球拦截
-  - DOMAIN-SUFFIX,nend.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,netshelter.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,nexage.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,owneriq.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,pixels.asia,🛑 全球拦截
-  - DOMAIN-SUFFIX,plista.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,popads.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,powerlinks.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,propellerads.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,quantserve.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,rayjump.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,revdepo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,rubiconproject.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sape.ru,🛑 全球拦截
-  - DOMAIN-SUFFIX,scorecardresearch.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,segment.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,serving-sys.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sharethis.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,smaato.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,smaato.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,smartadserver.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,smartnews-ads.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,startapp.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,startappexchange.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,statcounter.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,steelhousemedia.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,stickyadstv.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,supersonic.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,taboola.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tapjoy.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tapjoyads.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,trafficjunky.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,trafficjunky.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,tribalfusion.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,turn.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uberads.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,vidoomy.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,viglink.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,voicefive.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,wedolook.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,yadro.ru,🛑 全球拦截
-  - DOMAIN-SUFFIX,yengo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,zedo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,zemanta.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,11h5.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,1kxun.mobi,🛑 全球拦截
-  - DOMAIN-SUFFIX,26zsd.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,519397.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,626uc.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,915.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,appget.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,appuu.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,coinhive.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,huodonghezi.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,vcbn65.xyz,🛑 全球拦截
-  - DOMAIN-SUFFIX,wanfeng1.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,wep016.top,🛑 全球拦截
-  - DOMAIN-SUFFIX,win-stock.com.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,zantainet.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,dh54wf.xyz,🛑 全球拦截
-  - DOMAIN-SUFFIX,g2q3e.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,114so.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,go.10086.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,hivedata.cc,🛑 全球拦截
-  - DOMAIN-SUFFIX,navi.gd.chinamobile.com,🛑 全球拦截
   - DOMAIN-SUFFIX,a.youdao.com,🍃 应用净化
   - DOMAIN-SUFFIX,adgeo.corp.163.com,🍃 应用净化
   - DOMAIN-SUFFIX,analytics.126.net,🍃 应用净化
@@ -4735,6 +4101,214 @@ rules:
   - DOMAIN-SUFFIX,zhuihd.com,🎯 全球直连
   - DOMAIN-SUFFIX,cmbchina.com,🎯 全球直连
   - DOMAIN-SUFFIX,95516.com,🎯 全球直连
+  - IP-CIDR,8.128.0.0/10,🎯 全球直连,no-resolve
+  - IP-CIDR,8.209.32.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,8.209.40.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,8.209.48.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,8.210.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,8.211.64.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,8.211.128.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,8.211.144.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,8.211.152.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,8.211.208.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,8.211.224.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,8.212.0.0/14,🎯 全球直连,no-resolve
+  - IP-CIDR,8.216.0.0/13,🎯 全球直连,no-resolve
+  - IP-CIDR,14.1.112.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,45.112.212.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,47.52.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,47.56.0.0/15,🎯 全球直连,no-resolve
+  - IP-CIDR,47.75.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,47.89.0.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,47.89.64.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,47.89.82.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,47.89.91.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,47.89.100.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,47.90.0.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,47.91.128.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,47.92.0.0/14,🎯 全球直连,no-resolve
+  - IP-CIDR,47.240.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,47.242.0.0/15,🎯 全球直连,no-resolve
+  - IP-CIDR,47.244.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,47.246.5.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,47.246.16.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,47.246.60.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,47.246.65.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,59.82.0.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,59.82.240.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,59.82.248.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.52.76.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.206.40.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,110.76.21.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,110.76.23.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,112.125.0.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.79.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.80.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.84.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.88.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.93.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.94.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.102.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.104.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.112.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.124.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,119.38.208.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,119.38.224.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,119.42.224.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,140.205.1.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,140.205.122.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,149.129.64.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,163.181.32.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,163.181.40.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,170.33.0.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,198.11.141.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,198.11.184.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,205.204.104.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,205.204.117.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,205.204.122.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,205.204.124.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,45.40.192.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,49.51.56.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,49.51.60.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,49.51.110.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,49.51.112.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,62.234.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,94.191.0.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,103.7.28.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,109.244.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,111.30.128.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,111.30.136.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,111.30.139.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,111.30.140.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,115.159.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.0.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.64.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.124.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.128.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.164.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.168.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.176.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.192.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.224.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,119.29.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,121.51.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,129.28.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,129.204.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,129.211.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,132.232.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,134.175.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,146.56.192.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,150.109.32.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,150.109.64.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,150.109.96.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,152.136.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,162.14.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,182.254.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,188.131.128.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,203.195.128.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.128.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.144.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.158.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.180.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.208.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.212.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.218.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.220.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.248.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,212.64.0.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,212.129.128.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,45.113.194.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,63.243.252.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,103.235.44.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,106.12.0.0/15,🎯 全球直连,no-resolve
+  - IP-CIDR,114.28.224.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,180.76.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,182.61.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,185.10.105.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,202.46.48.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,203.90.238.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,43.254.0.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,45.249.212.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,49.4.0.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,103.31.200.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.218.216.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,114.115.128.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,114.116.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,116.63.128.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,116.66.184.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,117.78.0.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,119.3.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,119.8.32.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,121.36.0.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,121.36.128.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,121.37.0.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,122.112.128.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.0.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.64.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.100.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.104.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.112.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.128.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.192.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.224.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.240.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.248.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,139.159.128.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,139.159.160.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,139.159.164.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,139.159.168.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,139.159.176.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,139.159.192.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.0.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.64.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.79.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.80.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.96.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.112.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.125.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.128.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,42.186.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,45.127.128.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,45.195.24.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,45.253.132.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,45.253.240.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,45.254.48.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,59.111.0.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,59.111.128.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,103.71.120.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,103.71.128.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.71.196.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.71.200.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.12.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.18.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.24.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.28.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.38.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.40.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.44.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.48.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.128.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,103.74.24.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,103.74.48.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.129.252.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.131.252.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.135.240.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.196.64.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,106.2.32.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,106.2.64.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,114.113.196.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,114.113.200.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,115.236.112.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,115.238.76.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,123.58.160.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,223.252.192.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,101.198.128.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,101.198.192.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,101.198.194.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,101.198.196.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,101.198.200.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,101.198.208.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
   - DOMAIN-SUFFIX,danhu.ddns-ip.net,🎯 全球直连
   - DOMAIN-SUFFIX,danhu.dpdns.org,🎯 全球直连
   - GEOIP,CN,🎯 全球直连

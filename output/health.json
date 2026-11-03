@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-11-02T21:50:57Z",
+  "timestamp": "2026-11-03T03:15:42Z",
   "sources": {
     "fproxies": {
       "status": "failed",
       "nodes": 0,
       "size_kb": 0,
-      "error": "Failed to perform, curl: (28) Operation timed out after 20001 milliseconds with 2729 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "error": ""
     },
     "datiya": {
       "status": "ok",
@@ -16,12 +16,18 @@
     "osbooting": {
       "status": "ok",
       "nodes": 0,
-      "size_kb": 94.0,
+      "size_kb": 123.9,
+      "error": ""
+    },
+    "clashfree": {
+      "status": "ok",
+      "nodes": 109,
+      "size_kb": 690.5,
       "error": ""
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 4,
+      "nodes": 2,
       "size_kb": 675.3,
       "error": ""
     },
@@ -29,6 +35,12 @@
       "status": "ok",
       "nodes": 624,
       "size_kb": 600.8,
+      "error": ""
+    },
+    "v2rayfree": {
+      "status": "ok",
+      "nodes": 0,
+      "size_kb": 0.0,
       "error": ""
     },
     "ruk1ng": {
@@ -75,8 +87,8 @@
     },
     "automerge": {
       "status": "ok",
-      "nodes": 179,
-      "size_kb": 483.6,
+      "nodes": 170,
+      "size_kb": 481.7,
       "error": ""
     },
     "nomorewalls": {
@@ -87,8 +99,8 @@
     },
     "pawdroid": {
       "status": "ok",
-      "nodes": 12,
-      "size_kb": 3.1,
+      "nodes": 20,
+      "size_kb": 5.3,
       "error": ""
     },
     "barabama": {
@@ -153,8 +165,8 @@
     }
   },
   "summary": {
-    "total": 25,
-    "ok": 23,
+    "total": 27,
+    "ok": 25,
     "failed": 2
   }
 }
