@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (1104)
-https://freenode.osbooting.com/nodefiles/20261104NFCY.yaml
-https://freenode.osbooting.com/nodefiles/20261104SZOV.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (1105)
+https://freenode.osbooting.com/nodefiles/20261105XDIB.yaml
+https://freenode.osbooting.com/nodefiles/20261105XYBH.txt

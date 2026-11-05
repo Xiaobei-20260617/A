@@ -1267,5 +1267,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20261104NFCY.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20261104SZOV.txt"
     }
+  },
+  {
+    "date": "1105",
+    "sort_key": "20261105",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20261105XDIB.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20261105XYBH.txt"
+    }
   }
 ]
