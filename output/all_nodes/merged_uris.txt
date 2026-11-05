@@ -1,4 +1,4 @@
-# 跨源合并去重 URI (5240 个节点)
+# 跨源合并去重 URI (5235 个节点)
 vless://3d9d91c0-0a90-471a-a518-a0ff66a1970a@wwww.qarvian.ir:443?encryption=none&security=tls&sni=cdn.akamai.steamstatic.com&insecure=1&allowInsecure=1&type=ws&host=copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.&path=%2F#%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%EF%BC%8C%E8%AF%B7%E5%8A%A0%E7%94%B5%E6%8A%A5%E7%BE%A4%E9%98%B2%E6%AD%A2%E5%A4%B1%E8%81%94
 vless://3d9d91c0-0a90-471a-a518-a0ff66a1970a@199.232.78.160:443?encryption=none&security=tls&sni=community.fastly.steamstatic.com&insecure=1&allowInsecure=1&type=ws&host=copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.&path=%2F#%E7%94%B5%E6%8A%A5%E7%BE%A4%EF%BC%9At.me%2Fvvkj11
 vless://3d9d91c0-0a90-471a-a518-a0ff66a1970a@wwww.qarvian.ir:443?encryption=none&security=tls&sni=cdn.akamai.steamstatic.com&insecure=1&allowInsecure=1&type=ws&host=copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.&path=%2F#%E6%97%A5%E6%9C%9F%EF%BC%9A11-03
@@ -1204,14 +1204,10 @@ https://44.248.167.117:8443
 https://64.98.50.100:443
 vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@mx001.zestapp778.com:19167?allowInsecure=0&sni=mx001.zestapp778.com&fp=chrome&security=tls#US_speednode_0042
 vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@130.94.18.208:54857?allowInsecure=0&sni=us001.zestapp778.com&fp=firefox&security=tls#US_speednode_0043
-hysteria2://https%3A%2F%2Fxship.best@starlink-ft.251313.xyz:443?insecure=1&security=tls&sni=xship.top#%E7%BE%8E%E5%9B%BD+V2CROSS.COM
-vless://399b6b23-cc40-4831-a494-61948e2df133@jp.sofast.live:52683?encryption=none&security=&type=tcp#%E5%8C%97%E4%BA%AC%E5%B8%82+%E6%83%9F%E8%AF%91%E5%A4%A9%E5%88%9B%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
-hysteria2://a35c508f-4d5d-4531-842e-6e9d43c762c0@pl2.nexfile.net:4444?insecure=1&security=tls&sni=pl2.nexfile.net#%E7%BE%8E%E5%9B%BD+Xerox
-vless://50a87e21-f0e2-4b53-a787-91adfe748f63@swedenafteraventura.space:443?security=reality&encryption=none&pbk=TyuIIquHoesD9YwMQJHda0YZ3Hy9Dh123dQ00iGK0QY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=swedenafteraventura.space#%E5%B7%B4%E8%A5%BF+V2CROSS.COM
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.20:443?security=tls&sni=api.browseseniorrolesandenhanceyourcareertoday.com#%E7%91%9E%E5%85%B8+V2CROSS.COM
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.20:443?fp=chrome&security=tls&sni=api.browseseniorrolesandenhanceyourcareertoday.com&type=tcp#%E7%91%9E%E5%85%B8+V2CROSS.COM
-hysteria2://a35c508f-4d5d-4531-842e-6e9d43c762c0@13.143.189.147:4444?insecure=1&security=tls&sni=pl2.nexfile.net#%E7%BE%8E%E5%9B%BD+Xerox
-hysteria2://a35c508f-4d5d-4531-842e-6e9d43c762c0@13.143.189.147:4444?insecure=0&security=tls&sni=pl2.nexfile.net#%E7%BE%8E%E5%9B%BD+Xerox
+hysteria2://1d491f8c-ccaa-43e1-b62d-f255c7832e27@129.146.124.201:51000?security=tls&sni=cn.cremedelamer.com&insecure=1#%E7%BE%8E%E5%9B%BD+%E4%BA%9A%E5%88%A9%E6%A1%91%E9%82%A3%E5%B7%9E%E5%87%A4%E5%87%B0%E5%9F%8EOracle%E4%BA%91%E8%AE%A1%E7%AE%97%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83
+hysteria2://23c82941-70f4-4381-90db-bd28e9a902e9@steel7.hadsvpn.com:443?security=tls&sni=steel7.hadsvpn.com#%E5%B7%B4%E8%A5%BF+%E5%9C%A3%E4%BF%9D%E7%BD%97
+vless://98a24806-141a-43d3-b094-bd66c4eb93b8@198.16.113.220:8443?security=reality&type=tcp&packetEncoding=xudp&sni=www.apple.com&fp=chrome&flow=xtls-rprx-vision&sid=69984b9e02545831&pbk=8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE#%F0%9F%87%A6%F0%9F%87%BFAZ_4%7C768KB%2Fs%7CM003-260806%20%5Bc5119e417461%5D
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND1AMjAyLjUwLjI1My40NToxOTk5OQ==#%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM
 vless://405b964e-a2d2-454f-aaaa-711cc218897c@hydra.yokkastars.com:40443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=deepl.com&fp=chrome&pbk=cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0&sid=88b6&type=tcp&headerType=none#US%E7%BE%8E%E5%9B%BD%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29
 vless://f9613819-d2fe-4b3a-a2e6-40c184c6854c@194.87.143.165:8443?encryption=none&security=tls&sni=wsru1.wba-pn.ru&fp=chrome&type=ws&path=%2F#US%E7%BE%8E%E5%9B%BD%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29
 vless://f97f81df-edac-47b6-badb-316125e61bfb@156.229.163.237:10238?encryption=none&security=tls&sni=jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev&fp=chrome&ech=cloudflare-ech.com%2Bhttps%3A%2F%2Fdns.alidns.com%2Fdns-query&type=ws&host=jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev&path=%2F%40Marisa_kristi#US%E7%BE%8E%E5%9B%BD%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29
@@ -2708,7 +2704,6 @@ vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.229:443?security=reality&
 vless://96ee55ac-d534-4502-878a-468c7896360b@208.67.106.154:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.microsoft.com&fp=firefox&flow=xtls-rprx-vision&sid=c9677d3b7dea&pbk=_0fpFqEEuCso3B8K7AAcMjctwG_xfCxO2PdKzGd_-hg#%F0%9F%87%B3%F0%9F%87%B1NL_160%7C415KB%2Fs%7CM002-260618%20%5Bc4695c493dc2%5D
 vless://2ea2719c-23e1-4cde-b192-c8652d55d9e5@cfnode-11ivy8.pages.dev:443?security=tls&type=ws&path=%2F&packetEncoding=xudp&sni=cfnode-11ivy8.pages.dev&fp=chrome&encryption=none#%F0%9F%87%AB%F0%9F%87%B7FR_228%7C994KB%2Fs%7CK001-260618%20%5Bc4966f73888c%5D
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-tw-002.fastervpn.world:443?insecure=1&sni=vpn-tw-002.fastervpn.world#%F0%9F%87%B9%F0%9F%87%BCTW_6%7C490KB%2Fs%20%5Bc4d75c56e380%5D
-vless://98a24806-141a-43d3-b094-bd66c4eb93b8@198.16.113.220:8443?security=reality&type=tcp&packetEncoding=xudp&sni=www.apple.com&fp=chrome&flow=xtls-rprx-vision&sid=69984b9e02545831&pbk=8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE#%F0%9F%87%A6%F0%9F%87%BFAZ_4%7C768KB%2Fs%7CM003-260806%20%5Bc5119e417461%5D
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.214:443?sni=courses.discoverfreshgraduatejobsstartyourprofessionaljourney.com&type=tcp&fp=chrome#%F0%9F%87%BA%F0%9F%87%B8US_503%7C1.1MB%2Fs%7CA004-260618%20%5Bc5239c157d85%5D
 trojan://humanity@185.220.100.168:443?sni=www.calmlunch.com&type=ws&path=%2Fassignment&fp=chrome#%F0%9F%87%AB%F0%9F%87%B7FR_144%7C1.7MB%2Fs%7CT001-260618%20%5Bc53236bf7df4%5D
 vless://2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac@web-tomcat.pages.dev:443?security=tls&type=ws&path=%2F&host=web-tomcat.pages.dev&packetEncoding=xudp&sni=web-tomcat.pages.dev&fp=chrome#%F0%9F%87%AB%F0%9F%87%B7FR_103%7C567KB%2Fs%7CM003-260806%20%5Bc542aa4e918f%5D
