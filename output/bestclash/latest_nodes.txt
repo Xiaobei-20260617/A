@@ -1,4 +1,29 @@
 proxies:
+- name: xx|0f02|puddincat07@Telegram
+  password: 5t6i121em5lkmsmk
+  port: 46977
+  server: ca001.zestapp778.com
+  skip-cert-verify: false
+  sni: ca001.zestapp778.com
+  type: trojan
+- cipher: aes-256-gcm
+  name: nl|8e6f|puddincat07@Telegram
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  type: ss
+- cipher: aes-256-gcm
+  name: nl|f92b|puddincat07@Telegram
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
+  type: ss
+- cipher: aes-256-gcm
+  name: nl|e1f5|puddincat07@Telegram
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
 - cipher: aes-256-gcm
   name: nl|468f|puddincat07@Telegram
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -6,22 +31,22 @@ proxies:
   server: 202.50.253.45
   type: ss
 - cipher: aes-256-gcm
-  name: nl|1cc0|puddincat07@Telegram
+  name: nl|bc46|puddincat07@Telegram
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.36
-  type: ss
-- cipher: aes-256-gcm
-  name: nl|6a01|puddincat07@Telegram
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
+  server: 202.50.253.54
   type: ss
 - cipher: aes-256-gcm
   name: nl|b8af|puddincat07@Telegram
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
+  type: ss
+- cipher: aes-256-gcm
+  name: nl|1cc0|puddincat07@Telegram
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
   type: ss
 - cipher: aes-256-gcm
   name: nl|5013|puddincat07@Telegram
@@ -35,17 +60,18 @@ proxies:
   port: 19999
   server: 202.50.253.99
   type: ss
+- name: xx|2125|puddincat07@Telegram
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  port: 20123
+  server: sclass-00.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
 - cipher: aes-256-gcm
-  name: nl|f92b|puddincat07@Telegram
+  name: nl|6a01|puddincat07@Telegram
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.27
-  type: ss
-- cipher: aes-256-gcm
-  name: nl|bc46|puddincat07@Telegram
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.54
+  server: 202.50.253.18
   type: ss
 - name: xx|c3b8|puddincat07@Telegram
   password: d9064589-74af-432a-9390-5d8a9da281bf
@@ -54,37 +80,6 @@ proxies:
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: nl|8e6f|puddincat07@Telegram
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  type: ss
-- name: xx|2125|puddincat07@Telegram
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  port: 20123
-  server: sclass-00.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: nl|e1f5|puddincat07@Telegram
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
-- cipher: chacha20-ietf
-  name: nl|3eaa|puddincat07@Telegram
-  obfs: tls1.2_ticket_auth
-  obfsparam: ''
-  password: dongtaiwang.com
-  port: 33336
-  protocol: auth_chain_a
-  protocolparam: ''
-  server: 109.104.153.43
-  type: ssr
   udp: true
 - name: us|81b9|puddincat07@Telegram
   password: None
@@ -99,10 +94,9 @@ proxies:
   skip-cert-verify: true
   type: socks5
   username: '8888'
-- name: xx|9670|puddincat07@Telegram
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  port: 20086
-  server: sclass-c1.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
+- name: us|2abc|puddincat07@Telegram
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
