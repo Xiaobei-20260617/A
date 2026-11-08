@@ -1,101 +1,43 @@
 proxies:
-    - alpn:
-        - h2
-        - http/1.1
-      client-fingerprint: firefox
-      name: "\U0001F1F5\U0001F1F1PL_1|1.0MB/s"
-      network: xhttp
-      port: 443
-      server: cdn-ya.shamanapp.online
-      servername: cdn-ya.shamanapp.online
-      tls: true
-      type: vless
-      uuid: 40c8a202-4b7f-45a6-b0aa-37db0fac4df8
-      xhttp-opts:
-        host: cdn-ya.shamanapp.online
-        mode: packet-up
-        no-grpc-header: true
-        path: /media/hls/720p/
-        sc-max-each-post-bytes: 20000
-        sc-min-posts-interval-ms: 5
-        seq-key: page
-        seq-placement: query
-        uplink-chunk-size: 20000
-        uplink-data-key: X-Request-Id
-        uplink-data-placement: header
-        uplink-http-method: GET
-        x-padding-bytes: 100-1000
-        x-padding-header: X-Cache
-        x-padding-key: _dc
-        x-padding-method: tokenish
-        x-padding-obfs-mode: true
-        x-padding-placement: header
-    - name: "\U0001F1EC\U0001F1E7GB_1|1.0MB/s"
-      password: None
-      port: 9443
-      server: 84.17.50.214
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F3\U0001F1F1NL_1|1.0MB/s"
-      port: 1080
-      server: 5.255.113.177
-      type: socks5
-    - name: "\U0001F1E8\U0001F1FFCZ_1|1.0MB/s"
-      password: ""
-      port: 443
-      server: 185.216.35.66
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: ""
-    - name: "\U0001F1EC\U0001F1E7GB_2|2.2MB/s"
-      port: 443
-      server: 212.102.63.1
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_1|3.1MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
-      port: "443"
-      server: 99ae88c3-tmm5c0-truoje-1uni.los.hyhuawei.com
-      skip-cert-verify: false
-      sni: ""
-      type: hysteria2
-      up: ""
-    - name: "\U0001F1FA\U0001F1F8US_2|3.9MB/s"
-      password: ""
-      port: "58764"
-      server: 118.184.140.90
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: "\U0001F1EF\U0001F1F5JP_1|1.2MB/s"
-      password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-      port: 443
-      server: c5f5a67c-tdups0-tf8z9r-1pr35.jp.oshuawei.com
-      sni: c5f5a67c-tdups0-tf8z9r-1pr35.jp.oshuawei.com
-      tls: true
-      type: http
-      username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
     - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_1|1.1MB/s"
-      network: tcp
+      encryption: mlkem768x25519plus.native.0rtt.92S6CIJU3cj2F3WguJIJP932wsxxUF9DyDpCZm0mnG8
+      name: "\U0001F1F3\U0001F1F1NL_1|1.3MB/s"
+      network: xhttp
       port: "443"
       reality-opts:
-        public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
-        short-id: 2c9a2790ad5900b2
-      server: 64.188.66.181
-      servername: ge-s-1.pythonmakemigreat.wiki
+        public-key: 809-9N1NmAQq-p3WxSq0EKI2FYnXqRy93tXCwmNXDyc
+        short-id: 48766a1ea0209145
+        support-x25519mlkem768: true
+      server: 31.57.185.67
+      servername: aparat.com
       tls: true
       type: vless
       udp: true
-      uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+      uuid: a5b7101f-00b3-416f-8412-8c70c28e85a9
+      xhttp-opts:
+        host: 31.57.185.67
+        mode: auto
+        path: /
+        reuse-settings:
+            c-max-reuse-times: "0"
+            h-keep-alive-period: 0
+            h-max-request-times: 600-900
+            h-max-reusable-secs: 1200-2800
+            max-concurrency: "16"
+            max-connections: "0"
+        x-padding-bytes: 100-1000
       xudp: true
+    - name: "\U0001F1ED\U0001F1F0HK_1|1.1MB/s"
+      password: None
+      port: 31343
+      server: 120.232.204.58
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1EC\U0001F1E7GB_1|1.8MB/s"
+      password: None
+      port: 9443
+      server: 84.17.50.129
+      skip-cert-verify: true
+      tls: true
+      type: http
