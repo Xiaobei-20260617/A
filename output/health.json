@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09T04:12:53Z",
+  "timestamp": "2026-11-09T13:10:29Z",
   "sources": {
     "fproxies": {
       "status": "failed",
@@ -27,7 +27,7 @@
     },
     "bestclash": {
       "status": "ok",
-      "nodes": 3,
+      "nodes": 4,
       "size_kb": 675.4,
       "error": ""
     },
@@ -82,25 +82,25 @@
     "free18": {
       "status": "ok",
       "nodes": 0,
-      "size_kb": 69.3,
+      "size_kb": 106.6,
       "error": ""
     },
     "automerge": {
       "status": "ok",
-      "nodes": 136,
-      "size_kb": 489.5,
+      "nodes": 131,
+      "size_kb": 488.0,
       "error": ""
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 448,
-      "size_kb": 105.1,
+      "nodes": 444,
+      "size_kb": 103.9,
       "error": ""
     },
     "pawdroid": {
       "status": "ok",
       "nodes": 20,
-      "size_kb": 6.6,
+      "size_kb": 6.0,
       "error": ""
     },
     "barabama": {
@@ -123,8 +123,8 @@
     },
     "barabama_nodev2ray.com": {
       "status": "ok",
-      "nodes": 3960,
-      "size_kb": 977.0,
+      "nodes": 2484,
+      "size_kb": 630.0,
       "error": ""
     },
     "barabama_naidounode.com": {
