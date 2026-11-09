@@ -1303,5 +1303,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20261108XITM.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20261108WAJB.txt"
     }
+  },
+  {
+    "date": "1109",
+    "sort_key": "20261109",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20261109DUZJ.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20261109QLJF.txt"
+    }
   }
 ]
