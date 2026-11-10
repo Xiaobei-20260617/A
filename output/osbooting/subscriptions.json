@@ -1312,5 +1312,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20261109DUZJ.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20261109QLJF.txt"
     }
+  },
+  {
+    "date": "1110",
+    "sort_key": "20261110",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20261110XZAN.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20261110JBIO.txt"
+    }
   }
 ]
