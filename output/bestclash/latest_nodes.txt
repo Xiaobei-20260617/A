@@ -1,10 +1,10 @@
 proxies:
-- name: xx|8788|puddincat07@Telegram
-  password: 5t6i121em5lkmsmk
-  port: 29813
-  server: en001.zestapp778.com
-  sni: en001.zestapp778.com
-  type: trojan
+- cipher: aes-256-gcm
+  name: nl|e1f5|puddincat07@Telegram
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
 - cipher: aes-256-gcm
   name: nl|5013|puddincat07@Telegram
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -12,28 +12,10 @@ proxies:
   server: 202.50.253.90
   type: ss
 - cipher: aes-256-gcm
-  name: nl|bc46|puddincat07@Telegram
+  name: nl|f92b|puddincat07@Telegram
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.54
-  type: ss
-- cipher: aes-256-gcm
-  name: nl|468f|puddincat07@Telegram
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.45
-  type: ss
-- cipher: aes-256-gcm
-  name: nl|1cc0|puddincat07@Telegram
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
-- cipher: aes-256-gcm
-  name: nl|8e6f|puddincat07@Telegram
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
+  server: 202.50.253.27
   type: ss
 - cipher: aes-256-gcm
   name: nl|2d27|puddincat07@Telegram
@@ -48,23 +30,57 @@ proxies:
   server: 202.50.253.18
   type: ss
 - cipher: aes-256-gcm
+  name: nl|468f|puddincat07@Telegram
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+- cipher: aes-256-gcm
   name: nl|b8af|puddincat07@Telegram
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
   type: ss
 - cipher: aes-256-gcm
-  name: nl|f92b|puddincat07@Telegram
+  name: nl|8e6f|puddincat07@Telegram
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.27
+  server: 202.50.253.72
   type: ss
 - cipher: aes-256-gcm
-  name: nl|e1f5|puddincat07@Telegram
+  name: nl|bc46|puddincat07@Telegram
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.63
+  server: 202.50.253.54
   type: ss
+- cipher: aes-256-gcm
+  name: nl|1cc0|puddincat07@Telegram
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  type: ss
+- cipher: chacha20-ietf
+  name: nl|3eaa|puddincat07@Telegram
+  obfs: tls1.2_ticket_auth
+  obfsparam: ''
+  password: dongtaiwang.com
+  port: 33336
+  protocol: auth_chain_a
+  protocolparam: ''
+  server: 109.104.153.43
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: xx|0291|puddincat07@Telegram
+  obfs: tls1.2_ticket_auth
+  obfsparam: ''
+  password: dongtaiwang.com
+  port: 33336
+  protocol: auth_chain_a
+  protocolparam: ''
+  server: ssr2.762988.xyz
+  type: ssr
+  udp: true
 - name: xx|c9f9|puddincat07@Telegram
   network: ws
   password: 46d221fa-e9b4-748c-4eae-019a88e42991
@@ -79,35 +95,24 @@ proxies:
     headers:
       Host: orbylume.my.to
     path: /tvpn-trojan/bg
-- cipher: aes-256-cfb
-  name: fr|96d0|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 13.36.165.6
-  type: ss
+- name: us|81b9|puddincat07@Telegram
+  password: None
+  port: 38182
+  server: 69.55.49.177
+  type: socks5
   udp: true
-- cipher: chacha20-ietf
-  name: xx|0291|puddincat07@Telegram
-  obfs: tls1.2_ticket_auth
-  obfsparam: ''
-  password: dongtaiwang.com
-  port: 33336
-  protocol: auth_chain_a
-  protocolparam: ''
-  server: ssr2.762988.xyz
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: nl|3eaa|puddincat07@Telegram
-  obfs: tls1.2_ticket_auth
-  obfsparam: ''
-  password: dongtaiwang.com
-  port: 33336
-  protocol: auth_chain_a
-  protocolparam: ''
-  server: 109.104.153.43
-  type: ssr
-  udp: true
+- name: jp|a373|puddincat07@Telegram
+  network: ws
+  password: HutaoCloud
+  port: 11543
+  server: 185.220.238.77
+  servername: 185.220.238.77
+  skip-cert-verify: true
+  sni: 185.220.238.77
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /api
 - name: sg|9317|puddincat07@Telegram
   password: '8888'
   port: 1080
