@@ -1,15 +1,8 @@
 proxies:
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_1|1.2MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.63
-      type: ss
-      udp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_1|1.7MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_1|2.3MB/s"
       network: tcp
       port: "30322"
       reality-opts:
@@ -23,47 +16,42 @@ proxies:
       uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
       xudp: true
     - alpn:
+        - h2
         - http/1.1
       client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_1|2.0MB/s"
-      network: ws
+      name: "\U0001F1E9\U0001F1EADE_1|1.0MB/s"
+      network: xhttp
       port: "443"
-      server: whitepanel-ui-production-8f6a54a4.up.railway.app
-      servername: whitepanel-ui-production-8f6a54a4.up.railway.app
+      server: static.nlomasterpanel.ru
+      servername: static.nlomasterpanel.ru
       tls: true
       type: vless
       udp: true
-      uuid: f690892b-745f-47fa-3f2b-8f7729e47d0a
-      ws-opts:
-        headers:
-            Host: whitepanel-ui-production-8f6a54a4.up.railway.app
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
-        path: /ws/f690892b-745f-47fa-3f2b-8f7729e47d0a
+      uuid: 981e728f-d403-4fef-a1ff-6ba9ebe0e702
+      xhttp-opts:
+        host: static.nlomasterpanel.ru
+        mode: packet-up
+        path: /api/v1/parts
+        reuse-settings:
+            c-max-reuse-times: "0"
+            h-keep-alive-period: 0
+            h-max-request-times: 600-900
+            h-max-reusable-secs: 1800-3000
+            max-concurrency: "0"
+            max-connections: "3"
+        sc-min-posts-interval-ms: 150
+        uplink-data-key: X-Data
+        uplink-data-placement: header
+        uplink-http-method: GET
+        x-padding-header: X-Client-Data
+        x-padding-key: _dc
+        x-padding-method: tokenish
+        x-padding-obfs-mode: true
+        x-padding-placement: queryInHeader
       xudp: true
-    - name: "\U0001F1F3\U0001F1F1NL_2|1.2MB/s|R002-260618"
-      port: 443
-      server: 161.129.60.66
-      skip-cert-verify: true
-      sub_tag: R002-260618
-      tls: true
-      type: http
-      udp: true
-      x-toolall-mihomo: true
-    - name: "\U0001F1F8\U0001F1EASE_1|1.1MB/s"
-      port: 443
-      server: 79.142.77.63
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1FA\U0001F1F8US_1|1003KB/s"
-      port: 9443
-      server: 149.88.21.140
-      skip-cert-verify: true
-      tls: true
-      type: http
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EF\U0001F1F5JP_1|4.7MB/s"
+      name: "\U0001F1EF\U0001F1F5JP_1|2.7MB/s"
       password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
       plugin: obfs
       plugin-opts:
@@ -73,43 +61,14 @@ proxies:
       server: 13.231.100.94
       type: ss
       x-toolall-mihomo: true
-    - name: "\U0001F1E9\U0001F1EADE_1|2.8MB/s"
-      port: 443
-      server: 172.64.69.89
+    - name: "\U0001F1EF\U0001F1F5JP_2|1.5MB/s"
+      password: ""
+      port: "3001"
+      server: 43.133.21.24
       skip-cert-verify: true
-      tls: true
-      type: http
-    - client-fingerprint: ios
-      flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1FAAU_1|4.3MB/s"
-      network: raw
-      port: "54528"
-      reality-opts:
-        public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
-        short-id: 54cca3c1c1c7
-      server: zfapi.zalolink.com
-      servername: www.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-      xudp: true
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_2|3.3MB/s"
-      network: tcp
-      port: "46957"
-      reality-opts:
-        public-key: 1SefqLQXrqkiUdf7cTMF53hrMZyo684_uneRC8-qTxI
-        short-id: 8f6683a234d3
-      server: zfapi.zalolink.com
-      servername: psstatic.cdn.bcebos.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_2|3.6MB/s"
+      type: socks5
+      username: ""
+    - name: "\U0001F1FA\U0001F1F8US_1|3.3MB/s"
       password: ""
       port: "58764"
       server: 118.184.140.90
