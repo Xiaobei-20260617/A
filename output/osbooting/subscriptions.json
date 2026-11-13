@@ -1339,5 +1339,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20261112LZUE.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20261112LKRS.txt"
     }
+  },
+  {
+    "date": "1113",
+    "sort_key": "20261113",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20261113GYSI.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20261113PLUW.txt"
+    }
   }
 ]
