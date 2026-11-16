@@ -1366,5 +1366,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20261115KZCY.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20261115TYQR.txt"
     }
+  },
+  {
+    "date": "1116",
+    "sort_key": "20261116",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20261116CSTM.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20261116ZMNG.txt"
+    }
   }
 ]

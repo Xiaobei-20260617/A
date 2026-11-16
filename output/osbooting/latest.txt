@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (1115)
-https://freenode.osbooting.com/nodefiles/20261115KZCY.yaml
-https://freenode.osbooting.com/nodefiles/20261115TYQR.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (1116)
+https://freenode.osbooting.com/nodefiles/20261116CSTM.yaml
+https://freenode.osbooting.com/nodefiles/20261116ZMNG.txt
