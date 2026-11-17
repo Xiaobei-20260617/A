@@ -1375,5 +1375,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20261116CSTM.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20261116ZMNG.txt"
     }
+  },
+  {
+    "date": "1117",
+    "sort_key": "20261117",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20261117PHBR.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20261117ZANM.txt"
+    }
   }
 ]
