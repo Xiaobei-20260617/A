@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-17T04:58:29Z",
+  "timestamp": "2026-11-17T14:11:31Z",
   "sources": {
     "fproxies": {
       "status": "failed",
@@ -19,12 +19,6 @@
       "size_kb": 209.0,
       "error": ""
     },
-    "clashfree": {
-      "status": "ok",
-      "nodes": 1,
-      "size_kb": 620.9,
-      "error": ""
-    },
     "bestclash": {
       "status": "ok",
       "nodes": 3,
@@ -35,12 +29,6 @@
       "status": "ok",
       "nodes": 624,
       "size_kb": 600.8,
-      "error": ""
-    },
-    "v2rayfree": {
-      "status": "ok",
-      "nodes": 0,
-      "size_kb": 0.0,
       "error": ""
     },
     "ruk1ng": {
@@ -76,7 +64,7 @@
     "ts_sf_fly": {
       "status": "ok",
       "nodes": 0,
-      "size_kb": 244.8,
+      "size_kb": 242.8,
       "error": ""
     },
     "free18": {
@@ -93,14 +81,14 @@
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 530,
-      "size_kb": 107.9,
+      "nodes": 428,
+      "size_kb": 98.0,
       "error": ""
     },
     "pawdroid": {
       "status": "ok",
-      "nodes": 17,
-      "size_kb": 5.9,
+      "nodes": 11,
+      "size_kb": 3.0,
       "error": ""
     },
     "barabama": {
@@ -123,8 +111,8 @@
     },
     "barabama_nodev2ray.com": {
       "status": "ok",
-      "nodes": 3955,
-      "size_kb": 976.3,
+      "nodes": 2397,
+      "size_kb": 600.5,
       "error": ""
     },
     "barabama_naidounode.com": {
@@ -159,14 +147,14 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 23,
-      "size_kb": 14.4,
+      "nodes": 5,
+      "size_kb": 1.5,
       "error": ""
     }
   },
   "summary": {
-    "total": 27,
-    "ok": 25,
+    "total": 25,
+    "ok": 23,
     "failed": 2
   }
 }
