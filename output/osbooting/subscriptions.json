@@ -1402,5 +1402,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20261119HCAN.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20261119GLTB.txt"
     }
+  },
+  {
+    "date": "1120",
+    "sort_key": "20261120",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20261120JORA.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20261120FWAN.txt"
+    }
   }
 ]
