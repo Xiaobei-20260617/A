@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-19T19:33:10Z",
+  "timestamp": "2026-11-20T01:36:02Z",
   "sources": {
     "fproxies": {
       "status": "failed",
@@ -87,20 +87,20 @@
     },
     "automerge": {
       "status": "ok",
-      "nodes": 120,
-      "size_kb": 477.1,
+      "nodes": 155,
+      "size_kb": 485.6,
       "error": ""
     },
     "nomorewalls": {
       "status": "ok",
-      "nodes": 398,
-      "size_kb": 87.6,
+      "nodes": 379,
+      "size_kb": 83.0,
       "error": ""
     },
     "pawdroid": {
       "status": "ok",
-      "nodes": 9,
-      "size_kb": 2.1,
+      "nodes": 12,
+      "size_kb": 3.8,
       "error": ""
     },
     "barabama": {
@@ -159,8 +159,8 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 12,
-      "size_kb": 5.0,
+      "nodes": 39,
+      "size_kb": 17.0,
       "error": ""
     }
   },
