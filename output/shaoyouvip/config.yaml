@@ -1,20 +1,5 @@
 proxies:
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_1|1.2MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.81
-      type: ss
-      udp: true
-    - cipher: 2022-blake3-aes-256-gcm
-      name: "\U0001F1F8\U0001F1ECSG_1|1.7MB/s"
-      password: ClzJLvRzIxivCXbf5X5jnSU0pLg5ffCEUL2AZoeLg94=
-      port: 8388
-      server: 43.160.213.146
-      type: ss
-      udp: true
-      x-toolall-mihomo: true
-    - name: "\U0001F1E9\U0001F1EADE_1|2.5MB/s"
+    - name: "\U0001F1E9\U0001F1EADE_1|1.7MB/s"
       password: "null"
       port: 443
       server: 172.64.68.89
@@ -24,47 +9,36 @@ proxies:
       udp: true
       username: "null"
       x-toolall-mihomo: true
-    - name: "\U0001F1F3\U0001F1F1NL_1|1.6MB/s"
+    - name: "\U0001F1ED\U0001F1F0HK_1|2.7MB/s"
       password: ""
-      port: 443
-      server: 149.36.51.129
+      port: 8443
+      server: 38.76.140.254
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
       username: ""
       x-toolall-mihomo: true
-    - name: "\U0001F1E9\U0001F1EADE_2|2.5MB/s|P002-260618"
-      password: None
+    - name: "\U0001F1EC\U0001F1E7GB_1|1.1MB/s|R002-260618"
       port: 443
-      server: 149.36.50.1
+      server: 84.17.50.193
       skip-cert-verify: true
-      sub_tag: P002-260618
+      sub_tag: R002-260618
       tls: true
       type: http
       udp: true
       x-toolall-mihomo: true
-    - name: "\U0001F1E8\U0001F1FFCZ_1|1.1MB/s|K001-260618"
-      password: None
-      port: 9443
-      server: 152.233.16.174
-      skip-cert-verify: true
-      sub_tag: K001-260618
-      tls: true
-      type: http
-      udp: true
-      username: ""
-      x-toolall-mihomo: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_1|1.1MB/s"
-      network: tcp
-      port: "443"
-      server: 23.27.11.86
-      servername: jp.burmy.xyz
-      tls: true
+    - encryption: none
+      name: "\U0001F1EB\U0001F1F7FR_1|1.1MB/s"
+      network: ws
+      port: "2083"
+      server: 54.36.102.152
       type: vless
       udp: true
-      uuid: e8a346c2-e14c-4f82-876f-367dc19ee541
+      uuid: 51a6ab93-e805-4b8b-89d1-d3ab85a118ce
+      ws-opts:
+        headers:
+            Host: ""
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+        path: /vless-kulo
       xudp: true
