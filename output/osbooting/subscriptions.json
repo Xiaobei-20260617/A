@@ -1411,5 +1411,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20261120JORA.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20261120FWAN.txt"
     }
+  },
+  {
+    "date": "1121",
+    "sort_key": "20261121",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20261121XEFS.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20261121MOBU.txt"
+    }
   }
 ]

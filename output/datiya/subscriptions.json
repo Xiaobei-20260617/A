@@ -1492,5 +1492,14 @@
       "clash": "https://free.datiya.com/uploads/20261120-clash.yaml",
       "v2ray": "https://free.datiya.com/uploads/20261120-v2ray.txt"
     }
+  },
+  {
+    "date": "1121",
+    "sort_key": "20261121",
+    "extra": "",
+    "urls": {
+      "clash": "https://free.datiya.com/uploads/20261121-clash.yaml",
+      "v2ray": "https://free.datiya.com/uploads/20261121-v2ray.txt"
+    }
   }
 ]
