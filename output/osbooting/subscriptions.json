@@ -1420,5 +1420,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20261121XEFS.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20261121MOBU.txt"
     }
+  },
+  {
+    "date": "1122",
+    "sort_key": "20261122",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20261122LXPT.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20261122UVEQ.txt"
+    }
   }
 ]

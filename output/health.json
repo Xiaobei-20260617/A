@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-22T01:28:24Z",
+  "timestamp": "2026-11-22T08:36:31Z",
   "sources": {
     "fproxies": {
       "status": "failed",
@@ -16,7 +16,7 @@
     "osbooting": {
       "status": "ok",
       "nodes": 0,
-      "size_kb": 239.4,
+      "size_kb": 331.0,
       "error": ""
     },
     "clashfree": {
@@ -76,7 +76,7 @@
     "ts_sf_fly": {
       "status": "ok",
       "nodes": 0,
-      "size_kb": 242.8,
+      "size_kb": 243.8,
       "error": ""
     },
     "free18": {
@@ -99,8 +99,8 @@
     },
     "pawdroid": {
       "status": "ok",
-      "nodes": 20,
-      "size_kb": 6.2,
+      "nodes": 13,
+      "size_kb": 3.7,
       "error": ""
     },
     "barabama": {
@@ -159,8 +159,8 @@
     },
     "shaoyouvip": {
       "status": "ok",
-      "nodes": 66,
-      "size_kb": 30.5,
+      "nodes": 6,
+      "size_kb": 1.7,
       "error": ""
     }
   },
