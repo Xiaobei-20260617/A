@@ -1,20 +1,28 @@
 proxies:
+    - name: "\U0001F1EF\U0001F1F5JP_1|1.3MB/s"
+      password: czxPueuXQB1wUfMU
+      port: 36835
+      server: 45.192.203.110
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: anytls
+      udp: true
     - alpn:
         - h3
       auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
       down: 200
-      name: "\U0001F1ED\U0001F1F0HK_1|1.4MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_1|1.0MB/s"
       obfs: salamander
-      obfs-password: o5qgnpl75wayhkn5
+      obfs-password: sj1awrdwnn5lbuno
       password: 57beeeb0-03fc-4fc9-94da-7604488a7134
       port: 443
-      server: nb2hk.hikigo.com
+      server: bgsg2.hikigo.com
       skip-cert-verify: true
-      sni: nb2hk.hikigo.com
+      sni: bgsg2.hikigo.com
       type: hysteria2
       udp: true
       up: 100
-    - name: "\U0001F1EF\U0001F1F5JP_1|4.8MB/s"
+    - name: "\U0001F1EF\U0001F1F5JP_2|1.4MB/s"
       password: 57beeeb0-03fc-4fc9-94da-7604488a7134
       port: 34745
       server: win2loxfde0303.gggrelay.org
@@ -22,47 +30,7 @@ proxies:
       sni: nu3rb.supertoolify.com
       type: trojan
       udp: true
-    - name: "\U0001F1FA\U0001F1F8US_1|1007KB/s"
-      password: "null"
-      port: 443
-      server: 172.64.69.89
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: "null"
-    - name: "\U0001F1EC\U0001F1E7GB_1|1.1MB/s"
-      port: 443
-      server: 212.102.63.31
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1E9\U0001F1EADE_1|2.0MB/s"
-      password: "null"
-      port: 443
-      server: 172.64.68.89
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: "null"
-      x-toolall-mihomo: true
-    - name: "\U0001F1ED\U0001F1F0HK_2|1.0MB/s"
-      password: ""
-      port: 8443
-      server: 38.76.140.254
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: ""
-      x-toolall-mihomo: true
-    - name: "\U0001F1EC\U0001F1E7GB_2|1.2MB/s|R002-260618"
-      port: 443
-      server: 84.17.50.193
-      skip-cert-verify: true
-      sub_tag: R002-260618
-      tls: true
-      type: http
-      udp: true
-      x-toolall-mihomo: true
+    - name: "\U0001F1F0\U0001F1F7KR_1|3.0MB/s"
+      port: 1080
+      server: 183.106.215.208
+      type: socks5
