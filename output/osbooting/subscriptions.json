@@ -1429,5 +1429,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20261122LXPT.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20261122UVEQ.txt"
     }
+  },
+  {
+    "date": "1123",
+    "sort_key": "20261123",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20261123VBNH.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20261123WMLV.txt"
+    }
   }
 ]
