@@ -1,12 +1,13 @@
 proxies:
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_1|1.1MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.90
-      type: ss
+    - name: "\U0001F1EF\U0001F1F5JP_1|1.2MB/s"
+      password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+      port: 34745
+      server: win2loxfde0303.gggrelay.org
+      skip-cert-verify: true
+      sni: nu3rb.supertoolify.com
+      type: trojan
       udp: true
-    - name: "\U0001F1E9\U0001F1EADE_1|1.8MB/s|P002-260618"
+    - name: "\U0001F1E9\U0001F1EADE_1|1.7MB/s|P002-260618"
       password: None
       port: 443
       server: 172.64.68.89
@@ -16,41 +17,15 @@ proxies:
       type: http
       udp: true
       x-toolall-mihomo: true
-    - name: "\U0001F1F0\U0001F1F7KR_1|1.2MB/s"
+    - name: "\U0001F1F0\U0001F1F7KR_1|3.7MB/s"
       port: 1080
       server: 59.11.209.162
       skip-cert-verify: true
       type: socks5
-    - name: "\U0001F1E9\U0001F1EADE_2|1.4MB/s"
-      port: 443
-      server: 172.64.69.89
+    - name: "\U0001F1F0\U0001F1F7KR_2|4.7MB/s"
+      password: ""
+      port: "1080"
+      server: 183.106.215.208
       skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F8RS_1|1.1MB/s"
-      port: 443
-      server: 146.70.221.18
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1FA\U0001F1F8US_1|1.8MB/s"
-      password: fanvpn.net
-      port: 443
-      server: 104.233.178.179
-      servername: www.bing.com
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_2|3.5MB/s"
-      obfs: salamander
-      obfs-password: 6fltjteoyab7fjf1
-      password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-      port: 40055
-      server: 64.118.154.18
-      servername: psstatic.cdn.bcebos.com
-      skip-cert-verify: true
-      sni: psstatic.cdn.bcebos.com
-      type: hysteria2
-      udp: true
+      type: socks5
+      username: ""
