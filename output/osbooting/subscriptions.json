@@ -1438,5 +1438,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20261123VBNH.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20261123WMLV.txt"
     }
+  },
+  {
+    "date": "1124",
+    "sort_key": "20261124",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20261124EXPF.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20261124CMAK.txt"
+    }
   }
 ]
