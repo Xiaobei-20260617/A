@@ -1465,5 +1465,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20261126GPCY.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20261126ZMER.txt"
     }
+  },
+  {
+    "date": "1127",
+    "sort_key": "20261127",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20261127GYAF.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20261127HIDX.txt"
+    }
   }
 ]
