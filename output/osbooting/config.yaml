@@ -56,7 +56,7 @@ dns:
 proxy-providers:
   provider:
     type: http
-    url: "https://freenode.osbooting.com/nodefiles/20261127GYAF.yaml"
+    url: "https://freenode.osbooting.com/nodefiles/20261128GCXD.yaml"
     interval: 3600
     path: ./proxy_providers/osbooting.yaml
     health-check:

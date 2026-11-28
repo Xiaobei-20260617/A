@@ -1474,5 +1474,14 @@
       "clash": "https://freenode.osbooting.com/nodefiles/20261127GYAF.yaml",
       "v2ray": "https://freenode.osbooting.com/nodefiles/20261127HIDX.txt"
     }
+  },
+  {
+    "date": "1128",
+    "sort_key": "20261128",
+    "extra": "",
+    "urls": {
+      "clash": "https://freenode.osbooting.com/nodefiles/20261128GCXD.yaml",
+      "v2ray": "https://freenode.osbooting.com/nodefiles/20261128YEZD.txt"
+    }
   }
 ]

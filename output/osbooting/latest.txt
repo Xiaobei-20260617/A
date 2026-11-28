@@ -1,3 +1,3 @@
-# osbooting (freenode.osbooting.com) 最新订阅 (1127)
-https://freenode.osbooting.com/nodefiles/20261127GYAF.yaml
-https://freenode.osbooting.com/nodefiles/20261127HIDX.txt
+# osbooting (freenode.osbooting.com) 最新订阅 (1128)
+https://freenode.osbooting.com/nodefiles/20261128GCXD.yaml
+https://freenode.osbooting.com/nodefiles/20261128YEZD.txt
